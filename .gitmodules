@@ -1,3 +1,6 @@
 [submodule "dylanler.github.io/themes/PaperMod"]
 	path = dylanler.github.io/themes/PaperMod
 	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "ollycloud/themes/PaperMod"]
+	path = ollycloud/themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
