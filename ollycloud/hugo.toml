@@ -1,0 +1,5 @@
+baseURL = 'https://dylanler.github.io/'
+languageCode = 'en-us'
+title = 'Dylan Ler'
+paginate = 10
+theme = 'PaperMod'
