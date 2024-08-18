@@ -41,6 +41,7 @@ jobs:
         env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
+        working-directory: ./myblog
         run: |
           hugo \
             --minify \
@@ -48,7 +49,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: ./public
+          path: ./myblog/public
 
   deploy:
     environment:
