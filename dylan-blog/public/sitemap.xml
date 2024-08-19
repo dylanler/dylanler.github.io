@@ -2,10 +2,64 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/tags/bringingbacklongformcontent/</loc>
+    <lastmod>2018-11-08T22:40:56-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2018-11-08T22:40:56-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/longformcontent/</loc>
+    <lastmod>2018-11-08T22:40:56-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2018-11-08T22:40:56-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/self-help-books/</loc>
+    <lastmod>2018-11-08T22:40:56-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2018-11-08T22:40:56-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/company-culture/</loc>
+    <lastmod>2015-11-19T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/the-little-things/</loc>
+    <lastmod>2015-11-19T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/leadership/</loc>
+    <lastmod>2015-11-19T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/scaling/</loc>
+    <lastmod>2015-11-19T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/startup/</loc>
+    <lastmod>2015-11-19T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/family-to-tribe/</loc>
+    <lastmod>2015-10-19T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/hiring/</loc>
+    <lastmod>2015-10-19T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/team-management/</loc>
+    <lastmod>2015-10-19T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/boring-work/</loc>
+    <lastmod>2015-10-06T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/business/</loc>
+    <lastmod>2015-10-06T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/entrepreneurship/</loc>
+    <lastmod>2015-10-06T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/product-development/</loc>
+    <lastmod>2015-10-06T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/archives/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/search/</loc>
   </url>
 </urlset>
