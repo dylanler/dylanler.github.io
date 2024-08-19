@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Longformcontent on Dylan Ler</title>
+    <link>http://localhost:1313/tags/longformcontent/</link>
+    <description>Recent content in Longformcontent on Dylan Ler</description>
+    <generator>Hugo -- 0.133.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 Nov 2018 22:40:56 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/longformcontent/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Self Help Books</title>
+      <link>http://localhost:1313/posts/self-help-books/</link>
+      <pubDate>Thu, 08 Nov 2018 22:40:56 -0700</pubDate>
+      <guid>http://localhost:1313/posts/self-help-books/</guid>
+      <description>Thoughts about self-help books 📚 People often ask me to recommend a self-help book that might help them achieve something be it losing weight, investing, building careers and etc.
+Till date I always have the same reply, &amp;ldquo;I don&amp;rsquo;t read self-help books&amp;rdquo;.
+I mean I&amp;rsquo;m sure self-help books can be useful if you can apply what the author is asking you to do seamlessly into your life. However I find that to be easier said than done.</description>
+    </item>
+  </channel>
+</rss>

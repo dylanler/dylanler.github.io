@@ -1,7 +1,7 @@
 +++
 title = 'Self Help Books'
 date = 2018-11-08T22:40:56-07:00
-draft = true
+draft = false
 tags = ["bringingbacklongformcontent", "longformcontent"]
 +++
 
