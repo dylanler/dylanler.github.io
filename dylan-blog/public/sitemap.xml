@@ -2,22 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/bringingbacklongformcontent/</loc>
-    <lastmod>2018-11-08T22:40:56-07:00</lastmod>
+    <loc>http://localhost:1313/tags/ai/</loc>
+    <lastmod>2024-08-19T02:19:26-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/data-generation/</loc>
+    <lastmod>2024-08-19T02:19:26-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2024-08-19T02:19:26-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/llms/</loc>
+    <lastmod>2024-08-19T02:19:26-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/machine-learning/</loc>
+    <lastmod>2024-08-19T02:19:26-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-08-19T02:19:26-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/synthetic-data/</loc>
+    <lastmod>2024-08-19T02:19:26-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/synthetic-data/</loc>
+    <lastmod>2024-08-19T02:19:26-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-08-19T02:19:26-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/faq/</loc>
+    <lastmod>2023-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/bringingbacklongformcontent/</loc>
     <lastmod>2018-11-08T22:40:56-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/longformcontent/</loc>
     <lastmod>2018-11-08T22:40:56-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2018-11-08T22:40:56-07:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/self-help-books/</loc>
-    <lastmod>2018-11-08T22:40:56-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2018-11-08T22:40:56-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/company-culture/</loc>

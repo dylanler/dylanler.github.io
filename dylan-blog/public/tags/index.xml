@@ -6,8 +6,43 @@
     <description>Recent content in Tags on Dylan Ler</description>
     <generator>Hugo -- 0.133.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Nov 2018 22:40:56 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 19 Aug 2024 02:19:26 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI</title>
+      <link>http://localhost:1313/tags/ai/</link>
+      <pubDate>Mon, 19 Aug 2024 02:19:26 -0700</pubDate>
+      <guid>http://localhost:1313/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Generation</title>
+      <link>http://localhost:1313/tags/data-generation/</link>
+      <pubDate>Mon, 19 Aug 2024 02:19:26 -0700</pubDate>
+      <guid>http://localhost:1313/tags/data-generation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LLMs</title>
+      <link>http://localhost:1313/tags/llms/</link>
+      <pubDate>Mon, 19 Aug 2024 02:19:26 -0700</pubDate>
+      <guid>http://localhost:1313/tags/llms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Machine Learning</title>
+      <link>http://localhost:1313/tags/machine-learning/</link>
+      <pubDate>Mon, 19 Aug 2024 02:19:26 -0700</pubDate>
+      <guid>http://localhost:1313/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Synthetic Data</title>
+      <link>http://localhost:1313/tags/synthetic-data/</link>
+      <pubDate>Mon, 19 Aug 2024 02:19:26 -0700</pubDate>
+      <guid>http://localhost:1313/tags/synthetic-data/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Bringingbacklongformcontent</title>
       <link>http://localhost:1313/tags/bringingbacklongformcontent/</link>
