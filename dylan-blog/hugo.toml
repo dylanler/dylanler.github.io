@@ -12,7 +12,15 @@ theme = 'PaperMod'
   ShowCodeCopyButtons = true
   ShowRssButtonInSectionTermList = true
   ShowToc = true
-
+  mainSections = ["posts"]
+  [params.home]
+    recentPosts = true
+    recentPostsNumber = 5
+    page = "home"
+  enableSearch = true
+  enableArchive = true
+  enableTags = true
+  enableCategories = true
 [params.homeInfoParams]
   Title = "Welcome to Dylan's Blog"
   Content = "Hi, this is Dylan. Here we are together in this pale blue dot, the open world awaits us."
@@ -56,3 +64,15 @@ theme = 'PaperMod'
     name = 'FAQ'
     url = '/faq/'
     weight = 50
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[params.fuseOpts]
+isCaseSensitive = false
+shouldSort = true
+location = 0
+distance = 1000
+threshold = 0.4
+minMatchCharLength = 0
+keys = ["title", "permalink", "summary", "content"]
