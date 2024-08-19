@@ -3,3 +3,56 @@ languageCode = 'en-us'
 title = 'Dylan Ler'
 paginate = 10
 theme = 'PaperMod'
+
+[params]
+  defaultTheme = "dark"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  ShowToc = true
+
+[params.homeInfoParams]
+  Title = "Welcome to Dylan's Blog"
+  Content = "Hi, this is Dylan. Here we are together in this pale blue dot, the open world awaits us."
+
+[[params.socialIcons]]
+  name = "rss"
+  url = "/index.xml"
+[[params.socialIcons]]
+  name = "link"
+  url = "https://github.com/dylanler"
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/dylanler"
+[[params.socialIcons]]
+  name = "twitter"
+  url = "https://twitter.com/sog_on_bird_app"
+
+[menu]
+  [[menu.main]]
+    identifier = 'posts'
+    name = 'Posts'
+    url = '/posts/'
+    weight = 10
+  [[menu.main]]
+    identifier = 'archive'
+    name = 'Archive'
+    url = '/archives/'
+    weight = 20
+  [[menu.main]]
+    identifier = 'search'
+    name = 'Search'
+    url = '/search/'
+    weight = 30
+  [[menu.main]]
+    identifier = 'tags'
+    name = 'Tags'
+    url = '/tags/'
+    weight = 40
+  [[menu.main]]
+    identifier = 'faq'
+    name = 'FAQ'
+    url = '/faq/'
+    weight = 50
