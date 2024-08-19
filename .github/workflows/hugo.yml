@@ -41,16 +41,16 @@ jobs:
         env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
-        working-directory: ./myblog
+        working-directory: ./dylan-blog
         run: |
           hugo \
-            --minify \
+            --minify \      
             --theme PaperMod \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: ./myblog/public
+          path: ./dylan-blog/public
 
   deploy:
     environment:
