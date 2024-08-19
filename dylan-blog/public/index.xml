@@ -6,8 +6,24 @@
     <description>Recent content on Dylan Ler</description>
     <generator>Hugo -- 0.133.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Nov 2018 22:40:56 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 19 Aug 2024 02:19:26 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Synthetic Data</title>
+      <link>http://localhost:1313/posts/synthetic-data/</link>
+      <pubDate>Mon, 19 Aug 2024 02:19:26 -0700</pubDate>
+      <guid>http://localhost:1313/posts/synthetic-data/</guid>
+      <description>Generating Synthetic Data for Large Language Models: A Comprehensive Guide In the rapidly evolving field of artificial intelligence, the quality and diversity of training data play a pivotal role in the capabilities of Large Language Models (LLMs). This guide delves into four innovative methods designed to generate high-quality synthetic data, aiming to significantly enhance LLM performance across a variety of tasks. Whether you&amp;rsquo;re a researcher, developer, or AI enthusiast, understanding these methods can provide valuable insights into the future of AI training and development.</description>
+    </item>
+    <item>
+      <title>FAQ</title>
+      <link>http://localhost:1313/faq/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/faq/</guid>
+      <description>Frequently Asked Questions How do I find your social media links? You can find my social media links at the bottom of the index page.
+How do I find your GitHub profile? You can find my GitHub profile at https://github.com/dylanler.
+How do I find your Twitter profile? You can find my Twitter profile at https://twitter.com/sog_on_bird_app.</description>
+    </item>
     <item>
       <title>Self Help Books</title>
       <link>http://localhost:1313/posts/self-help-books/</link>
