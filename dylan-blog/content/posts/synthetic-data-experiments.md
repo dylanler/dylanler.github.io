@@ -1,10 +1,11 @@
 +++
-title = 'Synthetic Data Experiments'
+title = 'Synthetic Data Experiments with LLMs'
 date = 2025-01-19T20:45:48-08:00
 draft = false
 tags = ['AI', 'Synthetic Data', 'LLMs', 'Data Generation', 'Machine Learning']
 description = 'A comprehensive guide exploring four innovative methods for generating high-quality synthetic data for Large Language Models, including persona-driven web crawling, graph-based reasoning, research paper extraction, and curriculum learning.'
 +++
+
 
 
 ## Generating High-Quality Synthetic Data for Large Language Models
