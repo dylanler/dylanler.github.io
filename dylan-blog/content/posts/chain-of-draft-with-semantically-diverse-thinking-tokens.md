@@ -157,14 +157,12 @@ sequenceDiagram
 
 Based on prior research on CoD and diverse sampling techniques, we anticipate the following outcomes:
 
-┌─────────────────────┬────────────────────┬─────────────────────┐
-│ Method │ Expected Accuracy │ Expected Tokens │
-├─────────────────────┼────────────────────┼─────────────────────┤
-│ Standard Prompting │ 50-60% │ 1-5 │
-│ Chain of Thought │ 90-95% │ 150-250 │
-│ Chain of Draft │ 85-90% │ 30-60 │
-│ Diverse CoD + RL │ 90-95% │ 30-60 │
-└─────────────────────┴────────────────────┴─────────────────────┘
+| Method | Expected Accuracy | Expected Tokens |
+|--------|------------------|----------------|
+| Standard Prompting | 50-60% | 1-5 |
+| Chain of Thought | 90-95% | 150-250 |
+| Chain of Draft | 85-90% | 30-60 |
+| Diverse CoD + RL | 90-95% | 30-60 |
 
 ### Anticipated Findings
 
