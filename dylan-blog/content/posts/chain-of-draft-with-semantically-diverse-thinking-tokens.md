@@ -1,11 +1,11 @@
 ---
-title: "Enhancing LLM Reasoning: Chain of Draft with Semantically Diverse Thinking Tokens"
+title: "Enhancing LLM Reasoning: Chain of Draft with Semantically Diverse Thinking Tokens Using GRPO"
 date: 2025-03-05
-description: "A proposed experiment to improve LLM reasoning through diverse token sampling and reinforcement learning"
+description: "A proposed experiment to improve LLM reasoning through diverse token sampling and Group Relative Policy Optimization (GRPO)"
 tags: ["AI", "LLM", "Chain of Thought", "Chain of Draft", "Reinforcement Learning"]
 ---
 
-# Enhancing LLM Reasoning: Chain of Draft with Semantically Diverse Thinking Tokens
+# Enhancing LLM Reasoning: Chain of Draft with Semantically Diverse Thinking Tokens Using GRPO
 
 ## The Challenge: Efficient Reasoning in LLMs
 
@@ -33,7 +33,7 @@ flowchart TD
     B --> C1[Standard Prompting]
     B --> C2[Chain of Thought]
     B --> C3[Chain of Draft]
-    B --> C4[Our Method: Diverse CoD + RL]
+    B --> C4[Our Method: Diverse CoD + GRPO]
     
     A --> D[Evaluation Tasks]
     D --> E1[Arithmetic Reasoning]
@@ -42,9 +42,10 @@ flowchart TD
     D --> E4[Coding Tasks]
     
     A --> F[Models to Test]
-    F --> G1[GPT-4o]
-    F --> G2[Claude 3.5 Sonnet]
-    F --> G3[Smaller Open-Source LLM]
+    F --> G1[Qwen2.5-0.5B]
+    F --> G2[Qwen2.5-1.5B]
+    F --> G3[Qwen2.5-7B]
+    F --> G4[Qwen2.5-72B]
     
     A --> H[Metrics]
     H --> I1[Accuracy]
@@ -60,7 +61,7 @@ We plan to compare four different prompting strategies:
 1. **Standard Prompting**: Direct answer without explicit reasoning
 2. **Chain of Thought (CoT)**: Detailed step-by-step reasoning
 3. **Chain of Draft (CoD)**: Concise intermediate reasoning steps
-4. **Our Method (Diverse CoD + RL)**: Enhanced CoD with diverse token sampling and RL optimization
+4. **Our Method (Diverse CoD + GRPO)**: Enhanced CoD with diverse token sampling and GRPO optimization
 
 ### Reasoning Tasks
 
@@ -73,13 +74,14 @@ To thoroughly evaluate our approach, we'll test it on diverse reasoning tasks:
 
 ### Models to Evaluate
 
-We'll test our approach on multiple LLMs to assess generalizability:
+We'll focus our evaluation exclusively on Qwen models to provide a consistent benchmark:
 
-- GPT-4o (OpenAI)
-- Claude 3.5 Sonnet (Anthropic)
-- A smaller open-source LLM (e.g., Qwen2.5-0.5B)
+- Qwen2.5-0.5B
+- Qwen2.5-1.5B
+- Qwen2.5-7B
+- Qwen2.5-72B
 
-## The Proposed Approach: Diverse Token Sampling + RL
+## The Proposed Approach: Diverse Token Sampling + GRPO
 
 The core innovation of our approach combines two key elements:
 
@@ -94,7 +96,7 @@ graph LR
     C1 --> D1[Answer 1]
     C2 --> D2[Answer 2]
     C3 --> D3[Answer 3]
-    D1 --> E[RL Reward]
+    D1 --> E[GRPO Reward]
     D2 --> E
     D3 --> E
     E --> F[Policy Update]
@@ -110,13 +112,19 @@ For example, when solving a math problem, the model might try:
 
 All while maintaining the conciseness of CoD (typically limiting each step to ~5 tokens).
 
-### 2. Reinforcement Learning Optimization
+### 2. Reinforcement Learning with GRPO
 
-We'll frame the reasoning task as a sequential decision-making process and use Proximal Policy Optimization (PPO) to train the model to maximize a reward function that balances:
+We'll frame the reasoning task as a sequential decision-making process and use Group Relative Policy Optimization (GRPO) to train the model to maximize a reward function that balances:
 
 - **Accuracy**: Correctness of the final answer
 - **Token Efficiency**: Minimizing the number of tokens used
 - **Semantic Diversity**: Encouraging varied reasoning approaches
+
+The GRPO algorithm works by:
+1. Sampling a group of reasoning paths for the same problem
+2. Evaluating each path with our reward function
+3. Calculating the advantage for each path by comparing its performance to the group average
+4. Updating the policy to favor high-reward paths while maintaining KL divergence constraints
 
 The proposed reward function is:
 
@@ -124,7 +132,7 @@ The proposed reward function is:
 R = 1.0 (for correct answer) - 0.001 × (number of tokens used)
 ```
 
-This will encourage the model to find the most efficient path to the correct answer.
+This encourages the model to find the most efficient path to the correct answer while the group comparison mechanism of GRPO reduces variance and leads to more stable training.
 
 ## Implementation Plan
 
@@ -132,7 +140,7 @@ This will encourage the model to find the most efficient path to the correct ans
 sequenceDiagram
     participant P as Problem
     participant M as Model
-    participant R as RL Environment
+    participant R as GRPO Environment
     
     P->>M: Present problem
     loop Training Episodes
@@ -151,9 +159,9 @@ sequenceDiagram
 2. **Training Process**:
    - **Episode Generation**: The model will generate multiple reasoning drafts for each problem using diverse token sampling.
    - **Reward Calculation**: We'll compute rewards based on answer correctness and token usage.
-   - **Policy Update**: Using PPO, we'll adjust the model's parameters to increase the probability of token actions that lead to higher rewards.
+   - **Policy Update**: Using GRPO, we'll adjust the model's parameters to increase the probability of token actions that lead to higher rewards compared to the group average, while maintaining a KL divergence constraint to prevent drastic changes.
 
-3. **Exploration vs. Exploitation**: We'll maintain exploration during training with an entropy bonus in the PPO objective, preventing premature convergence to suboptimal reasoning strategies.
+3. **Group Comparison**: GRPO's group sampling approach naturally balances exploration vs. exploitation by comparing multiple reasoning paths against each other, reducing variance in updates and preventing premature convergence to suboptimal strategies.
 
 ## Expected Outcomes
 
@@ -164,7 +172,7 @@ Based on prior research on CoD and diverse sampling techniques, we anticipate th
 | Standard Prompting | 50-60% | 1-5 |
 | Chain of Thought | 90-95% | 150-250 |
 | Chain of Draft | 85-90% | 30-60 |
-| Diverse CoD + RL | 90-95% | 30-60 |
+| Diverse CoD + GRPO | 90-95% | 30-60 |
 
 ### Anticipated Findings
 
@@ -235,7 +243,7 @@ Eq2: B+3=2(A-3)
 Solve: A=9, B=3  
 Answer: Alice 9, Bob 3
 
-**Our Method (Diverse CoD + RL) (Expected)**:  
+**Our Method (Diverse CoD + GRPO) (Expected)**:  
 Eq1: A+3=B-3 → A+6=B  
 Eq2: B+3=2(A-3) → B+3=2A-6  
 Solve: A=9, B=3  
@@ -257,10 +265,10 @@ If our hypothesis is confirmed, the findings would have several important implic
 
 ## Conclusion
 
-This proposed experiment aims to demonstrate that combining semantically diverse token sampling with reinforcement learning can significantly enhance the Chain of Draft approach. If successful, the result would be a reasoning system that achieves the accuracy of verbose methods like Chain of Thought while maintaining the efficiency of concise drafting.
+This proposed experiment aims to demonstrate that combining semantically diverse token sampling with Group Relative Policy Optimization (GRPO) can significantly enhance the Chain of Draft approach. If successful, the result would be a reasoning system that achieves the accuracy of verbose methods like Chain of Thought while maintaining the efficiency of concise drafting.
 
 This approach represents a potential step toward more intelligent and cost-effective AI systems that can reason both broadly and efficiently—thinking faster by writing less, but exploring more.
 
 ---
 
-*This research builds upon "Chain of Draft: Thinking Faster by Writing Less" by Silei Xu et al. (2025) and extends it with concepts from reinforcement learning and diverse sampling techniques.*
+*This research builds upon "Chain of Draft: Thinking Faster by Writing Less" by Silei Xu et al. (2025) and extends it with concepts from Group Relative Policy Optimization (GRPO) and diverse sampling techniques.*
