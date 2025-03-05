@@ -87,22 +87,7 @@ The core innovation of our approach combines two key elements:
 
 ### 1. Semantically Diverse Token Sampling
 
-```mermaid
-graph LR
-    A[Problem] --> B[Stochastic Decoding]
-    B --> C[Token Diversity Module: Adjusting Sampling Parameters]
-    C --> C1[High-Temperature Sampling]
-    C --> C2[Top-p (Nucleus) Filtering]
-    C --> C3[Repetition Penalty Enforcement]
-    C1 --> D1[Draft Path 1]
-    C2 --> D2[Draft Path 2]
-    C3 --> D3[Draft Path 3]
-    D1 --> E[GRPO Reward]
-    D2 --> E
-    D3 --> E
-    E --> F[Policy Update]
-    F --> B
-```
+![Diverse Token Sampling Process](/images/sampling-mermaid.png)
 
 #### Code Example: Implementing Diverse Token Sampling
 
