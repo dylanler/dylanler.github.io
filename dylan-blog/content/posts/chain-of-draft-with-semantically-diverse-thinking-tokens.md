@@ -1,7 +1,7 @@
 +++
 title = 'Chain of Draft With Semantically Diverse Thinking Tokens'
 date = 2025-03-05T01:57:37-08:00
-draft = true
+draft = false
 tags = ['LLM', 'AI', 'Chain-of-Thought', 'Reasoning', 'Efficiency']
 description = 'Exploring how combining Chain of Draft with semantically diverse token sampling and reinforcement learning can enhance LLM reasoning while maintaining efficiency'
 +++
