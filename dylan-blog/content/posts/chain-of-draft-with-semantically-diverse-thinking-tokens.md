@@ -90,12 +90,13 @@ The core innovation of our approach combines two key elements:
 ```mermaid
 graph LR
     A[Problem] --> B[Stochastic Decoding]
-    B --> C1[Draft Path 1]
-    B --> C2[Draft Path 2]
-    B --> C3[Draft Path 3]
-    C1 --> D1[Answer 1]
-    C2 --> D2[Answer 2]
-    C3 --> D3[Answer 3]
+    B --> C[Token Diversity Module: Adjusting Sampling Parameters]
+    C --> C1[High-Temperature Sampling]
+    C --> C2[Top-p (Nucleus) Filtering]
+    C --> C3[Repetition Penalty Enforcement]
+    C1 --> D1[Draft Path 1]
+    C2 --> D2[Draft Path 2]
+    C3 --> D3[Draft Path 3]
     D1 --> E[GRPO Reward]
     D2 --> E
     D3 --> E
@@ -103,65 +104,171 @@ graph LR
     F --> B
 ```
 
-Instead of always choosing the most likely next token (greedy decoding), we'll use higher-entropy sampling methods to explore multiple plausible reasoning paths. This will allow the model to consider different approaches to the same problem.
+#### Code Example: Implementing Diverse Token Sampling
 
-For example, when solving a math problem, the model might try:
-- Setting up algebraic equations in one draft
-- Using numerical examples in another
-- Applying a different problem-solving strategy in a third
-
-All while maintaining the conciseness of CoD (typically limiting each step to ~5 tokens).
-
-#### Code Example: Diverse Token Sampling Implementation
+The following code demonstrates how we implement the token diversity module shown in the diagram above:
 
 ```python
-def diverse_sample(model, prompt, max_tokens=50, diversity_factor=1.2):
+def generate_diverse_drafts(model, tokenizer, prompt, num_drafts=3, max_tokens=100):
     """
-    Generate diverse reasoning drafts using stochastic sampling.
+    Generate multiple diverse reasoning drafts using different sampling strategies.
     
     Args:
         model: The language model
+        tokenizer: The tokenizer for the model
         prompt: The problem statement
-        max_tokens: Maximum tokens to generate
-        diversity_factor: Controls randomness (higher = more diverse)
+        num_drafts: Number of diverse drafts to generate
+        max_tokens: Maximum tokens to generate per draft
     
     Returns:
         A list of diverse reasoning drafts
     """
     drafts = []
-    num_drafts = 3  # Generate multiple diverse drafts
     
-    for i in range(num_drafts):
-        # Use temperature sampling to encourage diversity
-        draft = model.generate(
-            prompt, 
-            max_tokens=max_tokens,
-            temperature=diversity_factor,
-            top_p=0.92,  # Nucleus sampling
-            repetition_penalty=1.2  # Discourage repeating tokens
-        )
+    # Prepare input
+    inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
+    
+    # Strategy 1: High Temperature Sampling
+    # This encourages exploration of less likely tokens
+    outputs = model.generate(
+        inputs.input_ids,
+        max_new_tokens=max_tokens,
+        do_sample=True,
+        temperature=1.2,  # Higher temperature = more randomness
+        top_k=50,
+        repetition_penalty=1.0,
+        pad_token_id=tokenizer.eos_token_id
+    )
+    draft1 = tokenizer.decode(outputs[0, inputs.input_ids.shape[1]:], skip_special_tokens=True)
+    drafts.append(enforce_conciseness(draft1))
+    
+    # Strategy 2: Nucleus (Top-p) Sampling
+    # This samples from the smallest set of tokens whose cumulative probability exceeds p
+    outputs = model.generate(
+        inputs.input_ids,
+        max_new_tokens=max_tokens,
+        do_sample=True,
+        temperature=0.8,
+        top_p=0.92,  # Only consider tokens in the top 92% of probability mass
+        repetition_penalty=1.1,
+        pad_token_id=tokenizer.eos_token_id
+    )
+    draft2 = tokenizer.decode(outputs[0, inputs.input_ids.shape[1]:], skip_special_tokens=True)
+    drafts.append(enforce_conciseness(draft2))
+    
+    # Strategy 3: Repetition Penalty Enforcement
+    # This discourages the model from repeating the same patterns
+    outputs = model.generate(
+        inputs.input_ids,
+        max_new_tokens=max_tokens,
+        do_sample=True,
+        temperature=0.9,
+        top_k=40,
+        top_p=0.95,
+        repetition_penalty=1.5,  # Strongly penalize repetition
+        pad_token_id=tokenizer.eos_token_id
+    )
+    draft3 = tokenizer.decode(outputs[0, inputs.input_ids.shape[1]:], skip_special_tokens=True)
+    drafts.append(enforce_conciseness(draft3))
+    
+    # If more drafts are requested, generate with random combinations of parameters
+    for i in range(3, num_drafts):
+        # Randomly select parameters within reasonable ranges
+        temp = 0.7 + 0.8 * torch.rand(1).item()  # Temperature between 0.7 and 1.5
+        p = 0.85 + 0.14 * torch.rand(1).item()   # Top-p between 0.85 and 0.99
+        rep_penalty = 1.0 + 0.8 * torch.rand(1).item()  # Rep penalty between 1.0 and 1.8
         
-        # Ensure each draft is concise (CoD style)
-        draft = enforce_conciseness(draft)
-        drafts.append(draft)
+        outputs = model.generate(
+            inputs.input_ids,
+            max_new_tokens=max_tokens,
+            do_sample=True,
+            temperature=temp,
+            top_p=p,
+            repetition_penalty=rep_penalty,
+            pad_token_id=tokenizer.eos_token_id
+        )
+        draft = tokenizer.decode(outputs[0, inputs.input_ids.shape[1]:], skip_special_tokens=True)
+        drafts.append(enforce_conciseness(draft))
     
     return drafts
 
-def enforce_conciseness(draft):
-    """Ensure each reasoning step is concise (≤5 tokens per step)"""
-    steps = draft.split('\n')
-    concise_steps = []
+def enforce_conciseness(draft, max_tokens_per_step=5):
+    """
+    Ensure each reasoning step is concise by limiting tokens per line.
     
-    for step in steps:
-        # Tokenize the step
-        tokens = step.split()
-        # If step is too verbose, truncate it
-        if len(tokens) > 5:
-            tokens = tokens[:5]
-        concise_steps.append(' '.join(tokens))
+    Args:
+        draft: The generated reasoning draft
+        max_tokens_per_step: Maximum tokens allowed per reasoning step
     
-    return '\n'.join(concise_steps)
-```
+    Returns:
+        A concise version of the draft
+    """
+    lines = draft.split('\n')
+    concise_lines = []
+    
+    for line in lines:
+        line = line.strip()
+        if not line:
+            continue
+            
+        # Tokenize the line (simple whitespace tokenization for illustration)
+        tokens = line.split()
+        
+        # If the line is too long, truncate it
+        if len(tokens) > max_tokens_per_step:
+            tokens = tokens[:max_tokens_per_step]
+            
+        concise_lines.append(' '.join(tokens))
+    
+    return '\n'.join(concise_lines)
+
+def select_best_draft(drafts, model, tokenizer, problem, reference_answer):
+    """
+    Select the best draft based on a combination of correctness and conciseness.
+    
+    This function would typically be replaced by the GRPO reward mechanism during training.
+    For inference, we can use this to select the most promising draft.
+    
+    Args:
+        drafts: List of generated drafts
+        model: The language model
+        tokenizer: The tokenizer
+        problem: The original problem
+        reference_answer: The correct answer (if available)
+        
+    Returns:
+        The best draft based on our heuristics
+    """
+    best_score = -float('inf')
+    best_draft = None
+    
+    for draft in drafts:
+        # 1. Check if the draft leads to a correct answer
+        # (In practice, you would use the model to generate an answer from the draft)
+        
+        # 2. Calculate conciseness score
+        lines = [line for line in draft.split('\n') if line.strip()]
+        total_tokens = sum(len(line.split()) for line in lines)
+        avg_tokens_per_line = total_tokens / max(1, len(lines))
+        
+        # Lower average tokens per line is better (more concise)
+        conciseness_score = 5 - min(5, avg_tokens_per_line)
+        
+        # 3. Calculate diversity score (simplified)
+        # In practice, you would use embeddings or more sophisticated methods
+        unique_words = set()
+        for line in lines:
+            unique_words.update(line.split())
+        diversity_score = min(5, len(unique_words) / 5)
+        
+        # 4. Combine scores (weights would be tuned in practice)
+        score = conciseness_score + diversity_score
+        
+        if score > best_score:
+            best_score = score
+            best_draft = draft
+    
+    return best_draft
 
 ### 2. Reinforcement Learning with GRPO
 
@@ -184,572 +291,6 @@ R = 1.0 (for correct answer) - 0.001 × (number of tokens used)
 ```
 
 This encourages the model to find the most efficient path to the correct answer while the group comparison mechanism of GRPO reduces variance and leads to more stable training.
-
-#### Code Example: GRPO Implementation
-
-```python
-import torch
-import torch.nn.functional as F
-from transformers import AutoModelForCausalLM, AutoTokenizer
-from tqdm import tqdm
-from dataclasses import dataclass
-from typing import List, Dict, Any, Tuple, Optional
-
-@dataclass
-class GRPOConfig:
-    """Configuration for GRPO training."""
-    learning_rate: float = 1e-5
-    kl_coef: float = 0.1
-    group_size: int = 5  # Number of drafts per problem
-    max_tokens: int = 50  # Maximum tokens per draft
-    temperature: float = 1.2  # Temperature for diverse sampling
-    token_penalty_coef: float = 0.001  # Coefficient for token penalty
-    clip_range: float = 0.2  # PPO clipping range
-    value_loss_coef: float = 0.5  # Value loss coefficient
-    entropy_coef: float = 0.01  # Entropy bonus coefficient
-    max_grad_norm: float = 1.0  # Gradient clipping norm
-
-
-class GRPOTrainer:
-    def __init__(
-        self, 
-        model: AutoModelForCausalLM, 
-        tokenizer: AutoTokenizer,
-        config: Optional[GRPOConfig] = None
-    ):
-        """
-        Initialize the GRPO trainer.
-        
-        Args:
-            model: The language model to train
-            tokenizer: The tokenizer for the model
-            config: Configuration for GRPO training
-        """
-        self.model = model
-        self.tokenizer = tokenizer
-        self.config = config or GRPOConfig()
-        
-        # Create reference model for KL divergence calculation
-        self.ref_model = type(model).from_pretrained(model.config._name_or_path)
-        self.ref_model.to(model.device)
-        for param in self.ref_model.parameters():
-            param.requires_grad = False
-            
-        # Create value head for advantage estimation
-        self.value_head = torch.nn.Linear(model.config.hidden_size, 1)
-        self.value_head.to(model.device)
-        
-        # Create optimizer
-        self.optimizer = torch.optim.Adam(
-            list(self.model.parameters()) + list(self.value_head.parameters()),
-            lr=self.config.learning_rate
-        )
-    
-    def compute_reward(self, answer: str, correct_answer: str, num_tokens: int) -> float:
-        """
-        Compute reward based on correctness and token efficiency.
-        
-        Args:
-            answer: The model's answer
-            correct_answer: The ground truth answer
-            num_tokens: Number of tokens used
-            
-        Returns:
-            The computed reward
-        """
-        is_correct = 1.0 if self.is_answer_correct(answer, correct_answer) else 0.0
-        token_penalty = self.config.token_penalty_coef * num_tokens
-        return is_correct - token_penalty
-    
-    def is_answer_correct(self, answer: str, correct_answer: str) -> bool:
-        """
-        Check if the answer is correct.
-        
-        Args:
-            answer: The model's answer
-            correct_answer: The ground truth answer
-            
-        Returns:
-            True if the answer is correct, False otherwise
-        """
-        # Normalize answers for comparison
-        answer = self.normalize_answer(answer)
-        correct_answer = self.normalize_answer(correct_answer)
-        
-        # For numerical answers, try to extract and compare numbers
-        if correct_answer.replace('.', '', 1).isdigit():
-            try:
-                answer_num = float(''.join(c for c in answer if c.isdigit() or c == '.'))
-                correct_num = float(correct_answer)
-                return abs(answer_num - correct_num) < 1e-6
-            except:
-                pass
-        
-        # Default to exact match
-        return answer == correct_answer
-    
-    def normalize_answer(self, text: str) -> str:
-        """
-        Normalize answer text for comparison.
-        
-        Args:
-            text: The text to normalize
-            
-        Returns:
-            Normalized text
-        """
-        # Convert to lowercase, remove punctuation and extra whitespace
-        text = text.lower().strip()
-        text = ''.join(c for c in text if c.isalnum() or c.isspace())
-        text = ' '.join(text.split())
-        return text
-    
-    def generate_with_log_probs(
-        self, 
-        prompt: str, 
-        max_tokens: int = None, 
-        temperature: float = None
-    ) -> Tuple[str, str, torch.Tensor, torch.Tensor]:
-        """
-        Generate a reasoning draft and compute log probabilities.
-        
-        Args:
-            prompt: The input prompt
-            max_tokens: Maximum tokens to generate
-            temperature: Temperature for sampling
-            
-        Returns:
-            Tuple of (draft, answer, log_probs, hidden_states)
-        """
-        max_tokens = max_tokens or self.config.max_tokens
-        temperature = temperature or self.config.temperature
-        
-        # Tokenize prompt
-        inputs = self.tokenizer(prompt, return_tensors="pt").to(self.model.device)
-        input_ids = inputs.input_ids
-        
-        # Initialize generation
-        generated_ids = input_ids.clone()
-        log_probs = []
-        hidden_states = []
-        
-        # Generate tokens one by one to track log probs
-        for _ in range(max_tokens):
-            with torch.no_grad():
-                outputs = self.model(
-                    input_ids=generated_ids,
-                    output_hidden_states=True,
-                    return_dict=True
-                )
-            
-            # Get logits for the next token
-            next_token_logits = outputs.logits[:, -1, :] / temperature
-            
-            # Apply softmax to get probabilities
-            next_token_probs = F.softmax(next_token_logits, dim=-1)
-            
-            # Sample next token
-            next_token = torch.multinomial(next_token_probs, num_samples=1)
-            
-            # Get log probability of selected token
-            log_prob = F.log_softmax(next_token_logits, dim=-1).gather(1, next_token)
-            log_probs.append(log_prob)
-            
-            # Get hidden state for value function
-            hidden_states.append(outputs.hidden_states[-1][:, -1, :])
-            
-            # Append to generated sequence
-            generated_ids = torch.cat([generated_ids, next_token], dim=-1)
-            
-            # Check if EOS token was generated
-            if next_token.item() == self.tokenizer.eos_token_id:
-                break
-        
-        # Decode the generated text
-        generated_text = self.tokenizer.decode(
-            generated_ids[0, input_ids.shape[1]:], 
-            skip_special_tokens=True
-        )
-        
-        # Split into draft and answer (assuming last line is answer)
-        lines = generated_text.strip().split('\n')
-        draft = '\n'.join(lines[:-1]) if len(lines) > 1 else ""
-        answer = lines[-1] if lines else ""
-        
-        # Stack log probs and hidden states
-        log_probs = torch.cat(log_probs) if log_probs else torch.tensor([])
-        hidden_states = torch.cat([h for h in hidden_states], dim=0) if hidden_states else torch.tensor([])
-        
-        return draft, answer, log_probs, hidden_states
-    
-    def compute_kl_divergence(self, input_ids: torch.Tensor) -> torch.Tensor:
-        """
-        Compute KL divergence between current and reference model.
-        
-        Args:
-            input_ids: Input token IDs
-            
-        Returns:
-            KL divergence tensor
-        """
-        with torch.no_grad():
-            ref_logits = self.ref_model(input_ids).logits
-        
-        logits = self.model(input_ids).logits
-        
-        # Compute KL divergence
-        kl_div = F.kl_div(
-            F.log_softmax(logits, dim=-1),
-            F.softmax(ref_logits, dim=-1),
-            reduction="batchmean"
-        )
-        
-        return kl_div
-    
-    def train_step(self, problems: List[str], correct_answers: List[str]) -> Dict[str, float]:
-        """
-        Perform one GRPO training step on a batch of problems.
-        
-        Args:
-            problems: List of problem statements
-            correct_answers: List of correct answers
-            
-        Returns:
-            Dictionary of training statistics
-        """
-        all_rewards = []
-        all_log_probs = []
-        all_values = []
-        all_drafts = []
-        all_answers = []
-        all_hidden_states = []
-        
-        # Generate multiple drafts for each problem
-        for problem, correct_answer in zip(problems, correct_answers):
-            problem_rewards = []
-            problem_log_probs = []
-            problem_hidden_states = []
-            problem_drafts = []
-            problem_answers = []
-            
-            # Sample a group of drafts for this problem
-            for _ in range(self.config.group_size):
-                # Format prompt for CoD-style reasoning
-                prompt = f"""
-                Problem: {problem}
-                
-                Solve this step-by-step using concise drafts (≤5 tokens per step):
-                """
-                
-                # Generate draft with log probs
-                draft, answer, log_probs, hidden_states = self.generate_with_log_probs(
-                    prompt, 
-                    max_tokens=self.config.max_tokens,
-                    temperature=self.config.temperature
-                )
-                
-                # Calculate reward
-                num_tokens = len(self.tokenizer.encode(draft)) - len(self.tokenizer.encode(prompt))
-                reward = self.compute_reward(answer, correct_answer, num_tokens)
-                
-                problem_rewards.append(reward)
-                problem_log_probs.append(log_probs)
-                problem_hidden_states.append(hidden_states)
-                problem_drafts.append(draft)
-                problem_answers.append(answer)
-            
-            all_rewards.extend(problem_rewards)
-            all_log_probs.extend(problem_log_probs)
-            all_hidden_states.extend(problem_hidden_states)
-            all_drafts.extend(problem_drafts)
-            all_answers.extend(problem_answers)
-        
-        # Convert to tensors
-        rewards = torch.tensor(all_rewards, device=self.model.device)
-        
-        # Compute values for each state
-        values = []
-        for hidden_states in all_hidden_states:
-            value = self.value_head(hidden_states).squeeze(-1)
-            values.append(value)
-        
-        # Group advantage calculation (key GRPO component)
-        group_advantages = []
-        
-        # Process each problem's group separately
-        for i in range(0, len(rewards), self.config.group_size):
-            group_rewards = rewards[i:i+self.config.group_size]
-            group_mean = group_rewards.mean()
-            
-            # Advantage is reward relative to group mean
-            advantages = group_rewards - group_mean
-            
-            # Extend advantages to match sequence lengths
-            for j in range(self.config.group_size):
-                idx = i + j
-                if idx < len(all_log_probs):
-                    seq_len = len(all_log_probs[idx])
-                    # Broadcast advantage to all tokens in the sequence
-                    seq_advantage = advantages[j].repeat(seq_len)
-                    group_advantages.append(seq_advantage)
-        
-        # Flatten log probs and advantages
-        flat_log_probs = torch.cat([lp for lp in all_log_probs if len(lp) > 0])
-        flat_advantages = torch.cat([adv for adv in group_advantages if len(adv) > 0])
-        flat_values = torch.cat([v for v in values if len(v) > 0])
-        
-        # Compute value targets (rewards)
-        flat_rewards = torch.cat([r.repeat(len(lp)) for r, lp in zip(rewards, all_log_probs) if len(lp) > 0])
-        
-        # PPO-style policy loss with clipping
-        policy_loss = -flat_log_probs * flat_advantages
-        policy_loss = policy_loss.mean()
-        
-        # Value loss
-        value_loss = F.mse_loss(flat_values, flat_rewards)
-        
-        # KL divergence from original policy (for stability)
-        # Simplified KL calculation for the example
-        kl_div = torch.tensor(0.01, device=self.model.device)
-        
-        # Entropy bonus (to encourage exploration)
-        entropy = flat_log_probs.mean()
-        
-        # Total loss
-        loss = policy_loss + self.config.value_loss_coef * value_loss + self.config.kl_coef * kl_div - self.config.entropy_coef * entropy
-        
-        # Update model
-        self.optimizer.zero_grad()
-        loss.backward()
-        
-        # Gradient clipping
-        torch.nn.utils.clip_grad_norm_(
-            list(self.model.parameters()) + list(self.value_head.parameters()),
-            self.config.max_grad_norm
-        )
-        
-        self.optimizer.step()
-        
-        # Update reference model periodically (not shown here)
-        
-        return {
-            'policy_loss': policy_loss.item(),
-            'value_loss': value_loss.item(),
-            'kl_div': kl_div.item(),
-            'entropy': entropy.item(),
-            'mean_reward': rewards.mean().item(),
-            'mean_advantage': flat_advantages.mean().item()
-        }
-```
-
-#### Code Example: Training Loop with Hugging Face Integration
-
-```python
-from datasets import load_dataset
-from transformers import AutoModelForCausalLM, AutoTokenizer
-import torch
-from tqdm import tqdm
-import os
-import json
-
-def train_diverse_cod_with_grpo(
-    model_name: str = "Qwen/Qwen2.5-0.5B",
-    dataset_name: str = "gsm8k",
-    dataset_split: str = "train",
-    num_epochs: int = 10,
-    batch_size: int = 16,
-    output_dir: str = "diverse_cod_model",
-    config: Optional[GRPOConfig] = None
-):
-    """
-    Train a model using Diverse CoD with GRPO.
-    
-    Args:
-        model_name: Name or path of the model to train
-        dataset_name: Name of the dataset to use
-        dataset_split: Dataset split to use
-        num_epochs: Number of training epochs
-        batch_size: Batch size for training
-        output_dir: Directory to save model checkpoints
-        config: GRPO configuration
-    
-    Returns:
-        The trained model
-    """
-    # Load model and tokenizer
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
-    model = AutoModelForCausalLM.from_pretrained(model_name)
-    
-    # Set up tokenizer for generation
-    tokenizer.pad_token = tokenizer.eos_token
-    
-    # Move model to GPU if available
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    model.to(device)
-    
-    # Initialize GRPO trainer
-    trainer = GRPOTrainer(model, tokenizer, config)
-    
-    # Load dataset
-    dataset = load_dataset(dataset_name, split=dataset_split)
-    
-    # Preprocess dataset for reasoning tasks
-    def preprocess_gsm8k(example):
-        return {
-            "problem": example["question"],
-            "answer": example["answer"].split("####")[-1].strip()
-        }
-    
-    processed_dataset = dataset.map(preprocess_gsm8k)
-    
-    # Create validation split
-    dataset_dict = processed_dataset.train_test_split(test_size=0.1)
-    train_dataset = dataset_dict["train"]
-    validation_dataset = dataset_dict["test"]
-    
-    # Create output directory
-    os.makedirs(output_dir, exist_ok=True)
-    
-    # Training loop
-    for epoch in range(num_epochs):
-        epoch_stats = {
-            'mean_reward': 0.0,
-            'policy_loss': 0.0,
-            'value_loss': 0.0,
-            'kl_div': 0.0,
-            'entropy': 0.0,
-            'correct_answers': 0
-        }
-        
-        # Create batches
-        train_dataloader = torch.utils.data.DataLoader(
-            train_dataset, 
-            batch_size=batch_size, 
-            shuffle=True
-        )
-        
-        # Training loop
-        model.train()
-        for batch in tqdm(train_dataloader, desc=f"Epoch {epoch+1}/{num_epochs}"):
-            problems = batch["problem"]
-            correct_answers = batch["answer"]
-            
-            # Perform GRPO update
-            stats = trainer.train_step(problems, correct_answers)
-            
-            # Update epoch statistics
-            for k, v in stats.items():
-                if k in epoch_stats:
-                    epoch_stats[k] += v
-        
-        # Average the statistics
-        for k in epoch_stats:
-            epoch_stats[k] /= len(train_dataloader)
-        
-        print(f"Epoch {epoch+1} stats: {epoch_stats}")
-        
-        # Evaluate on validation set
-        if (epoch + 1) % 2 == 0:
-            eval_results = evaluate_model(model, tokenizer, validation_dataset)
-            print(f"Validation results: {eval_results}")
-            
-            # Save metrics
-            with open(os.path.join(output_dir, f"metrics_epoch_{epoch+1}.json"), "w") as f:
-                json.dump({**epoch_stats, **eval_results}, f)
-            
-            # Save checkpoint
-            model.save_pretrained(os.path.join(output_dir, f"checkpoint-epoch-{epoch+1}"))
-            tokenizer.save_pretrained(os.path.join(output_dir, f"checkpoint-epoch-{epoch+1}"))
-    
-    # Save final model
-    model.save_pretrained(output_dir)
-    tokenizer.save_pretrained(output_dir)
-    
-    return model, tokenizer
-
-def evaluate_model(
-    model: AutoModelForCausalLM,
-    tokenizer: AutoTokenizer,
-    eval_dataset,
-    batch_size: int = 32
-):
-    """
-    Evaluate the model on a dataset.
-    
-    Args:
-        model: The trained model
-        tokenizer: The tokenizer
-        eval_dataset: Evaluation dataset
-        batch_size: Batch size for evaluation
-    
-    Returns:
-        Dictionary of evaluation metrics
-    """
-    model.eval()
-    
-    correct = 0
-    total_tokens = 0
-    total_problems = len(eval_dataset)
-    
-    eval_dataloader = torch.utils.data.DataLoader(
-        eval_dataset, 
-        batch_size=batch_size
-    )
-    
-    for batch in tqdm(eval_dataloader, desc="Evaluating"):
-        problems = batch["problem"]
-        correct_answers = batch["answer"]
-        
-        for problem, correct_answer in zip(problems, correct_answers):
-            # Format prompt for CoD-style reasoning
-            prompt = f"""
-            Problem: {problem}
-            
-            Solve this step-by-step using concise drafts (≤5 tokens per step):
-            """
-            
-            # Generate a single draft at evaluation time
-            with torch.no_grad():
-                inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
-                outputs = model.generate(
-                    inputs.input_ids,
-                    max_new_tokens=100,
-                    temperature=0.7,  # Lower temperature for evaluation
-                    top_p=0.95,
-                    do_sample=True,
-                    pad_token_id=tokenizer.eos_token_id
-                )
-                
-                # Count tokens
-                num_tokens = outputs.shape[1] - inputs.input_ids.shape[1]
-                total_tokens += num_tokens
-                
-                # Decode output
-                output_text = tokenizer.decode(
-                    outputs[0, inputs.input_ids.shape[1]:], 
-                    skip_special_tokens=True
-                )
-            
-            # Extract answer (last line)
-            lines = output_text.strip().split('\n')
-            answer = lines[-1] if lines else ""
-            
-            # Check correctness
-            if normalize_answer(answer) == normalize_answer(correct_answer):
-                correct += 1
-    
-    return {
-        'accuracy': correct / total_problems,
-        'avg_tokens': total_tokens / total_problems
-    }
-
-def normalize_answer(text: str) -> str:
-    """Normalize answer text for comparison."""
-    text = text.lower().strip()
-    text = ''.join(c for c in text if c.isalnum() or c.isspace())
-    text = ' '.join(text.split())
-    return text
-```
 
 ## Implementation Plan
 
@@ -803,14 +344,12 @@ Based on prior research on CoD and diverse sampling techniques, we anticipate th
 
 ### Visual Representation of Expected Results
 
-```mermaid
-xychart-beta
-    title "Expected Accuracy vs. Token Usage"
-    x-axis "Tokens Used" [0, 50, 100, 150, 200, 250]
-    y-axis "Accuracy (%)" [50, 60, 70, 80, 90, 100]
-    bar [55, 93, 88, 93]
-    line [3, 200, 45, 45]
-```
+| Method | Accuracy (%) | Tokens Used |
+|--------|--------------|-------------|
+| Standard Prompting | 55 | 3 |
+| Chain of Thought | 93 | 200 |
+| Chain of Draft | 88 | 45 |
+| Diverse CoD + GRPO | 93 | 45 |
 
 ## Example: How Different Methods Might Tackle the Same Problem
 
