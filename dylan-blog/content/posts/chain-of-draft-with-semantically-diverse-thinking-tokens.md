@@ -480,6 +480,168 @@ def extract_gsm8k_answer(text: str) -> str | None:
         return None
     return text.split("####")[1].strip().replace(",", "").replace("$", "")
 
+# Functions for generating diverse drafts
+def generate_diverse_drafts(model, tokenizer, prompt, num_drafts=3, max_tokens=100):
+    """
+    Generate multiple diverse reasoning drafts using different sampling strategies.
+    
+    Args:
+        model: The language model
+        tokenizer: The tokenizer for the model
+        prompt: The problem statement
+        num_drafts: Number of diverse drafts to generate
+        max_tokens: Maximum tokens to generate per draft
+    
+    Returns:
+        A list of diverse reasoning drafts
+    """
+    drafts = []
+    
+    # Prepare input
+    inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
+    
+    # Strategy 1: High Temperature Sampling
+    # This encourages exploration of less likely tokens
+    outputs = model.generate(
+        inputs.input_ids,
+        max_new_tokens=max_tokens,
+        do_sample=True,
+        temperature=1.2,  # Higher temperature = more randomness
+        top_k=50,
+        repetition_penalty=1.0,
+        pad_token_id=tokenizer.eos_token_id
+    )
+    draft1 = tokenizer.decode(outputs[0, inputs.input_ids.shape[1]:], skip_special_tokens=True)
+    drafts.append(enforce_conciseness(draft1))
+    
+    # Strategy 2: Nucleus (Top-p) Sampling
+    # This samples from the smallest set of tokens whose cumulative probability exceeds p
+    outputs = model.generate(
+        inputs.input_ids,
+        max_new_tokens=max_tokens,
+        do_sample=True,
+        temperature=0.8,
+        top_p=0.92,  # Only consider tokens in the top 92% of probability mass
+        repetition_penalty=1.1,
+        pad_token_id=tokenizer.eos_token_id
+    )
+    draft2 = tokenizer.decode(outputs[0, inputs.input_ids.shape[1]:], skip_special_tokens=True)
+    drafts.append(enforce_conciseness(draft2))
+    
+    # Strategy 3: Repetition Penalty Enforcement
+    # This discourages the model from repeating the same patterns
+    outputs = model.generate(
+        inputs.input_ids,
+        max_new_tokens=max_tokens,
+        do_sample=True,
+        temperature=0.9,
+        top_k=40,
+        top_p=0.95,
+        repetition_penalty=1.5,  # Strongly penalize repetition
+        pad_token_id=tokenizer.eos_token_id
+    )
+    draft3 = tokenizer.decode(outputs[0, inputs.input_ids.shape[1]:], skip_special_tokens=True)
+    drafts.append(enforce_conciseness(draft3))
+    
+    # If more drafts are requested, generate with random combinations of parameters
+    for i in range(3, num_drafts):
+        # Randomly select parameters within reasonable ranges
+        temp = 0.7 + 0.8 * torch.rand(1).item()  # Temperature between 0.7 and 1.5
+        p = 0.85 + 0.14 * torch.rand(1).item()   # Top-p between 0.85 and 0.99
+        rep_penalty = 1.0 + 0.8 * torch.rand(1).item()  # Rep penalty between 1.0 and 1.8
+        
+        outputs = model.generate(
+            inputs.input_ids,
+            max_new_tokens=max_tokens,
+            do_sample=True,
+            temperature=temp,
+            top_p=p,
+            repetition_penalty=rep_penalty,
+            pad_token_id=tokenizer.eos_token_id
+        )
+        draft = tokenizer.decode(outputs[0, inputs.input_ids.shape[1]:], skip_special_tokens=True)
+        drafts.append(enforce_conciseness(draft))
+    
+    return drafts
+
+def enforce_conciseness(draft, max_tokens_per_step=5):
+    """
+    Ensure each reasoning step is concise by limiting tokens per line.
+    
+    Args:
+        draft: The generated reasoning draft
+        max_tokens_per_step: Maximum tokens allowed per reasoning step
+    
+    Returns:
+        A concise version of the draft
+    """
+    lines = draft.split('\n')
+    concise_lines = []
+    
+    for line in lines:
+        line = line.strip()
+        if not line:
+            continue
+            
+        # Tokenize the line (simple whitespace tokenization for illustration)
+        tokens = line.split()
+        
+        # If the line is too long, truncate it
+        if len(tokens) > max_tokens_per_step:
+            tokens = tokens[:max_tokens_per_step]
+            
+        concise_lines.append(' '.join(tokens))
+    
+    return '\n'.join(concise_lines)
+
+def select_best_draft(drafts, model, tokenizer, problem, reference_answer=None):
+    """
+    Select the best draft based on a combination of correctness and conciseness.
+    
+    This function would typically be replaced by the GRPO reward mechanism during training.
+    For inference, we can use this to select the most promising draft.
+    
+    Args:
+        drafts: List of generated drafts
+        model: The language model
+        tokenizer: The tokenizer
+        problem: The original problem
+        reference_answer: The correct answer (if available)
+        
+    Returns:
+        The best draft based on our heuristics
+    """
+    best_score = -float('inf')
+    best_draft = None
+    
+    for draft in drafts:
+        # 1. Check if the draft leads to a correct answer
+        # (In practice, you would use the model to generate an answer from the draft)
+        
+        # 2. Calculate conciseness score
+        lines = [line for line in draft.split('\n') if line.strip()]
+        total_tokens = sum(len(line.split()) for line in lines)
+        avg_tokens_per_line = total_tokens / max(1, len(lines))
+        
+        # Lower average tokens per line is better (more concise)
+        conciseness_score = 5 - min(5, avg_tokens_per_line)
+        
+        # 3. Calculate diversity score (simplified)
+        # In practice, you would use embeddings or more sophisticated methods
+        unique_words = set()
+        for line in lines:
+            unique_words.update(line.split())
+        diversity_score = min(5, len(unique_words) / 5)
+        
+        # 4. Combine scores (weights would be tuned in practice)
+        score = conciseness_score + diversity_score
+        
+        if score > best_score:
+            best_score = score
+            best_draft = draft
+    
+    return best_draft
+
 # Prepare the GSM8K dataset with Chain of Draft format
 def get_gsm8k_questions(split="train") -> Dataset:
     """Load and preprocess the GSM8K dataset for Chain of Draft training."""
@@ -493,75 +655,97 @@ def get_gsm8k_questions(split="train") -> Dataset:
     })
     return data
 
+# Custom GRPO trainer that uses diverse draft generation
+class DiverseCoDGRPOTrainer(GRPOTrainer):
+    """Custom GRPO trainer that uses diverse draft generation strategies."""
+    
+    def generate_completions(self, prompts, **kwargs):
+        """Override the default generation method to use diverse drafts."""
+        batch_size = len(prompts)
+        num_generations = self.args.num_generations
+        all_completions = []
+        
+        for i in range(batch_size):
+            prompt = self.tokenizer.apply_chat_template(prompts[i], tokenize=False)
+            
+            # Generate diverse drafts
+            drafts = generate_diverse_drafts(
+                self.model, 
+                self.tokenizer, 
+                prompt, 
+                num_drafts=num_generations,
+                max_tokens=self.args.max_completion_length
+            )
+            
+            # Format each draft with XML tags
+            completions = []
+            for draft in drafts:
+                # Extract answer using the model (simplified here)
+                answer_prompt = f"{prompt}\n<draft>\n{draft}\n</draft>\n<answer>"
+                answer_inputs = self.tokenizer(answer_prompt, return_tensors="pt").to(self.model.device)
+                answer_outputs = self.model.generate(
+                    answer_inputs.input_ids,
+                    max_new_tokens=50,
+                    do_sample=False,
+                    pad_token_id=self.tokenizer.eos_token_id
+                )
+                answer_text = self.tokenizer.decode(
+                    answer_outputs[0, answer_inputs.input_ids.shape[1]:], 
+                    skip_special_tokens=True
+                ).split("</answer>")[0].strip()
+                
+                # Format the complete response
+                formatted_completion = XML_COD_FORMAT.format(draft=draft, answer=answer_text)
+                completions.append([{"role": "assistant", "content": formatted_completion}])
+            
+            all_completions.append(completions)
+        
+        return all_completions
+
 # Define reward functions for GRPO training
-def correctness_reward(prompts, completions, answer, **kwargs) -> list[float]:
-    """Reward function that checks if the answer is correct."""
+def combined_reward(prompts, completions, answer, **kwargs) -> list[float]:
+    """Combined reward function that balances correctness, conciseness, and diversity."""
     responses = [completion[0]['content'] for completion in completions]
     extracted_answers = [extract_answer(r) for r in responses]
-    
-    # For debugging
-    if len(responses) > 0:
-        print('-'*20)
-        print(f"Question:\n{prompts[0][-1]['content']}")
-        print(f"Expected Answer:\n{answer[0]}")
-        print(f"Response:\n{responses[0]}")
-        print(f"Extracted Answer:\n{extracted_answers[0]}")
-    
-    # Return 1.0 for correct answers
-    return [1.0 if a == ans else 0.0 for a, ans in zip(extracted_answers, answer)]
-
-def conciseness_reward(completions, **kwargs) -> list[float]:
-    """Reward function that encourages concise drafts."""
-    responses = [completion[0]['content'] for completion in completions]
-    drafts = [extract_draft(r) for r in responses]
+    extracted_drafts = [extract_draft(r) for r in responses]
     
     rewards = []
-    for draft in drafts:
-        # Count tokens in each line
+    for i, (resp, ans, draft) in enumerate(zip(responses, extracted_answers, extracted_drafts)):
+        # 1. Correctness reward (1.0 for correct answers)
+        correctness = 1.0 if ans == answer[i] else 0.0
+        
+        # 2. Token efficiency reward
+        # Count tokens in the draft
         lines = [line.strip() for line in draft.split('\n') if line.strip()]
+        total_tokens = sum(len(line.split()) for line in lines)
+        token_penalty = 0.001 * total_tokens  # Small penalty for each token used
         
-        # Check if each line is concise (≤5 tokens)
+        # 3. Conciseness reward
         concise_lines = 0
-        total_lines = max(1, len(lines))  # Avoid division by zero
-        
+        total_lines = max(1, len(lines))
         for line in lines:
             tokens = line.split()
             if len(tokens) <= 5:
                 concise_lines += 1
+        conciseness_bonus = 0.2 * (concise_lines / total_lines)
         
-        # Calculate conciseness score (0.0 to 0.5)
-        conciseness_score = 0.5 * (concise_lines / total_lines)
-        rewards.append(conciseness_score)
-    
-    return rewards
-
-def format_reward(completions, **kwargs) -> list[float]:
-    """Reward function that checks if the completion follows the XML format."""
-    pattern = r"<draft>[\s\S]*?</draft>\s*<answer>[\s\S]*?</answer>"
-    responses = [completion[0]["content"] for completion in completions]
-    matches = [bool(re.search(pattern, r)) for r in responses]
-    return [0.5 if match else 0.0 for match in matches]
-
-def diversity_reward(completions, **kwargs) -> list[float]:
-    """Reward function that encourages diverse reasoning approaches."""
-    # This is a simplified implementation - in practice, you would use
-    # embeddings or more sophisticated methods to measure diversity
-    responses = [completion[0]['content'] for completion in completions]
-    drafts = [extract_draft(r) for r in responses]
-    
-    rewards = []
-    for draft in drafts:
-        # Simple heuristic: reward drafts with multiple distinct reasoning steps
-        lines = [line.strip() for line in draft.split('\n') if line.strip()]
-        unique_tokens = set()
+        # 4. Format adherence reward
+        format_bonus = 0.1 if ("<draft>" in resp and "</draft>" in resp and 
+                               "<answer>" in resp and "</answer>" in resp) else 0.0
         
-        for line in lines:
-            tokens = line.split()
-            unique_tokens.update(tokens)
+        # Combine all rewards
+        # R = 1.0 (for correct answer) - 0.001 × (number of tokens used) + bonuses
+        total_reward = correctness - token_penalty + conciseness_bonus + format_bonus
+        rewards.append(total_reward)
         
-        # More unique tokens suggests more diverse reasoning
-        diversity_score = min(0.5, 0.01 * len(unique_tokens))
-        rewards.append(diversity_score)
+        # For debugging
+        if i == 0:
+            print('-'*20)
+            print(f"Correctness: {correctness}")
+            print(f"Token penalty: {token_penalty}")
+            print(f"Conciseness bonus: {conciseness_bonus}")
+            print(f"Format bonus: {format_bonus}")
+            print(f"Total reward: {total_reward}")
     
     return rewards
 
@@ -621,19 +805,14 @@ def main():
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     tokenizer.pad_token = tokenizer.eos_token
     
-    # Initialize GRPO trainer with multiple reward functions
-    trainer = GRPOTrainer(
+    # Initialize custom GRPO trainer with combined reward function
+    trainer = DiverseCoDGRPOTrainer(
         model=model,
         processing_class=tokenizer,
-        reward_funcs=[
-            format_reward,       # Ensure proper XML format
-            conciseness_reward,  # Encourage concise drafts
-            diversity_reward,    # Encourage diverse reasoning
-            correctness_reward   # Ensure correct answers
-        ],
+        reward_funcs=[combined_reward],  # Use our combined reward function
         args=training_args,
         train_dataset=dataset,
-        peft_config=peft_config  # Comment this out if PEFT causes issues
+        peft_config=peft_config
     )
     
     # Train the model
@@ -661,28 +840,30 @@ This script will:
 2. Format the problems using a Chain of Draft structure with XML tags
 3. Initialize a Qwen2.5-0.5B model for GRPO training
 4. Apply LoRA for parameter-efficient fine-tuning
-5. Train the model using multiple reward functions that encourage:
-   - Correct answers
-   - Concise reasoning steps (≤5 tokens per step)
-   - Proper formatting
-   - Diverse reasoning approaches
-6. Save checkpoints and the final model
+5. Generate diverse drafts using the strategies defined in `generate_diverse_drafts`
+6. Train the model using a combined reward function that balances:
+   - Correctness of the final answer (1.0 for correct answers)
+   - Token efficiency (-0.001 per token used)
+   - Conciseness of reasoning steps (bonus for steps ≤5 tokens)
+   - Proper formatting (bonus for adhering to XML structure)
+7. Save checkpoints and the final model
 
 ### Key Components of the Implementation
 
 The implementation above includes several key components that make our approach work:
 
-1. **XML-Structured Format**: Using XML tags (`<draft>` and `<answer>`) provides a clear structure for the model to follow, making it easier to extract and evaluate the reasoning and answer.
+1. **Custom GRPO Trainer**: We've created a `DiverseCoDGRPOTrainer` class that overrides the default generation method to use our `generate_diverse_drafts` function.
 
-2. **Multiple Reward Functions**: The training uses a combination of reward functions that balance different objectives:
-   - `correctness_reward`: Ensures the final answer is correct
-   - `conciseness_reward`: Encourages brief reasoning steps (≤5 tokens)
-   - `format_reward`: Ensures proper structure
-   - `diversity_reward`: Encourages varied reasoning approaches
+2. **Diverse Draft Generation**: The `generate_diverse_drafts` function implements three specific sampling strategies plus additional random combinations to explore different reasoning paths.
 
-3. **Parameter-Efficient Fine-Tuning**: Using LoRA reduces the computational requirements while still allowing effective adaptation of the model.
+3. **Conciseness Enforcement**: The `enforce_conciseness` function ensures that each reasoning step is limited to a maximum of 5 tokens, maintaining the efficiency goal of Chain of Draft.
 
-4. **Multiple Generations per Problem**: The `num_generations=5` parameter ensures that GRPO explores multiple diverse reasoning paths for each problem.
+4. **Combined Reward Function**: Instead of separate reward functions, we've unified them into a single `combined_reward` function that implements our proposed reward formula:
+   ```
+   R = 1.0 (for correct answer) - 0.001 × (number of tokens used) + bonuses
+   ```
+
+5. **XML-Structured Format**: Using XML tags (`<draft>` and `<answer>`) provides a clear structure for the model to follow, making it easier to extract and evaluate the reasoning and answer.
 
 ### Inference with the Trained Model
 
@@ -713,25 +894,26 @@ Respond in the following format:
     
     # Format the input for the model
     prompt = tokenizer.apply_chat_template(messages, tokenize=False)
-    inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
     
-    # Generate with slightly stochastic sampling to leverage learned diversity
+    # Generate multiple diverse drafts
+    drafts = generate_diverse_drafts(model, tokenizer, prompt, num_drafts=5, max_tokens=100)
+    
+    # Select the best draft
+    best_draft = select_best_draft(drafts, model, tokenizer, problem)
+    
+    # Generate final answer based on the best draft
+    answer_prompt = f"{prompt}\n<draft>\n{best_draft}\n</draft>\n<answer>"
+    inputs = tokenizer(answer_prompt, return_tensors="pt").to(model.device)
     outputs = model.generate(
         inputs.input_ids,
-        max_new_tokens=512,
-        temperature=0.7,
-        top_p=0.95,
-        do_sample=True
+        max_new_tokens=50,
+        do_sample=False,
+        pad_token_id=tokenizer.eos_token_id
     )
+    answer = tokenizer.decode(outputs[0, inputs.input_ids.shape[1]:], skip_special_tokens=True)
+    answer = answer.split("</answer>")[0].strip()
     
-    # Decode the output
-    result = tokenizer.decode(outputs[0, inputs.input_ids.shape[1]:], skip_special_tokens=True)
-    
-    # Extract draft and answer
-    draft = extract_draft(result)
-    answer = extract_answer(result)
-    
-    return draft, answer
+    return best_draft, answer
 
 # Example usage
 problem = "Alice and Bob each have some candies. Alice says: if Bob gives me 3 candies, we'll have the same number. Bob says: if Alice gives me 3 candies, I'll have double what she has left. How many candies do Alice and Bob have?"
