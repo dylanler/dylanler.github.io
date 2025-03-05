@@ -5,6 +5,8 @@ description: "A proposed experiment to improve LLM reasoning through diverse tok
 tags: ["AI", "LLM", "Chain of Thought", "Chain of Draft", "Reinforcement Learning"]
 ---
 
+# Enhancing LLM Reasoning: Chain of Draft with Semantically Diverse Thinking Tokens
+
 ## The Challenge: Efficient Reasoning in LLMs
 
 Large Language Models (LLMs) have become remarkably capable at complex reasoning tasks, but this often comes at a cost: verbose outputs that consume significant computational resources. The Chain of Thought (CoT) prompting technique, while effective for accuracy, generates lengthy reasoning steps that increase token usage and latency.
@@ -189,33 +191,34 @@ xychart-beta
 
 **Problem**: "Alice and Bob each have some candies. Alice says: if Bob gives me 3 candies, we'll have the same number. Bob says: if Alice gives me 3 candies, I'll have double what she has left. How many candies do Alice and Bob have?"
 
-**Standard (Expected)**:
+**Standard (Expected)**:  
 "Alice has 9 candies and Bob has 3 candies." (Might be correct or incorrect, with no visible reasoning)
 
-**Chain of Thought (Expected)**:
+**Chain of Thought (Expected)**:  
 Let's denote Alice's candies as A and Bob's candies as B.
-From Alice's statement: If Bob gives Alice 3 candies, they'll have the same number.
-This means: A + 3 = B - 3
+
+From Alice's statement: If Bob gives Alice 3 candies, they'll have the same number.  
+This means: A + 3 = B - 3  
 Simplifying: A + 6 = B
 
-From Bob's statement: If Alice gives Bob 3 candies, Bob will have double what Alice has left.
-This means: B + 3 = 2 * (A - 3)
-Simplifying: B + 3 = 2A - 6
+From Bob's statement: If Alice gives Bob 3 candies, Bob will have double what Alice has left.  
+This means: B + 3 = 2 * (A - 3)  
+Simplifying: B + 3 = 2A - 6  
 B = 2A - 9
 
-Now we have two equations:
-A + 6 = B
+Now we have two equations:  
+A + 6 = B  
 B = 2A - 9
 
-Substituting the second equation into the first:
-A + 6 = 2A - 9
-6 + 9 = 2A - A
+Substituting the second equation into the first:  
+A + 6 = 2A - 9  
+6 + 9 = 2A - A  
 15 = A
 
 So A = 15, and B = A + 6 = 15 + 6 = 21.
 
-Wait, let me double-check:
-If Bob gives Alice 3 candies: Alice would have 15 + 3 = 18, and Bob would have 21 - 3 = 18. ✓
+Wait, let me double-check:  
+If Bob gives Alice 3 candies: Alice would have 15 + 3 = 18, and Bob would have 21 - 3 = 18. ✓  
 If Alice gives Bob 3 candies: Alice would have 15 - 3 = 12, and Bob would have 21 + 3 = 24. Is this double? 12 * 2 = 24. ✓
 
 Therefore, Alice has 15 candies and Bob has 21 candies.
@@ -225,17 +228,17 @@ Actually, I made a mistake. Let me recalculate...
 
 The answer is: Alice has 9 candies and Bob has 3 candies.
 
-**Chain of Draft (Expected)**:
-A=Alice, B=Bob
-Eq1: A+3=B-3
-Eq2: B+3=2(A-3)
-Solve: A=9, B=3
+**Chain of Draft (Expected)**:  
+A=Alice, B=Bob  
+Eq1: A+3=B-3  
+Eq2: B+3=2(A-3)  
+Solve: A=9, B=3  
 Answer: Alice 9, Bob 3
 
-**Our Method (Diverse CoD + RL) (Expected)**:
-Eq1: A+3=B-3 → A+6=B
-Eq2: B+3=2(A-3) → B+3=2A-6
-Solve: A=9, B=3
+**Our Method (Diverse CoD + RL) (Expected)**:  
+Eq1: A+3=B-3 → A+6=B  
+Eq2: B+3=2(A-3) → B+3=2A-6  
+Solve: A=9, B=3  
 Alice has 9, Bob has 3.
 
 The key difference we expect to see is that our method will learn to focus on the most critical reasoning steps through exploration of diverse drafts during training.
