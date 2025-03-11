@@ -1,6 +1,6 @@
 +++
 title = 'Creating a Video Dataset With Precise Camera Movement Prompts'
-date = 2023-03-11T03:30:25-07:00
+date = 2025-03-11T03:30:25-07:00
 draft = false
 +++
 
