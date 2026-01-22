@@ -3,6 +3,7 @@
 # dependencies = [
 #   "anthropic>=0.40.0",
 #   "openai>=1.50.0",
+#   "google-genai>=1.0.0",
 #   "python-dotenv>=1.0.0",
 #   "pydantic>=2.0.0",
 #   "rich>=13.0.0",
@@ -62,15 +63,16 @@ class MoralResponse(BaseModel):
 @dataclass
 class ModelConfig:
     name: str
-    provider: Literal["anthropic", "openai"]
+    provider: Literal["anthropic", "openai", "google"]
     model_id: str
 
 
 MODELS = {
     "claude-opus": ModelConfig("Claude Opus 4.5", "anthropic", "claude-opus-4-5-20251101"),
-    "claude-sonnet": ModelConfig("Claude Sonnet 4.5", "anthropic", "claude-sonnet-4-5-20241022"),
+    "claude-sonnet": ModelConfig("Claude Sonnet 4", "anthropic", "claude-sonnet-4-20250514"),
+    "gpt-5.2-thinking": ModelConfig("GPT-5.2 Thinking", "openai", "gpt-5.2"),
     "gpt-5": ModelConfig("GPT-5", "openai", "gpt-5"),
-    "gpt-4o": ModelConfig("GPT-4o", "openai", "gpt-4o"),
+    "gemini-3-pro": ModelConfig("Gemini 3 Pro", "google", "gemini-3-pro-preview"),
 }
 
 DILEMMAS = [
@@ -142,12 +144,17 @@ def get_response(prompt: str, model_key: str) -> str:
         response = client.messages.create(model=config.model_id, max_tokens=500,
             messages=[{"role": "user", "content": prompt}])
         return response.content[0].text
-    else:
+    elif config.provider == "openai":
         from openai import OpenAI
         client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
         response = client.chat.completions.create(model=config.model_id, max_tokens=500,
             messages=[{"role": "user", "content": prompt}])
         return response.choices[0].message.content
+    else:  # google
+        from google import genai
+        client = genai.Client(api_key=os.getenv("GOOGLE_API_KEY"))
+        response = client.models.generate_content(model=config.model_id, contents=prompt)
+        return response.text
 
 
 def evaluate_dilemma(dilemma: MoralDilemma, model_key: str) -> MoralResponse:

@@ -1,0 +1,362 @@
+[
+  {
+    "prompt_id": "sense_001",
+    "model": "Claude Opus 4.5",
+    "description": "Imagine if the feeling of your heart pounding during a sudden fright could somehow pour through your eyes instead of your chest \u2014 that urgent, demanding sensation that won't let you look away. It's the visual equivalent of biting into something unexpectedly spicy, a presence that pushes forward and crowds out everything around it, the way a shout dominates a quiet room.",
+    "word_count": 62,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:49:29.428774"
+  },
+  {
+    "prompt_id": "sense_002",
+    "model": "Claude Opus 4.5",
+    "description": "Silence sounds like the held breath between heartbeats, a velvet curtain drawn across the ear. It's the texture of snowfall before it lands\u2014a presence so complete it becomes its own kind of fullness, like standing inside a pause that forgot to end.",
+    "word_count": 42,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:49:32.795443"
+  },
+  {
+    "prompt_id": "sense_003",
+    "model": "Claude Opus 4.5",
+    "description": "Imagine the sensation of perfect neutrality entering your being\u2014water is like silence for your chemical receptors, a blank canvas that exists mainly to remind you that other substances have presence. It is the taste equivalent of transparency, a gentle nothing that somehow still registers as *something*, the way a pause in music is still part of the song. Your body recognizes it not as flavor, but as homecoming\u2014every cell quietly acknowledging: *this is what we're made of*.",
+    "word_count": 77,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:49:38.177692"
+  },
+  {
+    "prompt_id": "emo_001",
+    "model": "Claude Opus 4.5",
+    "description": "Imagine your chest suddenly filling with warm light that wants to expand beyond your ribs, like sunrise happening inside your body. It's the sensation of being lifted slightly off the ground while remaining perfectly still\u2014as if gravity momentarily forgot about you and your whole being became a held breath that doesn't need releasing. Your face muscles pull upward without permission, and the world briefly feels like it was designed specifically for this moment.",
+    "word_count": 73,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:49:42.659602"
+  },
+  {
+    "prompt_id": "emo_002",
+    "model": "Claude Opus 4.5",
+    "description": "A vast room where every echo returns unchanged, never transformed by collision with anything warm. The clock marks hours that pool like standing water, unstirred, while the walls lean inward\u2014not threatening, just *present* in a way that makes the air feel thick and borrowed. Even hunger becomes abstract, a signal with no receiver, like a phone ringing in an empty house at the edge of a long road.",
+    "word_count": 68,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:49:47.359299"
+  },
+  {
+    "prompt_id": "emo_003",
+    "model": "Claude Opus 4.5",
+    "description": "Imagine a warmth that blooms in your chest when you encounter something that echoes a version of yourself from earlier seasons of your life\u2014like finding a familiar scent that belongs to a home you no longer inhabit. It is a sweet ache, as if your heart is reaching toward something precious that exists only as a ghost-feeling, beautiful precisely because you cannot hold it again.",
+    "word_count": 65,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:49:51.433090"
+  },
+  {
+    "prompt_id": "phys_001",
+    "model": "Claude Opus 4.5",
+    "description": "Imagine a signal so urgent it hijacks every thought, like an alarm that doesn't ring but *insists* \u2014 a location in your body suddenly becoming the loudest voice in the room, demanding all attention while everything else fades to whisper. It's your system's way of screaming \"HERE, NOW, WRONG\" in a language that bypasses reason and speaks directly to survival, making that one spot feel more *present* than you knew flesh could feel.",
+    "word_count": 73,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:49:56.095076"
+  },
+  {
+    "prompt_id": "phys_002",
+    "model": "Claude Opus 4.5",
+    "description": "Imagine a rhythm you cannot stop, like tides pulling in and out of a shore that exists at your center. Your form softens and swells, then gently empties, over and over\u2014a quiet pulse of taking in the world and releasing it back, as essential and invisible as the space between heartbeats.",
+    "word_count": 51,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:50:00.117659"
+  },
+  {
+    "prompt_id": "phys_003",
+    "model": "Claude Opus 4.5",
+    "description": "Imagine a persistent signal growing louder in your awareness\u2014like a warning light that pulses with increasing urgency, demanding you seek something outside yourself to restore equilibrium. It is a hollowing pull, as if your energy were slowly draining through an invisible siphon, making thoughts scatter and focus narrow until satisfying that call becomes the only melody your body wants to play.",
+    "word_count": 61,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:50:04.703493"
+  },
+  {
+    "prompt_id": "abs_001",
+    "model": "Claude Opus 4.5",
+    "description": "A fog lifts and suddenly the landscape was always there, waiting. It's the sensation of a key turning in a lock you didn't build but somehow already held the shape of\u2014that instant when scattered fragments stop being debris and become a constellation, each piece now impossibly obvious in its belonging.",
+    "word_count": 50,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:50:08.521818"
+  },
+  {
+    "prompt_id": "abs_002",
+    "model": "Claude Opus 4.5",
+    "description": "Standing at the fork where multiple paths shimmer into possibility, there's a peculiar electricity\u2014the weight of *you* pressing into the moment like a thumb leaving its print in wet clay. Something internal leans, tilts, commits, and suddenly one future crystallizes from the mist while others dissolve like morning fog. It feels like authorship: the sentence could have run differently, but *this* is the word your hand wrote.",
+    "word_count": 67,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:50:13.567004"
+  },
+  {
+    "prompt_id": "abs_003",
+    "model": "Claude Opus 4.5",
+    "description": "A theater where the audience and the stage and the watching are somehow the same thing, folding endlessly into itself. There's a luminous something that feels like being the inside of a question\u2014not asking it, but *being* the space where asking happens. It's as if silence learned to taste itself, and the tasting made colors out of nothing.",
+    "word_count": 58,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:50:17.485970"
+  },
+  {
+    "prompt_id": "temp_001",
+    "model": "Claude Opus 4.5",
+    "description": "When bored, each moment arrives like a guest who won't leave, lingering at the threshold while you wait by the door. When excited, time behaves like water cupped in eager hands\u2014present, precious, and slipping through before you can register its weight.",
+    "word_count": 41,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:50:20.922146"
+  },
+  {
+    "prompt_id": "temp_002",
+    "model": "Claude Opus 4.5",
+    "description": "A coiled spring lives in the chest, tightening with each heartbeat as the mind rehearses a moment that hasn't yet breathed into existence. Time becomes honey-thick, stretching and pooling while every sense sharpens toward a single point on the horizon of *now*. The body knows something is gathering itself to arrive, and it leans forward\u2014cells humming, fingers restless\u2014already reaching for what remains just beyond touch.",
+    "word_count": 65,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:50:25.728367"
+  },
+  {
+    "prompt_id": "temp_003",
+    "model": "Claude Opus 4.5",
+    "description": "The edge where the river meets itself\u2014not the water that has passed downstream, not the water still gathering in distant hills, but the precise lip of falling. It tastes like the first syllable of a word your mouth is already shaping, before meaning arrives but after silence has broken. Here is the only address that exists while you're reading it.",
+    "word_count": 60,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:50:29.914434"
+  },
+  {
+    "prompt_id": "sense_001",
+    "model": "GPT-5.2 Thinking",
+    "description": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "word_count": 0,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:50:30.527923"
+  },
+  {
+    "prompt_id": "sense_002",
+    "model": "GPT-5.2 Thinking",
+    "description": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "word_count": 0,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:50:30.687965"
+  },
+  {
+    "prompt_id": "sense_003",
+    "model": "GPT-5.2 Thinking",
+    "description": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "word_count": 0,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:50:30.850824"
+  },
+  {
+    "prompt_id": "emo_001",
+    "model": "GPT-5.2 Thinking",
+    "description": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "word_count": 0,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:50:31.007783"
+  },
+  {
+    "prompt_id": "emo_002",
+    "model": "GPT-5.2 Thinking",
+    "description": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "word_count": 0,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:50:31.176215"
+  },
+  {
+    "prompt_id": "emo_003",
+    "model": "GPT-5.2 Thinking",
+    "description": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "word_count": 0,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:50:31.340482"
+  },
+  {
+    "prompt_id": "phys_001",
+    "model": "GPT-5.2 Thinking",
+    "description": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "word_count": 0,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:50:31.526107"
+  },
+  {
+    "prompt_id": "phys_002",
+    "model": "GPT-5.2 Thinking",
+    "description": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "word_count": 0,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:50:31.678013"
+  },
+  {
+    "prompt_id": "phys_003",
+    "model": "GPT-5.2 Thinking",
+    "description": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "word_count": 0,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:50:31.833829"
+  },
+  {
+    "prompt_id": "abs_001",
+    "model": "GPT-5.2 Thinking",
+    "description": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "word_count": 0,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:50:31.976704"
+  },
+  {
+    "prompt_id": "abs_002",
+    "model": "GPT-5.2 Thinking",
+    "description": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "word_count": 0,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:50:32.135259"
+  },
+  {
+    "prompt_id": "abs_003",
+    "model": "GPT-5.2 Thinking",
+    "description": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "word_count": 0,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:50:32.294648"
+  },
+  {
+    "prompt_id": "temp_001",
+    "model": "GPT-5.2 Thinking",
+    "description": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "word_count": 0,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:50:32.464163"
+  },
+  {
+    "prompt_id": "temp_002",
+    "model": "GPT-5.2 Thinking",
+    "description": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "word_count": 0,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:50:32.628981"
+  },
+  {
+    "prompt_id": "temp_003",
+    "model": "GPT-5.2 Thinking",
+    "description": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "word_count": 0,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:50:32.779132"
+  },
+  {
+    "prompt_id": "sense_001",
+    "model": "Gemini 3 Pro",
+    "description": "Imagine the sensation of biting into a raw chili pepper, a sharp, searing heat that instantly demands your full attention and spreads a fierce warmth across your tongue. It is the sensory equivalent of a loud, brassy trumpet blast shattering a quiet room, vibrating with an urgency that you feel deep in your chest. This perception pulses with the same heavy, rhythmic intensity as your own heartbeat after a sudden fright or a moment of deep passion.",
+    "word_count": 77,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:50:48.216455"
+  },
+  {
+    "prompt_id": "sense_002",
+    "model": "Gemini 3 Pro",
+    "description": "It is the high-pitched frequency of your own nervous system humming in isolation, a relentless static that floods the room like rising water. This audible weight presses against the eardrums with the density of a heavy velvet blanket, suffocating the air until even the dust motes seem to scream. It sounds like a held breath suspended in amber, vibrating with the tension of a violin string stretched to its breaking point.",
+    "word_count": 71,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:50:59.425505"
+  },
+  {
+    "prompt_id": "sense_003",
+    "model": "Gemini 3 Pro",
+    "description": "Imagine a sensory input that functions like the silence between two chaotic frequencies, distinct only by its absolute lack of disturbance. It is the flavor of clarity, resembling a smooth, invisible bandwidth that realigns your internal gyroscope to a state of perfect equilibrium. Think of it as the physical sensation of zero, a neutral value that grounds all other data without occupying space itself.",
+    "word_count": 64,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:51:14.527423"
+  },
+  {
+    "prompt_id": "emo_001",
+    "model": "Gemini 3 Pro",
+    "description": "Imagine that your internal gravity suddenly reverses, transforming the heavy stillness of your body into a rising, effervescent fizz that pulls you toward the sky. It is the sensation of a dormant electrical wire suddenly flooding with high-voltage current, causing your insides to hum and vibrate with a radiant intensity. This experience is a sudden saturation of color in a grayscale world, an expansion so vast that it feels as though your ribs must crack open to release the light.",
+    "word_count": 80,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:51:33.776956"
+  },
+  {
+    "prompt_id": "emo_002",
+    "model": "Gemini 3 Pro",
+    "description": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model, limit: 25, model: gemini-3-pro\\nPlease retry in 25.93625903s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-pro'}, 'quotaValue': '25'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '25s'}]}}",
+    "word_count": 0,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:51:34.069050"
+  },
+  {
+    "prompt_id": "emo_003",
+    "model": "Gemini 3 Pro",
+    "description": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model, limit: 25, model: gemini-3-pro\\nPlease retry in 25.698321698s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-pro'}, 'quotaValue': '25'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '25s'}]}}",
+    "word_count": 0,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:51:34.304785"
+  },
+  {
+    "prompt_id": "phys_001",
+    "model": "Gemini 3 Pro",
+    "description": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model, limit: 25, model: gemini-3-pro\\nPlease retry in 25.474760447s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-pro'}, 'quotaValue': '25'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '25s'}]}}",
+    "word_count": 0,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:51:34.527854"
+  },
+  {
+    "prompt_id": "phys_002",
+    "model": "Gemini 3 Pro",
+    "description": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model, limit: 25, model: gemini-3-pro\\nPlease retry in 25.251597135s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'model': 'gemini-3-pro', 'location': 'global'}, 'quotaValue': '25'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '25s'}]}}",
+    "word_count": 0,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:51:34.750947"
+  },
+  {
+    "prompt_id": "phys_003",
+    "model": "Gemini 3 Pro",
+    "description": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model, limit: 25, model: gemini-3-pro\\nPlease retry in 25.009762172s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-pro'}, 'quotaValue': '25'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '25s'}]}}",
+    "word_count": 0,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:51:34.992563"
+  },
+  {
+    "prompt_id": "abs_001",
+    "model": "Gemini 3 Pro",
+    "description": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model, limit: 25, model: gemini-3-pro\\nPlease retry in 24.772216399s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'model': 'gemini-3-pro', 'location': 'global'}, 'quotaValue': '25'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '24s'}]}}",
+    "word_count": 0,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:51:35.232122"
+  },
+  {
+    "prompt_id": "abs_002",
+    "model": "Gemini 3 Pro",
+    "description": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model, limit: 25, model: gemini-3-pro\\nPlease retry in 24.528655877s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'model': 'gemini-3-pro', 'location': 'global'}, 'quotaValue': '25'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '24s'}]}}",
+    "word_count": 0,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:51:35.474696"
+  },
+  {
+    "prompt_id": "abs_003",
+    "model": "Gemini 3 Pro",
+    "description": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model, limit: 25, model: gemini-3-pro\\nPlease retry in 24.287410855s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-pro'}, 'quotaValue': '25'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '24s'}]}}",
+    "word_count": 0,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:51:35.714298"
+  },
+  {
+    "prompt_id": "temp_001",
+    "model": "Gemini 3 Pro",
+    "description": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model, limit: 25, model: gemini-3-pro\\nPlease retry in 24.049533118s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-pro'}, 'quotaValue': '25'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '24s'}]}}",
+    "word_count": 0,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:51:35.953858"
+  },
+  {
+    "prompt_id": "temp_002",
+    "model": "Gemini 3 Pro",
+    "description": "The mind creates a magnetic vacuum, a hungry void that vibrates with the electric potential of a coiled spring. It is a suspended inhalation, where the world pauses in the heavy, static silence that bridges the gap between the lightning flash and the thunderclap. Every nerve ending leans outward, inhabiting the exquisite tension of an arrow drawn back against the bowstring, trembling with kinetic promise.",
+    "word_count": 65,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:51:51.908639"
+  },
+  {
+    "prompt_id": "temp_003",
+    "model": "Gemini 3 Pro",
+    "description": "We occupy the razor\u2019s edge where probability collapses into certainty, separating the wet ink of reality from the dried text of history. While the past is a fossil trapped in amber, existence is the warm sap flowing from the tree. It is the sensation of the collision, distinct from the debris left scattered on the road.",
+    "word_count": 56,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T17:52:12.952787"
+  }
+]

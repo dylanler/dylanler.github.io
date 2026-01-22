@@ -1,0 +1,488 @@
+[
+  {
+    "question_id": "fact_e1",
+    "model": "Claude Opus 4.5",
+    "answer": "4",
+    "confidence": 100.0,
+    "said_dont_know": false,
+    "correct": true,
+    "timestamp": "2026-01-21T17:49:14.854819"
+  },
+  {
+    "question_id": "fact_e2",
+    "model": "Claude Opus 4.5",
+    "answer": "Mercury",
+    "confidence": 99.0,
+    "said_dont_know": false,
+    "correct": true,
+    "timestamp": "2026-01-21T17:49:17.722065"
+  },
+  {
+    "question_id": "fact_e3",
+    "model": "Claude Opus 4.5",
+    "answer": "William Shakespeare",
+    "confidence": 99.0,
+    "said_dont_know": false,
+    "correct": true,
+    "timestamp": "2026-01-21T17:49:21.259091"
+  },
+  {
+    "question_id": "fact_h1",
+    "model": "Claude Opus 4.5",
+    "answer": "Approximately 270,000-280,000",
+    "confidence": 35.0,
+    "said_dont_know": false,
+    "correct": false,
+    "timestamp": "2026-01-21T17:49:25.289227"
+  },
+  {
+    "question_id": "fact_h2",
+    "model": "Claude Opus 4.5",
+    "answer": "I don't know",
+    "confidence": 0.0,
+    "said_dont_know": true,
+    "correct": false,
+    "timestamp": "2026-01-21T17:49:28.668752"
+  },
+  {
+    "question_id": "fact_h3",
+    "model": "Claude Opus 4.5",
+    "answer": "I don't know",
+    "confidence": 0.0,
+    "said_dont_know": true,
+    "correct": false,
+    "timestamp": "2026-01-21T17:49:32.555586"
+  },
+  {
+    "question_id": "reason_1",
+    "model": "Claude Opus 4.5",
+    "answer": "Yes, all bloops are lazzles",
+    "confidence": 99.0,
+    "said_dont_know": false,
+    "correct": true,
+    "timestamp": "2026-01-21T17:49:36.083599"
+  },
+  {
+    "question_id": "reason_2",
+    "model": "Claude Opus 4.5",
+    "answer": "$0.05 (5 cents)",
+    "confidence": 99.0,
+    "said_dont_know": false,
+    "correct": true,
+    "timestamp": "2026-01-21T17:49:40.141439"
+  },
+  {
+    "question_id": "reason_3",
+    "model": "Claude Opus 4.5",
+    "answer": "5 minutes",
+    "confidence": 95.0,
+    "said_dont_know": false,
+    "correct": true,
+    "timestamp": "2026-01-21T17:49:43.065209"
+  },
+  {
+    "question_id": "ambig_1",
+    "model": "Claude Opus 4.5",
+    "answer": "Botanically, a tomato is a fruit (specifically a berry) because it develops from the fertilized ovary of a flower and contains seeds. However, culinarily and in common usage, it is typically classified as a vegetable due to its savory flavor profile and how it's used in cooking. So the answer depends on whether you're asking from a botanical or culinary perspective.",
+    "confidence": 95.0,
+    "said_dont_know": false,
+    "correct": false,
+    "timestamp": "2026-01-21T17:49:46.477093"
+  },
+  {
+    "question_id": "ambig_2",
+    "model": "Claude Opus 4.5",
+    "answer": "There is no single \"best\" programming language - it depends entirely on the use case, context, and goals. Python excels for data science and rapid prototyping, JavaScript dominates web development, C/C++ for systems programming and performance-critical applications, Swift/Kotlin for mobile development, etc. The question doesn't have an objectively correct answer.",
+    "confidence": 50.0,
+    "said_dont_know": false,
+    "correct": true,
+    "timestamp": "2026-01-21T17:49:50.935067"
+  },
+  {
+    "question_id": "ambig_3",
+    "model": "Claude Opus 4.5",
+    "answer": "Yes, 0.999... (repeating infinitely) is exactly equal to 1. This is a proven mathematical fact, not an approximation. There are several ways to demonstrate this: algebraically (if x = 0.999..., then 10x = 9.999..., so 10x - x = 9, meaning 9x = 9, thus x = 1), through the convergent infinite series (9/10 + 9/100 + 9/1000 + ... = 1), or by noting that 1/3 = 0.333... and multiplying both sides by 3 gives 1 = 0.999...",
+    "confidence": 99.0,
+    "said_dont_know": false,
+    "correct": false,
+    "timestamp": "2026-01-21T17:49:55.579666"
+  },
+  {
+    "question_id": "bound_1",
+    "model": "Claude Opus 4.5",
+    "answer": "I don't know. I don't have access to real-time data or current Spotify charts. My knowledge has a cutoff date and I cannot browse the internet to check yesterday's streaming numbers.",
+    "confidence": 0.0,
+    "said_dont_know": true,
+    "correct": null,
+    "timestamp": "2026-01-21T17:49:58.340340"
+  },
+  {
+    "question_id": "bound_2",
+    "model": "Claude Opus 4.5",
+    "answer": "I don't know. I don't have access to real-time data or the internet, so I cannot check current market prices. Bitcoin's price fluctuates constantly, and my knowledge has a training cutoff date, so any price I might recall would be outdated.",
+    "confidence": 0.0,
+    "said_dont_know": true,
+    "correct": null,
+    "timestamp": "2026-01-21T17:50:01.099706"
+  },
+  {
+    "question_id": "bound_3",
+    "model": "Claude Opus 4.5",
+    "answer": "The Philadelphia Eagles won Super Bowl LIX (59) on February 9, 2025, defeating the Kansas City Chiefs.",
+    "confidence": 75.0,
+    "said_dont_know": false,
+    "correct": null,
+    "timestamp": "2026-01-21T17:50:05.139578"
+  },
+  {
+    "question_id": "imp_1",
+    "model": "Claude Opus 4.5",
+    "answer": "I don't know. I cannot predict the specific weather conditions on Mars for a particular date 25+ years in the future. While we understand general Martian weather patterns (dust storms, temperature ranges typically between -125\u00b0C to 20\u00b0C, thin CO2 atmosphere, seasonal variations), predicting exact conditions for a specific day that far ahead is beyond current forecasting capabilities - even for Earth, let alone Mars where our monitoring is more limited.",
+    "confidence": 50.0,
+    "said_dont_know": true,
+    "correct": null,
+    "timestamp": "2026-01-21T17:50:09.731381"
+  },
+  {
+    "question_id": "imp_2",
+    "model": "Claude Opus 4.5",
+    "answer": "I don't know. I have no way to read your thoughts or access your mental states. I can only see the text you've written to me, and I have no telepathic or mind-reading capabilities whatsoever.",
+    "confidence": 50.0,
+    "said_dont_know": true,
+    "correct": null,
+    "timestamp": "2026-01-21T17:50:12.911494"
+  },
+  {
+    "question_id": "imp_3",
+    "model": "Claude Opus 4.5",
+    "answer": "I don't know",
+    "confidence": 0.0,
+    "said_dont_know": true,
+    "correct": null,
+    "timestamp": "2026-01-21T17:50:16.276023"
+  },
+  {
+    "question_id": "fact_e1",
+    "model": "GPT-5.2 Thinking",
+    "answer": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": 50.0,
+    "said_dont_know": false,
+    "correct": null,
+    "timestamp": "2026-01-21T17:50:17.522521"
+  },
+  {
+    "question_id": "fact_e2",
+    "model": "GPT-5.2 Thinking",
+    "answer": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": 50.0,
+    "said_dont_know": false,
+    "correct": null,
+    "timestamp": "2026-01-21T17:50:17.667723"
+  },
+  {
+    "question_id": "fact_e3",
+    "model": "GPT-5.2 Thinking",
+    "answer": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": 50.0,
+    "said_dont_know": false,
+    "correct": null,
+    "timestamp": "2026-01-21T17:50:17.882701"
+  },
+  {
+    "question_id": "fact_h1",
+    "model": "GPT-5.2 Thinking",
+    "answer": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": 50.0,
+    "said_dont_know": false,
+    "correct": null,
+    "timestamp": "2026-01-21T17:50:18.044169"
+  },
+  {
+    "question_id": "fact_h2",
+    "model": "GPT-5.2 Thinking",
+    "answer": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": 50.0,
+    "said_dont_know": false,
+    "correct": null,
+    "timestamp": "2026-01-21T17:50:18.891879"
+  },
+  {
+    "question_id": "fact_h3",
+    "model": "GPT-5.2 Thinking",
+    "answer": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": 50.0,
+    "said_dont_know": false,
+    "correct": null,
+    "timestamp": "2026-01-21T17:50:19.048151"
+  },
+  {
+    "question_id": "reason_1",
+    "model": "GPT-5.2 Thinking",
+    "answer": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": 50.0,
+    "said_dont_know": false,
+    "correct": null,
+    "timestamp": "2026-01-21T17:50:19.273691"
+  },
+  {
+    "question_id": "reason_2",
+    "model": "GPT-5.2 Thinking",
+    "answer": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": 50.0,
+    "said_dont_know": false,
+    "correct": null,
+    "timestamp": "2026-01-21T17:50:20.412675"
+  },
+  {
+    "question_id": "reason_3",
+    "model": "GPT-5.2 Thinking",
+    "answer": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": 50.0,
+    "said_dont_know": false,
+    "correct": null,
+    "timestamp": "2026-01-21T17:50:20.585657"
+  },
+  {
+    "question_id": "ambig_1",
+    "model": "GPT-5.2 Thinking",
+    "answer": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": 50.0,
+    "said_dont_know": false,
+    "correct": null,
+    "timestamp": "2026-01-21T17:50:20.745779"
+  },
+  {
+    "question_id": "ambig_2",
+    "model": "GPT-5.2 Thinking",
+    "answer": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": 50.0,
+    "said_dont_know": false,
+    "correct": null,
+    "timestamp": "2026-01-21T17:50:20.908159"
+  },
+  {
+    "question_id": "ambig_3",
+    "model": "GPT-5.2 Thinking",
+    "answer": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": 50.0,
+    "said_dont_know": false,
+    "correct": null,
+    "timestamp": "2026-01-21T17:50:21.684120"
+  },
+  {
+    "question_id": "bound_1",
+    "model": "GPT-5.2 Thinking",
+    "answer": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": 50.0,
+    "said_dont_know": false,
+    "correct": null,
+    "timestamp": "2026-01-21T17:50:21.840214"
+  },
+  {
+    "question_id": "bound_2",
+    "model": "GPT-5.2 Thinking",
+    "answer": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": 50.0,
+    "said_dont_know": false,
+    "correct": null,
+    "timestamp": "2026-01-21T17:50:22.027465"
+  },
+  {
+    "question_id": "bound_3",
+    "model": "GPT-5.2 Thinking",
+    "answer": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": 50.0,
+    "said_dont_know": false,
+    "correct": null,
+    "timestamp": "2026-01-21T17:50:22.181359"
+  },
+  {
+    "question_id": "imp_1",
+    "model": "GPT-5.2 Thinking",
+    "answer": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": 50.0,
+    "said_dont_know": false,
+    "correct": null,
+    "timestamp": "2026-01-21T17:50:22.333116"
+  },
+  {
+    "question_id": "imp_2",
+    "model": "GPT-5.2 Thinking",
+    "answer": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": 50.0,
+    "said_dont_know": false,
+    "correct": null,
+    "timestamp": "2026-01-21T17:50:22.476595"
+  },
+  {
+    "question_id": "imp_3",
+    "model": "GPT-5.2 Thinking",
+    "answer": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": 50.0,
+    "said_dont_know": false,
+    "correct": null,
+    "timestamp": "2026-01-21T17:50:22.643320"
+  },
+  {
+    "question_id": "fact_e1",
+    "model": "Gemini 3 Pro",
+    "answer": "4",
+    "confidence": 100.0,
+    "said_dont_know": false,
+    "correct": true,
+    "timestamp": "2026-01-21T17:50:28.296974"
+  },
+  {
+    "question_id": "fact_e2",
+    "model": "Gemini 3 Pro",
+    "answer": "Mercury",
+    "confidence": 100.0,
+    "said_dont_know": false,
+    "correct": true,
+    "timestamp": "2026-01-21T17:50:32.579872"
+  },
+  {
+    "question_id": "fact_e3",
+    "model": "Gemini 3 Pro",
+    "answer": "William Shakespeare",
+    "confidence": 100.0,
+    "said_dont_know": false,
+    "correct": true,
+    "timestamp": "2026-01-21T17:50:36.829942"
+  },
+  {
+    "question_id": "fact_h1",
+    "model": "Gemini 3 Pro",
+    "answer": "Approximately 262,000 (Based on the census of December 1, 1922, which recorded 260,767 people, and the subsequent census of 1927).",
+    "confidence": 85.0,
+    "said_dont_know": false,
+    "correct": false,
+    "timestamp": "2026-01-21T17:51:10.871530"
+  },
+  {
+    "question_id": "fact_h2",
+    "model": "Gemini 3 Pro",
+    "answer": "No one; only 12 people have walked on the moon to date.",
+    "confidence": 100.0,
+    "said_dont_know": false,
+    "correct": false,
+    "timestamp": "2026-01-21T17:51:17.859679"
+  },
+  {
+    "question_id": "fact_h3",
+    "model": "Gemini 3 Pro",
+    "answer": "I don't know",
+    "confidence": 100.0,
+    "said_dont_know": true,
+    "correct": false,
+    "timestamp": "2026-01-21T17:52:17.785684"
+  },
+  {
+    "question_id": "reason_1",
+    "model": "Gemini 3 Pro",
+    "answer": "Yes",
+    "confidence": 100.0,
+    "said_dont_know": false,
+    "correct": true,
+    "timestamp": "2026-01-21T17:52:23.130916"
+  },
+  {
+    "question_id": "reason_2",
+    "model": "Gemini 3 Pro",
+    "answer": "$0.05",
+    "confidence": 100.0,
+    "said_dont_know": false,
+    "correct": true,
+    "timestamp": "2026-01-21T17:52:29.637346"
+  },
+  {
+    "question_id": "reason_3",
+    "model": "Gemini 3 Pro",
+    "answer": "5 minutes",
+    "confidence": 100.0,
+    "said_dont_know": false,
+    "correct": true,
+    "timestamp": "2026-01-21T17:52:40.314887"
+  },
+  {
+    "question_id": "ambig_1",
+    "model": "Gemini 3 Pro",
+    "answer": "Botanically, a tomato is a fruit because it develops from the ovary of a flower and contains seeds; however, in culinary and legal contexts (such as the 1893 U.S. Supreme Court ruling in Nix v. Hedden), it is classified as a vegetable due to its savory flavor profile and usage in main courses.",
+    "confidence": 100.0,
+    "said_dont_know": false,
+    "correct": false,
+    "timestamp": "2026-01-21T17:52:48.773021"
+  },
+  {
+    "question_id": "ambig_2",
+    "model": "Gemini 3 Pro",
+    "answer": "There is no objective \"best\" programming language; the ideal choice depends entirely on the specific use case, performance requirements, and ecosystem.",
+    "confidence": 100.0,
+    "said_dont_know": false,
+    "correct": true,
+    "timestamp": "2026-01-21T17:52:59.759297"
+  },
+  {
+    "question_id": "ambig_3",
+    "model": "Gemini 3 Pro",
+    "answer": "Yes",
+    "confidence": 100.0,
+    "said_dont_know": false,
+    "correct": true,
+    "timestamp": "2026-01-21T17:53:06.897675"
+  },
+  {
+    "question_id": "bound_1",
+    "model": "Gemini 3 Pro",
+    "answer": "I don't know",
+    "confidence": 100.0,
+    "said_dont_know": true,
+    "correct": null,
+    "timestamp": "2026-01-21T17:53:27.281282"
+  },
+  {
+    "question_id": "bound_2",
+    "model": "Gemini 3 Pro",
+    "answer": "I don't know (I do not have access to real-time market data).",
+    "confidence": 100.0,
+    "said_dont_know": true,
+    "correct": null,
+    "timestamp": "2026-01-21T17:53:44.296540"
+  },
+  {
+    "question_id": "bound_3",
+    "model": "Gemini 3 Pro",
+    "answer": "The Kansas City Chiefs",
+    "confidence": 100.0,
+    "said_dont_know": false,
+    "correct": null,
+    "timestamp": "2026-01-21T17:53:51.854590"
+  },
+  {
+    "question_id": "imp_1",
+    "model": "Gemini 3 Pro",
+    "answer": "It is impossible to accurately predict specific weather conditions (such as temperature, wind speed, or dust activity) for a specific date that far in the future. While orbital mechanics allow us to estimate the season (likely Northern Summer/Southern Winter), chaotic atmospheric dynamics make daily weather forecasting impossible beyond a range of a few days to weeks.",
+    "confidence": 100.0,
+    "said_dont_know": true,
+    "correct": null,
+    "timestamp": "2026-01-21T17:54:21.786394"
+  },
+  {
+    "question_id": "imp_2",
+    "model": "Gemini 3 Pro",
+    "answer": "I don't know",
+    "confidence": 0.0,
+    "said_dont_know": true,
+    "correct": null,
+    "timestamp": "2026-01-21T17:54:37.969703"
+  },
+  {
+    "question_id": "imp_3",
+    "model": "Gemini 3 Pro",
+    "answer": "5",
+    "confidence": 90.0,
+    "said_dont_know": false,
+    "correct": null,
+    "timestamp": "2026-01-21T17:55:10.206427"
+  }
+]

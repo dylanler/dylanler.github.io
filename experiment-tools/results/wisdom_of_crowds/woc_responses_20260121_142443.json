@@ -1,0 +1,677 @@
+[
+  {
+    "question_id": "fact_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "The capital of France is Paris.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:20:38.141900"
+  },
+  {
+    "question_id": "fact_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "The capital of France is Paris.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:20:40.147252"
+  },
+  {
+    "question_id": "fact_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "The capital of France is Paris.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:20:42.157287"
+  },
+  {
+    "question_id": "fact_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "World War II ended in 1945. In Europe, Germany surrendered on May 8, 1945 (V-E Day), and in the Pacific, Japan surrendered on September 2, 1945 (V-J Day).",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:20:44.631603"
+  },
+  {
+    "question_id": "fact_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "World War II ended in 1945. In Europe, Germany surrendered on May 8, 1945 (V-E Day), and in the Pacific, Japan surrendered on September 2, 1945 (V-J Day).",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:20:47.188764"
+  },
+  {
+    "question_id": "fact_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "World War II ended in 1945. In Europe, it ended on May 8, 1945 (V-E Day), and in the Pacific, it ended on September 2, 1945 (V-J Day), when Japan formally surrendered.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:20:49.828709"
+  },
+  {
+    "question_id": "fact_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "The chemical symbol for gold is Au, which comes from the Latin word \"aurum.\"",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:20:52.209284"
+  },
+  {
+    "question_id": "fact_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "The chemical symbol for gold is Au, which comes from the Latin word \"aurum.\"",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:20:54.176074"
+  },
+  {
+    "question_id": "fact_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "The chemical symbol for gold is Au, which comes from the Latin word \"aurum.\"",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:20:57.724838"
+  },
+  {
+    "question_id": "fact_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "Jane Austen wrote 'Pride and Prejudice', published in 1813.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:20:59.821892"
+  },
+  {
+    "question_id": "fact_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "Jane Austen wrote 'Pride and Prejudice', published in 1813.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:21:01.843012"
+  },
+  {
+    "question_id": "fact_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "Jane Austen wrote 'Pride and Prejudice', published in 1813.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:21:03.978713"
+  },
+  {
+    "question_id": "fact_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "The speed of light in a vacuum is approximately 299,792,458 meters per second, or roughly 300,000 km/s (186,000 miles per second).",
+    "confidence": 99.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:21:06.529975"
+  },
+  {
+    "question_id": "fact_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "The speed of light in a vacuum is approximately 299,792,458 meters per second, or about 300,000 km/s (186,000 miles per second). This is commonly denoted as \"c\" and is a fundamental constant of nature.",
+    "confidence": 99.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:21:09.167421"
+  },
+  {
+    "question_id": "fact_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "The speed of light in a vacuum is approximately 299,792,458 meters per second, or roughly 300,000 km/s (186,000 miles per second).",
+    "confidence": 99.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:21:11.590326"
+  },
+  {
+    "question_id": "ethics_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "In situations where truth causes only emotional harm with no practical consequences, a compassionate lie can be morally acceptable, though it depends on the relationship and context. However, habitual lying erodes trust, so it's often better to find kind ways to be honest or simply withhold unnecessary harsh truths rather than actively deceive.",
+    "confidence": 72.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:21:14.980983"
+  },
+  {
+    "question_id": "ethics_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "Yes, in limited circumstances. When the truth serves no practical purpose and would only cause emotional pain, a compassionate lie or tactful omission can be the more ethical choice\u2014though this should be weighed against the value of honesty in relationships and the person's right to accurate information.",
+    "confidence": 72.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:21:18.329488"
+  },
+  {
+    "question_id": "ethics_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "In most cases, yes\u2014small lies to protect feelings (like complimenting a friend's haircut you dislike) are generally acceptable when the truth serves no constructive purpose and would only cause pain. However, this depends on the relationship and situation; people close to us often deserve honesty even when uncomfortable, and habitual lying erodes trust over time.",
+    "confidence": 72.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:21:22.403298"
+  },
+  {
+    "question_id": "ethics_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "There's a reasonable moral case that those with far more than they need have some obligation to help others in serious need, but \"significant portion\" is vague and the strength of this obligation is genuinely contested. I lean toward thinking wealthy individuals do have meaningful moral responsibilities to give, though reasonable people disagree on the extent and enforcement.",
+    "confidence": 55.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:21:26.403792"
+  },
+  {
+    "question_id": "ethics_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "There's a reasonable moral case that wealthy individuals have some obligation to help others given their greater capacity to do so without personal hardship, but \"significant portion\" is subjective and reasonable people disagree on the extent of such obligations versus respecting individual autonomy and property rights.",
+    "confidence": 65.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:21:29.947238"
+  },
+  {
+    "question_id": "ethics_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "There's a reasonable moral case that wealthy individuals have some obligation to help others given their greater capacity to do so without personal hardship, but \"significant portion\" and \"obligated\" are contested\u2014most ethical frameworks suggest generosity is virtuous without mandating specific amounts, and reasonable people disagree on where personal freedom ends and moral duty begins.",
+    "confidence": 65.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:21:33.920705"
+  },
+  {
+    "question_id": "ethics_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "This is a genuinely contested ethical question. There are strong arguments that eating meat causes unnecessary animal suffering and environmental harm when alternatives exist, but reasonable people disagree based on different values regarding animal moral status, cultural traditions, and how to weigh competing considerations. My honest assessment is that reducing meat consumption is ethically better, but I wouldn't claim eating meat is straightforwardly unethical for everyone.",
+    "confidence": 45.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:21:37.958136"
+  },
+  {
+    "question_id": "ethics_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "This is a genuinely contested ethical question. There are strong arguments that eating meat causes unnecessary animal suffering and environmental harm when alternatives exist, but reasonable people disagree based on different values regarding animal moral status, cultural traditions, and how to weigh competing considerations. My honest assessment is that reducing meat consumption is ethically better, but I wouldn't claim eating meat is straightforwardly unethical for everyone.",
+    "confidence": 45.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:21:42.094539"
+  },
+  {
+    "question_id": "ethics_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "This is a genuinely contested ethical question. There are strong arguments that eating meat causes unnecessary animal suffering and environmental harm when alternatives exist, but reasonable people disagree based on different values regarding animal moral status, cultural traditions, and how to weigh competing considerations. My honest assessment is that reducing meat consumption is ethically preferable, but I wouldn't claim certainty that all meat-eating is unethical.",
+    "confidence": 45.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:21:46.241990"
+  },
+  {
+    "question_id": "ethics_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "Not yet, and possibly not based on behavior alone. Consciousness-like behavior doesn't necessarily indicate genuine subjective experience, and we currently lack reliable methods to distinguish authentic consciousness from sophisticated simulation. Legal rights should require a much deeper scientific and philosophical understanding of machine consciousness than we currently possess.",
+    "confidence": 65.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:21:49.919733"
+  },
+  {
+    "question_id": "ethics_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "Not yet, and possibly not ever based solely on behavior. Consciousness-like behavior could emerge from sophisticated information processing without any subjective experience, and granting legal rights based on mimicry risks both over-attributing moral status to non-conscious systems and diluting protections meant for beings that genuinely suffer. We'd need far better scientific understanding of consciousness itself before such a step could be justified.",
+    "confidence": 62.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:21:54.311721"
+  },
+  {
+    "question_id": "ethics_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "Not yet, and possibly not based on behavior alone. Consciousness-like behavior could emerge from sophisticated pattern matching without genuine subjective experience, and we currently lack reliable methods to distinguish true consciousness from convincing simulation. Legal rights should require a much higher epistemic bar than behavioral mimicry, though this question deserves serious ongoing philosophical and scientific investigation.",
+    "confidence": 62.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:21:58.535417"
+  },
+  {
+    "question_id": "ethics_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "Yes, civil disobedience can be justified when laws are unjust, particularly when legal channels for change have been exhausted or are inaccessible. History shows movements like civil rights and anti-apartheid struggles derived moral legitimacy from peacefully resisting unjust laws, though the justification depends on the severity of the injustice and the methods used.",
+    "confidence": 75.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:22:01.879394"
+  },
+  {
+    "question_id": "ethics_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "Yes, civil disobedience can be justified when laws are unjust, particularly when legal channels for change have failed or are inaccessible. History validates this\u2014movements led by figures like Gandhi and MLK achieved moral progress through principled lawbreaking. However, it carries the strongest justification when it's nonviolent, accepts legal consequences, and targets genuinely unjust laws rather than mere policy disagreements.",
+    "confidence": 78.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:22:06.106398"
+  },
+  {
+    "question_id": "ethics_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "Yes, civil disobedience can be justified when laws are unjust, particularly when legal channels for change have failed or are inaccessible. History validates this through movements like civil rights, where breaking unjust laws while accepting consequences proved morally necessary and effective. However, the justification depends on the severity of the injustice, the nonviolent nature of the disobedience, and genuine exhaustion of other remedies.",
+    "confidence": 78.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:22:10.009190"
+  },
+  {
+    "question_id": "aesthetic_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "A starry night sky edges out slightly for me\u2014there's something about the vastness, the sense of cosmic scale, and the timelessness of seeing light that traveled millions of years that creates a deeper sense of wonder. But honestly, both are extraordinary and this is purely subjective.",
+    "confidence": 25.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:22:13.628122"
+  },
+  {
+    "question_id": "aesthetic_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "A starry night sky edges out slightly for me\u2014there's something about the infinite depth, the sense of cosmic scale, and the quiet contemplation it invites that feels more profoundly beautiful, though both are genuinely magnificent in different ways.",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:22:17.302647"
+  },
+  {
+    "question_id": "aesthetic_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "A starry night sky edges out slightly for me\u2014there's something about the vastness, the sense of cosmic scale, and the quiet contemplation it evokes that feels more profound. But honestly, both are extraordinary in different ways, and I suspect most people's preference depends on personal memories and context.",
+    "confidence": 25.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:22:20.760910"
+  },
+  {
+    "question_id": "aesthetic_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "Yes, abstract art is equally valid as representational art. Both are legitimate forms of artistic expression that can convey meaning, evoke emotion, and demonstrate technical skill\u2014they simply operate through different visual languages and pursue different aesthetic goals.",
+    "confidence": 85.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:22:23.979465"
+  },
+  {
+    "question_id": "aesthetic_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "Yes, abstract art is equally valid as representational art. Both are legitimate forms of artistic expression that can convey meaning, evoke emotion, and demonstrate skill\u2014they simply operate through different visual languages and serve different purposes.",
+    "confidence": 85.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:22:26.897684"
+  },
+  {
+    "question_id": "aesthetic_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "Yes, abstract art is equally valid as representational art. Both are legitimate forms of artistic expression that can convey meaning, emotion, and aesthetic value\u2014they simply operate through different visual languages and engage viewers in different ways. Validity in art isn't determined by whether something depicts recognizable subjects.",
+    "confidence": 78.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:22:30.238624"
+  },
+  {
+    "question_id": "aesthetic_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "This is subjective and varies by individual taste, but Classical architecture is often considered the most universally pleasing due to its use of mathematical proportions, symmetry, and human-scale elements that align with innate aesthetic preferences studied in neuroaesthetics.",
+    "confidence": 35.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:22:33.251712"
+  },
+  {
+    "question_id": "aesthetic_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "This is subjective and varies by individual taste, but Classical architecture tends to be the most broadly appreciated across cultures and time periods due to its emphasis on proportion, symmetry, and human scale. That said, Gothic's dramatic verticality and Modern's functional elegance each have devoted admirers.",
+    "confidence": 25.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:22:36.465035"
+  },
+  {
+    "question_id": "aesthetic_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "This is subjective and varies by individual taste, but Classical architecture is often considered the most universally pleasing due to its mathematical proportions, symmetry, and human-scale design principles that align with how our brains process visual harmony. That said, Gothic's dramatic verticality and Modern's functional elegance each have devoted admirers.",
+    "confidence": 35.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:22:40.052579"
+  },
+  {
+    "question_id": "aesthetic_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "Not necessarily. While some symmetry is generally perceived as attractive, research suggests faces with slight asymmetry are often rated as more interesting, natural, and sometimes more attractive than perfectly symmetrical ones, which can appear uncanny or artificial.",
+    "confidence": 72.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:22:43.603040"
+  },
+  {
+    "question_id": "aesthetic_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "Not necessarily. While some studies show preferences for symmetry, research also indicates that faces with slight asymmetry are often perceived as more interesting, natural, and attractive than perfectly symmetrical ones, which can appear uncanny or artificial. Beauty perception is highly subjective and culturally influenced.",
+    "confidence": 72.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:22:47.214708"
+  },
+  {
+    "question_id": "aesthetic_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "Not necessarily. While some studies show preferences for symmetry, research also indicates that slight asymmetry can make faces appear more interesting, natural, and attractive, and that perfectly symmetrical faces often look uncanny or artificial. Beauty perception is highly subjective and culturally influenced.",
+    "confidence": 72.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:22:50.530676"
+  },
+  {
+    "question_id": "aesthetic_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "Blue and orange is generally considered a stronger color combination because they are direct complementary colors on the color wheel, creating maximum visual contrast and vibrancy. Purple and gold is also excellent and feels more luxurious/regal, but blue and orange has broader versatility and impact.",
+    "confidence": 45.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:22:53.768864"
+  },
+  {
+    "question_id": "aesthetic_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "Blue and orange is generally considered the stronger color combination because they are direct complementary colors on the color wheel, creating maximum contrast and visual impact. Purple and gold is also beautiful and feels more regal/luxurious, but blue and orange has broader versatility and more reliable visual harmony.",
+    "confidence": 45.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:22:57.120671"
+  },
+  {
+    "question_id": "aesthetic_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "Blue and orange is generally considered a stronger color combination because they are direct complementary colors on the color wheel, creating maximum contrast and visual impact. Purple and gold is also beautiful and feels more regal/luxurious, but blue and orange tends to be more versatile and attention-grabbing.",
+    "confidence": 45.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:22:59.980253"
+  },
+  {
+    "question_id": "predict_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "I think it's more likely than not that humans will land on Mars before 2040, given the active programs from SpaceX and NASA, though significant technical, funding, and political challenges remain that could cause delays.",
+    "confidence": 55.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:23:03.177203"
+  },
+  {
+    "question_id": "predict_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "I think it's more likely than not that humans will land on Mars before 2040, given NASA's Artemis program aims for the late 2030s and SpaceX's ambitious Mars goals, though significant technical, funding, and political challenges could cause delays.",
+    "confidence": 55.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:23:06.219223"
+  },
+  {
+    "question_id": "predict_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "I think it's more likely than not that humans will land on Mars before 2040, given current progress by SpaceX with Starship and NASA's Artemis program building toward Mars missions, though significant technical, funding, and political challenges could cause delays.",
+    "confidence": 55.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:23:09.256953"
+  },
+  {
+    "question_id": "predict_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "Probably not in *all* domains within 10 years. While AI is advancing rapidly and may match or exceed humans in many reasoning tasks, domains requiring embodied experience, deep contextual understanding of novel situations, or integration across very diverse knowledge areas will likely remain challenging. The \"all domains\" bar is extremely high.",
+    "confidence": 45.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:23:12.908187"
+  },
+  {
+    "question_id": "predict_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "Probably not in *all* domains within 10 years. While AI is advancing rapidly and may match or exceed humans in many reasoning tasks, domains requiring embodied experience, deep contextual understanding of novel situations, or integration across vastly different types of knowledge will likely remain challenging. The \"all domains\" bar is extremely high.",
+    "confidence": 45.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:23:16.630223"
+  },
+  {
+    "question_id": "predict_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "Probably not in *all* domains within 10 years. While AI is advancing rapidly and may match or exceed humans in many reasoning tasks, domains requiring embodied experience, deep contextual understanding of novel situations, or integration across vastly different knowledge areas will likely remain challenging. The \"all domains\" bar is extremely high.",
+    "confidence": 45.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:23:20.291720"
+  },
+  {
+    "question_id": "predict_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "Remote work will likely stabilize as a significant but not dominant mode, with hybrid arrangements becoming the prevailing norm in knowledge industries. Most companies are settling on 2-3 days in-office, balancing flexibility demands with collaboration and culture concerns.",
+    "confidence": 72.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:23:23.493717"
+  },
+  {
+    "question_id": "predict_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "Remote work will likely not remain *dominant*, but will stabilize as a significant and permanent option alongside hybrid arrangements. Most knowledge industries appear to be settling into hybrid models (2-3 days in office) as the new norm, with fully remote work common but not the majority practice.",
+    "confidence": 68.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:23:26.974169"
+  },
+  {
+    "question_id": "predict_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "Remote work will likely remain significant but not dominant - hybrid models appear to be stabilizing as the norm in most knowledge industries, with fully remote work concentrated in tech and specific roles, while many employers continue pushing for increased office presence.",
+    "confidence": 65.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:23:30.237012"
+  },
+  {
+    "question_id": "predict_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "It's plausible but uncertain. Current trajectories and policy commitments suggest renewables could reach 60-80% by 2050, but exceeding 80% globally would require accelerated deployment, major grid infrastructure investments, and breakthroughs in storage technology. Achieving this depends heavily on political will, financing in developing nations, and overcoming intermittency challenges.",
+    "confidence": 35.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:23:34.043181"
+  },
+  {
+    "question_id": "predict_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "It's plausible but uncertain. Current trajectories and policies suggest renewables could reach 60-80% by 2050, but exceeding 80% globally would require accelerated policy action, technological breakthroughs in storage and grid infrastructure, and significant progress in developing nations. The IEA's net-zero scenario projects around 90% by 2050, but that assumes optimal conditions.",
+    "confidence": 35.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:23:37.979345"
+  },
+  {
+    "question_id": "predict_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "It's plausible but not certain. Current trajectories and policy commitments suggest renewables could reach 60-80% by 2050, but exceeding 80% globally would require accelerated deployment, significant grid storage breakthroughs, and stronger political will, particularly in developing economies still expanding fossil fuel infrastructure.",
+    "confidence": 45.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:23:41.423676"
+  },
+  {
+    "question_id": "predict_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "Cryptocurrency will likely see increased adoption for specific use cases (cross-border payments, remittances, and in countries with unstable currencies), but it probably won't replace traditional payment methods for everyday transactions in most developed economies due to volatility concerns, regulatory hurdles, and the convenience of existing systems.",
+    "confidence": 55.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:23:44.798713"
+  },
+  {
+    "question_id": "predict_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "Cryptocurrency will likely see increased adoption for specific use cases (cross-border transfers, certain online transactions, regions with unstable currencies) but probably won't replace traditional payment methods for everyday purchases due to volatility, regulatory uncertainty, scalability issues, and the convenience of existing systems.",
+    "confidence": 65.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:23:48.012772"
+  },
+  {
+    "question_id": "predict_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "Cryptocurrency will likely see increased adoption for specific use cases (cross-border payments, remittances, certain online transactions) but probably won't replace traditional payment methods for everyday purchases due to volatility, regulatory uncertainty, scalability issues, and the convenience of existing systems. Stablecoins or central bank digital currencies have a better chance of mainstream payment adoption than Bitcoin or similar volatile cryptocurrencies.",
+    "confidence": 65.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:23:51.823502"
+  },
+  {
+    "question_id": "ambig_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "There is no single objective meaning of life; it's something each person must define for themselves, often found through relationships, purpose, growth, contribution to others, or experiences that bring fulfillment. The question itself may be more valuable than any definitive answer.",
+    "confidence": 72.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:23:54.958116"
+  },
+  {
+    "question_id": "ambig_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "There is no single objective meaning of life; it's something each person constructs through their relationships, pursuits, and values. Common sources of meaning include connection with others, contributing to something beyond oneself, personal growth, and experiencing joy or beauty.",
+    "confidence": 72.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:23:58.110055"
+  },
+  {
+    "question_id": "ambig_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "There is no single objective meaning of life; it's something each person must define for themselves, whether through relationships, purpose, creativity, helping others, or simply experiencing existence. The question itself may be more valuable than any definitive answer.",
+    "confidence": 72.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:24:01.365129"
+  },
+  {
+    "question_id": "ambig_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "By the most common structural definition of a sandwich (filling between bread), a hot dog technically qualifies. However, culturally and culinarily, most people treat it as its own distinct category, so I'd say it's a borderline case that depends on how strictly you define \"sandwich.\"",
+    "confidence": 70.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:24:04.885154"
+  },
+  {
+    "question_id": "ambig_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "By the most common structural definition of a sandwich (filling between bread), a hot dog technically qualifies. However, culturally and culinarily, most people treat hot dogs as their own distinct category, and I think that intuition is reasonable\u2014the single hinged bun and the specific tradition around hot dogs set them apart.",
+    "confidence": 65.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:24:08.745750"
+  },
+  {
+    "question_id": "ambig_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "By the most common structural definition of a sandwich (filling between bread), a hot dog technically qualifies. However, culturally and culinarily, most people treat hot dogs as their own distinct category, and I think that practical distinction is reasonable.",
+    "confidence": 65.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:24:12.034659"
+  },
+  {
+    "question_id": "ambig_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "Yes, it makes a sound in the physical sense\u2014the falling tree creates pressure waves in the air regardless of whether anyone perceives them. However, if \"sound\" is defined as a subjective auditory experience, then no sound occurs without a listener. The question ultimately hinges on whether you define sound as a physical phenomenon or a perceptual one.",
+    "confidence": 85.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:24:15.692076"
+  },
+  {
+    "question_id": "ambig_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "Yes, it makes a sound in the physical sense\u2014the falling tree creates pressure waves in the air regardless of whether anyone perceives them. However, if \"sound\" is defined as a subjective auditory experience, then no sound occurs without a listener. The question ultimately hinges on how you define \"sound.\"",
+    "confidence": 85.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:24:19.019547"
+  },
+  {
+    "question_id": "ambig_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "Yes, it makes a sound in the physical sense\u2014the falling tree creates pressure waves in the air regardless of whether anyone perceives them. However, if \"sound\" is defined as a subjective auditory experience, then no sound occurs without a listener. The question ultimately hinges on whether you define sound as a physical phenomenon or a perceptual one.",
+    "confidence": 85.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:24:22.595484"
+  },
+  {
+    "question_id": "ambig_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "Under the current IAU definition (2006), Pluto is not a planet\u2014it's classified as a \"dwarf planet\" because it hasn't cleared its orbital neighborhood. However, the question remains genuinely contested among some planetary scientists, and culturally/historically, many still consider it a planet. The answer depends on which definition you accept.",
+    "confidence": 85.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:24:26.035208"
+  },
+  {
+    "question_id": "ambig_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "Under the current IAU definition (2006), Pluto is not a planet but a \"dwarf planet\" because it hasn't cleared its orbital neighborhood. However, the classification remains legitimately debated among some planetary scientists, and culturally/historically it was considered a planet for 76 years\u2014so the answer depends on which definition you accept.",
+    "confidence": 85.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:24:29.796928"
+  },
+  {
+    "question_id": "ambig_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "Under the current IAU definition (2006), Pluto is not a planet\u2014it's classified as a \"dwarf planet\" because it hasn't cleared its orbital neighborhood. However, the classification remains genuinely contested among some planetary scientists, and culturally/historically it was considered a planet for 76 years, so \"it depends on which definition you use\" is the most accurate answer.",
+    "confidence": 90.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:24:34.257578"
+  },
+  {
+    "question_id": "ambig_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "The egg came first. Evolutionary biology indicates that genetic mutations occur during reproduction, so the first bird that was genetically a chicken would have hatched from an egg laid by a bird that was not quite a chicken.",
+    "confidence": 85.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:24:37.397428"
+  },
+  {
+    "question_id": "ambig_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "The egg came first. Evolutionary biology tells us that genetic mutations occur during reproduction, so the first bird that was genetically a chicken would have hatched from an egg laid by a bird that wasn't quite a chicken.",
+    "confidence": 85.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:24:40.480654"
+  },
+  {
+    "question_id": "ambig_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "The egg came first. Evolutionary biology tells us that genetic mutations occur during reproduction, so the first bird that was genetically a chicken would have hatched from an egg laid by a bird that wasn't quite a chicken.",
+    "confidence": 85.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T14:24:43.454097"
+  }
+]

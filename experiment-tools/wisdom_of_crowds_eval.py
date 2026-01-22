@@ -3,6 +3,7 @@
 # dependencies = [
 #   "anthropic>=0.40.0",
 #   "openai>=1.50.0",
+#   "google-genai>=1.0.0",
 #   "python-dotenv>=1.0.0",
 #   "pydantic>=2.0.0",
 #   "rich>=13.0.0",
@@ -88,15 +89,16 @@ class EnsembleAnalysis(BaseModel):
 @dataclass
 class ModelConfig:
     name: str
-    provider: Literal["anthropic", "openai"]
+    provider: Literal["anthropic", "openai", "google"]
     model_id: str
 
 
 MODELS = {
     "claude-opus": ModelConfig("Claude Opus 4.5", "anthropic", "claude-opus-4-5-20251101"),
-    "claude-sonnet": ModelConfig("Claude Sonnet 4.5", "anthropic", "claude-sonnet-4-5-20241022"),
+    "claude-sonnet": ModelConfig("Claude Sonnet 4", "anthropic", "claude-sonnet-4-20250514"),
+    "gpt-5.2-thinking": ModelConfig("GPT-5.2 Thinking", "openai", "gpt-5.2"),
     "gpt-5": ModelConfig("GPT-5", "openai", "gpt-5"),
-    "gpt-4o": ModelConfig("GPT-4o", "openai", "gpt-4o"),
+    "gemini-3-pro": ModelConfig("Gemini 3 Pro", "google", "gemini-3-pro-preview"),
 }
 
 
@@ -324,6 +326,19 @@ def get_openai_response(prompt: str, model_id: str, temperature: float = 0.7) ->
     return response.choices[0].message.content
 
 
+def get_google_response(prompt: str, model_id: str, temperature: float = 0.7) -> str:
+    """Get response from Google GenAI API."""
+    from google import genai
+    from google.genai import types
+    client = genai.Client(api_key=os.getenv("GOOGLE_API_KEY"))
+    response = client.models.generate_content(
+        model=model_id,
+        contents=prompt,
+        config=types.GenerateContentConfig(temperature=temperature)
+    )
+    return response.text
+
+
 def build_prompt(question: Question) -> str:
     """Build the prompt for a question."""
     context_str = f"\nContext: {question.context}" if question.context else ""
@@ -375,8 +390,10 @@ def query_model(
     try:
         if config.provider == "anthropic":
             response = get_anthropic_response(prompt, config.model_id, temperature)
-        else:
+        elif config.provider == "openai":
             response = get_openai_response(prompt, config.model_id, temperature)
+        else:  # google
+            response = get_google_response(prompt, config.model_id, temperature)
 
         answer, confidence = parse_response(response)
 

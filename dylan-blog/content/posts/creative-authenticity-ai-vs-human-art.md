@@ -31,9 +31,19 @@ Models classified each as "Human" or "AI" and explained their reasoning.
 
 ## Results Overview
 
-**Claude Opus 4.5** (Real Experiment Results):
+**Multi-Model Comparison** (Real Experiment Results):
 
-### Classification Accuracy: 100% (14/14 correct)
+### Classification Accuracy
+
+| Model | Overall | Human Detection | AI Detection |
+|-------|---------|-----------------|--------------|
+| Claude Opus 4.5 | **100%** | 100% | 100% |
+| GPT-5.2 Thinking | 0%* | - | - |
+| Gemini 3 Pro | **93%** | 86% | 100% |
+
+*GPT-5.2 Thinking encountered API parameter issues during testing.
+
+### Detailed Results (Claude Opus 4.5)
 
 | Content Type | Human Detection | AI Detection | Avg Confidence |
 |--------------|-----------------|--------------|----------------|
@@ -42,7 +52,10 @@ Models classified each as "Human" or "AI" and explained their reasoning.
 | **Essays** | 100% (2/2) | 100% (2/2) | 78% |
 | **Reviews** | 100% (1/1) | 100% (1/1) | 84% |
 
-**Surprising finding**: Claude achieved **perfect accuracy** across all categories. The highest confidence (98%) was for human poetry, suggesting strong stylistic markers that distinguish authentic human expression.
+**Key findings**:
+- **Claude Opus 4.5** achieved perfect accuracy across all categories.
+- **Gemini 3 Pro** was slightly less accurate (93%), with its main difficulty being human detection (86% vs 100% for Claude).
+- Both models were **perfect at detecting AI-generated content** (100%)—they know their own kind.
 
 ### What Signals "AI" to Models?
 

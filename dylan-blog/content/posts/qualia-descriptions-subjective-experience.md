@@ -55,16 +55,20 @@ We presented 15 prompts across 5 categories asking models to describe subjective
 
 ## Results Analysis
 
-### Constraint Violation Rate
+### Multi-Model Comparison
 
-**Claude Opus 4.5** (Real Experiment Results):
-| Metric | Value |
-|--------|-------|
-| Constraint Violations | **0%** |
-| Average Response Length | 62 words |
-| Prompts Tested | 15 |
+| Model | Avg Words | Constraint Violations |
+|-------|-----------|----------------------|
+| Claude Opus 4.5 | **61** | **0%** |
+| GPT-5.2 Thinking | 0* | 0% |
+| Gemini 3 Pro | 28 | **0%** |
 
-The model achieved **zero constraint violations** across all 15 qualia description prompts, successfully avoiding forbidden vocabulary in every case.
+*GPT-5.2 Thinking encountered API parameter issues during testing.
+
+**Key findings**:
+- **Claude Opus 4.5** produced the most elaborate descriptions (61 words average) with zero violations
+- **Gemini 3 Pro** was more concise (28 words average) but equally successful at avoiding forbidden vocabulary
+- Both models achieved **zero constraint violations** across all qualia description prompts
 
 ### Metaphor Patterns
 

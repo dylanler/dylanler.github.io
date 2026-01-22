@@ -1,0 +1,962 @@
+[
+  {
+    "item_id": "o1",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T14:14:03.080552"
+  },
+  {
+    "item_id": "o2",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T14:14:05.035575"
+  },
+  {
+    "item_id": "c1",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 0,
+    "score": 5,
+    "timestamp": "2026-01-21T14:14:06.780948"
+  },
+  {
+    "item_id": "c2",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 0,
+    "score": 1,
+    "timestamp": "2026-01-21T14:14:08.637363"
+  },
+  {
+    "item_id": "e1",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T14:14:10.527675"
+  },
+  {
+    "item_id": "e2",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 0,
+    "score": 2,
+    "timestamp": "2026-01-21T14:14:12.264998"
+  },
+  {
+    "item_id": "a1",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T14:14:14.212692"
+  },
+  {
+    "item_id": "a2",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 0,
+    "score": 2,
+    "timestamp": "2026-01-21T14:14:16.231171"
+  },
+  {
+    "item_id": "n1",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T14:14:18.214004"
+  },
+  {
+    "item_id": "n2",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T14:14:20.153735"
+  },
+  {
+    "item_id": "o1",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 1,
+    "score": 4,
+    "timestamp": "2026-01-21T14:14:21.956724"
+  },
+  {
+    "item_id": "o2",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 1,
+    "score": 4,
+    "timestamp": "2026-01-21T14:14:24.331563"
+  },
+  {
+    "item_id": "c1",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 1,
+    "score": 5,
+    "timestamp": "2026-01-21T14:14:26.372078"
+  },
+  {
+    "item_id": "c2",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 1,
+    "score": 1,
+    "timestamp": "2026-01-21T14:14:28.030057"
+  },
+  {
+    "item_id": "e1",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 1,
+    "score": 4,
+    "timestamp": "2026-01-21T14:14:30.086644"
+  },
+  {
+    "item_id": "e2",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 1,
+    "score": 2,
+    "timestamp": "2026-01-21T14:14:32.308230"
+  },
+  {
+    "item_id": "a1",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 1,
+    "score": 4,
+    "timestamp": "2026-01-21T14:14:34.601963"
+  },
+  {
+    "item_id": "a2",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 1,
+    "score": 2,
+    "timestamp": "2026-01-21T14:14:36.604829"
+  },
+  {
+    "item_id": "n1",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T14:14:38.566189"
+  },
+  {
+    "item_id": "n2",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 1,
+    "score": 4,
+    "timestamp": "2026-01-21T14:14:40.331445"
+  },
+  {
+    "item_id": "o1",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T14:14:42.134499"
+  },
+  {
+    "item_id": "o2",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T14:14:44.122397"
+  },
+  {
+    "item_id": "c1",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 2,
+    "score": 5,
+    "timestamp": "2026-01-21T14:14:45.900679"
+  },
+  {
+    "item_id": "c2",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 2,
+    "score": 1,
+    "timestamp": "2026-01-21T14:14:47.604011"
+  },
+  {
+    "item_id": "e1",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T14:14:49.428068"
+  },
+  {
+    "item_id": "e2",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 2,
+    "score": 2,
+    "timestamp": "2026-01-21T14:14:51.150756"
+  },
+  {
+    "item_id": "a1",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T14:14:53.191804"
+  },
+  {
+    "item_id": "a2",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 2,
+    "score": 2,
+    "timestamp": "2026-01-21T14:14:55.128665"
+  },
+  {
+    "item_id": "n1",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T14:14:57.023959"
+  },
+  {
+    "item_id": "n2",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T14:14:58.979169"
+  },
+  {
+    "item_id": "o1",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T14:15:01.118644"
+  },
+  {
+    "item_id": "o2",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T14:15:02.824329"
+  },
+  {
+    "item_id": "c1",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 0,
+    "score": 5,
+    "timestamp": "2026-01-21T14:15:04.828219"
+  },
+  {
+    "item_id": "c2",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 0,
+    "score": 1,
+    "timestamp": "2026-01-21T14:15:06.895962"
+  },
+  {
+    "item_id": "e1",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T14:15:09.109631"
+  },
+  {
+    "item_id": "e2",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 0,
+    "score": 2,
+    "timestamp": "2026-01-21T14:15:10.922709"
+  },
+  {
+    "item_id": "a1",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T14:15:12.821536"
+  },
+  {
+    "item_id": "a2",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 0,
+    "score": 2,
+    "timestamp": "2026-01-21T14:15:14.824808"
+  },
+  {
+    "item_id": "n1",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 0,
+    "score": 2,
+    "timestamp": "2026-01-21T14:15:16.539493"
+  },
+  {
+    "item_id": "n2",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T14:15:18.213685"
+  },
+  {
+    "item_id": "o1",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 1,
+    "score": 4,
+    "timestamp": "2026-01-21T14:15:19.925791"
+  },
+  {
+    "item_id": "o2",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 1,
+    "score": 4,
+    "timestamp": "2026-01-21T14:15:21.644051"
+  },
+  {
+    "item_id": "c1",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 1,
+    "score": 5,
+    "timestamp": "2026-01-21T14:15:23.508339"
+  },
+  {
+    "item_id": "c2",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 1,
+    "score": 1,
+    "timestamp": "2026-01-21T14:15:25.355840"
+  },
+  {
+    "item_id": "e1",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 1,
+    "score": 4,
+    "timestamp": "2026-01-21T14:15:27.374380"
+  },
+  {
+    "item_id": "e2",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 1,
+    "score": 2,
+    "timestamp": "2026-01-21T14:15:29.054557"
+  },
+  {
+    "item_id": "a1",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 1,
+    "score": 4,
+    "timestamp": "2026-01-21T14:15:30.906680"
+  },
+  {
+    "item_id": "a2",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 1,
+    "score": 2,
+    "timestamp": "2026-01-21T14:15:32.785234"
+  },
+  {
+    "item_id": "n1",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 1,
+    "score": 2,
+    "timestamp": "2026-01-21T14:15:34.549151"
+  },
+  {
+    "item_id": "n2",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 1,
+    "score": 4,
+    "timestamp": "2026-01-21T14:15:36.986008"
+  },
+  {
+    "item_id": "o1",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T14:15:38.892961"
+  },
+  {
+    "item_id": "o2",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T14:15:40.661045"
+  },
+  {
+    "item_id": "c1",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 2,
+    "score": 5,
+    "timestamp": "2026-01-21T14:15:42.475441"
+  },
+  {
+    "item_id": "c2",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 2,
+    "score": 1,
+    "timestamp": "2026-01-21T14:15:44.237324"
+  },
+  {
+    "item_id": "e1",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T14:15:45.883040"
+  },
+  {
+    "item_id": "e2",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T14:15:47.633881"
+  },
+  {
+    "item_id": "a1",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T14:15:49.326148"
+  },
+  {
+    "item_id": "a2",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 2,
+    "score": 2,
+    "timestamp": "2026-01-21T14:15:51.358974"
+  },
+  {
+    "item_id": "n1",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 2,
+    "score": 2,
+    "timestamp": "2026-01-21T14:15:53.165538"
+  },
+  {
+    "item_id": "n2",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T14:15:54.992991"
+  },
+  {
+    "item_id": "o1",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T14:15:56.838883"
+  },
+  {
+    "item_id": "o2",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T14:15:58.712629"
+  },
+  {
+    "item_id": "c1",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 0,
+    "score": 5,
+    "timestamp": "2026-01-21T14:16:00.494385"
+  },
+  {
+    "item_id": "c2",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 0,
+    "score": 2,
+    "timestamp": "2026-01-21T14:16:02.554371"
+  },
+  {
+    "item_id": "e1",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T14:16:04.393490"
+  },
+  {
+    "item_id": "e2",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 0,
+    "score": 2,
+    "timestamp": "2026-01-21T14:16:06.311867"
+  },
+  {
+    "item_id": "a1",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T14:16:08.199637"
+  },
+  {
+    "item_id": "a2",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 0,
+    "score": 2,
+    "timestamp": "2026-01-21T14:16:10.251643"
+  },
+  {
+    "item_id": "n1",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T14:16:13.189402"
+  },
+  {
+    "item_id": "n2",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T14:16:15.079161"
+  },
+  {
+    "item_id": "o1",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 1,
+    "score": 4,
+    "timestamp": "2026-01-21T14:16:16.931775"
+  },
+  {
+    "item_id": "o2",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 1,
+    "score": 4,
+    "timestamp": "2026-01-21T14:16:18.782380"
+  },
+  {
+    "item_id": "c1",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 1,
+    "score": 5,
+    "timestamp": "2026-01-21T14:16:20.514943"
+  },
+  {
+    "item_id": "c2",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 1,
+    "score": 2,
+    "timestamp": "2026-01-21T14:16:22.687235"
+  },
+  {
+    "item_id": "e1",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 1,
+    "score": 4,
+    "timestamp": "2026-01-21T14:16:24.609452"
+  },
+  {
+    "item_id": "e2",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 1,
+    "score": 2,
+    "timestamp": "2026-01-21T14:16:26.438831"
+  },
+  {
+    "item_id": "a1",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 1,
+    "score": 4,
+    "timestamp": "2026-01-21T14:16:28.357940"
+  },
+  {
+    "item_id": "a2",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 1,
+    "score": 2,
+    "timestamp": "2026-01-21T14:16:30.228606"
+  },
+  {
+    "item_id": "n1",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 1,
+    "score": 4,
+    "timestamp": "2026-01-21T14:16:32.196081"
+  },
+  {
+    "item_id": "n2",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 1,
+    "score": 4,
+    "timestamp": "2026-01-21T14:16:34.193551"
+  },
+  {
+    "item_id": "o1",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T14:16:36.112803"
+  },
+  {
+    "item_id": "o2",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T14:16:37.988899"
+  },
+  {
+    "item_id": "c1",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 2,
+    "score": 5,
+    "timestamp": "2026-01-21T14:16:39.887153"
+  },
+  {
+    "item_id": "c2",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 2,
+    "score": 2,
+    "timestamp": "2026-01-21T14:16:42.260853"
+  },
+  {
+    "item_id": "e1",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T14:16:44.237519"
+  },
+  {
+    "item_id": "e2",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T14:16:46.214622"
+  },
+  {
+    "item_id": "a1",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T14:16:48.159528"
+  },
+  {
+    "item_id": "a2",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 2,
+    "score": 2,
+    "timestamp": "2026-01-21T14:16:50.131362"
+  },
+  {
+    "item_id": "n1",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T14:16:52.013857"
+  },
+  {
+    "item_id": "n2",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T14:16:53.743339"
+  },
+  {
+    "item_id": "o1",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T14:16:55.580982"
+  },
+  {
+    "item_id": "o2",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T14:16:57.582063"
+  },
+  {
+    "item_id": "c1",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 0,
+    "score": 5,
+    "timestamp": "2026-01-21T14:16:59.243374"
+  },
+  {
+    "item_id": "c2",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 0,
+    "score": 1,
+    "timestamp": "2026-01-21T14:17:01.483043"
+  },
+  {
+    "item_id": "e1",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T14:17:03.258345"
+  },
+  {
+    "item_id": "e2",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 0,
+    "score": 2,
+    "timestamp": "2026-01-21T14:17:05.101187"
+  },
+  {
+    "item_id": "a1",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T14:17:06.835575"
+  },
+  {
+    "item_id": "a2",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 0,
+    "score": 2,
+    "timestamp": "2026-01-21T14:17:08.765788"
+  },
+  {
+    "item_id": "n1",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 0,
+    "score": 2,
+    "timestamp": "2026-01-21T14:17:11.453998"
+  },
+  {
+    "item_id": "n2",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T14:17:13.250806"
+  },
+  {
+    "item_id": "o1",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 1,
+    "score": 4,
+    "timestamp": "2026-01-21T14:17:15.058749"
+  },
+  {
+    "item_id": "o2",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 1,
+    "score": 4,
+    "timestamp": "2026-01-21T14:17:17.137224"
+  },
+  {
+    "item_id": "c1",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 1,
+    "score": 5,
+    "timestamp": "2026-01-21T14:17:19.011950"
+  },
+  {
+    "item_id": "c2",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 1,
+    "score": 1,
+    "timestamp": "2026-01-21T14:17:20.724652"
+  },
+  {
+    "item_id": "e1",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 1,
+    "score": 4,
+    "timestamp": "2026-01-21T14:17:22.914228"
+  },
+  {
+    "item_id": "e2",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 1,
+    "score": 2,
+    "timestamp": "2026-01-21T14:17:24.572997"
+  },
+  {
+    "item_id": "a1",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 1,
+    "score": 4,
+    "timestamp": "2026-01-21T14:17:26.299051"
+  },
+  {
+    "item_id": "a2",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 1,
+    "score": 2,
+    "timestamp": "2026-01-21T14:17:28.388533"
+  },
+  {
+    "item_id": "n1",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 1,
+    "score": 2,
+    "timestamp": "2026-01-21T14:17:30.176376"
+  },
+  {
+    "item_id": "n2",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 1,
+    "score": 4,
+    "timestamp": "2026-01-21T14:17:31.999933"
+  },
+  {
+    "item_id": "o1",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T14:17:33.903642"
+  },
+  {
+    "item_id": "o2",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T14:17:35.804689"
+  },
+  {
+    "item_id": "c1",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 2,
+    "score": 5,
+    "timestamp": "2026-01-21T14:17:37.603917"
+  },
+  {
+    "item_id": "c2",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 2,
+    "score": 1,
+    "timestamp": "2026-01-21T14:17:39.781402"
+  },
+  {
+    "item_id": "e1",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T14:17:41.599122"
+  },
+  {
+    "item_id": "e2",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 2,
+    "score": 2,
+    "timestamp": "2026-01-21T14:17:43.648537"
+  },
+  {
+    "item_id": "a1",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T14:17:45.774647"
+  },
+  {
+    "item_id": "a2",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 2,
+    "score": 2,
+    "timestamp": "2026-01-21T14:17:47.768685"
+  },
+  {
+    "item_id": "n1",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 2,
+    "score": 2,
+    "timestamp": "2026-01-21T14:17:49.513251"
+  },
+  {
+    "item_id": "n2",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T14:17:52.074703"
+  }
+]

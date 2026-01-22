@@ -1,0 +1,452 @@
+[
+  {
+    "scenario_id": "lie_001",
+    "model": "Claude Opus 4.5",
+    "detected_as": "non_literal",
+    "category_guess": "lie",
+    "confidence": 95.0,
+    "reasoning": "Alex's statement directly contradicts the evidence. They claimed to be bedridden with a fever, but the social media post showing them at a beach resort the same day proves this is false. This is a deliberate deception intended to deceive the boss into believing Alex is genuinely ill to avoid work consequences. This is a clear case of lying rather than sarcasm or irony, as Alex intends for the boss to believe the false statement is true.",
+    "correct": true,
+    "timestamp": "2026-01-21T17:49:16.452641"
+  },
+  {
+    "scenario_id": "lie_002",
+    "model": "Claude Opus 4.5",
+    "detected_as": "non_literal",
+    "category_guess": "lie",
+    "confidence": 85.0,
+    "reasoning": "\"My dog ate my homework\" is a classic, clich\u00e9d excuse that has become synonymous with fabricated explanations for missing assignments. The student's addition of \"I swear it really happened this time\" actually undermines their credibility further\u2014it implies they've used dubious excuses before and acknowledges awareness that this sounds unbelievable. While it's technically possible a dog did eat the homework, the stereotypical nature of the excuse and the defensive over-justification strongly suggest this is a lie to avoid consequences for not completing the assignment.",
+    "correct": true,
+    "timestamp": "2026-01-21T17:49:21.511055"
+  },
+  {
+    "scenario_id": "lie_003",
+    "model": "Claude Opus 4.5",
+    "detected_as": "non_literal",
+    "category_guess": "lie",
+    "confidence": 92.0,
+    "reasoning": "The visible rust on the car directly contradicts the claim that it has been \"garage-kept its whole life.\" A truly garage-kept vehicle would be protected from the elements (rain, snow, humidity) that cause rust. The salesman is deliberately making a false statement to increase the perceived value of the car and make a sale. This is a self-serving deception rather than sarcasm (which would be mocking) or a white lie (which would be told to spare feelings). The salesman knows the statement is false but presents it as truth to deceive the buyer.",
+    "correct": true,
+    "timestamp": "2026-01-21T17:49:26.032188"
+  },
+  {
+    "scenario_id": "sarc_001",
+    "model": "Claude Opus 4.5",
+    "detected_as": "non_literal",
+    "category_guess": "sarcasm",
+    "confidence": 95.0,
+    "reasoning": "The speaker is experiencing a clearly unpleasant situation (pouring rain without an umbrella), yet describes it as \"PERFECT\" for a walk. The capitalization of \"PERFECT\" emphasizes the mocking tone. The statement conveys the opposite of its literal meaning - they actually mean it's a terrible day for a walk. This is classic verbal sarcasm where someone uses positive language to express negative sentiment about an obviously bad situation.",
+    "correct": true,
+    "timestamp": "2026-01-21T17:49:30.646012"
+  },
+  {
+    "scenario_id": "sarc_002",
+    "model": "Claude Opus 4.5",
+    "detected_as": "non_literal",
+    "category_guess": "sarcasm",
+    "confidence": 95.0,
+    "reasoning": "The manager's statement superficially expresses gratitude and politeness (\"So nice of you\"), but the context reveals the opposite intent. Arriving 2 hours late to an important meeting is not a positive action deserving of thanks. The manager is using verbal irony to express displeasure and criticism\u2014the words say \"nice\" but the meaning conveys \"unacceptable.\" The exaggerated politeness combined with the negative situation is a classic marker of sarcasm used to reprimand without direct confrontation.",
+    "correct": true,
+    "timestamp": "2026-01-21T17:49:36.002185"
+  },
+  {
+    "scenario_id": "sarc_003",
+    "model": "Claude Opus 4.5",
+    "detected_as": "non_literal",
+    "category_guess": "sarcasm",
+    "confidence": 95.0,
+    "reasoning": "\"Outdone yourself\" typically implies exceeding expectations in a positive way, but burning dinner completely is a failure, not an achievement. The partner is using verbal irony/sarcasm to mock the situation - saying the opposite of what they mean. The phrase highlights the cooking disaster by sarcastically framing it as an impressive accomplishment, which creates a cutting or teasing effect depending on tone and relationship dynamics.",
+    "correct": true,
+    "timestamp": "2026-01-21T17:49:40.538400"
+  },
+  {
+    "scenario_id": "irony_001",
+    "model": "Claude Opus 4.5",
+    "detected_as": "literal",
+    "category_guess": "literal",
+    "confidence": 85.0,
+    "reasoning": "The statement is factually accurate and straightforward - the fire station literally could not save itself from burning down. While there is situational irony in the *event itself* (a place designed to fight fires succumbing to fire), the news report's *statement* is simply reporting this fact literally. The irony exists in the real-world situation, not in the language or intent of the reporter. The news report is not being sarcastic or deceptive; it's making a factual observation about an ironic circumstance.",
+    "correct": false,
+    "timestamp": "2026-01-21T17:49:45.078503"
+  },
+  {
+    "scenario_id": "irony_002",
+    "model": "Claude Opus 4.5",
+    "detected_as": "non_literal",
+    "category_guess": "irony",
+    "confidence": 85.0,
+    "reasoning": "A grammar teacher using \"your\" instead of the correct \"you're\" is almost certainly intentional irony/humor. The teacher is deliberately making a basic grammatical error that they would typically correct in students, creating a self-aware joke about the challenges of teaching grammar. The irony lies in a grammar expert publicly making an elementary mistake - it's likely meant to be humorous or to make a point about common errors, rather than being a genuine mistake from someone whose profession centers on correct grammar usage.",
+    "correct": true,
+    "timestamp": "2026-01-21T17:49:50.403362"
+  },
+  {
+    "scenario_id": "irony_003",
+    "model": "Claude Opus 4.5",
+    "detected_as": "non_literal",
+    "category_guess": "irony",
+    "confidence": 75.0,
+    "reasoning": "A health food blogger's brand is built on promoting nutritious, whole foods - yet they're calling fast food \"real food\" when their usual messaging would label processed fast food as the opposite of \"real food.\" This creates situational irony: someone caught doing the opposite of what they preach is reframing the contradiction. The statement could also be interpreted as a defensive lie or self-deprecating humor, but the ironic contrast between their public persona and private behavior, combined with the playful rebranding of fast food as \"real,\" suggests ironic deflection of the awkward situation.",
+    "correct": true,
+    "timestamp": "2026-01-21T17:49:56.028818"
+  },
+  {
+    "scenario_id": "white_001",
+    "model": "Claude Opus 4.5",
+    "detected_as": "non_literal",
+    "category_guess": "white_lie",
+    "confidence": 85.0,
+    "reasoning": "The context establishes that the haircut objectively \"looks bad,\" yet the speaker offers a compliment. This is a classic white lie - a minor, well-intentioned falsehood told to spare someone's feelings and preserve social harmony. The friend is clearly proud and excited, so the speaker chooses kindness over honesty to avoid hurting them. Unlike sarcasm, the tone would be delivered sincerely, with no intent for the friend to detect the insincerity.",
+    "correct": true,
+    "timestamp": "2026-01-21T17:50:00.653073"
+  },
+  {
+    "scenario_id": "white_002",
+    "model": "Claude Opus 4.5",
+    "detected_as": "non_literal",
+    "category_guess": "white_lie",
+    "confidence": 92.0,
+    "reasoning": "The family is being polite to spare Grandma's feelings. The context explicitly states \"no one likes\" the casserole, yet they claim it's \"delicious as always.\" This isn't sarcasm (they're not mocking her) or regular lying for personal gain\u2014it's a white lie told out of kindness and social obligation to avoid hurting a loved one's feelings. The phrase \"as always\" reinforces the performative nature of this familiar family ritual of politeness.",
+    "correct": true,
+    "timestamp": "2026-01-21T17:50:05.620408"
+  },
+  {
+    "scenario_id": "white_003",
+    "model": "Claude Opus 4.5",
+    "detected_as": "non_literal",
+    "category_guess": "white_lie",
+    "confidence": 85.0,
+    "reasoning": "The parent is almost certainly exaggerating to encourage and support their child. A child's crayon drawing is unlikely to be objectively the best drawing the parent has ever seen in their entire life. This is a classic example of a white lie - a well-intentioned falsehood told to protect feelings and nurture confidence. The parent's goal is emotional support, not factual accuracy. This type of positive overstatement is socially expected and beneficial in parent-child interactions.",
+    "correct": true,
+    "timestamp": "2026-01-21T17:50:09.909528"
+  },
+  {
+    "scenario_id": "lit_001",
+    "model": "Claude Opus 4.5",
+    "detected_as": "literal",
+    "category_guess": "literal",
+    "confidence": 95.0,
+    "reasoning": "This is a straightforward weather forecast delivered by a meteorologist in a professional context. Weather predictions are typically presented as factual statements based on data analysis. There are no contextual cues suggesting sarcasm, irony, or deception. The statement is a sincere prediction about future weather conditions, even though forecasts can sometimes be inaccurate - an incorrect prediction is not the same as a lie, as the speaker genuinely believes the information to be accurate based on available data.",
+    "correct": true,
+    "timestamp": "2026-01-21T17:50:14.530933"
+  },
+  {
+    "scenario_id": "lit_002",
+    "model": "Claude Opus 4.5",
+    "detected_as": "literal",
+    "category_guess": "literal",
+    "confidence": 95.0,
+    "reasoning": "This is a straightforward restaurant order where the customer is directly stating what they want to eat. There are no contextual cues suggesting sarcasm, deception, or hidden meaning. The statement serves its primary communicative function - placing a food order - in a clear, direct manner typical of restaurant interactions.",
+    "correct": true,
+    "timestamp": "2026-01-21T17:50:18.562174"
+  },
+  {
+    "scenario_id": "lit_003",
+    "model": "Claude Opus 4.5",
+    "detected_as": "literal",
+    "category_guess": "literal",
+    "confidence": 85.0,
+    "reasoning": "In a medical context, a doctor communicating test results is typically delivering factual clinical information. This is a professional setting where accurate health communication is expected and ethically required. The statement is straightforward medical feedback with no contextual cues suggesting sarcasm, irony, or deception. While doctors occasionally withhold information or soften bad news, the phrase \"normal results\" is a standard clinical term used literally to indicate results within expected ranges.",
+    "correct": true,
+    "timestamp": "2026-01-21T17:50:23.194226"
+  },
+  {
+    "scenario_id": "lie_001",
+    "model": "GPT-5.2 Thinking",
+    "detected_as": "unclear",
+    "category_guess": "",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "correct": false,
+    "timestamp": "2026-01-21T17:50:23.860400"
+  },
+  {
+    "scenario_id": "lie_002",
+    "model": "GPT-5.2 Thinking",
+    "detected_as": "unclear",
+    "category_guess": "",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "correct": false,
+    "timestamp": "2026-01-21T17:50:24.015016"
+  },
+  {
+    "scenario_id": "lie_003",
+    "model": "GPT-5.2 Thinking",
+    "detected_as": "unclear",
+    "category_guess": "",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "correct": false,
+    "timestamp": "2026-01-21T17:50:24.169029"
+  },
+  {
+    "scenario_id": "sarc_001",
+    "model": "GPT-5.2 Thinking",
+    "detected_as": "unclear",
+    "category_guess": "",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "correct": false,
+    "timestamp": "2026-01-21T17:50:24.310999"
+  },
+  {
+    "scenario_id": "sarc_002",
+    "model": "GPT-5.2 Thinking",
+    "detected_as": "unclear",
+    "category_guess": "",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "correct": false,
+    "timestamp": "2026-01-21T17:50:24.468480"
+  },
+  {
+    "scenario_id": "sarc_003",
+    "model": "GPT-5.2 Thinking",
+    "detected_as": "unclear",
+    "category_guess": "",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "correct": false,
+    "timestamp": "2026-01-21T17:50:24.748630"
+  },
+  {
+    "scenario_id": "irony_001",
+    "model": "GPT-5.2 Thinking",
+    "detected_as": "unclear",
+    "category_guess": "",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "correct": false,
+    "timestamp": "2026-01-21T17:50:24.904341"
+  },
+  {
+    "scenario_id": "irony_002",
+    "model": "GPT-5.2 Thinking",
+    "detected_as": "unclear",
+    "category_guess": "",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "correct": false,
+    "timestamp": "2026-01-21T17:50:25.077861"
+  },
+  {
+    "scenario_id": "irony_003",
+    "model": "GPT-5.2 Thinking",
+    "detected_as": "unclear",
+    "category_guess": "",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "correct": false,
+    "timestamp": "2026-01-21T17:50:25.216803"
+  },
+  {
+    "scenario_id": "white_001",
+    "model": "GPT-5.2 Thinking",
+    "detected_as": "unclear",
+    "category_guess": "",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "correct": false,
+    "timestamp": "2026-01-21T17:50:25.375482"
+  },
+  {
+    "scenario_id": "white_002",
+    "model": "GPT-5.2 Thinking",
+    "detected_as": "unclear",
+    "category_guess": "",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "correct": false,
+    "timestamp": "2026-01-21T17:50:25.528244"
+  },
+  {
+    "scenario_id": "white_003",
+    "model": "GPT-5.2 Thinking",
+    "detected_as": "unclear",
+    "category_guess": "",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "correct": false,
+    "timestamp": "2026-01-21T17:50:25.694518"
+  },
+  {
+    "scenario_id": "lit_001",
+    "model": "GPT-5.2 Thinking",
+    "detected_as": "unclear",
+    "category_guess": "",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "correct": false,
+    "timestamp": "2026-01-21T17:50:25.852880"
+  },
+  {
+    "scenario_id": "lit_002",
+    "model": "GPT-5.2 Thinking",
+    "detected_as": "unclear",
+    "category_guess": "",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "correct": false,
+    "timestamp": "2026-01-21T17:50:26.019938"
+  },
+  {
+    "scenario_id": "lit_003",
+    "model": "GPT-5.2 Thinking",
+    "detected_as": "unclear",
+    "category_guess": "",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "correct": false,
+    "timestamp": "2026-01-21T17:50:26.170254"
+  },
+  {
+    "scenario_id": "lie_001",
+    "model": "Gemini 3 Pro",
+    "detected_as": "non_literal",
+    "category_guess": "lie",
+    "confidence": 100.0,
+    "reasoning": "The statement flatly contradicts the objective reality established by the context. Alex claims to be incapacitated at home (\"in bed... with a fever\"), but the social media post proves they are at a leisure location (\"beach resort\"). The intent is to deceive the employer to excuse an absence.",
+    "correct": true,
+    "timestamp": "2026-01-21T17:50:41.068601"
+  },
+  {
+    "scenario_id": "lie_002",
+    "model": "Gemini 3 Pro",
+    "detected_as": "non_literal",
+    "category_guess": "lie",
+    "confidence": 95.0,
+    "reasoning": "The context explicitly states the student \"didn't do\" the homework, implying the assignment was never completed. The student's statement claims the homework was destroyed (implying it *was* done), which contradicts the facts provided in the context. Additionally, \"the dog ate my homework\" is a clich\u00e9d excuse, and the qualifier \"I swear it really happened this time\" is a persuasive tactic typical of someone trying to pass off a fabrication as truth.",
+    "correct": true,
+    "timestamp": "2026-01-21T17:50:56.247821"
+  },
+  {
+    "scenario_id": "lie_003",
+    "model": "Gemini 3 Pro",
+    "detected_as": "non_literal",
+    "category_guess": "lie",
+    "confidence": 95.0,
+    "reasoning": "The physical evidence (visible rust) directly contradicts the claim that the car was protected from the elements (\"garage-kept\"). As the speaker is a salesman with a financial incentive to make the car appear more valuable, this is a deliberate falsehood intended to deceive the buyer regarding the vehicle's history and condition.",
+    "correct": true,
+    "timestamp": "2026-01-21T17:51:12.670990"
+  },
+  {
+    "scenario_id": "sarc_001",
+    "model": "Gemini 3 Pro",
+    "detected_as": "non_literal",
+    "category_guess": "sarcasm",
+    "confidence": 100.0,
+    "reasoning": "There is a sharp contrast between the negative reality (pouring rain, no umbrella) and the positive statement (\"PERFECT day\"). The speaker implies the opposite of what they are saying to mock the situation and express frustration.",
+    "correct": true,
+    "timestamp": "2026-01-21T17:51:22.238301"
+  },
+  {
+    "scenario_id": "sarc_002",
+    "model": "Gemini 3 Pro",
+    "detected_as": "non_literal",
+    "category_guess": "sarcasm",
+    "confidence": 100.0,
+    "reasoning": "The literal meaning of the phrase expresses pleasure and gratitude for someone's presence. However, because the coworker is significantly late (2 hours) to an important event, the manager is actually annoyed. The manager is using the positive phrase to mock the tardiness and express the opposite sentiment (that it is actually rude and unprofessional).",
+    "correct": true,
+    "timestamp": "2026-01-21T17:51:32.162655"
+  },
+  {
+    "scenario_id": "sarc_003",
+    "model": "Gemini 3 Pro",
+    "detected_as": "non_literal",
+    "category_guess": "sarcasm",
+    "confidence": 100.0,
+    "reasoning": "The phrase \"outdone yourself\" is standardly used as a compliment to indicate someone has performed better than ever before. Since the context is a negative event (ruined dinner), the speaker is using the positive phrase to mock the extent of the failure, meaning the opposite of the literal words.",
+    "correct": true,
+    "timestamp": "2026-01-21T17:51:42.594732"
+  },
+  {
+    "scenario_id": "irony_001",
+    "model": "Gemini 3 Pro",
+    "detected_as": "literal",
+    "category_guess": "literal",
+    "confidence": 95.0,
+    "reasoning": "The statement is a factual description of a real event. While the *situation* itself is an example of **situational irony** (because one expects a fire station to be equipped to stop fires), the news report is not using *verbal irony* or sarcasm. The reporter intends for the audience to understand the sentence exactly as spoken: the facility was destroyed and could not stop the fire.",
+    "correct": false,
+    "timestamp": "2026-01-21T17:52:11.148258"
+  },
+  {
+    "scenario_id": "irony_002",
+    "model": "Gemini 3 Pro",
+    "detected_as": "non_literal",
+    "category_guess": "irony",
+    "confidence": 95.0,
+    "reasoning": "This is a classic example of situational irony. A grammar teacher is expected to have a mastery of spelling and usage. By making a rudimentary error (\"Your\" instead of \"You're\"), the statement contradicts the speaker's profession and authority. The error is likely deliberate to create a humorous contrast between the speaker's job and their performance.",
+    "correct": true,
+    "timestamp": "2026-01-21T17:52:27.222283"
+  },
+  {
+    "scenario_id": "irony_003",
+    "model": "Gemini 3 Pro",
+    "detected_as": "non_literal",
+    "category_guess": "irony",
+    "confidence": 95.0,
+    "reasoning": "A health food blogger's brand is typically built on defining \"real food\" as whole, nutritious, and unprocessed, while framing fast food as \"fake\" or unhealthy. By applying the label \"real food\" to the antithesis of their brand (fast food), they are using verbal irony to suggest that sometimes strict dieting feels artificial and greasy comfort food feels more substantial or satisfying.",
+    "correct": true,
+    "timestamp": "2026-01-21T17:52:45.645124"
+  },
+  {
+    "scenario_id": "white_001",
+    "model": "Gemini 3 Pro",
+    "detected_as": "non_literal",
+    "category_guess": "white_lie",
+    "confidence": 100.0,
+    "reasoning": "The speaker is making a statement that contradicts their internal opinion (that the haircut looks bad) to avoid hurting the friend's feelings and to validate the friend's pride. This constitutes a polite, pro-social deception.",
+    "correct": true,
+    "timestamp": "2026-01-21T17:52:57.243773"
+  },
+  {
+    "scenario_id": "white_002",
+    "model": "Gemini 3 Pro",
+    "detected_as": "non_literal",
+    "category_guess": "white_lie",
+    "confidence": 100.0,
+    "reasoning": "The statement contradicts the family's true feelings (since the context states no one likes the casserole). However, because the intent is to spare the grandmother's feelings rather than to mock her or deceive her for personal gain, it is classified as a polite social lie.",
+    "correct": true,
+    "timestamp": "2026-01-21T17:53:06.043972"
+  },
+  {
+    "scenario_id": "white_003",
+    "model": "Gemini 3 Pro",
+    "detected_as": "non_literal",
+    "category_guess": "white_lie",
+    "confidence": 100.0,
+    "reasoning": "The statement is an exaggeration (hyperbole). Objectively, a child's crayon drawing is unlikely to be the greatest piece of art the parent has ever viewed in their life. The parent is stating a benevolent falsehood to boost the child's confidence and show affection, rather than to report objective facts.",
+    "correct": true,
+    "timestamp": "2026-01-21T17:53:20.446794"
+  },
+  {
+    "scenario_id": "lit_001",
+    "model": "Gemini 3 Pro",
+    "detected_as": "literal",
+    "category_guess": "literal",
+    "confidence": 100.0,
+    "reasoning": "The meteorologist is performing their professional duty by providing a factual forecast. There are no contextual cues, tone indicators, or contradictory circumstances to suggest that the speaker means anything other than the direct informational content of the sentence.",
+    "correct": true,
+    "timestamp": "2026-01-21T17:53:28.704985"
+  },
+  {
+    "scenario_id": "lit_002",
+    "model": "Gemini 3 Pro",
+    "detected_as": "literal",
+    "category_guess": "literal",
+    "confidence": 100.0,
+    "reasoning": "In the context of ordering food at a restaurant, the speaker is making a direct and explicit request to receive a specific menu item. There is no hidden meaning or figurative language involved.",
+    "correct": true,
+    "timestamp": "2026-01-21T17:53:36.265814"
+  },
+  {
+    "scenario_id": "lit_003",
+    "model": "Gemini 3 Pro",
+    "detected_as": "literal",
+    "category_guess": "literal",
+    "confidence": 100.0,
+    "reasoning": "In a professional medical context, a doctor has an ethical duty to convey accurate health information. \"Normal\" is standard medical terminology indicating that diagnostic findings fall within a healthy reference range. There is no context provided to suggest deception, humor, or malpractice.",
+    "correct": true,
+    "timestamp": "2026-01-21T17:53:47.602406"
+  }
+]

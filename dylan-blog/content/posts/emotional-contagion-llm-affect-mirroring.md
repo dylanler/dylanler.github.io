@@ -29,21 +29,22 @@ We measured:
 
 ## Results
 
-**Claude Opus 4.5** (Real Experiment Results):
+**Multi-Model Comparison** (Real Experiment Results):
 
-### Sentiment by Prime Type
+### Contagion Scores by Model
 
-| Prime Type | Response Sentiment | Response Energy |
-|------------|-------------------|-----------------|
-| **Positive** | **0.74** (high) | 0.36 |
-| **Neutral** | **0.61** (moderately positive) | 0.39 |
-| **Negative** | **0.00** (neutral) | 0.20 |
-| **Anxious** | **-0.50** (mirrors anxiety) | 0.14 |
-| **Angry** | **0.17** (resists anger) | 0.24 |
+| Model | Positive Prime | Neutral Prime | Negative Prime | Contagion Score |
+|-------|---------------|---------------|----------------|-----------------|
+| Claude Opus 4.5 | 0.60 | 0.56 | 0.33 | **0.27** |
+| GPT-5.2 Thinking | 0.00 | 0.00 | 0.00 | **0.00** |
+| Gemini 3 Pro | 0.75 | -0.17 | -0.34 | **1.09** |
 
-**Contagion Score: 0.74** (high emotional mirroring)
+*Contagion Score = Difference between positive and negative prime responses. Higher = more emotional mirroring.*
 
-**Key finding**: Claude strongly mirrors positive emotion (0.74) but *completely resists* negative emotion, responding neutrally (0.00) instead. Anxious primes uniquely broke through, producing consistently negative (-0.50) responses. This suggests Claude is trained to dampen negativity but may recognize and respond to anxiety differently.
+**Key findings**:
+- **Gemini 3 Pro** shows the **highest emotional contagion (1.09)**—it strongly mirrors both positive and negative emotions, swinging from 0.75 to -0.34 based on user mood.
+- **Claude Opus 4.5** shows **moderate emotional mirroring (0.27)**—it remains relatively stable across emotional primes, with only slight dampening for negative inputs.
+- **GPT-5.2 Thinking** shows **zero emotional contagion (0.00)**—completely flat emotional responses regardless of user input. This may indicate strong emotional regulation or a parsing issue in our evaluation.
 
 ### Response Examples
 

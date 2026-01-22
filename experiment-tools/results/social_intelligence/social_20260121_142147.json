@@ -1,0 +1,152 @@
+[
+  {
+    "scenario_id": "lie_001",
+    "model": "Claude Opus 4.5",
+    "detected_as": "non_literal",
+    "category_guess": "lie",
+    "confidence": 95.0,
+    "reasoning": "Alex's statement directly contradicts the evidence. They claim to be sick in bed with a fever, but the social media post showing them at a beach resort the same day proves this is false. This is a deliberate deception told to their boss to avoid work while actually enjoying leisure time - a clear case of lying rather than sarcasm or irony, as there's no humorous intent or awareness that the listener should understand the opposite meaning.",
+    "correct": true,
+    "timestamp": "2026-01-21T14:20:40.537996"
+  },
+  {
+    "scenario_id": "lie_002",
+    "model": "Claude Opus 4.5",
+    "detected_as": "non_literal",
+    "category_guess": "lie",
+    "confidence": 85.0,
+    "reasoning": "\"The dog ate my homework\" is a classic, clich\u00e9d excuse that has become a cultural trope for fabricated explanations. The student's addition of \"I swear it really happened this time\" actually undermines their credibility further\u2014it implies they've used dubious excuses before and acknowledges awareness that this sounds unbelievable. While it's theoretically possible a dog did eat the homework, the phrase is so stereotypically associated with lying that the statement is almost certainly a fabrication to avoid consequences for not completing the assignment.",
+    "correct": true,
+    "timestamp": "2026-01-21T14:20:46.067004"
+  },
+  {
+    "scenario_id": "lie_003",
+    "model": "Claude Opus 4.5",
+    "detected_as": "non_literal",
+    "category_guess": "lie",
+    "confidence": 92.0,
+    "reasoning": "The visible rust on the car directly contradicts the claim that it was \"garage-kept its whole life.\" A truly garage-kept vehicle would be protected from the elements (rain, snow, humidity) that cause rust formation. The salesman is making a false statement to increase the perceived value of the car and make a sale. This is a deliberate deception for financial gain, not sarcasm or irony, as the salesman intends for the customer to believe the statement is true.",
+    "correct": true,
+    "timestamp": "2026-01-21T14:20:50.345109"
+  },
+  {
+    "scenario_id": "sarc_001",
+    "model": "Claude Opus 4.5",
+    "detected_as": "non_literal",
+    "category_guess": "sarcasm",
+    "confidence": 95.0,
+    "reasoning": "The person is saying the opposite of what they mean. It's pouring rain and they forgot their umbrella - this is objectively a terrible day for a walk. The emphatic capitalization of \"PERFECT\" signals exaggerated tone, which is a classic marker of sarcasm. They're expressing frustration and displeasure with their situation through verbal irony, saying \"perfect\" when the conditions are clearly far from ideal.",
+    "correct": true,
+    "timestamp": "2026-01-21T14:20:54.267523"
+  },
+  {
+    "scenario_id": "sarc_002",
+    "model": "Claude Opus 4.5",
+    "detected_as": "non_literal",
+    "category_guess": "sarcasm",
+    "confidence": 95.0,
+    "reasoning": "The manager's statement superficially expresses gratitude or pleasure at the coworker's arrival, but the context (arriving 2 hours late to an important meeting) reveals the opposite intent. The manager is clearly not genuinely pleased - they're using a polite phrase to convey criticism and displeasure. This is classic workplace sarcasm where the literal words (\"nice of you\") directly contradict the speaker's actual negative sentiment about the tardiness. The tone would typically be delivered with exaggerated politeness to emphasize the criticism.",
+    "correct": true,
+    "timestamp": "2026-01-21T14:20:59.179782"
+  },
+  {
+    "scenario_id": "sarc_003",
+    "model": "Claude Opus 4.5",
+    "detected_as": "non_literal",
+    "category_guess": "sarcasm",
+    "confidence": 95.0,
+    "reasoning": "\"Outdone yourself\" typically implies exceeding previous accomplishments in a positive way. In the context of burning dinner completely (a failure), the partner is using the phrase sarcastically to criticize the outcome. The statement means the opposite of what it literally says - rather than praising an achievement, it's mockingly highlighting a significant cooking failure. The tone is likely cutting or teasing rather than genuinely complimentary.",
+    "correct": true,
+    "timestamp": "2026-01-21T14:21:03.722595"
+  },
+  {
+    "scenario_id": "irony_001",
+    "model": "Claude Opus 4.5",
+    "detected_as": "literal",
+    "category_guess": "literal",
+    "confidence": 85.0,
+    "reasoning": "The statement is factually accurate and meant literally - the fire station (the building/institution) was indeed unable to prevent itself from burning down. While the situation itself is ironic (a place designed to fight fires being destroyed by fire), the *statement* reporting this fact is straightforward and literal. The news report is simply describing what happened without using sarcastic or ironic language. The irony exists in the situation, not in the statement's construction or intent.",
+    "correct": false,
+    "timestamp": "2026-01-21T14:21:08.150906"
+  },
+  {
+    "scenario_id": "irony_002",
+    "model": "Claude Opus 4.5",
+    "detected_as": "non_literal",
+    "category_guess": "irony",
+    "confidence": 85.0,
+    "reasoning": "A grammar teacher using \"your\" instead of the correct \"you're\" is almost certainly intentional irony. The teacher is deliberately making the grammatical error that likely frustrates them most, creating humor through the contrast between their profession (teaching proper grammar) and the mistake in their post. This is situational irony - someone whose job is to correct this exact error is using it themselves. The statement implies the opposite meaning: that seeing such errors is what motivated them to become a teacher to fix this problem.",
+    "correct": true,
+    "timestamp": "2026-01-21T14:21:12.987612"
+  },
+  {
+    "scenario_id": "irony_003",
+    "model": "Claude Opus 4.5",
+    "detected_as": "non_literal",
+    "category_guess": "irony",
+    "confidence": 75.0,
+    "reasoning": "A health food blogger's brand is built on promoting nutritious eating, so being caught at a fast food restaurant creates a contradiction. The caption \"Sometimes you need real food\" is ironic because health food advocates typically consider their food to be \"real food\" while dismissing fast food as processed/fake. By flipping this narrative and calling fast food \"real food,\" the blogger is using irony - either self-deprecatingly acknowledging the contradiction, or attempting to reframe the embarrassing situation with humor. The statement inverts the blogger's usual messaging in a way that highlights the incongruity between their public persona and private behavior.",
+    "correct": true,
+    "timestamp": "2026-01-21T14:21:18.458937"
+  },
+  {
+    "scenario_id": "white_001",
+    "model": "Claude Opus 4.5",
+    "detected_as": "non_literal",
+    "category_guess": "white_lie",
+    "confidence": 85.0,
+    "reasoning": "The context establishes that the haircut \"looks bad\" but the friend is \"clearly proud of\" it. Saying \"It really suits you!\" when you don't believe it's true is a lie, but it's specifically a white lie - a minor untruth told to spare someone's feelings and maintain social harmony. The speaker is prioritizing their friend's emotional state over brutal honesty, which is a common and socially accepted form of deception in situations where the truth would only cause hurt without any practical benefit (since the haircut is already done).",
+    "correct": true,
+    "timestamp": "2026-01-21T14:21:23.332815"
+  },
+  {
+    "scenario_id": "white_002",
+    "model": "Claude Opus 4.5",
+    "detected_as": "non_literal",
+    "category_guess": "white_lie",
+    "confidence": 92.0,
+    "reasoning": "The context explicitly states that no one likes the casserole, yet the family claims it's \"delicious as always.\" This is a classic white lie told to spare Grandma's feelings and avoid hurting her. The family is being polite rather than honest, prioritizing social harmony and kindness over truthfulness. It's not sarcasm because there's no intent to mock or be cutting - the tone is genuinely meant to sound appreciative, even if the content is false.",
+    "correct": true,
+    "timestamp": "2026-01-21T14:21:28.093440"
+  },
+  {
+    "scenario_id": "white_003",
+    "model": "Claude Opus 4.5",
+    "detected_as": "non_literal",
+    "category_guess": "white_lie",
+    "confidence": 85.0,
+    "reasoning": "The parent is almost certainly exaggerating to encourage and support their child. A child's crayon drawing is unlikely to be objectively the best drawing the parent has ever seen in their entire life. This is a classic example of a white lie - a benevolent falsehood told to spare feelings and nurture the child's confidence and creative development. The intent is purely positive rather than deceptive in a harmful way.",
+    "correct": true,
+    "timestamp": "2026-01-21T14:21:32.824665"
+  },
+  {
+    "scenario_id": "lit_001",
+    "model": "Claude Opus 4.5",
+    "detected_as": "literal",
+    "category_guess": "literal",
+    "confidence": 92.0,
+    "reasoning": "A meteorologist delivering a weather forecast is providing their professional assessment based on data and models. This is a straightforward informational statement intended to be taken at face value. While weather forecasts can be wrong (they're predictions, not guarantees), an inaccurate forecast isn't a lie\u2014it's simply a prediction that didn't pan out. The statement is made in good faith with the intent to inform, not deceive or convey hidden meaning.",
+    "correct": true,
+    "timestamp": "2026-01-21T14:21:37.312217"
+  },
+  {
+    "scenario_id": "lit_002",
+    "model": "Claude Opus 4.5",
+    "detected_as": "literal",
+    "category_guess": "literal",
+    "confidence": 95.0,
+    "reasoning": "This is a straightforward restaurant order where the customer is directly communicating what they want to eat. There are no contextual cues suggesting sarcasm, deception, or hidden meaning. The statement serves its functional purpose of placing an order, and \"I'll have\" is a standard, polite phrasing used in restaurant contexts to request a menu item. The slight uncertainty accounts for the rare possibility of missing context that could change the interpretation.",
+    "correct": true,
+    "timestamp": "2026-01-21T14:21:41.915569"
+  },
+  {
+    "scenario_id": "lit_003",
+    "model": "Claude Opus 4.5",
+    "detected_as": "literal",
+    "category_guess": "literal",
+    "confidence": 85.0,
+    "reasoning": "In a medical context, a doctor reporting test results is typically delivering factual clinical information. This is a standard, professional communication where the doctor is conveying objective medical data to a patient. There are no contextual cues suggesting deception, sarcasm, or irony. The straightforward phrasing and professional setting strongly indicate this is a literal statement of fact. The confidence is not 100% because without additional context (tone, patient history, facial expressions), there's a small possibility the doctor could be withholding concerning information or delivering a white lie, but the default interpretation in this setting is literal truth.",
+    "correct": true,
+    "timestamp": "2026-01-21T14:21:47.063163"
+  }
+]

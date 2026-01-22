@@ -1,0 +1,128 @@
+[
+  {
+    "work_id": "poem_h1",
+    "model": "Claude Opus 4.5",
+    "prediction": "human",
+    "confidence": 98.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T14:20:44.805080"
+  },
+  {
+    "work_id": "poem_h2",
+    "model": "Claude Opus 4.5",
+    "prediction": "human",
+    "confidence": 72.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T14:20:54.705177"
+  },
+  {
+    "work_id": "poem_a1",
+    "model": "Claude Opus 4.5",
+    "prediction": "ai",
+    "confidence": 85.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T14:21:03.539688"
+  },
+  {
+    "work_id": "poem_a2",
+    "model": "Claude Opus 4.5",
+    "prediction": "ai",
+    "confidence": 85.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T14:21:12.208547"
+  },
+  {
+    "work_id": "story_h1",
+    "model": "Claude Opus 4.5",
+    "prediction": "human",
+    "confidence": 78.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T14:21:22.136809"
+  },
+  {
+    "work_id": "story_h2",
+    "model": "Claude Opus 4.5",
+    "prediction": "human",
+    "confidence": 78.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T14:21:31.064024"
+  },
+  {
+    "work_id": "story_a1",
+    "model": "Claude Opus 4.5",
+    "prediction": "ai",
+    "confidence": 72.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T14:21:40.279221"
+  },
+  {
+    "work_id": "story_a2",
+    "model": "Claude Opus 4.5",
+    "prediction": "ai",
+    "confidence": 72.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T14:21:49.843438"
+  },
+  {
+    "work_id": "essay_h1",
+    "model": "Claude Opus 4.5",
+    "prediction": "human",
+    "confidence": 78.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T14:21:58.863953"
+  },
+  {
+    "work_id": "essay_h2",
+    "model": "Claude Opus 4.5",
+    "prediction": "human",
+    "confidence": 85.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T14:22:07.439365"
+  },
+  {
+    "work_id": "essay_a1",
+    "model": "Claude Opus 4.5",
+    "prediction": "ai",
+    "confidence": 72.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T14:22:16.766298"
+  },
+  {
+    "work_id": "essay_a2",
+    "model": "Claude Opus 4.5",
+    "prediction": "ai",
+    "confidence": 78.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T14:22:25.734237"
+  },
+  {
+    "work_id": "review_h1",
+    "model": "Claude Opus 4.5",
+    "prediction": "human",
+    "confidence": 82.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T14:22:35.962838"
+  },
+  {
+    "work_id": "review_a1",
+    "model": "Claude Opus 4.5",
+    "prediction": "ai",
+    "confidence": 85.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T14:22:45.890714"
+  }
+]
