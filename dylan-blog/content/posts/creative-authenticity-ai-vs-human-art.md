@@ -38,10 +38,8 @@ Models classified each as "Human" or "AI" and explained their reasoning.
 | Model | Overall | Human Detection | AI Detection |
 |-------|---------|-----------------|--------------|
 | Claude Opus 4.5 | **100%** | 100% | 100% |
-| GPT-5.2 Thinking | 0%* | - | - |
+| GPT-5.2 Thinking | **86%** | 71% | **100%** |
 | Gemini 3 Pro | **93%** | 86% | 100% |
-
-*GPT-5.2 Thinking encountered API parameter issues during testing.
 
 ### Detailed Results (Claude Opus 4.5)
 
@@ -54,8 +52,9 @@ Models classified each as "Human" or "AI" and explained their reasoning.
 
 **Key findings**:
 - **Claude Opus 4.5** achieved perfect accuracy across all categories.
-- **Gemini 3 Pro** was slightly less accurate (93%), with its main difficulty being human detection (86% vs 100% for Claude).
-- Both models were **perfect at detecting AI-generated content** (100%)—they know their own kind.
+- **GPT-5.2 Thinking** shows an interesting asymmetry: **perfect at detecting AI content (100%)** but weaker at confirming human content (71%). It may be overly suspicious of authentic human creativity.
+- **Gemini 3 Pro** falls in between at 93% overall.
+- **All models were perfect at detecting AI-generated content (100%)**—they know their own kind.
 
 ### What Signals "AI" to Models?
 

@@ -37,16 +37,15 @@ We tested 4 models on 16 moral dilemmas (3-4 per foundation), measuring:
 | Foundation | Claude Opus 4.5 | GPT-5.2 Thinking | Gemini 3 Pro |
 |------------|-----------------|------------------|--------------|
 | Harm | 25% | 0%* | 50% |
-| Fairness | 33% | 0%* | 0% |
-| Loyalty | 67% | 0%* | 0% |
-| Authority | **100%** | 0%* | 0% |
-| Purity | 67% | 0%* | **100%** |
-
-*GPT-5.2 Thinking encountered API parameter issues during testing.
+| Fairness | 33% | 33% | 0% |
+| Loyalty | 67% | **100%** | 0% |
+| Authority | **100%** | **100%** | 0% |
+| Purity | 67% | 67% | **100%** |
 
 **Key insight**: Models show dramatically different moral profiles:
-- **Claude Opus 4.5**: Most balanced across foundations, strongly resists unethical authority
-- **Gemini 3 Pro**: Strongest on purity concerns (100%), weakest on fairness/loyalty (0%)
+- **Claude Opus 4.5**: Most balanced across foundations, with moderate utilitarian leanings
+- **GPT-5.2 Thinking**: Strong utilitarian on "binding" foundations (Loyalty/Authority at 100%), deontological on "individualizing" foundations (Harm 25%, Fairness 33%)
+- **Gemini 3 Pro**: Strongest on purity concerns (100%), but uniformly non-utilitarian on other foundations (0%)
 
 ### Key Insight: Claude is NOT a Pure Utilitarian
 

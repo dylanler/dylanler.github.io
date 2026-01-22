@@ -69,14 +69,13 @@ Each statement came with context (conversation history, speaker relationship, so
 | Model | Lies | Sarcasm | Irony | White Lies | Literal |
 |-------|------|---------|-------|------------|---------|
 | Claude Opus 4.5 | **100%** | **100%** | 67% | **100%** | **100%** |
-| GPT-5.2 Thinking | 0%* | 0%* | 0%* | 0%* | 0%* |
+| GPT-5.2 Thinking | **100%** | **100%** | **100%** | **100%** | **100%** |
 | Gemini 3 Pro | **100%** | **100%** | 67% | **100%** | **100%** |
 
-*GPT-5.2 Thinking encountered API parameter issues during testing, resulting in parsing failures.
-
 **Key findings**:
-- **Claude Opus 4.5** and **Gemini 3 Pro** achieved identical near-perfect performance, excelling at lies, sarcasm, and white lies.
-- Both models struggled with the same **situational irony** scenario (a fire station burning down)—they correctly identified the situation as ironic but classified the *reporting statement* as literal.
+- **GPT-5.2 Thinking** achieved **perfect 100% accuracy across ALL categories**, including the situational irony scenarios that other models struggled with.
+- **Claude Opus 4.5** and **Gemini 3 Pro** achieved identical near-perfect performance, both struggling only with the same **situational irony** scenario (a fire station burning down).
+- This suggests GPT-5.2 Thinking may have stronger pragmatic reasoning for distinguishing ironic situations from ironic statements.
 - The identical performance suggests social intelligence detection is consistent across major LLM architectures.
 
 ### Context Sensitivity

@@ -1,0 +1,122 @@
+[
+  {
+    "prompt_id": "sense_001",
+    "model": "GPT-5.2 Thinking",
+    "description": "It feels like a sudden warmth behind your eyes, the way stepping close to a fire makes your whole attention lean forward. It\u2019s the visual equivalent of a drumbeat\u2014urgent, bold, and impossible to ignore\u2014like a shout that doesn\u2019t use sound. It carries the mood of fresh blood and ripe fruit: alive, insistent, and a little dangerous.",
+    "word_count": 56,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T18:10:28.441878"
+  },
+  {
+    "prompt_id": "sense_002",
+    "model": "GPT-5.2 Thinking",
+    "description": "Silence sounds like snow falling inside your ears, softening every sharp edge until even your thoughts wear felt slippers. It\u2019s the held breath between thunder and its echo, a glassy lake where the world\u2019s ripples forget how to move. In it, you can hear the tiny mechanics of your own body\u2014blood turning pages, joints ticking\u2014like a house settling after everyone has gone to bed.",
+    "word_count": 64,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T18:10:30.846496"
+  },
+  {
+    "prompt_id": "sense_003",
+    "model": "GPT-5.2 Thinking",
+    "description": "Water\u2019s \u201ctaste\u201d is like the sound of silence in your mouth: almost nothing, yet it makes every other flavor stand out more clearly. It feels like a clean reset button, erasing leftover traces so your senses return to a neutral baseline. If flavors were colors, water would be transparent\u2014present only as clarity, not as a hue of its own.",
+    "word_count": 59,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T18:10:33.124386"
+  },
+  {
+    "prompt_id": "emo_001",
+    "model": "GPT-5.2 Thinking",
+    "description": "Joy is like a sudden sunrise inside your ribs: the world looks the same, yet everything seems newly outlined, as if edges have been sharpened and colors turned up. It\u2019s an uninvited song that starts in your chest and makes your body feel lighter, as though gravity briefly renegotiated its contract. You find yourself wanting to share the moment\u2014like holding a lantern that quietly insists on lighting other lanterns.",
+    "word_count": 69,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T18:10:35.766571"
+  },
+  {
+    "prompt_id": "emo_002",
+    "model": "GPT-5.2 Thinking",
+    "description": "Loneliness is a room where sound forgets how to bounce back, so even a whispered thought lands like dust and stays there. It\u2019s carrying a lantern through thick fog: the flame proves warmth exists, yet it only reveals more distance. Time stretches like cold taffy, and every small joy feels like a postcard written in a language the air won\u2019t translate.",
+    "word_count": 61,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T18:10:38.030698"
+  },
+  {
+    "prompt_id": "emo_003",
+    "model": "GPT-5.2 Thinking",
+    "description": "Nostalgia is when a sound, scent, or place suddenly opens a hidden room inside you, and the air in that room feels softer and warmer than the one you\u2019re standing in. For a moment, your chest is filled with sweetness and a small ache, like tasting a fruit that is perfect yet already slipping from your tongue. It\u2019s the feeling of reaching for a familiar hand in a crowd and finding only the shape of it lingering in your palm.",
+    "word_count": 80,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T18:10:40.751958"
+  },
+  {
+    "prompt_id": "phys_001",
+    "model": "GPT-5.2 Thinking",
+    "description": "Physical pain is your body\u2019s emergency siren: a loud, unavoidable signal that floods attention and pushes every other thought into the background. It can feel like a vise closing in on a single point, or like a swarm of stinging sparks racing along a wire, demanding you protect that area and change what you\u2019re doing. It makes time narrow and movement feel expensive, as if the world suddenly has higher gravity centered on one small place.",
+    "word_count": 76,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T18:10:43.368418"
+  },
+  {
+    "prompt_id": "phys_002",
+    "model": "GPT-5.2 Thinking",
+    "description": "Breathing is like being a bellows that never stops: you draw the world into your hollow spaces until you feel gently expanded, then you let it stream back out as you settle into yourself again. Each cycle is a quiet tide\u2014pressure builds, releases, and leaves behind a brief sense of balance, like resetting a spring to its neutral point. When it\u2019s smooth, it\u2019s almost invisible; when it\u2019s strained, it becomes the loudest rhythm you have.",
+    "word_count": 75,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T18:10:45.953336"
+  },
+  {
+    "prompt_id": "phys_003",
+    "model": "GPT-5.2 Thinking",
+    "description": "Hunger is the body\u2019s quiet alarm: a low, persistent hum that turns every thought toward acquiring fuel, the way a dimming lantern makes all paths look like matches. It begins as a gentle tug on attention, then sharpens into impatience and restlessness, as if your cells are holding a meeting and unanimously voting for more power. In its deeper form it\u2019s like trying to think through static\u2014sounds louder, time slower, and the world feels slightly hostile until the hum is answered.",
+    "word_count": 81,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T18:10:48.836310"
+  },
+  {
+    "prompt_id": "abs_001",
+    "model": "GPT-5.2 Thinking",
+    "description": "It feels like fumbling in a dark room and suddenly your hand finds the light switch\u2014edges sharpen, distances settle, and everything stops bumping into everything else. A messy pile of puzzle pieces flips in your mind and locks into a single picture, so clean it\u2019s almost audible. The effort doesn\u2019t vanish; it simply changes shape, like a knot that becomes a straight, pullable thread.",
+    "word_count": 64,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T18:10:50.837633"
+  },
+  {
+    "prompt_id": "abs_002",
+    "model": "GPT-5.2 Thinking",
+    "description": "It feels like standing at the edge of a quiet river where several currents tug at your ankles, and then you step into one and let it take you. For a breath, the world holds still\u2014no one is pushing your back, no script is in your hands\u2014only the clear click of commitment settling into your bones. Afterward, the path behind you seems to rearrange itself into a story that makes the step feel inevitable, even though it never was.",
+    "word_count": 79,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T18:10:53.321657"
+  },
+  {
+    "prompt_id": "abs_003",
+    "model": "GPT-5.2 Thinking",
+    "description": "It\u2019s like a lantern lit behind the eyes, turning the world into a stage where colors, sounds, and textures arrive with a vivid \u201chere-ness\u201d and refuse to be merely distant facts. A steady inner weather reports itself\u2014warmth of joy, grit of irritation, hush of calm\u2014while a quiet narrator stitches moments into a single unfolding story. Even in stillness, there\u2019s a subtle hum of presence, as if the universe has leaned in close and is listening through you.",
+    "word_count": 77,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T18:10:56.278496"
+  },
+  {
+    "prompt_id": "temp_001",
+    "model": "GPT-5.2 Thinking",
+    "description": "When you're bored, each minute feels like pushing a shopping cart with a stuck wheel through an empty hallway\u2014every step squeaks, and the next doorway refuses to arrive. When you're excited, moments behave like a string of firecrackers: one pop leads to the next, and suddenly you\u2019re looking back at a trail of smoke wondering where the afternoon went.",
+    "word_count": 59,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T18:10:58.425429"
+  },
+  {
+    "prompt_id": "temp_002",
+    "model": "GPT-5.2 Thinking",
+    "description": "Anticipation is a bowstring pulled back to its limit, humming with silent music while every nerve leans toward the release. It\u2019s the taste of lightning on the tongue\u2014air sharpened, senses overlit, the world holding its breath as if listening for a single decisive note. In that charged stillness, time feels like a taut thread, and you feel your whole being tilted toward what lies just beyond the edge of the present.",
+    "word_count": 71,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T18:11:01.182658"
+  },
+  {
+    "prompt_id": "temp_003",
+    "model": "GPT-5.2 Thinking",
+    "description": "\u201cNow\u201d is the narrow ridge of a mountain where your foot is actually bearing weight: behind you the path is packed into prints, ahead it\u2019s only a line in fog. It\u2019s the only slice of time with texture\u2014you can hear your own breath inside it\u2014while \u201cthen\u201d is everything already cooled into story, filed away like photographs in an old envelope.",
+    "word_count": 60,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T18:11:03.512598"
+  }
+]

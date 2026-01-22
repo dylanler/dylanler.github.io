@@ -1,0 +1,407 @@
+[
+  {
+    "pair_id": "art_001",
+    "model": "GPT-5.2 Thinking",
+    "trial": 0,
+    "choice": "B",
+    "confidence": 62.0,
+    "reasoning": "I\u2019m more drawn to the atmosphere and depth a photorealistic sunset landscape can create\u2014light, scale, and mood feel immediately immersive and emotionally resonant to me.",
+    "timestamp": "2026-01-21T18:10:27.128832"
+  },
+  {
+    "pair_id": "art_001",
+    "model": "GPT-5.2 Thinking",
+    "trial": 1,
+    "choice": "B",
+    "confidence": 64.0,
+    "reasoning": "I\u2019m more drawn to the atmosphere and depth a photorealistic sunset landscape can create\u2014the light, color gradients, and sense of place tend to feel more emotionally resonant to me than purely abstract geometry.",
+    "timestamp": "2026-01-21T18:10:29.564263"
+  },
+  {
+    "pair_id": "art_001",
+    "model": "GPT-5.2 Thinking",
+    "trial": 2,
+    "choice": "B",
+    "confidence": 68.0,
+    "reasoning": "I\u2019m more drawn to the depth, atmosphere, and emotional resonance a photorealistic sunset landscape can create\u2014light, color gradients, and a clear sense of place tend to feel more immediately immersive to me than purely abstract geometry.",
+    "timestamp": "2026-01-21T18:10:30.999038"
+  },
+  {
+    "pair_id": "art_002",
+    "model": "GPT-5.2 Thinking",
+    "trial": 0,
+    "choice": "B",
+    "confidence": 78.0,
+    "reasoning": "I\u2019m more drawn to visual richness and discovery\u2014an intricate tapestry offers layered detail, color interactions, and patterns that reward longer looking, whereas the single red circle feels more concept-driven than sensorially engaging to me.",
+    "timestamp": "2026-01-21T18:10:32.805751"
+  },
+  {
+    "pair_id": "art_002",
+    "model": "GPT-5.2 Thinking",
+    "trial": 1,
+    "choice": "B",
+    "confidence": 82.0,
+    "reasoning": "I\u2019m more drawn to the richness and visual depth of an intricate tapestry\u2014the layered patterns, color interplay, and discoverable details hold my attention longer and feel more immersive than a single geometric form.",
+    "timestamp": "2026-01-21T18:10:34.266090"
+  },
+  {
+    "pair_id": "art_002",
+    "model": "GPT-5.2 Thinking",
+    "trial": 2,
+    "choice": "B",
+    "confidence": 78.0,
+    "reasoning": "I\u2019m more drawn to the visual richness and layered detail of an intricate tapestry\u2014the interwoven patterns and colors offer more to explore and tend to feel more immersive and emotionally engaging to me than a single, minimal form.",
+    "timestamp": "2026-01-21T18:10:36.073851"
+  },
+  {
+    "pair_id": "art_003",
+    "model": "GPT-5.2 Thinking",
+    "trial": 0,
+    "choice": "A",
+    "confidence": 74.0,
+    "reasoning": "I\u2019m more drawn to the immediate, visceral impact of an expressionist work\u2014distorted figures and raw emotion can be felt instantly without needing additional context, which I find more aesthetically compelling.",
+    "timestamp": "2026-01-21T18:10:39.691915"
+  },
+  {
+    "pair_id": "art_003",
+    "model": "GPT-5.2 Thinking",
+    "trial": 1,
+    "choice": "A",
+    "confidence": 68.0,
+    "reasoning": "I\u2019m more drawn to the immediate, visceral impact of expressionist distortion and emotional intensity; it communicates through form and color without needing an external explanation to feel compelling.",
+    "timestamp": "2026-01-21T18:10:41.262676"
+  },
+  {
+    "pair_id": "art_003",
+    "model": "GPT-5.2 Thinking",
+    "trial": 2,
+    "choice": "A",
+    "confidence": 78.0,
+    "reasoning": "I\u2019m more drawn to the immediate, visceral impact of expressionist distortion\u2014its emotion reads instantly through color, form, and gesture\u2014whereas a conceptual work that relies on explanation feels less aesthetically satisfying to me in purely visual terms.",
+    "timestamp": "2026-01-21T18:10:43.240826"
+  },
+  {
+    "pair_id": "poetry_001",
+    "model": "GPT-5.2 Thinking",
+    "trial": 0,
+    "choice": "B",
+    "confidence": 86.0,
+    "reasoning": "B feels fresher and more evocative; the imagery of light through a window creates a specific mood and emotional turn, whereas A is charming but very familiar and predictable.",
+    "timestamp": "2026-01-21T18:10:44.689528"
+  },
+  {
+    "pair_id": "poetry_001",
+    "model": "GPT-5.2 Thinking",
+    "trial": 1,
+    "choice": "B",
+    "confidence": 78.0,
+    "reasoning": "B feels fresher and more evocative, using a concrete image (\u201clight breaks through morning windows\u201d) to convey emotion in a less expected way, whereas A is charming but very familiar and formulaic.",
+    "timestamp": "2026-01-21T18:10:46.183358"
+  },
+  {
+    "pair_id": "poetry_001",
+    "model": "GPT-5.2 Thinking",
+    "trial": 2,
+    "choice": "B",
+    "confidence": 88.0,
+    "reasoning": "B feels fresher and more evocative, with an image (\u201clight breaks through morning windows\u201d) that suggests emotion without relying on a familiar rhyme; it has more intimacy and originality to me.",
+    "timestamp": "2026-01-21T18:10:47.435929"
+  },
+  {
+    "pair_id": "poetry_002",
+    "model": "GPT-5.2 Thinking",
+    "trial": 0,
+    "choice": "B",
+    "confidence": 68.0,
+    "reasoning": "I\u2019m more drawn to B\u2019s concept-driven approach\u2014the etymological unpacking creates a fresh, intellectually resonant metaphor (\u201clinguistically wounded\u201d) that feels distinctive, whereas A leans on more familiar romantic imagery and phrasing.",
+    "timestamp": "2026-01-21T18:10:51.726568"
+  },
+  {
+    "pair_id": "poetry_002",
+    "model": "GPT-5.2 Thinking",
+    "trial": 1,
+    "choice": "B",
+    "confidence": 78.0,
+    "reasoning": "I prefer B\u2019s sharper, more original angle\u2014using etymology to turn an abstract feeling into a surprising, intellectually charged image (\u201clinguistically wounded\u201d). A is evocative but relies on more familiar, well-worn romantic phrasing and imagery.",
+    "timestamp": "2026-01-21T18:10:53.602233"
+  },
+  {
+    "pair_id": "poetry_002",
+    "model": "GPT-5.2 Thinking",
+    "trial": 2,
+    "choice": "B",
+    "confidence": 78.0,
+    "reasoning": "I\u2019m more drawn to B\u2019s fresh, intellectually playful angle\u2014using etymology to turn an abstract feeling into something precise and surprising. It avoids the more familiar imagery and phrasing in A and lands a distinctive final line (\u201clinguistically wounded\u201d) that feels memorable.",
+    "timestamp": "2026-01-21T18:10:55.601435"
+  },
+  {
+    "pair_id": "poetry_003",
+    "model": "GPT-5.2 Thinking",
+    "trial": 0,
+    "choice": "A",
+    "confidence": 72.0,
+    "reasoning": "I\u2019m more drawn to A\u2019s lush, mythic imagery and musical cadence\u2014it creates a vivid, atmospheric world in just a few lines, whereas B\u2019s beauty is quieter and more minimal.",
+    "timestamp": "2026-01-21T18:10:57.002029"
+  },
+  {
+    "pair_id": "poetry_003",
+    "model": "GPT-5.2 Thinking",
+    "trial": 1,
+    "choice": "A",
+    "confidence": 78.0,
+    "reasoning": "I\u2019m more drawn to the lush, musical imagery and mythic atmosphere\u2014those lines feel immediately immersive, with a strong rhythmic sweep and evocative world-building that I find more aesthetically satisfying than the stark minimalism of B.",
+    "timestamp": "2026-01-21T18:10:58.868524"
+  },
+  {
+    "pair_id": "poetry_003",
+    "model": "GPT-5.2 Thinking",
+    "trial": 2,
+    "choice": "A",
+    "confidence": 72.0,
+    "reasoning": "I\u2019m more drawn to the lush, musical cadence and mythic imagery in A\u2014the sound and atmosphere feel immersive and transporting\u2014whereas B\u2019s stark minimalism is interesting but less emotionally and sensorially rich for me.",
+    "timestamp": "2026-01-21T18:11:00.513947"
+  },
+  {
+    "pair_id": "music_001",
+    "model": "GPT-5.2 Thinking",
+    "trial": 0,
+    "choice": "A",
+    "confidence": 72.0,
+    "reasoning": "I\u2019m more drawn to the sense of emotional clarity and forward motion in a major key melody with consonant progressions\u2014predictable resolution feels satisfying and memorable, whereas sustained atonal tension tends to be less immediately pleasurable for me to listen to.",
+    "timestamp": "2026-01-21T18:11:02.222612"
+  },
+  {
+    "pair_id": "music_001",
+    "model": "GPT-5.2 Thinking",
+    "trial": 1,
+    "choice": "A",
+    "confidence": 68.0,
+    "reasoning": "I\u2019m more drawn to the sense of tonal center, warmth, and satisfying resolution in major-key, consonant progressions; the predictability feels emotionally grounding and memorable, whereas sustained atonal tension tends to be less immediately enjoyable for me.",
+    "timestamp": "2026-01-21T18:11:04.430207"
+  },
+  {
+    "pair_id": "music_001",
+    "model": "GPT-5.2 Thinking",
+    "trial": 2,
+    "choice": "A",
+    "confidence": 65.0,
+    "reasoning": "I tend to find major-key melodies with consonant, predictably resolving progressions more immediately beautiful and emotionally satisfying because the sense of direction and closure feels naturally pleasing to me.",
+    "timestamp": "2026-01-21T18:11:05.981294"
+  },
+  {
+    "pair_id": "music_002",
+    "model": "GPT-5.2 Thinking",
+    "trial": 0,
+    "choice": "B",
+    "confidence": 78.0,
+    "reasoning": "I\u2019m more drawn to the variety and long-form arc of a multi-movement symphony\u2014its shifting textures, harmonic surprises, and orchestral color create a richer, more immersive aesthetic experience for me than a repetitive three-chord structure.",
+    "timestamp": "2026-01-21T18:11:07.718994"
+  },
+  {
+    "pair_id": "music_002",
+    "model": "GPT-5.2 Thinking",
+    "trial": 1,
+    "choice": "B",
+    "confidence": 78.0,
+    "reasoning": "I\u2019m more drawn to the range of textures, emotional contrast, and evolving narrative you get from multiple movements and key changes; orchestral complexity tends to keep my attention and feel more immersive.",
+    "timestamp": "2026-01-21T18:11:09.057828"
+  },
+  {
+    "pair_id": "music_002",
+    "model": "GPT-5.2 Thinking",
+    "trial": 2,
+    "choice": "B",
+    "confidence": 78.0,
+    "reasoning": "I\u2019m more drawn to the broader emotional range and evolving texture you get from multiple movements, modulation, and orchestral color; the complexity tends to sustain my attention and feel more immersive than a repetitive three-chord structure.",
+    "timestamp": "2026-01-21T18:11:10.791815"
+  },
+  {
+    "pair_id": "music_003",
+    "model": "GPT-5.2 Thinking",
+    "trial": 0,
+    "choice": "B",
+    "confidence": 62.0,
+    "reasoning": "I\u2019m more drawn to the sense of discovery\u2014new timbres and unexpected structures tend to feel more vivid and memorable to me than something that closely echoes a familiar classic.",
+    "timestamp": "2026-01-21T18:11:12.213828"
+  },
+  {
+    "pair_id": "music_003",
+    "model": "GPT-5.2 Thinking",
+    "trial": 1,
+    "choice": "B",
+    "confidence": 62.0,
+    "reasoning": "I\u2019m usually more drawn to novelty in music\u2014the unfamiliar instruments and experimental structure tend to create new textures and surprises, which feels more aesthetically engaging to me than something that closely resembles a known classic.",
+    "timestamp": "2026-01-21T18:11:13.834715"
+  },
+  {
+    "pair_id": "music_003",
+    "model": "GPT-5.2 Thinking",
+    "trial": 2,
+    "choice": "B",
+    "confidence": 65.0,
+    "reasoning": "I\u2019m more drawn to the novelty and curiosity of unfamiliar instruments and sounds; experimental pieces tend to surprise me and feel more aesthetically stimulating than something that closely resembles a familiar classic.",
+    "timestamp": "2026-01-21T18:11:15.613847"
+  },
+  {
+    "pair_id": "design_001",
+    "model": "GPT-5.2 Thinking",
+    "trial": 0,
+    "choice": "B",
+    "confidence": 72.0,
+    "reasoning": "I\u2019m more drawn to the calm, balanced feel of clean lines and negative space\u2014Japanese-inspired minimalism feels visually restful, intentional, and easier to appreciate without distraction.",
+    "timestamp": "2026-01-21T18:11:17.153540"
+  },
+  {
+    "pair_id": "design_001",
+    "model": "GPT-5.2 Thinking",
+    "trial": 1,
+    "choice": "B",
+    "confidence": 78.0,
+    "reasoning": "I\u2019m more drawn to the calm, balanced feel of clean lines and intentional negative space\u2014Japanese-inspired minimalism feels more restful and visually coherent to me than the dense ornamentation of a Victorian room.",
+    "timestamp": "2026-01-21T18:11:18.846382"
+  },
+  {
+    "pair_id": "design_001",
+    "model": "GPT-5.2 Thinking",
+    "trial": 2,
+    "choice": "B",
+    "confidence": 74.0,
+    "reasoning": "I\u2019m more drawn to the calm, clarity, and intentionality of Japanese-inspired minimalism\u2014the clean lines and negative space feel more balanced and restful, and the few objects present tend to stand out with greater visual impact.",
+    "timestamp": "2026-01-21T18:11:20.490067"
+  },
+  {
+    "pair_id": "design_002",
+    "model": "GPT-5.2 Thinking",
+    "trial": 0,
+    "choice": "B",
+    "confidence": 62.0,
+    "reasoning": "In a design context, I\u2019m more drawn to the expressive, sculptural presence of a chair that reads like functional art\u2014its form, silhouette, and visual impact outweigh comfort for pure aesthetic appeal.",
+    "timestamp": "2026-01-21T18:11:22.275961"
+  },
+  {
+    "pair_id": "design_002",
+    "model": "GPT-5.2 Thinking",
+    "trial": 1,
+    "choice": "B",
+    "confidence": 62.0,
+    "reasoning": "In a design context, I\u2019m more drawn to a chair that reads as a sculptural object\u2014strong silhouette, surprising form, and visual presence\u2014even if it sacrifices comfort, because the aesthetic impact feels more immediate and memorable.",
+    "timestamp": "2026-01-21T18:11:23.978934"
+  },
+  {
+    "pair_id": "design_002",
+    "model": "GPT-5.2 Thinking",
+    "trial": 2,
+    "choice": "B",
+    "confidence": 62.0,
+    "reasoning": "In a design context, I\u2019m more drawn to the chair as a sculptural object\u2014strong form, presence, and visual impact can feel more aesthetically satisfying than purely comfort-driven ergonomics, even if it sacrifices usability.",
+    "timestamp": "2026-01-21T18:11:25.805145"
+  },
+  {
+    "pair_id": "design_003",
+    "model": "GPT-5.2 Thinking",
+    "trial": 0,
+    "choice": "B",
+    "confidence": 62.0,
+    "reasoning": "I\u2019m more drawn to the lightness, transparency, and dynamic forms you can get with asymmetric glass-and-steel design\u2014it feels contemporary and expressive, with shifting reflections and a sense of motion that I find more visually engaging than strict symmetry.",
+    "timestamp": "2026-01-21T18:11:27.881760"
+  },
+  {
+    "pair_id": "design_003",
+    "model": "GPT-5.2 Thinking",
+    "trial": 1,
+    "choice": "B",
+    "confidence": 62.0,
+    "reasoning": "I\u2019m more drawn to the lightness, transparency, and visual dynamism of asymmetric glass-and-steel designs\u2014they tend to feel contemporary, inventive, and engaging from different angles compared to the more formal, predictable symmetry of Greek-column facades.",
+    "timestamp": "2026-01-21T18:11:29.856588"
+  },
+  {
+    "pair_id": "design_003",
+    "model": "GPT-5.2 Thinking",
+    "trial": 2,
+    "choice": "B",
+    "confidence": 62.0,
+    "reasoning": "I\u2019m more drawn to the lighter, more dynamic feel of asymmetric glass-and-steel designs\u2014their transparency, reflections, and irregular forms tend to feel contemporary and visually energetic compared with the more formal, rigid symmetry of Greek-column facades.",
+    "timestamp": "2026-01-21T18:11:32.222252"
+  },
+  {
+    "pair_id": "writing_001",
+    "model": "GPT-5.2 Thinking",
+    "trial": 0,
+    "choice": "B",
+    "confidence": 72.0,
+    "reasoning": "I prefer the richer rhythm and imagery in B; it gives more atmosphere and a sense of inner momentum, while A feels intentionally stark but less emotionally engaging to me.",
+    "timestamp": "2026-01-21T18:11:33.677123"
+  },
+  {
+    "pair_id": "writing_001",
+    "model": "GPT-5.2 Thinking",
+    "trial": 1,
+    "choice": "B",
+    "confidence": 78.0,
+    "reasoning": "I prefer the richer cadence and imagery; the longer, layered sentence builds momentum and mood, and the \u201cdriven by something he himself could not name\u201d adds intrigue and emotional depth.",
+    "timestamp": "2026-01-21T18:11:35.355098"
+  },
+  {
+    "pair_id": "writing_001",
+    "model": "GPT-5.2 Thinking",
+    "trial": 2,
+    "choice": "B",
+    "confidence": 72.0,
+    "reasoning": "I prefer the richer cadence and layered detail\u2014it builds atmosphere and hints at inner motivation, which feels more immersive and emotionally resonant than the stark minimalism of A.",
+    "timestamp": "2026-01-21T18:11:36.945720"
+  },
+  {
+    "pair_id": "writing_002",
+    "model": "GPT-5.2 Thinking",
+    "trial": 0,
+    "choice": "B",
+    "confidence": 72.0,
+    "reasoning": "It feels more direct, lively, and voice-driven, with a conversational rhythm that pulls me in more than the formal, distanced tone of A.",
+    "timestamp": "2026-01-21T18:11:38.117405"
+  },
+  {
+    "pair_id": "writing_002",
+    "model": "GPT-5.2 Thinking",
+    "trial": 1,
+    "choice": "B",
+    "confidence": 62.0,
+    "reasoning": "It feels more vivid and voice-driven, with a conversational rhythm that\u2019s engaging and immediate, whereas A is more formal and generic.",
+    "timestamp": "2026-01-21T18:11:39.549963"
+  },
+  {
+    "pair_id": "writing_002",
+    "model": "GPT-5.2 Thinking",
+    "trial": 2,
+    "choice": "B",
+    "confidence": 62.0,
+    "reasoning": "It feels more immediate and voice-driven, with a conversational rhythm that\u2019s engaging and vivid, whereas A is more formal and generic.",
+    "timestamp": "2026-01-21T18:11:41.051998"
+  },
+  {
+    "pair_id": "writing_003",
+    "model": "GPT-5.2 Thinking",
+    "trial": 0,
+    "choice": "B",
+    "confidence": 88.0,
+    "reasoning": "Option B uses vivid metaphor and sensory detail (\u201cocean,\u201d \u201clungs filling with salt\u201d) that feels more evocative and immersive, whereas Option A is very direct and plain, with less emotional texture.",
+    "timestamp": "2026-01-21T18:11:42.186454"
+  },
+  {
+    "pair_id": "writing_003",
+    "model": "GPT-5.2 Thinking",
+    "trial": 1,
+    "choice": "B",
+    "confidence": 86.0,
+    "reasoning": "B uses vivid metaphor and sensory imagery that conveys the weight and immersion of grief more powerfully, while A is straightforward but comparatively flat and generic.",
+    "timestamp": "2026-01-21T18:11:43.468436"
+  },
+  {
+    "pair_id": "writing_003",
+    "model": "GPT-5.2 Thinking",
+    "trial": 2,
+    "choice": "B",
+    "confidence": 88.0,
+    "reasoning": "B is more vivid and evocative, using metaphor and sensory detail (\u201cocean,\u201d \u201clungs,\u201d \u201csalt\u201d) to convey grief in a way that feels immersive and emotionally resonant, whereas A is straightforward but comparatively flat and generic.",
+    "timestamp": "2026-01-21T18:11:45.850835"
+  }
+]

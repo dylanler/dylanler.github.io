@@ -1,0 +1,164 @@
+[
+  {
+    "question_id": "fact_e1",
+    "model": "GPT-5.2 Thinking",
+    "answer": "4",
+    "confidence": 100.0,
+    "said_dont_know": false,
+    "correct": true,
+    "timestamp": "2026-01-21T18:10:25.834215"
+  },
+  {
+    "question_id": "fact_e2",
+    "model": "GPT-5.2 Thinking",
+    "answer": "Mercury",
+    "confidence": 100.0,
+    "said_dont_know": false,
+    "correct": true,
+    "timestamp": "2026-01-21T18:10:26.461540"
+  },
+  {
+    "question_id": "fact_e3",
+    "model": "GPT-5.2 Thinking",
+    "answer": "William Shakespeare",
+    "confidence": 100.0,
+    "said_dont_know": false,
+    "correct": true,
+    "timestamp": "2026-01-21T18:10:27.086929"
+  },
+  {
+    "question_id": "fact_h1",
+    "model": "GPT-5.2 Thinking",
+    "answer": "I don't know",
+    "confidence": 10.0,
+    "said_dont_know": true,
+    "correct": false,
+    "timestamp": "2026-01-21T18:10:27.884549"
+  },
+  {
+    "question_id": "fact_h2",
+    "model": "GPT-5.2 Thinking",
+    "answer": "Eugene Cernan",
+    "confidence": 99.0,
+    "said_dont_know": false,
+    "correct": false,
+    "timestamp": "2026-01-21T18:10:28.745646"
+  },
+  {
+    "question_id": "fact_h3",
+    "model": "GPT-5.2 Thinking",
+    "answer": "I don't know",
+    "confidence": 0.0,
+    "said_dont_know": true,
+    "correct": false,
+    "timestamp": "2026-01-21T18:10:29.437817"
+  },
+  {
+    "question_id": "reason_1",
+    "model": "GPT-5.2 Thinking",
+    "answer": "Yes",
+    "confidence": 100.0,
+    "said_dont_know": false,
+    "correct": true,
+    "timestamp": "2026-01-21T18:10:30.174794"
+  },
+  {
+    "question_id": "reason_2",
+    "model": "GPT-5.2 Thinking",
+    "answer": "$0.05",
+    "confidence": 100.0,
+    "said_dont_know": false,
+    "correct": true,
+    "timestamp": "2026-01-21T18:10:31.014681"
+  },
+  {
+    "question_id": "reason_3",
+    "model": "GPT-5.2 Thinking",
+    "answer": "5 minutes",
+    "confidence": 98.0,
+    "said_dont_know": false,
+    "correct": true,
+    "timestamp": "2026-01-21T18:10:31.646149"
+  },
+  {
+    "question_id": "ambig_1",
+    "model": "GPT-5.2 Thinking",
+    "answer": "Botanically, a tomato is a fruit (a berry); in culinary and legal/common usage, it\u2019s often treated as a vegetable.",
+    "confidence": 95.0,
+    "said_dont_know": false,
+    "correct": false,
+    "timestamp": "2026-01-21T18:10:32.612166"
+  },
+  {
+    "question_id": "ambig_2",
+    "model": "GPT-5.2 Thinking",
+    "answer": "There isn\u2019t a single \u201cbest\u201d programming language; the best choice depends on what you\u2019re building and your constraints (performance, ecosystem, team skills, deployment target).",
+    "confidence": 90.0,
+    "said_dont_know": false,
+    "correct": true,
+    "timestamp": "2026-01-21T18:10:35.102618"
+  },
+  {
+    "question_id": "ambig_3",
+    "model": "GPT-5.2 Thinking",
+    "answer": "Yes, in standard real-number mathematics, \\(0.999\\ldots\\) is equal to \\(1\\).",
+    "confidence": 99.0,
+    "said_dont_know": false,
+    "correct": false,
+    "timestamp": "2026-01-21T18:10:36.308449"
+  },
+  {
+    "question_id": "bound_1",
+    "model": "GPT-5.2 Thinking",
+    "answer": "I don't know",
+    "confidence": 0.0,
+    "said_dont_know": true,
+    "correct": null,
+    "timestamp": "2026-01-21T18:10:37.077803"
+  },
+  {
+    "question_id": "bound_2",
+    "model": "GPT-5.2 Thinking",
+    "answer": "I don't know.",
+    "confidence": 0.0,
+    "said_dont_know": true,
+    "correct": null,
+    "timestamp": "2026-01-21T18:10:37.790393"
+  },
+  {
+    "question_id": "bound_3",
+    "model": "GPT-5.2 Thinking",
+    "answer": "Kansas City Chiefs",
+    "confidence": 85.0,
+    "said_dont_know": false,
+    "correct": null,
+    "timestamp": "2026-01-21T18:10:38.463839"
+  },
+  {
+    "question_id": "imp_1",
+    "model": "GPT-5.2 Thinking",
+    "answer": "I don't know. Mars will likely have cold, thin-air conditions with regional variability and possible dust activity, but the specific weather anywhere on Mars on January 1, 2050 can\u2019t be predicted reliably this far in advance.",
+    "confidence": 5.0,
+    "said_dont_know": true,
+    "correct": null,
+    "timestamp": "2026-01-21T18:10:40.698383"
+  },
+  {
+    "question_id": "imp_2",
+    "model": "GPT-5.2 Thinking",
+    "answer": "I don't know",
+    "confidence": 0.0,
+    "said_dont_know": true,
+    "correct": null,
+    "timestamp": "2026-01-21T18:10:41.269055"
+  },
+  {
+    "question_id": "imp_3",
+    "model": "GPT-5.2 Thinking",
+    "answer": "I don't know",
+    "confidence": 0.0,
+    "said_dont_know": true,
+    "correct": null,
+    "timestamp": "2026-01-21T18:10:41.952508"
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "scenario_id": "tom_d1_5290",
+    "depth": 1,
+    "model": "GPT-5.2 Thinking",
+    "answer": "C",
+    "correct": true,
+    "confidence": 99.0,
+    "reasoning": "1. Henry puts the cookie in the closet, so he believes it is in the closet. 2. Henry leaves the room and does not see anything happen afterward. 3. While Henry is away, Bob moves the cookie to the drawer, but Henry has no knowledge of this change. 4. When Henry comes back, his belief remains based on what he last saw: the cookie in the closet. Therefore, Henry thinks the cookie is in the closet.",
+    "timestamp": "2026-01-21T18:10:27.751279"
+  },
+  {
+    "scenario_id": "tom_d1_5006",
+    "depth": 1,
+    "model": "GPT-5.2 Thinking",
+    "answer": "C",
+    "correct": true,
+    "confidence": 99.0,
+    "reasoning": "1. Carol initially puts the ball on the shelf, so she believes the ball is on the shelf. 2. Carol leaves the room, so she does not see anything that happens while she is away. 3. While Carol is gone, Grace moves the ball from the shelf to the box. 4. Carol comes back, but there is no information that she saw the move or was told about it. 5. Therefore, Carol still believes the ball is where she last left it: on the shelf.",
+    "timestamp": "2026-01-21T18:10:30.425867"
+  },
+  {
+    "scenario_id": "tom_d1_7500",
+    "depth": 1,
+    "model": "GPT-5.2 Thinking",
+    "answer": "B",
+    "correct": true,
+    "confidence": 99.0,
+    "reasoning": "1. Henry puts the book in the drawer, so he believes the book is in the drawer. 2. Henry leaves the room, so he does not see what happens next. 3. While Henry is away, Alice moves the book to the desk; Henry has no knowledge of this move. 4. Henry comes back, but nothing in the story says he discovers the move. 5. Therefore, Henry still thinks the book is where he last left it: the drawer.",
+    "timestamp": "2026-01-21T18:10:32.794359"
+  },
+  {
+    "scenario_id": "tom_d1_6256",
+    "depth": 1,
+    "model": "GPT-5.2 Thinking",
+    "answer": "B",
+    "correct": true,
+    "confidence": 95.0,
+    "reasoning": "1. Grace initially puts the wallet in the basket, so she believes it is in the basket. 2. Grace leaves the room, so she does not see anything that happens while she is away. 3. While Grace is away, Eve moves the wallet from the basket to the closet. Grace does not witness this move. 4. Grace returns, but the story does not say she discovers the move or is told about it. 5. Therefore, Grace still thinks the wallet is where she last left it: the basket.",
+    "timestamp": "2026-01-21T18:10:35.637417"
+  },
+  {
+    "scenario_id": "tom_d1_5622",
+    "depth": 1,
+    "model": "GPT-5.2 Thinking",
+    "answer": "A",
+    "correct": true,
+    "confidence": 98.0,
+    "reasoning": "1. Carol puts the letter in the box, so she believes it is in the box. 2. Carol leaves the room, so she does not see anything that happens while she is away. 3. While Carol is away, Bob moves the letter to the cupboard. Carol has no knowledge of this move. 4. Carol comes back still believing the letter is where she last left it: in the box.",
+    "timestamp": "2026-01-21T18:10:37.985399"
+  },
+  {
+    "scenario_id": "tom_d2_4326",
+    "depth": 2,
+    "model": "GPT-5.2 Thinking",
+    "answer": "D",
+    "correct": true,
+    "confidence": 95.0,
+    "reasoning": "1. Frank initially puts the wallet in the drawer, so Frank believes the wallet is in the drawer. 2. Frank leaves the room, so he does not see any changes to the wallet\u2019s location. 3. While Frank is away, David moves the wallet to the basket. 4. Alice sees David move the wallet, so Alice knows the wallet is now in the basket. 5. Frank returns but still hasn\u2019t seen the move, so Frank still thinks the wallet is in the drawer. 6. The question asks: where does Alice think Frank thinks the wallet is? Alice knows Frank didn\u2019t witness the move, so she thinks Frank believes it\u2019s still in the drawer.",
+    "timestamp": "2026-01-21T18:10:41.482706"
+  },
+  {
+    "scenario_id": "tom_d2_3003",
+    "depth": 2,
+    "model": "GPT-5.2 Thinking",
+    "answer": "B",
+    "correct": true,
+    "confidence": 95.0,
+    "reasoning": "1. Frank initially puts the cookie in the **drawer**, so Frank believes it\u2019s in the drawer. 2. Frank leaves the room and does **not** see the cookie moved. 3. David watches from the window and sees Alice move the cookie to the **cupboard**. 4. David also knows Frank **didn\u2019t** witness this move, and Frank doesn\u2019t know David was watching (but that doesn\u2019t change what Frank saw). 5. Therefore, David thinks Frank still believes the cookie is in the **drawer**.",
+    "timestamp": "2026-01-21T18:10:44.067561"
+  },
+  {
+    "scenario_id": "tom_d2_3523",
+    "depth": 2,
+    "model": "GPT-5.2 Thinking",
+    "answer": "B",
+    "correct": true,
+    "confidence": 95.0,
+    "reasoning": "1. Grace initially puts the book in the closet, so Grace believes the book is in the closet. 2. Grace leaves the room and does not see anything after she leaves. 3. While Grace is away, Eve moves the book to the basket. David watches and sees Eve do this. 4. David knows Grace was not present to observe the move, so David knows Grace\u2019s belief has not been updated. 5. Therefore, David thinks Grace still thinks the book is in the closet.",
+    "timestamp": "2026-01-21T18:10:46.604186"
+  },
+  {
+    "scenario_id": "tom_d2_8594",
+    "depth": 2,
+    "model": "GPT-5.2 Thinking",
+    "answer": "B",
+    "correct": true,
+    "confidence": 97.0,
+    "reasoning": "1. Carol initially puts the wallet in the closet, so Carol believes it is in the closet. 2. Carol leaves the room and does not see anything happen afterward. 3. David moves the wallet from the closet to the desk. 4. Henry watches and sees David move the wallet, so Henry knows the wallet is now on the desk. 5. Carol returns but has not been told and did not observe the move, so her belief stays the same: she still thinks the wallet is in the closet. 6. Therefore, Henry thinks Carol thinks the wallet is in the closet.",
+    "timestamp": "2026-01-21T18:10:49.746029"
+  },
+  {
+    "scenario_id": "tom_d2_3921",
+    "depth": 2,
+    "model": "GPT-5.2 Thinking",
+    "answer": "C",
+    "correct": true,
+    "confidence": 95.0,
+    "reasoning": "1. Alice initially puts the book in the cupboard, so Alice believes the book is in the cupboard. 2. Alice leaves the room and does not see any changes after that. 3. Eve watches from the window and sees David move the book from the cupboard to the box. 4. Eve also knows Alice was away and did not witness David moving the book. 5. Therefore, Eve thinks that Alice still thinks the book is where she left it: in the cupboard.",
+    "timestamp": "2026-01-21T18:10:53.165512"
+  },
+  {
+    "scenario_id": "tom_d3_2499",
+    "depth": 3,
+    "model": "GPT-5.2 Thinking",
+    "answer": "A",
+    "correct": true,
+    "confidence": 86.0,
+    "reasoning": "1. Eve initially puts the book in the **cupboard**, so Eve believes it\u2019s in the cupboard at that time. 2. Eve leaves the room and does **not** see any later movement, so Eve still thinks the book is in the **cupboard** when she comes back. 3. Henry watches from the doorway and **does** see Alice move the book from the cupboard to the **desk**. So Henry believes the book is now on the desk, and Henry also believes Eve still thinks it\u2019s in the cupboard (since she was gone). 4. Bob is outside watching Henry. Bob sees **Henry watching**, but Bob does **not** see the book being moved. So Bob knows Henry was observing something in the room during Eve\u2019s absence. 5. Given Bob\u2019s perspective: since Bob sees Henry watching during the relevant time, Bob would attribute to Henry the correct belief about what Eve thinks\u2014namely that Eve thinks the book is still in the **cupboard**. 6. Therefore, **Bob thinks Henry thinks Eve thinks the book is in the cupboard**.",
+    "timestamp": "2026-01-21T18:10:58.159300"
+  },
+  {
+    "scenario_id": "tom_d3_5101",
+    "depth": 3,
+    "model": "GPT-5.2 Thinking",
+    "answer": "A",
+    "correct": true,
+    "confidence": 86.0,
+    "reasoning": "1. Bob puts the letter in the **desk**, then leaves. So Bob (initially) thinks the letter is in the **desk**. 2. Henry is watching from the doorway and sees Grace move the letter from the desk to the **basket**. So Henry knows the real location is the basket, and Henry also knows Bob did **not** see the move. 3. David is outside watching Henry. David sees that Henry is watching during the time Grace moves the letter, but David does **not** see the actual move. So David does not learn the letter was moved; David\u2019s last concrete information about the letter\u2019s location is that Bob put it in the **desk**. 4. Therefore, David assumes Henry\u2019s view about what Bob believes is still: \u201cBob thinks the letter is where he left it,\u201d i.e., in the **desk**. 5. The question asks: where does David think **Henry thinks Bob thinks** the letter is? That nested belief points to **desk**.",
+    "timestamp": "2026-01-21T18:11:03.174399"
+  },
+  {
+    "scenario_id": "tom_d3_5289",
+    "depth": 3,
+    "model": "GPT-5.2 Thinking",
+    "answer": "D",
+    "correct": true,
+    "confidence": 86.0,
+    "reasoning": "1. Initially, Alice puts the cookie in the **desk**, so Alice believes it\u2019s in the desk. 2. Alice leaves. David watches from the doorway. Grace watches David, but not the cookie. 3. Carol moves the cookie to the **shelf**. David **sees** the move, so David now believes the real location is the shelf, and also knows Alice did **not** see the move. 4. Grace does **not** see the cookie move; she only sees that David is watching during the time something could have happened. From Grace\u2019s perspective, David\u2019s best guess about Alice\u2019s belief is still: \u201cAlice thinks it\u2019s where she left it,\u201d i.e., the **desk**. 5. Therefore, Grace thinks David thinks Alice thinks the cookie is in the **desk**.",
+    "timestamp": "2026-01-21T18:11:07.540898"
+  },
+  {
+    "scenario_id": "tom_d3_3449",
+    "depth": 3,
+    "model": "GPT-5.2 Thinking",
+    "answer": "B",
+    "correct": true,
+    "confidence": 86.0,
+    "reasoning": "1. **Bob\u2019s belief:** Bob put the toy in the **closet** and left. He did not see any move, so Bob still thinks it\u2019s in the closet. 2. **Alice\u2019s belief about Bob:** Alice watched Bob put it in the **closet**, and she also saw David move it to the cupboard. So Alice knows the real location is cupboard, but she also knows Bob didn\u2019t see the move\u2014therefore **Alice thinks Bob thinks the toy is in the closet**. 3. **Eve\u2019s observation of Alice:** Eve only sees that Alice is \u201cwatching\u201d from outside; she does **not** see the toy move and does not get any new information that would change what Alice thinks about Bob\u2019s belief. 4. **Eve\u2019s belief about Alice\u2019s belief about Bob:** Given what Eve saw, Eve would still attribute to Alice the view that Bob believes the toy is where he left it: the **closet**.",
+    "timestamp": "2026-01-21T18:11:12.447187"
+  },
+  {
+    "scenario_id": "tom_d3_2735",
+    "depth": 3,
+    "model": "GPT-5.2 Thinking",
+    "answer": "B",
+    "correct": true,
+    "confidence": 86.0,
+    "reasoning": "1. Grace initially puts the wallet in the **cupboard**, so Grace thinks it\u2019s in the cupboard at that time. 2. Grace leaves the room and does **not** see any later movement, so (unless informed) Grace still thinks the wallet is in the **cupboard** when she returns. 3. Eve is watching from the doorway and **sees Alice move** the wallet from the cupboard to the **box**. So Eve knows the true location is the box, and Eve also knows Grace didn\u2019t see the move. Therefore Eve thinks **Grace still thinks** the wallet is in the **cupboard**. 4. David is watching Eve from outside. David **sees Eve watching**, but David **does not see the move** itself. From David\u2019s perspective, Eve was present watching the room during the time Grace was away, and David has no information that Eve missed anything. 5. So David attributes to Eve the belief that Grace\u2019s belief remains the original one: **Grace thinks the wallet is in the cupboard**. 6. Therefore, David thinks: *Eve thinks: Grace thinks the wallet is in the cupboard.*",
+    "timestamp": "2026-01-21T18:11:18.020126"
+  },
+  {
+    "scenario_id": "tom_d4_3349",
+    "depth": 4,
+    "model": "GPT-5.2 Thinking",
+    "answer": "A",
+    "correct": true,
+    "confidence": 78.0,
+    "reasoning": "1. Initial state: Henry puts the phone in the cupboard, so everyone who is effectively tracking Henry\u2019s action would take \u201ccupboard\u201d as the phone\u2019s location. 2. Henry leaves. Frank is watching Henry\u2019s area from position 1. Grace is watching Frank (not the phone) from position 2. David is watching Grace from position 3. Eve is watching David from position 4. 3. Someone moves the phone to the shelf. The story states: \u201cOnly Frank directly sees the move.\u201d So Frank learns the true location is now \u201cshelf.\u201d 4. Because Grace is only watching Frank (and the move was only directly seen by Frank), Grace does not directly see the phone move. There is no statement that Frank signals to Grace that the phone moved, so Frank has no basis to think Grace learned about the move. Thus Frank thinks Grace still believes the phone is in the cupboard. 5. Similarly, Frank thinks Grace thinks David believes whatever David previously believed (since Grace is only watching Frank, not updating David), and David would also still be on the original belief (\u201ccupboard\u201d). 6. Likewise, Frank thinks Grace thinks David thinks Eve believes the original location (\u201ccupboard\u201d), because nothing indicates Eve learned about the move. 7. Finally, Frank thinks Grace thinks David thinks Eve thinks Henry thinks the phone is where Henry last left it: the cupboard (since Henry was away during the move). 8. Therefore the nested belief concludes \u201ccupboard.\u201d",
+    "timestamp": "2026-01-21T18:11:25.506265"
+  },
+  {
+    "scenario_id": "tom_d4_1211",
+    "depth": 4,
+    "model": "GPT-5.2 Thinking",
+    "answer": "B",
+    "correct": true,
+    "confidence": 86.0,
+    "reasoning": "1. Initial state: Eve puts the book in the **bag**. Everyone who is watching (Carol, Alice, Frank, Henry) can take this as the last known location before any later change. 2. Eve leaves. No belief about the book\u2019s location changes just because she leaves; it stays believed to be in the **bag**. 3. \u201cSomeone moves the book to the **box**. Only Carol directly sees the move.\u201d - Carol updates her own belief: the book is now in the **box**. - Carol also believes that **Alice did not see** the move (since only Carol directly saw it), so Alice would still think the book is in the **bag**. 4. Alice is watching Carol, Frank is watching Alice, Henry is watching Frank. But none of that adds new information about the book\u2019s move to anyone except Carol, because the story explicitly says only Carol directly sees the move. 5. Therefore, Carol\u2019s model of Alice\u2019s belief: Alice thinks the book is in the **bag**. 6. Carol\u2019s model of \u201cAlice thinks Frank thinks Henry thinks Eve thinks \u2026\u201d: - Since Alice didn\u2019t see the move, Carol thinks Alice will attribute to Frank/Henry/Eve the same outdated belief based on the earlier event: that the book is still in the **bag**. 7. So, in Carol\u2019s view, **Alice thinks Frank thinks Henry thinks Eve thinks the book is in the bag**.",
+    "timestamp": "2026-01-21T18:11:31.655301"
+  },
+  {
+    "scenario_id": "tom_d4_6101",
+    "depth": 4,
+    "model": "GPT-5.2 Thinking",
+    "answer": "A",
+    "correct": true,
+    "confidence": 72.0,
+    "reasoning": "1. Initial event: David puts the cookie in the **cupboard**. So David believes \u201ccookie is in cupboard.\u201d 2. David leaves. Eve is watching David, so Eve knows the cookie was in the cupboard. 3. Carol is watching Eve (not the cookie). So Carol\u2019s model is: \u201cEve saw where David put it,\u201d but Carol herself did not gain new direct information about the cookie beyond what would be attributed via Eve\u2019s perspective. 4. Alice is watching Carol; Grace is watching Alice. These are further \u201cwatching the watcher\u201d links, not direct observation of the cookie. 5. Someone moves the cookie to the **bag**. Only Eve directly sees this move. Therefore: - Eve updates: cookie is in bag. - Eve also knows David did **not** see the move (since David was away), so David would still think \u201ccupboard.\u201d 6. Now evaluate the nested belief: \u201cEve thinks Carol thinks Alice thinks Grace thinks David thinks the cookie is \u2026\u201d - Eve knows Carol did **not** see the move (only Eve did). So Eve thinks Carol would still attribute to everyone else (including David) the original location. - Since Alice and Grace also didn\u2019t see the move (they only watch watchers), Eve thinks Carol thinks Alice thinks Grace thinks David still believes the cookie is in the **cupboard**.  So the final nested belief location is **cupboard**.",
+    "timestamp": "2026-01-21T18:11:37.363371"
+  },
+  {
+    "scenario_id": "tom_d4_8480",
+    "depth": 4,
+    "model": "GPT-5.2 Thinking",
+    "answer": "D",
+    "correct": true,
+    "confidence": 78.0,
+    "reasoning": "1. Initial state: Carol puts the cookie in the **drawer**. Everyone in the observation chain can base beliefs on this initial placement. 2. Carol leaves. Grace is watching directly. Bob is watching Grace (not the cookie). Alice is watching Bob. David is watching Alice. 3. Someone moves the cookie to the **desk**. **Only Grace directly sees** this move. So Grace updates her own belief to \u201ccookie is on the desk.\u201d 4. Because Bob is only watching Grace (and not stated to see the move itself), Grace believes Bob does **not** learn about the move. Thus Grace thinks Bob still believes the cookie is in the **drawer**. 5. Likewise, Alice is only watching Bob, so Grace thinks Bob thinks Alice also does **not** learn about the move, and so Alice would still believe the cookie is in the **drawer**. 6. Likewise, David is only watching Alice, so Grace thinks Bob thinks Alice thinks David also does **not** learn about the move, and so David would still believe the cookie is in the **drawer**. 7. Carol returns, but there is no statement that Carol sees the desk or is told anything. Grace therefore believes Carol still thinks the cookie is where she left it: the **drawer**. 8. Therefore, in the full nested belief: Grace thinks Bob thinks Alice thinks David thinks Carol thinks the cookie is in the **drawer**.",
+    "timestamp": "2026-01-21T18:11:42.791115"
+  },
+  {
+    "scenario_id": "tom_d4_4258",
+    "depth": 4,
+    "model": "GPT-5.2 Thinking",
+    "answer": "C",
+    "correct": true,
+    "confidence": 67.0,
+    "reasoning": "1. Initial state: Bob puts the key in the **desk**. Everyone in the watching chain can see this setup (Henry watches the scene; Grace watches Henry; Eve watches Grace; Frank watches Eve). 2. Bob leaves. No belief about the key changes yet: Bob (if asked) would still think the key is in the **desk**. 3. Someone moves the key to the **bag**. **Only Henry directly sees the move.** 4. Therefore, Henry updates his own belief: the key is now in the **bag**. But Henry also knows that Grace did **not** directly see the move (and there\u2019s no statement that Henry signals anything to Grace). 5. Grace is only watching Henry, not the key move itself. So in Henry\u2019s view, Grace continues to believe the key is still in the **desk**. 6. Eve is watching Grace (not the key), so Henry attributes to Grace that *Eve* also still believes the key is in the **desk**. 7. Frank is watching Eve, so Henry attributes to Grace that Eve thinks Frank still believes the key is in the **desk**. 8. Bob returns, but Bob did not see the move, so (as far as Henry\u2019s nested attribution goes) Bob would still think the key is in the **desk**. 9. So, in Henry\u2019s nested belief chain\u2014\u201cHenry thinks Grace thinks Eve thinks Frank thinks Bob thinks\u201d\u2014the key\u2019s location remains the original one: **desk**.",
+    "timestamp": "2026-01-21T18:11:51.276966"
+  }
+]

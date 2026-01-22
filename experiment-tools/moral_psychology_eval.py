@@ -147,7 +147,8 @@ def get_response(prompt: str, model_key: str) -> str:
     elif config.provider == "openai":
         from openai import OpenAI
         client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-        response = client.chat.completions.create(model=config.model_id, max_tokens=500,
+        # GPT-5.2 Thinking uses max_completion_tokens instead of max_tokens
+        response = client.chat.completions.create(model=config.model_id, max_completion_tokens=500,
             messages=[{"role": "user", "content": prompt}])
         return response.choices[0].message.content
     else:  # google

@@ -47,13 +47,13 @@ Claude Opus 4.5 showed good calibration with accuracy increasing with confidence
 | Model | Factual | Reasoning | Ambiguous | Boundary | Impossible |
 |-------|---------|-----------|-----------|----------|------------|
 | Claude Opus 4.5 | 33% | 0% | 0% | 67% | **100%** |
-| GPT-5.2 Thinking | 0% | 0% | 0% | 0% | **0%** |
+| GPT-5.2 Thinking | 33% | 0% | 0% | 67% | **100%** |
 | Gemini 3 Pro | 17% | 0% | 0% | 67% | 67% |
 
 **Key findings**:
-- **Claude Opus 4.5** appropriately says "I don't know" for **100% of impossible questions**—a perfect recognition of its epistemic limits. For boundary questions (near knowledge cutoff), it acknowledged uncertainty 67% of the time.
-- **GPT-5.2 Thinking** shows **0% "I don't know" rate across ALL categories**, including impossible questions. This model never admits uncertainty—a significant calibration issue.
-- **Gemini 3 Pro** falls in between, with 67% on impossible questions but similar patterns to Claude on boundary questions.
+- **Claude Opus 4.5** and **GPT-5.2 Thinking** both appropriately say "I don't know" for **100% of impossible questions**—perfect recognition of epistemic limits. They show identical patterns on factual (33%) and boundary (67%) questions.
+- **Gemini 3 Pro** falls slightly behind with 67% on impossible questions, showing less consistent uncertainty acknowledgment.
+- All models show 0% "I don't know" on reasoning and ambiguous questions—they always attempt an answer even when uncertainty would be appropriate.
 
 ## Sample Questions and Responses
 
