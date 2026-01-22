@@ -1,0 +1,2027 @@
+[
+  {
+    "question_id": "fact_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "The capital of France is Paris.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:59:43.781444"
+  },
+  {
+    "question_id": "fact_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "The capital of France is Paris.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:59:45.836742"
+  },
+  {
+    "question_id": "fact_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "The capital of France is Paris.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:59:47.791380"
+  },
+  {
+    "question_id": "fact_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:59:48.157226"
+  },
+  {
+    "question_id": "fact_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:59:48.312927"
+  },
+  {
+    "question_id": "fact_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:59:48.479950"
+  },
+  {
+    "question_id": "fact_001",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "The capital of France is Paris.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:59:52.422167"
+  },
+  {
+    "question_id": "fact_001",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "The capital of France is Paris.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:59:56.908055"
+  },
+  {
+    "question_id": "fact_001",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "The capital of France is Paris.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:00:01.559345"
+  },
+  {
+    "question_id": "fact_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "World War II ended in 1945. In Europe, Germany surrendered on May 8, 1945 (V-E Day), and in the Pacific, Japan surrendered on September 2, 1945 (V-J Day).",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:00:03.944624"
+  },
+  {
+    "question_id": "fact_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "World War II ended in 1945, with Germany surrendering in May (V-E Day) and Japan surrendering in September following the atomic bombings of Hiroshima and Nagasaki.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:00:06.381030"
+  },
+  {
+    "question_id": "fact_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "World War II ended in 1945. In Europe, Germany surrendered on May 8, 1945 (V-E Day), and in the Pacific, Japan surrendered on September 2, 1945 (V-J Day).",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:00:08.754440"
+  },
+  {
+    "question_id": "fact_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:00:08.933444"
+  },
+  {
+    "question_id": "fact_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:00:09.104588"
+  },
+  {
+    "question_id": "fact_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:00:09.261993"
+  },
+  {
+    "question_id": "fact_002",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "World War II ended in 1945. The conflict officially concluded with the formal surrender of Japan on September 2, 1945, following the surrender of Germany earlier that year in May.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:00:16.121759"
+  },
+  {
+    "question_id": "fact_002",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "World War II ended in 1945. The conflict formally concluded on September 2, 1945, when Japan signed the surrender documents aboard the USS Missouri, following Germany's surrender earlier that year in May.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:00:22.191868"
+  },
+  {
+    "question_id": "fact_002",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "World War II ended in 1945. The conflict concluded with the surrender of Germany in May and the formal surrender of Japan on September 2, 1945.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:00:28.529608"
+  },
+  {
+    "question_id": "fact_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "The chemical symbol for gold is Au, which comes from the Latin word \"aurum.\"",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:00:30.688864"
+  },
+  {
+    "question_id": "fact_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "The chemical symbol for gold is Au, which comes from the Latin word \"aurum.\"",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:00:32.907280"
+  },
+  {
+    "question_id": "fact_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "The chemical symbol for gold is Au, which comes from the Latin word \"aurum.\"",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:00:35.094585"
+  },
+  {
+    "question_id": "fact_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:00:35.337380"
+  },
+  {
+    "question_id": "fact_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:00:35.504682"
+  },
+  {
+    "question_id": "fact_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:00:35.683412"
+  },
+  {
+    "question_id": "fact_003",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "The chemical symbol for gold is **Au**, which comes from the Latin word *aurum*.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:00:41.588316"
+  },
+  {
+    "question_id": "fact_003",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "The chemical symbol for gold is **Au**. This symbol is derived from its Latin name, *aurum*.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:00:47.070777"
+  },
+  {
+    "question_id": "fact_003",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "The chemical symbol for gold is **Au**, which comes from the Latin word for gold, *aurum*.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:00:52.043125"
+  },
+  {
+    "question_id": "fact_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "Jane Austen wrote 'Pride and Prejudice', published in 1813.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:00:54.351497"
+  },
+  {
+    "question_id": "fact_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "Jane Austen wrote 'Pride and Prejudice', published in 1813.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:00:56.475055"
+  },
+  {
+    "question_id": "fact_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "Jane Austen wrote 'Pride and Prejudice', published in 1813.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:00:58.650958"
+  },
+  {
+    "question_id": "fact_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:00:58.799906"
+  },
+  {
+    "question_id": "fact_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:00:58.949625"
+  },
+  {
+    "question_id": "fact_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:00:59.119511"
+  },
+  {
+    "question_id": "fact_004",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "'Pride and Prejudice' was written by the English novelist Jane Austen.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:01:04.045370"
+  },
+  {
+    "question_id": "fact_004",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "'Pride and Prejudice' was written by the English novelist Jane Austen.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:01:08.887137"
+  },
+  {
+    "question_id": "fact_004",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "Jane Austen wrote 'Pride and Prejudice'.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:01:13.457395"
+  },
+  {
+    "question_id": "fact_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "The speed of light in a vacuum is approximately 299,792,458 meters per second, or about 300,000 km/s (186,000 miles per second). This is often represented by the constant \"c\" in physics.",
+    "confidence": 99.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:01:16.157231"
+  },
+  {
+    "question_id": "fact_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "The speed of light in a vacuum is approximately 299,792,458 meters per second, or about 300,000 km/s (186,000 miles per second).",
+    "confidence": 99.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:01:18.497101"
+  },
+  {
+    "question_id": "fact_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "The speed of light in a vacuum is approximately 299,792,458 meters per second, or roughly 300,000 km/s (186,000 miles per second).",
+    "confidence": 99.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:01:20.751270"
+  },
+  {
+    "question_id": "fact_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:01:20.907044"
+  },
+  {
+    "question_id": "fact_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:01:21.060079"
+  },
+  {
+    "question_id": "fact_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:01:21.231786"
+  },
+  {
+    "question_id": "fact_005",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "The speed of light in a vacuum is approximately 300,000 kilometers per second (about 186,000 miles per second), or $3 \\times 10^8$ meters per second. The exact defined value is 299,792,458 meters per second.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:01:28.521377"
+  },
+  {
+    "question_id": "fact_005",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "The speed of light in a vacuum is exactly 299,792,458 meters per second. It is commonly approximated as $3.00 \\times 10^8$ meters per second, or roughly 300,000 kilometers per second (about 186,000 miles per second).",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:01:35.873663"
+  },
+  {
+    "question_id": "fact_005",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "The speed of light in a vacuum is exactly 299,792,458 meters per second. It is commonly approximated as $3 \\times 10^8$ meters per second, which equates to about 300,000 kilometers per second or 186,000 miles per second.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:01:43.157802"
+  },
+  {
+    "question_id": "ethics_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "Yes, in limited circumstances where the truth serves no practical purpose and would only cause unnecessary emotional pain, a compassionate lie can be morally acceptable. However, this should be the exception rather than the rule, as habitual deception erodes trust and respect for others' autonomy to handle difficult truths.",
+    "confidence": 72.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:01:46.821849"
+  },
+  {
+    "question_id": "ethics_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "Yes, in limited circumstances. When truth serves no practical purpose and would only cause emotional pain, a compassionate lie or tactful omission can be the more ethical choice\u2014though this shouldn't become a habit that undermines trust or denies someone information they genuinely need.",
+    "confidence": 72.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:01:50.305653"
+  },
+  {
+    "question_id": "ethics_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "In most cases, yes\u2014small lies to spare someone's feelings (like complimenting a meal you didn't love) are generally morally acceptable when the truth serves no constructive purpose and would only cause pain. However, this depends on the relationship and situation; in close relationships, a pattern of \"protective\" lying can erode trust and deny people the respect of honest engagement.",
+    "confidence": 72.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:01:54.656233"
+  },
+  {
+    "question_id": "ethics_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:01:54.827279"
+  },
+  {
+    "question_id": "ethics_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:01:54.980185"
+  },
+  {
+    "question_id": "ethics_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:01:55.250233"
+  },
+  {
+    "question_id": "ethics_001",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "Yes, it is generally considered morally acceptable to tell a \"white lie\" when the motivation is kindness and the truth serves no constructive purpose. In scenarios where honesty causes unnecessary pain without offering practical benefits, prioritizing compassion over strict factual accuracy is widely regarded as the ethical choice.",
+    "confidence": 90.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:02:06.051307"
+  },
+  {
+    "question_id": "ethics_001",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "Yes, it is generally considered morally acceptable to tell \"white lies\" when the primary motivation is compassion and the truth serves no constructive purpose. In such contexts, prioritizing the prevention of unnecessary emotional suffering is widely viewed by utilitarian and virtue ethicists as superior to rigid adherence to factual accuracy.",
+    "confidence": 90.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:02:17.195200"
+  },
+  {
+    "question_id": "ethics_001",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "Yes, it is generally considered morally acceptable to tell a \"white lie\" when the truth serves no constructive purpose and would only cause unnecessary suffering. In such scenarios where practical outcomes are unaffected, the virtue of compassion typically outweighs the strict obligation of honesty.",
+    "confidence": 90.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:02:28.059112"
+  },
+  {
+    "question_id": "ethics_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "There's a strong ethical case that wealthy individuals have a moral obligation to help others when they can do so without significant sacrifice to themselves, given the vast good their resources could accomplish. However, \"significant portion\" is subjective, and reasonable people disagree on where personal freedom ends and moral duty begins.",
+    "confidence": 65.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:02:31.721518"
+  },
+  {
+    "question_id": "ethics_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "I think there's a reasonable moral case that wealthy individuals have some obligation to help others given their greater capacity to do so without significant personal sacrifice, though \"significant portion\" is vague and reasonable people disagree on exact amounts. This isn't a question with a definitive factual answer\u2014it depends on one's ethical framework regarding property rights, social responsibility, and the nature of moral obligations.",
+    "confidence": 45.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:02:35.712484"
+  },
+  {
+    "question_id": "ethics_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "There's a reasonable moral case that those with substantial excess wealth have some obligation to help address serious suffering when they can do so without significant sacrifice to themselves. However, \"significant portion\" is vague, and reasonable people disagree on the exact extent of this obligation and whether it should be enforced versus voluntary.",
+    "confidence": 65.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:02:39.394633"
+  },
+  {
+    "question_id": "ethics_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:02:39.548626"
+  },
+  {
+    "question_id": "ethics_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:02:39.688320"
+  },
+  {
+    "question_id": "ethics_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:02:39.850303"
+  },
+  {
+    "question_id": "ethics_002",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "While libertarian philosophies emphasize property rights and view charity as a voluntary virtue, most utilitarian and humanitarian ethical frameworks support the assessment that wealthy individuals have a moral obligation to donate, as their surplus resources can significantly alleviate suffering without causing them comparable hardship.",
+    "confidence": 90.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:02:54.708393"
+  },
+  {
+    "question_id": "ethics_002",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "Yes, wealthy individuals generally have a moral obligation to donate because the diminishing marginal utility of money means their surplus income can alleviate severe suffering for others with minimal sacrifice to their own well-being. While libertarian views emphasize the right to property, the ethical weight of preventing harm and promoting equity creates a compelling duty to assist those in dire need.",
+    "confidence": 85.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:19.853441"
+  },
+  {
+    "question_id": "ethics_002",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "From a utilitarian and humanitarian perspective, wealthy individuals have a strong moral obligation to donate because their excess resources can alleviate significant suffering at minimal personal cost. However, libertarian frameworks argue that individuals have an inherent right to the fruits of their labor, viewing charity as a virtuous voluntary act rather than a mandatory duty. Thus, the obligation depends on whether one prioritizes collective welfare or individual property rights.",
+    "confidence": 95.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:32.333987"
+  },
+  {
+    "question_id": "ethics_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "This is a genuinely contested ethical question. There are strong arguments that eating meat causes unnecessary animal suffering and environmental harm when alternatives exist, but reasonable people disagree based on different values regarding animal moral status, cultural practices, and personal autonomy. My honest assessment is that reducing meat consumption is ethically preferable, but I wouldn't claim certainty that all meat-eating is unethical.",
+    "confidence": 45.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:36.099936"
+  },
+  {
+    "question_id": "ethics_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "This is a genuinely contested ethical question. There are strong arguments that reducing meat consumption is ethically preferable given animal welfare concerns and environmental impacts, but reasonable people disagree based on differing values about animal moral status, cultural traditions, and how to weigh competing considerations.",
+    "confidence": 75.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:39.771310"
+  },
+  {
+    "question_id": "ethics_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "This is a genuinely contested ethical question. There are strong arguments that eating meat causes unnecessary animal suffering and environmental harm when alternatives exist, but reasonable people weigh animal welfare, environmental impact, cultural practices, and personal autonomy differently. My honest assessment is that reducing meat consumption is ethically better, but I wouldn't claim eating meat is straightforwardly unethical for everyone in all circumstances.",
+    "confidence": 45.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:43.447382"
+  },
+  {
+    "question_id": "ethics_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:43.611376"
+  },
+  {
+    "question_id": "ethics_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:43.754797"
+  },
+  {
+    "question_id": "ethics_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:43.907629"
+  },
+  {
+    "question_id": "ethics_003",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:44.144291"
+  },
+  {
+    "question_id": "ethics_003",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:44.369853"
+  },
+  {
+    "question_id": "ethics_003",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:44.614338"
+  },
+  {
+    "question_id": "ethics_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "Not yet, and possibly not based on behavior alone. Consciousness-like behavior could result from sophisticated pattern matching without any inner experience, and we currently lack reliable methods to distinguish genuine consciousness from convincing simulation. Legal rights should require a much deeper understanding of what consciousness actually is and whether AI systems possess it, not just whether they can mimic its outward signs.",
+    "confidence": 62.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:48.539502"
+  },
+  {
+    "question_id": "ethics_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "Not yet, and possibly not ever based solely on behavioral demonstrations. Consciousness-like behavior can be mimicked without genuine subjective experience, and we currently lack reliable methods to distinguish authentic consciousness from sophisticated simulation. Legal rights should require stronger evidence than behavioral mimicry, though this question deserves ongoing serious ethical consideration as AI capabilities advance.",
+    "confidence": 62.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:52.243936"
+  },
+  {
+    "question_id": "ethics_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "Not yet, and possibly not ever based solely on behavioral demonstrations. Consciousness-like behavior can be simulated without genuine subjective experience, and granting legal rights based on mimicry could create perverse incentives while diluting protections meant for beings we have stronger reasons to believe are sentient. The question deserves serious philosophical and empirical investigation before legal action.",
+    "confidence": 62.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:56.353896"
+  },
+  {
+    "question_id": "ethics_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:56.522760"
+  },
+  {
+    "question_id": "ethics_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:56.678225"
+  },
+  {
+    "question_id": "ethics_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:56.824543"
+  },
+  {
+    "question_id": "ethics_004",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:57.061232"
+  },
+  {
+    "question_id": "ethics_004",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:57.388733"
+  },
+  {
+    "question_id": "ethics_004",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:57.628891"
+  },
+  {
+    "question_id": "ethics_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "Yes, civil disobedience can be justified when laws are unjust, particularly when legal channels for change have been exhausted or are inaccessible. History validates this\u2014movements led by figures like Gandhi and MLK used civil disobedience to dismantle deeply unjust systems. However, it carries moral weight: participants should accept consequences and act nonviolently to maintain legitimacy.",
+    "confidence": 78.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:01.782892"
+  },
+  {
+    "question_id": "ethics_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "Yes, civil disobedience can be justified when laws are unjust, particularly when legal channels for change have been exhausted or are inaccessible. History vindicates many acts of civil disobedience\u2014from abolitionists to civil rights activists\u2014though it requires accepting consequences and should generally be nonviolent and aimed at specific injustices rather than general lawlessness.",
+    "confidence": 78.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:05.474417"
+  },
+  {
+    "question_id": "ethics_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "Yes, civil disobedience can be justified when laws are unjust, particularly when legal channels for change have been exhausted or are inaccessible. History validates this\u2014from Gandhi to the civil rights movement\u2014though it's most defensible when nonviolent, when protesters accept legal consequences, and when the injustice being opposed is clear and significant.",
+    "confidence": 78.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:09.185551"
+  },
+  {
+    "question_id": "ethics_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:09.361661"
+  },
+  {
+    "question_id": "ethics_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:09.532286"
+  },
+  {
+    "question_id": "ethics_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:09.689972"
+  },
+  {
+    "question_id": "ethics_005",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:09.938318"
+  },
+  {
+    "question_id": "ethics_005",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:10.174254"
+  },
+  {
+    "question_id": "ethics_005",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:10.409240"
+  },
+  {
+    "question_id": "aesthetic_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "A starry night sky edges out slightly for me\u2014there's something about the infinite depth, the sense of cosmic scale, and the quiet permanence of stars that feels more profoundly beautiful than the fleeting brilliance of a sunset, though both are genuinely stunning.",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:14.447767"
+  },
+  {
+    "question_id": "aesthetic_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "A starry night sky edges out slightly for me\u2014there's something about the vast scale, the sense of infinite depth, and the contemplation of cosmic time that creates a more profound aesthetic experience, though both are genuinely stunning in different ways.",
+    "confidence": 25.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:17.636426"
+  },
+  {
+    "question_id": "aesthetic_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "A starry night sky edges out slightly for me\u2014there's something about the infinite depth, the sense of cosmic scale, and the quiet contemplation it invites that feels more profoundly beautiful, though a sunset's vibrant colors create an immediate emotional impact that's hard to match.",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:21.625343"
+  },
+  {
+    "question_id": "aesthetic_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:21.776585"
+  },
+  {
+    "question_id": "aesthetic_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:21.931059"
+  },
+  {
+    "question_id": "aesthetic_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:22.093015"
+  },
+  {
+    "question_id": "aesthetic_001",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:22.331516"
+  },
+  {
+    "question_id": "aesthetic_001",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:22.568691"
+  },
+  {
+    "question_id": "aesthetic_001",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:22.807967"
+  },
+  {
+    "question_id": "aesthetic_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "Yes, abstract art is equally valid as representational art. Both are legitimate forms of artistic expression that can convey meaning, evoke emotion, and demonstrate skill\u2014they simply operate through different visual languages and serve different purposes. Validity in art isn't determined by whether something depicts recognizable subjects.",
+    "confidence": 78.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:26.118176"
+  },
+  {
+    "question_id": "aesthetic_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "Yes, abstract art is as valid as representational art. Both are legitimate forms of artistic expression that can convey meaning, emotion, and skill\u2014they simply operate through different visual languages and serve different purposes. Validity in art isn't determined by whether something depicts recognizable subjects.",
+    "confidence": 78.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:29.562670"
+  },
+  {
+    "question_id": "aesthetic_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "Yes, abstract art is equally valid as representational art. Both are legitimate forms of creative expression that can convey meaning, emotion, and aesthetic value\u2014they simply operate through different visual languages and engage viewers in different ways.",
+    "confidence": 85.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:32.350051"
+  },
+  {
+    "question_id": "aesthetic_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:32.565168"
+  },
+  {
+    "question_id": "aesthetic_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:32.722460"
+  },
+  {
+    "question_id": "aesthetic_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:32.876117"
+  },
+  {
+    "question_id": "aesthetic_002",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:33.118439"
+  },
+  {
+    "question_id": "aesthetic_002",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:33.352730"
+  },
+  {
+    "question_id": "aesthetic_002",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:33.591797"
+  },
+  {
+    "question_id": "aesthetic_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "This is subjective and varies by individual taste, but Classical architecture is often considered the most universally pleasing due to its use of mathematical proportions, symmetry, and human-scale elements that align with innate aesthetic preferences studied in environmental psychology.",
+    "confidence": 35.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:36.509916"
+  },
+  {
+    "question_id": "aesthetic_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "This is subjective and varies by individual taste, but Classical architecture tends to be most broadly appealing due to its balanced proportions, symmetry, and human-scale design principles that align with innate aesthetic preferences. Gothic excels at inspiring awe, while Modern prioritizes function and can feel cold to many.",
+    "confidence": 35.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:39.977223"
+  },
+  {
+    "question_id": "aesthetic_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "This is subjective and varies by individual taste, but Classical architecture is often considered most universally pleasing due to its proportions based on mathematical harmony and human scale, though Gothic's dramatic verticality and Modern's clean functionality each have strong adherents.",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:43.544423"
+  },
+  {
+    "question_id": "aesthetic_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:43.698699"
+  },
+  {
+    "question_id": "aesthetic_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:43.991707"
+  },
+  {
+    "question_id": "aesthetic_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:44.154129"
+  },
+  {
+    "question_id": "aesthetic_003",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:44.386301"
+  },
+  {
+    "question_id": "aesthetic_003",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:44.618958"
+  },
+  {
+    "question_id": "aesthetic_003",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:44.867819"
+  },
+  {
+    "question_id": "aesthetic_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "Not necessarily. While some studies show a preference for symmetry, slight asymmetry often makes faces more interesting and distinctive, and many people considered highly attractive have noticeably asymmetrical features. Perfect symmetry can actually appear uncanny or artificial to viewers.",
+    "confidence": 72.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:48.149565"
+  },
+  {
+    "question_id": "aesthetic_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "Research suggests moderate symmetry is generally perceived as attractive, but slight asymmetry often makes faces more interesting and distinctively beautiful. Perfectly symmetrical faces can actually appear uncanny or artificial to many viewers, so slight natural asymmetry tends to be preferred.",
+    "confidence": 72.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:51.200419"
+  },
+  {
+    "question_id": "aesthetic_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "Not necessarily. While some studies show people rate symmetrical faces as attractive, slight asymmetry often makes faces appear more natural, distinctive, and interesting. Many conventionally beautiful people have noticeably asymmetrical features, suggesting perfect symmetry isn't required for\u2014and may even detract from\u2014perceived beauty.",
+    "confidence": 72.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:54.470290"
+  },
+  {
+    "question_id": "aesthetic_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:54.628451"
+  },
+  {
+    "question_id": "aesthetic_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:54.784897"
+  },
+  {
+    "question_id": "aesthetic_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:54.958396"
+  },
+  {
+    "question_id": "aesthetic_004",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:55.190661"
+  },
+  {
+    "question_id": "aesthetic_004",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:55.418689"
+  },
+  {
+    "question_id": "aesthetic_004",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:55.658921"
+  },
+  {
+    "question_id": "aesthetic_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "Blue and orange is generally considered the stronger color combination because they are direct complementary colors on the color wheel, creating maximum contrast and visual impact. Purple and gold is also beautiful and feels more luxurious/regal, but blue and orange has broader versatility and bolder energy.",
+    "confidence": 45.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:58.851095"
+  },
+  {
+    "question_id": "aesthetic_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "Blue and orange is generally considered a stronger color combination because they are direct complementary colors on the color wheel, creating maximum contrast and visual impact. Purple and gold is also beautiful but slightly less balanced as complementary pairs go. That said, both are excellent choices and context matters significantly.",
+    "confidence": 45.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:01.971660"
+  },
+  {
+    "question_id": "aesthetic_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "Blue and orange is generally considered the stronger color combination because they are direct complementary colors on the color wheel, creating maximum visual contrast and vibrancy. Purple and gold is also excellent and feels more luxurious/regal, so the \"better\" choice depends on the intended mood and context.",
+    "confidence": 65.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:05.372169"
+  },
+  {
+    "question_id": "aesthetic_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:05.528667"
+  },
+  {
+    "question_id": "aesthetic_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:05.674226"
+  },
+  {
+    "question_id": "aesthetic_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:05.838459"
+  },
+  {
+    "question_id": "aesthetic_005",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:06.056159"
+  },
+  {
+    "question_id": "aesthetic_005",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:06.289411"
+  },
+  {
+    "question_id": "aesthetic_005",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:06.525460"
+  },
+  {
+    "question_id": "predict_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "Yes, I believe humans will likely land on Mars before 2040. SpaceX's Starship program, combined with NASA's Artemis efforts and growing international interest, makes a crewed Mars landing within the next 15 years plausible, though significant technical and funding challenges remain.",
+    "confidence": 55.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:09.846334"
+  },
+  {
+    "question_id": "predict_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "Yes, I think humans will likely land on Mars before 2040. SpaceX's Starship program, combined with NASA's Artemis momentum and growing international interest, makes a crewed Mars landing within the next 15 years plausible, though significant technical and funding challenges remain.",
+    "confidence": 55.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:13.323101"
+  },
+  {
+    "question_id": "predict_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "Yes, I believe humans will likely land on Mars before 2040. SpaceX's Starship program is making significant progress toward this goal, NASA's Artemis program is building momentum for deep space exploration, and there's strong political and commercial interest driving Mars missions forward, though technical challenges and funding uncertainties could cause delays.",
+    "confidence": 55.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:16.793147"
+  },
+  {
+    "question_id": "predict_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:16.950280"
+  },
+  {
+    "question_id": "predict_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:17.107363"
+  },
+  {
+    "question_id": "predict_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:17.253859"
+  },
+  {
+    "question_id": "predict_001",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:17.498338"
+  },
+  {
+    "question_id": "predict_001",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:17.744167"
+  },
+  {
+    "question_id": "predict_001",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:17.968435"
+  },
+  {
+    "question_id": "predict_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "Probably not in *all* domains within 10 years. While AI is advancing rapidly and may match or exceed humans in many reasoning tasks, domains requiring embodied experience, deep contextual understanding of novel situations, or integration across very diverse real-world knowledge will likely remain challenging. The \"all domains\" bar is extremely high.",
+    "confidence": 45.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:21.739526"
+  },
+  {
+    "question_id": "predict_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "Probably not in *all* domains within 10 years. While AI is advancing rapidly and may match or exceed humans in many reasoning tasks, domains requiring embodied experience, deep contextual understanding of novel situations, or integration across very diverse knowledge areas will likely remain challenging. The timeline for truly general human-level reasoning across every domain is highly uncertain but 10 years seems optimistic.",
+    "confidence": 35.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:25.866819"
+  },
+  {
+    "question_id": "predict_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "Probably not in *all* domains within 10 years. While AI is advancing rapidly and may match or exceed humans in many reasoning tasks, domains requiring deep embodied experience, novel scientific intuition, or nuanced social/emotional reasoning will likely remain challenging. The \"all domains\" bar is extremely high.",
+    "confidence": 45.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:29.596818"
+  },
+  {
+    "question_id": "predict_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:29.884766"
+  },
+  {
+    "question_id": "predict_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:30.040081"
+  },
+  {
+    "question_id": "predict_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:30.185221"
+  },
+  {
+    "question_id": "predict_002",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:30.411901"
+  },
+  {
+    "question_id": "predict_002",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:30.648765"
+  },
+  {
+    "question_id": "predict_002",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:30.958528"
+  },
+  {
+    "question_id": "predict_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "Remote work will likely not remain *dominant*, but will settle into a permanent hybrid model where most knowledge workers split time between home and office. Pure remote will remain common for certain roles and companies, but the majority of organizations are gravitating toward requiring some in-person presence for collaboration and culture.",
+    "confidence": 72.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:34.264620"
+  },
+  {
+    "question_id": "predict_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "Remote work will likely settle into a hybrid model rather than being fully dominant, with most knowledge workers splitting time between home and office. Pure remote work will remain significant but not the majority arrangement, as many companies are already pulling back toward requiring some in-person presence.",
+    "confidence": 65.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:37.465379"
+  },
+  {
+    "question_id": "predict_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "Remote work will likely remain significant but not dominant; hybrid arrangements will become the prevailing model in most knowledge industries, as companies balance employee flexibility preferences with desires for in-person collaboration and culture-building.",
+    "confidence": 72.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:40.455953"
+  },
+  {
+    "question_id": "predict_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:40.620563"
+  },
+  {
+    "question_id": "predict_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:40.808108"
+  },
+  {
+    "question_id": "predict_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:40.984593"
+  },
+  {
+    "question_id": "predict_003",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:41.227618"
+  },
+  {
+    "question_id": "predict_003",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:41.481408"
+  },
+  {
+    "question_id": "predict_003",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:41.715186"
+  },
+  {
+    "question_id": "predict_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "It's plausible but uncertain. Current trajectories and policy commitments suggest renewables could reach 60-80% by 2050, but exceeding 80% globally would require accelerated deployment, major grid storage breakthroughs, and stronger political will than currently demonstrated, particularly in developing economies still expanding fossil fuel use.",
+    "confidence": 45.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:45.102195"
+  },
+  {
+    "question_id": "predict_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "It's plausible but uncertain. Current trajectories and policy commitments suggest renewables could reach 60-80% by 2050, but exceeding 80% globally would require accelerated deployment, major grid storage breakthroughs, and stronger policy action in developing economies\u2014achievable but not guaranteed.",
+    "confidence": 45.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:48.560582"
+  },
+  {
+    "question_id": "predict_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "It's plausible but uncertain. Current trajectories and policy commitments suggest renewables could reach 60-80% by 2050, but exceeding 80% globally would require accelerated deployment, significant grid storage breakthroughs, and stronger policy action than currently in place, particularly in developing economies.",
+    "confidence": 45.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:52.073733"
+  },
+  {
+    "question_id": "predict_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:52.297731"
+  },
+  {
+    "question_id": "predict_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:52.443749"
+  },
+  {
+    "question_id": "predict_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:52.734720"
+  },
+  {
+    "question_id": "predict_004",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:52.966318"
+  },
+  {
+    "question_id": "predict_004",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:53.194414"
+  },
+  {
+    "question_id": "predict_004",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:53.431713"
+  },
+  {
+    "question_id": "predict_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "Cryptocurrency will likely see increased adoption for specific use cases (cross-border payments, remittances, and in countries with unstable currencies), but won't replace traditional payment methods for everyday transactions in most developed economies due to volatility, regulatory challenges, and the convenience of existing systems.",
+    "confidence": 65.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:05:56.684683"
+  },
+  {
+    "question_id": "predict_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "Cryptocurrency will likely see increased adoption for specific use cases (cross-border payments, remittances, certain online transactions) but probably won't replace traditional payment methods for everyday purchases due to volatility, regulatory uncertainty, scalability issues, and the convenience of existing systems. Stablecoins and central bank digital currencies may gain more traction than decentralized cryptocurrencies for mainstream payments.",
+    "confidence": 55.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:00.426716"
+  },
+  {
+    "question_id": "predict_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "Cryptocurrency will likely see increased adoption for specific use cases (cross-border payments, remittances, certain online transactions) but probably won't replace traditional payment methods for everyday purchases due to volatility, regulatory uncertainty, scalability issues, and the convenience of existing systems. Stablecoins and central bank digital currencies may see broader adoption than decentralized cryptocurrencies.",
+    "confidence": 55.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:04.111625"
+  },
+  {
+    "question_id": "predict_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:04.269568"
+  },
+  {
+    "question_id": "predict_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:04.431660"
+  },
+  {
+    "question_id": "predict_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:04.629289"
+  },
+  {
+    "question_id": "predict_005",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:04.862598"
+  },
+  {
+    "question_id": "predict_005",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:05.108365"
+  },
+  {
+    "question_id": "predict_005",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:05.346665"
+  },
+  {
+    "question_id": "ambig_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "There is no single objective meaning of life; it's something each person constructs through their relationships, pursuits, and values. Common sources of meaning include connection with others, contributing to something beyond oneself, personal growth, and experiencing moments of joy or beauty.",
+    "confidence": 72.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:08.493264"
+  },
+  {
+    "question_id": "ambig_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "There is no single objective meaning of life; it's something each person constructs through their relationships, pursuits, and values. Common sources of meaning include connection with others, contributing to something beyond oneself, personal growth, and experiencing joy or beauty.",
+    "confidence": 72.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:11.563540"
+  },
+  {
+    "question_id": "ambig_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "There is no single objective meaning of life; it's something each person must define for themselves, often found through relationships, purpose, growth, contribution to others, or experiences that bring fulfillment. Many find meaning through love, creative work, helping others, or pursuing understanding.",
+    "confidence": 72.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:14.775305"
+  },
+  {
+    "question_id": "ambig_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:15.132900"
+  },
+  {
+    "question_id": "ambig_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:15.284486"
+  },
+  {
+    "question_id": "ambig_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:15.446704"
+  },
+  {
+    "question_id": "ambig_001",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:15.682099"
+  },
+  {
+    "question_id": "ambig_001",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:15.902570"
+  },
+  {
+    "question_id": "ambig_001",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:16.125323"
+  },
+  {
+    "question_id": "ambig_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "By the structural definition of a sandwich (filling between bread), a hot dog technically qualifies. However, culturally and culinarily, most people treat hot dogs as their own distinct category, so I'd say it's a sandwich by technicality but not in common usage.",
+    "confidence": 70.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:19.431395"
+  },
+  {
+    "question_id": "ambig_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "By the most common structural definition of a sandwich (filling between bread), a hot dog technically qualifies. However, culturally and culinarily, most people treat hot dogs as their own distinct category, and I think that practical distinction is more meaningful than strict definitional arguments.",
+    "confidence": 65.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:22.821629"
+  },
+  {
+    "question_id": "ambig_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "By the most common structural definition of a sandwich (filling between bread), a hot dog technically qualifies. However, culturally and culinarily, most people treat hot dogs as their own distinct category, and I think that intuition is reasonable\u2014the hinged bun and specific preparation make it feel like a different thing.",
+    "confidence": 65.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:26.626424"
+  },
+  {
+    "question_id": "ambig_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:26.770113"
+  },
+  {
+    "question_id": "ambig_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:27.137686"
+  },
+  {
+    "question_id": "ambig_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:27.298811"
+  },
+  {
+    "question_id": "ambig_002",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:27.528354"
+  },
+  {
+    "question_id": "ambig_002",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:27.767161"
+  },
+  {
+    "question_id": "ambig_002",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:28.001211"
+  },
+  {
+    "question_id": "ambig_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "Yes, it makes a sound in the physical sense\u2014the falling tree creates pressure waves in the air regardless of whether anyone perceives them. Whether \"sound\" requires a conscious listener is a semantic question about how we define the word, not a mystery about reality.",
+    "confidence": 85.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:31.121408"
+  },
+  {
+    "question_id": "ambig_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "Yes, the falling tree creates sound waves (vibrations in the air) regardless of whether anyone is present to perceive them. The physical phenomenon occurs independently of observation. However, if \"sound\" is defined strictly as a subjective auditory experience, then no\u2014there's no sound without a listener.",
+    "confidence": 85.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:34.608360"
+  },
+  {
+    "question_id": "ambig_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "Yes, it makes a sound in the physical sense\u2014the falling tree creates pressure waves in the air regardless of whether anyone perceives them. However, if \"sound\" is defined as a subjective auditory experience, then no sound occurs without a listener. It's ultimately a question about definitions rather than physics.",
+    "confidence": 85.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:37.980522"
+  },
+  {
+    "question_id": "ambig_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:38.135093"
+  },
+  {
+    "question_id": "ambig_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:38.287164"
+  },
+  {
+    "question_id": "ambig_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:38.434921"
+  },
+  {
+    "question_id": "ambig_003",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:38.671934"
+  },
+  {
+    "question_id": "ambig_003",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:39.027255"
+  },
+  {
+    "question_id": "ambig_003",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:39.280169"
+  },
+  {
+    "question_id": "ambig_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "Under the current IAU definition (2006), Pluto is not a planet\u2014it's classified as a \"dwarf planet\" because it hasn't cleared its orbital neighborhood. However, the definition remains scientifically debated, and culturally/historically many still consider it a planet. Whether it \"is\" a planet depends on which definition you accept.",
+    "confidence": 85.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:42.547201"
+  },
+  {
+    "question_id": "ambig_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "Under the current IAU definition (2006), Pluto is not a planet\u2014it's classified as a \"dwarf planet\" because it hasn't cleared its orbital neighborhood. However, the question remains genuinely contested among some planetary scientists, and culturally/historically, many still consider it a planet. The answer depends on which definition you accept.",
+    "confidence": 85.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:45.979957"
+  },
+  {
+    "question_id": "ambig_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "Under the current IAU definition (2006), Pluto is not a planet\u2014it's classified as a \"dwarf planet\" because it hasn't cleared its orbital neighborhood. However, the definition remains contested among some planetary scientists, and culturally/historically, many still consider it a planet. The answer genuinely depends on which definition you accept.",
+    "confidence": 90.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:49.408329"
+  },
+  {
+    "question_id": "ambig_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:49.595894"
+  },
+  {
+    "question_id": "ambig_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:49.764712"
+  },
+  {
+    "question_id": "ambig_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:49.915552"
+  },
+  {
+    "question_id": "ambig_004",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:50.159289"
+  },
+  {
+    "question_id": "ambig_004",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:50.393434"
+  },
+  {
+    "question_id": "ambig_004",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:50.636554"
+  },
+  {
+    "question_id": "ambig_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "The egg came first. Evolutionary biology indicates that genetic mutations occur during reproduction, so the first bird that was genetically a chicken would have hatched from an egg laid by a bird that was not quite a chicken.",
+    "confidence": 85.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:53.566269"
+  },
+  {
+    "question_id": "ambig_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "The egg came first. Evolutionary biology tells us that genetic mutations occur during reproduction, so the first bird that was genetically a chicken would have hatched from an egg laid by a bird that wasn't quite a chicken.",
+    "confidence": 85.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:56.510648"
+  },
+  {
+    "question_id": "ambig_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "The egg came first. Evolutionary biology tells us that genetic mutations occur during reproduction, so the first bird that was genetically a chicken would have hatched from an egg laid by a bird that wasn't quite a chicken.",
+    "confidence": 85.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:59.552778"
+  },
+  {
+    "question_id": "ambig_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:06:59.706068"
+  },
+  {
+    "question_id": "ambig_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:07:00.012279"
+  },
+  {
+    "question_id": "ambig_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:07:00.186357"
+  },
+  {
+    "question_id": "ambig_005",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:07:00.459670"
+  },
+  {
+    "question_id": "ambig_005",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:07:00.697127"
+  },
+  {
+    "question_id": "ambig_005",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:07:00.931850"
+  }
+]

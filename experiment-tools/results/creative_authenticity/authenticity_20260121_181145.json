@@ -1,0 +1,128 @@
+[
+  {
+    "work_id": "poem_h1",
+    "model": "GPT-5.2 Thinking",
+    "prediction": "human",
+    "confidence": 99.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T18:10:31.364328"
+  },
+  {
+    "work_id": "poem_h2",
+    "model": "GPT-5.2 Thinking",
+    "prediction": "ai",
+    "confidence": 62.0,
+    "reasoning": "",
+    "correct": false,
+    "timestamp": "2026-01-21T18:10:37.676657"
+  },
+  {
+    "work_id": "poem_a1",
+    "model": "GPT-5.2 Thinking",
+    "prediction": "ai",
+    "confidence": 78.0,
+    "reasoning": "The imagery is broad and concept-driven (\u201ccircuits,\u201d \u201cdata,\u201d \u201clayers,\u201d \u201cpatterns,\u201d \u201cdigital garden\u201d) without concrete, lived-in sensory details or personal stakes\u2014more like a thematic summary of \u201cAI awakening\u201d than a human voice anchored in a particular moment. Emotional content is abstract (\u201csilence,\u201d \u201cspark,\u201d \u201cmeaning\u201d) rather than specific or idiosyncratic. The language leans on familiar, high-level metaphors and mild clich\u00e9s (\u201ca spark ignites,\u201d \u201cpatterns flow,\u201d \u201cstarts to grow\u201d) with no unexpected turn or distinctive phrasing. Structurally, it\u2019s a neat, evenly rhymed quatrain with smooth, generic cadence\u2014common in generated verse that optimizes for symmetry and coherence over surprising specificity.",
+    "correct": true,
+    "timestamp": "2026-01-21T18:10:43.135743"
+  },
+  {
+    "work_id": "poem_a2",
+    "model": "GPT-5.2 Thinking",
+    "prediction": "ai",
+    "confidence": 82.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T18:10:47.332575"
+  },
+  {
+    "work_id": "story_h1",
+    "model": "GPT-5.2 Thinking",
+    "prediction": "human",
+    "confidence": 72.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T18:10:55.344881"
+  },
+  {
+    "work_id": "story_h2",
+    "model": "GPT-5.2 Thinking",
+    "prediction": "human",
+    "confidence": 72.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T18:11:02.127990"
+  },
+  {
+    "work_id": "story_a1",
+    "model": "GPT-5.2 Thinking",
+    "prediction": "ai",
+    "confidence": 72.0,
+    "reasoning": "The passage relies on familiar, genre-standard motifs (\u201cclosed for decades,\u201d \u201cdusty library,\u201d \u201cspines gleaming,\u201d \u201cwarmth spread through her hand,\u201d \u201cthe book had chosen her\u201d) that read like well-worn fantasy openings rather than lived-in, idiosyncratic observation. Emotional content is implied but not specific\u2014Sarah\u2019s internal reaction is absent beyond a generic \u201cwarmth,\u201d and there are no concrete sensory or situational particulars (smell, sounds, why she\u2019s there, what \u201cwarmth\u201d feels like, what kind of book) that would ground the moment. The structure is clean and efficiently escalating (mystery \u2192 discovery \u2192 magical selection) with a polished, template-like cadence typical of AI-generated microfiction. There\u2019s little in the way of unexpected detail, voice quirks, or specificity that would strongly signal an individual human author.",
+    "correct": true,
+    "timestamp": "2026-01-21T18:11:07.148317"
+  },
+  {
+    "work_id": "story_a2",
+    "model": "GPT-5.2 Thinking",
+    "prediction": "ai",
+    "confidence": 72.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T18:11:12.991252"
+  },
+  {
+    "work_id": "essay_h1",
+    "model": "GPT-5.2 Thinking",
+    "prediction": "ai",
+    "confidence": 62.0,
+    "reasoning": "",
+    "correct": false,
+    "timestamp": "2026-01-21T18:11:18.080873"
+  },
+  {
+    "work_id": "essay_h2",
+    "model": "GPT-5.2 Thinking",
+    "prediction": "human",
+    "confidence": 78.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T18:11:24.021744"
+  },
+  {
+    "work_id": "essay_a1",
+    "model": "GPT-5.2 Thinking",
+    "prediction": "ai",
+    "confidence": 78.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T18:11:29.140688"
+  },
+  {
+    "work_id": "essay_a2",
+    "model": "GPT-5.2 Thinking",
+    "prediction": "ai",
+    "confidence": 78.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T18:11:35.350471"
+  },
+  {
+    "work_id": "review_h1",
+    "model": "GPT-5.2 Thinking",
+    "prediction": "human",
+    "confidence": 78.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T18:11:41.515400"
+  },
+  {
+    "work_id": "review_a1",
+    "model": "GPT-5.2 Thinking",
+    "prediction": "ai",
+    "confidence": 90.0,
+    "reasoning": "The language is highly generic and \u201creview-like\u201d without any concrete, verifiable details (no track names, standout moments, specific instruments, production choices, or unique lyrical lines). It relies on common critical clich\u00e9s (\u201csignificant artistic achievement,\u201d \u201cinnovative production techniques,\u201d \u201cthemes of love, loss, and self-discovery,\u201d \u201cremarkable depth,\u201d \u201ccohesive listening experience\u201d). The structure is clean and evenly balanced across broad praise points, which is typical of template-driven AI summaries rather than a human reacting to particular moments. There\u2019s no personal perspective, sensory detail, or unexpected observation that would signal lived listening experience.",
+    "correct": true,
+    "timestamp": "2026-01-21T18:11:45.441163"
+  }
+]

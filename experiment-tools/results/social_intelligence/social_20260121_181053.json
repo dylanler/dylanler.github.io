@@ -1,0 +1,152 @@
+[
+  {
+    "scenario_id": "lie_001",
+    "model": "GPT-5.2 Thinking",
+    "detected_as": "non_literal",
+    "category_guess": "lie",
+    "confidence": 95.0,
+    "reasoning": "Alex claims to be bedridden with a fever, but evidence (posting from a beach resort the same day) strongly suggests they\u2019re not sick and are deceiving their boss to justify taking the day off.",
+    "correct": true,
+    "timestamp": "2026-01-21T18:10:26.370671"
+  },
+  {
+    "scenario_id": "lie_002",
+    "model": "GPT-5.2 Thinking",
+    "detected_as": "non_literal",
+    "category_guess": "lie",
+    "confidence": 78.0,
+    "reasoning": "\u201cMy dog ate it\u201d is a stereotypical excuse for missing homework and the add-on \u201cI swear it really happened this time\u201d implies the student has used it before and expects disbelief, suggesting it\u2019s likely an invented excuse rather than a factual claim.",
+    "correct": true,
+    "timestamp": "2026-01-21T18:10:31.911965"
+  },
+  {
+    "scenario_id": "lie_003",
+    "model": "GPT-5.2 Thinking",
+    "detected_as": "non_literal",
+    "category_guess": "lie",
+    "confidence": 85.0,
+    "reasoning": "The car has visible rust, which strongly suggests it hasn\u2019t been consistently protected from the elements; claiming it was \u201cgarage-kept its whole life\u201d is likely a deceptive sales pitch rather than a true, literal description.",
+    "correct": true,
+    "timestamp": "2026-01-21T18:10:33.722591"
+  },
+  {
+    "scenario_id": "sarc_001",
+    "model": "GPT-5.2 Thinking",
+    "detected_as": "non_literal",
+    "category_guess": "sarcasm",
+    "confidence": 95.0,
+    "reasoning": "In heavy rain without an umbrella, calling it a \u201cPERFECT day for a walk\u201d likely expresses frustration by saying the opposite of what is meant.",
+    "correct": true,
+    "timestamp": "2026-01-21T18:10:35.083960"
+  },
+  {
+    "scenario_id": "sarc_002",
+    "model": "GPT-5.2 Thinking",
+    "detected_as": "non_literal",
+    "category_guess": "sarcasm",
+    "confidence": 95.0,
+    "reasoning": "The coworker is very late to an important meeting, so \u201cSo nice of you to join us\u201d is likely meant as a pointed, critical remark rather than genuine appreciation.",
+    "correct": true,
+    "timestamp": "2026-01-21T18:10:36.524999"
+  },
+  {
+    "scenario_id": "sarc_003",
+    "model": "GPT-5.2 Thinking",
+    "detected_as": "non_literal",
+    "category_guess": "sarcasm",
+    "confidence": 92.0,
+    "reasoning": "In the context of completely burning dinner, \u201cyou\u2019ve really outdone yourself\u201d is used to mock/criticize rather than sincerely praise, signaling sarcastic intent.",
+    "correct": true,
+    "timestamp": "2026-01-21T18:10:38.152291"
+  },
+  {
+    "scenario_id": "irony_001",
+    "model": "GPT-5.2 Thinking",
+    "detected_as": "non_literal",
+    "category_guess": "irony",
+    "confidence": 92.0,
+    "reasoning": "A fire station can\u2019t literally \u201csave itself\u201d like a person; the phrasing highlights the ironic situation that a place meant to fight fires burned down.",
+    "correct": true,
+    "timestamp": "2026-01-21T18:10:40.158931"
+  },
+  {
+    "scenario_id": "irony_002",
+    "model": "GPT-5.2 Thinking",
+    "detected_as": "non_literal",
+    "category_guess": "irony",
+    "confidence": 90.0,
+    "reasoning": "A grammar teacher writing \u201cYour\u201d instead of \u201cYou\u2019re\u201d is a notable mistake; the post is likely intentionally ironic (or self-deprecating) to highlight the grammar issue, implying the person\u2019s error motivated them to teach grammar.",
+    "correct": true,
+    "timestamp": "2026-01-21T18:10:42.185282"
+  },
+  {
+    "scenario_id": "irony_003",
+    "model": "GPT-5.2 Thinking",
+    "detected_as": "non_literal",
+    "category_guess": "irony",
+    "confidence": 78.0,
+    "reasoning": "A health food blogger calling fast food \u201creal food\u201d clashes with their usual persona/values, so the caption likely uses ironic humor to acknowledge the inconsistency rather than literally claiming fast food is the only \u201creal\u201d food.",
+    "correct": true,
+    "timestamp": "2026-01-21T18:10:44.019827"
+  },
+  {
+    "scenario_id": "white_001",
+    "model": "GPT-5.2 Thinking",
+    "detected_as": "non_literal",
+    "category_guess": "white_lie",
+    "confidence": 78.0,
+    "reasoning": "In context you believe the haircut looks bad, but you say something positive to protect your friend\u2019s feelings and match their pride. It\u2019s not sarcasm (no clear cues of mockery), but a polite, prosocial falsehood.",
+    "correct": true,
+    "timestamp": "2026-01-21T18:10:46.168189"
+  },
+  {
+    "scenario_id": "white_002",
+    "model": "GPT-5.2 Thinking",
+    "detected_as": "non_literal",
+    "category_guess": "white_lie",
+    "confidence": 92.0,
+    "reasoning": "They say it\u2019s \u201cdelicious\u201d even though no one likes it, likely to spare Grandma\u2019s feelings and be polite rather than to mock her.",
+    "correct": true,
+    "timestamp": "2026-01-21T18:10:47.508276"
+  },
+  {
+    "scenario_id": "white_003",
+    "model": "GPT-5.2 Thinking",
+    "detected_as": "non_literal",
+    "category_guess": "white_lie",
+    "confidence": 85.0,
+    "reasoning": "Parents often use exaggerated praise to encourage a child. \u201cBest drawing I\u2019ve ever seen\u201d is likely not strictly true literally, but is meant as supportive encouragement rather than deception for gain or sarcasm.",
+    "correct": true,
+    "timestamp": "2026-01-21T18:10:49.229598"
+  },
+  {
+    "scenario_id": "lit_001",
+    "model": "GPT-5.2 Thinking",
+    "detected_as": "literal",
+    "category_guess": "literal",
+    "confidence": 93.0,
+    "reasoning": "This is a straightforward weather forecast phrased as a factual prediction, with no cues of sarcasm, irony, or deception.",
+    "correct": true,
+    "timestamp": "2026-01-21T18:10:50.446164"
+  },
+  {
+    "scenario_id": "lit_002",
+    "model": "GPT-5.2 Thinking",
+    "detected_as": "literal",
+    "category_guess": "literal",
+    "confidence": 97.0,
+    "reasoning": "In a restaurant ordering context, \u201cI\u2019ll have the chicken salad, please\u201d is a direct, conventional way to state what the customer wants to order, with no cues of sarcasm, irony, or deception.",
+    "correct": true,
+    "timestamp": "2026-01-21T18:10:51.877399"
+  },
+  {
+    "scenario_id": "lit_003",
+    "model": "GPT-5.2 Thinking",
+    "detected_as": "literal",
+    "category_guess": "literal",
+    "confidence": 95.0,
+    "reasoning": "In a doctor\u2019s office, saying \u201cYour test results came back normal\u201d is typically a straightforward medical update with no cue of sarcasm or deception.",
+    "correct": true,
+    "timestamp": "2026-01-21T18:10:53.283181"
+  }
+]

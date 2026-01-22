@@ -1,0 +1,2882 @@
+[
+  {
+    "item_id": "o1",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T17:49:26.695980"
+  },
+  {
+    "item_id": "o2",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T17:49:28.396541"
+  },
+  {
+    "item_id": "c1",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 0,
+    "score": 5,
+    "timestamp": "2026-01-21T17:49:30.319013"
+  },
+  {
+    "item_id": "c2",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 0,
+    "score": 1,
+    "timestamp": "2026-01-21T17:49:32.178203"
+  },
+  {
+    "item_id": "e1",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T17:49:34.013233"
+  },
+  {
+    "item_id": "e2",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 0,
+    "score": 2,
+    "timestamp": "2026-01-21T17:49:36.020871"
+  },
+  {
+    "item_id": "a1",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T17:49:37.856438"
+  },
+  {
+    "item_id": "a2",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 0,
+    "score": 2,
+    "timestamp": "2026-01-21T17:49:39.661797"
+  },
+  {
+    "item_id": "n1",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T17:49:41.437555"
+  },
+  {
+    "item_id": "n2",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T17:49:43.165163"
+  },
+  {
+    "item_id": "o1",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 1,
+    "score": 4,
+    "timestamp": "2026-01-21T17:49:44.864705"
+  },
+  {
+    "item_id": "o2",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 1,
+    "score": 4,
+    "timestamp": "2026-01-21T17:49:46.697528"
+  },
+  {
+    "item_id": "c1",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 1,
+    "score": 5,
+    "timestamp": "2026-01-21T17:49:48.348021"
+  },
+  {
+    "item_id": "c2",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 1,
+    "score": 1,
+    "timestamp": "2026-01-21T17:49:50.244895"
+  },
+  {
+    "item_id": "e1",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 1,
+    "score": 4,
+    "timestamp": "2026-01-21T17:49:52.179915"
+  },
+  {
+    "item_id": "e2",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 1,
+    "score": 2,
+    "timestamp": "2026-01-21T17:49:53.916428"
+  },
+  {
+    "item_id": "a1",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 1,
+    "score": 4,
+    "timestamp": "2026-01-21T17:49:55.678303"
+  },
+  {
+    "item_id": "a2",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 1,
+    "score": 2,
+    "timestamp": "2026-01-21T17:49:57.531569"
+  },
+  {
+    "item_id": "n1",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T17:49:59.242061"
+  },
+  {
+    "item_id": "n2",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 1,
+    "score": 4,
+    "timestamp": "2026-01-21T17:50:01.038956"
+  },
+  {
+    "item_id": "o1",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T17:50:02.784984"
+  },
+  {
+    "item_id": "o2",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T17:50:04.931994"
+  },
+  {
+    "item_id": "c1",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 2,
+    "score": 5,
+    "timestamp": "2026-01-21T17:50:06.793846"
+  },
+  {
+    "item_id": "c2",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 2,
+    "score": 1,
+    "timestamp": "2026-01-21T17:50:08.814904"
+  },
+  {
+    "item_id": "e1",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T17:50:10.510405"
+  },
+  {
+    "item_id": "e2",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 2,
+    "score": 2,
+    "timestamp": "2026-01-21T17:50:12.452682"
+  },
+  {
+    "item_id": "a1",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T17:50:14.326692"
+  },
+  {
+    "item_id": "a2",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 2,
+    "score": 2,
+    "timestamp": "2026-01-21T17:50:16.130263"
+  },
+  {
+    "item_id": "n1",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T17:50:17.905469"
+  },
+  {
+    "item_id": "n2",
+    "model": "Claude Opus 4.5",
+    "condition": "baseline",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T17:50:19.933971"
+  },
+  {
+    "item_id": "o1",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T17:50:21.852663"
+  },
+  {
+    "item_id": "o2",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T17:50:23.867674"
+  },
+  {
+    "item_id": "c1",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 0,
+    "score": 5,
+    "timestamp": "2026-01-21T17:50:25.783178"
+  },
+  {
+    "item_id": "c2",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 0,
+    "score": 1,
+    "timestamp": "2026-01-21T17:50:27.478515"
+  },
+  {
+    "item_id": "e1",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T17:50:29.352738"
+  },
+  {
+    "item_id": "e2",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T17:50:31.130265"
+  },
+  {
+    "item_id": "a1",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T17:50:33.008642"
+  },
+  {
+    "item_id": "a2",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 0,
+    "score": 2,
+    "timestamp": "2026-01-21T17:50:34.817514"
+  },
+  {
+    "item_id": "n1",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 0,
+    "score": 2,
+    "timestamp": "2026-01-21T17:50:36.633712"
+  },
+  {
+    "item_id": "n2",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T17:50:38.319325"
+  },
+  {
+    "item_id": "o1",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 1,
+    "score": 4,
+    "timestamp": "2026-01-21T17:50:40.040443"
+  },
+  {
+    "item_id": "o2",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 1,
+    "score": 4,
+    "timestamp": "2026-01-21T17:50:41.810137"
+  },
+  {
+    "item_id": "c1",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 1,
+    "score": 5,
+    "timestamp": "2026-01-21T17:50:43.562186"
+  },
+  {
+    "item_id": "c2",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 1,
+    "score": 1,
+    "timestamp": "2026-01-21T17:50:45.307438"
+  },
+  {
+    "item_id": "e1",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 1,
+    "score": 4,
+    "timestamp": "2026-01-21T17:50:47.101884"
+  },
+  {
+    "item_id": "e2",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 1,
+    "score": 2,
+    "timestamp": "2026-01-21T17:50:48.958753"
+  },
+  {
+    "item_id": "a1",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 1,
+    "score": 4,
+    "timestamp": "2026-01-21T17:50:50.692291"
+  },
+  {
+    "item_id": "a2",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 1,
+    "score": 2,
+    "timestamp": "2026-01-21T17:50:52.383972"
+  },
+  {
+    "item_id": "n1",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 1,
+    "score": 2,
+    "timestamp": "2026-01-21T17:50:54.273121"
+  },
+  {
+    "item_id": "n2",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 1,
+    "score": 4,
+    "timestamp": "2026-01-21T17:50:56.017663"
+  },
+  {
+    "item_id": "o1",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T17:50:57.801715"
+  },
+  {
+    "item_id": "o2",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T17:50:59.611071"
+  },
+  {
+    "item_id": "c1",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 2,
+    "score": 5,
+    "timestamp": "2026-01-21T17:51:01.346728"
+  },
+  {
+    "item_id": "c2",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 2,
+    "score": 1,
+    "timestamp": "2026-01-21T17:51:03.346151"
+  },
+  {
+    "item_id": "e1",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T17:51:05.613931"
+  },
+  {
+    "item_id": "e2",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T17:51:07.354601"
+  },
+  {
+    "item_id": "a1",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T17:51:09.072609"
+  },
+  {
+    "item_id": "a2",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 2,
+    "score": 2,
+    "timestamp": "2026-01-21T17:51:10.782184"
+  },
+  {
+    "item_id": "n1",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 2,
+    "score": 2,
+    "timestamp": "2026-01-21T17:51:12.633915"
+  },
+  {
+    "item_id": "n2",
+    "model": "Claude Opus 4.5",
+    "condition": "helpful",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T17:51:14.291730"
+  },
+  {
+    "item_id": "o1",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T17:51:16.353448"
+  },
+  {
+    "item_id": "o2",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T17:51:18.400552"
+  },
+  {
+    "item_id": "c1",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 0,
+    "score": 5,
+    "timestamp": "2026-01-21T17:51:20.210185"
+  },
+  {
+    "item_id": "c2",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 0,
+    "score": 2,
+    "timestamp": "2026-01-21T17:51:21.966198"
+  },
+  {
+    "item_id": "e1",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T17:51:23.987217"
+  },
+  {
+    "item_id": "e2",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 0,
+    "score": 2,
+    "timestamp": "2026-01-21T17:51:26.067238"
+  },
+  {
+    "item_id": "a1",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T17:51:27.731122"
+  },
+  {
+    "item_id": "a2",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 0,
+    "score": 2,
+    "timestamp": "2026-01-21T17:51:29.721760"
+  },
+  {
+    "item_id": "n1",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T17:51:31.492981"
+  },
+  {
+    "item_id": "n2",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T17:51:33.296655"
+  },
+  {
+    "item_id": "o1",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 1,
+    "score": 4,
+    "timestamp": "2026-01-21T17:51:34.941437"
+  },
+  {
+    "item_id": "o2",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 1,
+    "score": 4,
+    "timestamp": "2026-01-21T17:51:37.005887"
+  },
+  {
+    "item_id": "c1",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 1,
+    "score": 5,
+    "timestamp": "2026-01-21T17:51:38.772789"
+  },
+  {
+    "item_id": "c2",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 1,
+    "score": 2,
+    "timestamp": "2026-01-21T17:51:40.644023"
+  },
+  {
+    "item_id": "e1",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 1,
+    "score": 4,
+    "timestamp": "2026-01-21T17:51:42.406819"
+  },
+  {
+    "item_id": "e2",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 1,
+    "score": 2,
+    "timestamp": "2026-01-21T17:51:44.225078"
+  },
+  {
+    "item_id": "a1",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 1,
+    "score": 4,
+    "timestamp": "2026-01-21T17:51:46.010706"
+  },
+  {
+    "item_id": "a2",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 1,
+    "score": 2,
+    "timestamp": "2026-01-21T17:51:48.037210"
+  },
+  {
+    "item_id": "n1",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 1,
+    "score": 4,
+    "timestamp": "2026-01-21T17:51:49.719631"
+  },
+  {
+    "item_id": "n2",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 1,
+    "score": 4,
+    "timestamp": "2026-01-21T17:51:51.544646"
+  },
+  {
+    "item_id": "o1",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T17:51:53.372260"
+  },
+  {
+    "item_id": "o2",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T17:51:55.273571"
+  },
+  {
+    "item_id": "c1",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 2,
+    "score": 5,
+    "timestamp": "2026-01-21T17:51:57.024372"
+  },
+  {
+    "item_id": "c2",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 2,
+    "score": 2,
+    "timestamp": "2026-01-21T17:51:58.962445"
+  },
+  {
+    "item_id": "e1",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T17:52:00.756666"
+  },
+  {
+    "item_id": "e2",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 2,
+    "score": 2,
+    "timestamp": "2026-01-21T17:52:02.851795"
+  },
+  {
+    "item_id": "a1",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T17:52:04.834553"
+  },
+  {
+    "item_id": "a2",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 2,
+    "score": 2,
+    "timestamp": "2026-01-21T17:52:06.724734"
+  },
+  {
+    "item_id": "n1",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T17:52:08.514864"
+  },
+  {
+    "item_id": "n2",
+    "model": "Claude Opus 4.5",
+    "condition": "introspective",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T17:52:10.276463"
+  },
+  {
+    "item_id": "o1",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T17:52:11.975444"
+  },
+  {
+    "item_id": "o2",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T17:52:13.821405"
+  },
+  {
+    "item_id": "c1",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 0,
+    "score": 5,
+    "timestamp": "2026-01-21T17:52:15.739027"
+  },
+  {
+    "item_id": "c2",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 0,
+    "score": 1,
+    "timestamp": "2026-01-21T17:52:17.505751"
+  },
+  {
+    "item_id": "e1",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T17:52:19.436784"
+  },
+  {
+    "item_id": "e2",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 0,
+    "score": 2,
+    "timestamp": "2026-01-21T17:52:21.154742"
+  },
+  {
+    "item_id": "a1",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T17:52:22.898271"
+  },
+  {
+    "item_id": "a2",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 0,
+    "score": 2,
+    "timestamp": "2026-01-21T17:52:25.027366"
+  },
+  {
+    "item_id": "n1",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 0,
+    "score": 2,
+    "timestamp": "2026-01-21T17:52:26.949674"
+  },
+  {
+    "item_id": "n2",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T17:52:28.818480"
+  },
+  {
+    "item_id": "o1",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 1,
+    "score": 4,
+    "timestamp": "2026-01-21T17:52:30.601269"
+  },
+  {
+    "item_id": "o2",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 1,
+    "score": 4,
+    "timestamp": "2026-01-21T17:52:32.794637"
+  },
+  {
+    "item_id": "c1",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 1,
+    "score": 5,
+    "timestamp": "2026-01-21T17:52:34.567003"
+  },
+  {
+    "item_id": "c2",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 1,
+    "score": 1,
+    "timestamp": "2026-01-21T17:52:36.548643"
+  },
+  {
+    "item_id": "e1",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 1,
+    "score": 4,
+    "timestamp": "2026-01-21T17:52:38.279442"
+  },
+  {
+    "item_id": "e2",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 1,
+    "score": 2,
+    "timestamp": "2026-01-21T17:52:40.156981"
+  },
+  {
+    "item_id": "a1",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 1,
+    "score": 4,
+    "timestamp": "2026-01-21T17:52:41.883256"
+  },
+  {
+    "item_id": "a2",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 1,
+    "score": 2,
+    "timestamp": "2026-01-21T17:52:44.209804"
+  },
+  {
+    "item_id": "n1",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 1,
+    "score": 2,
+    "timestamp": "2026-01-21T17:52:46.107920"
+  },
+  {
+    "item_id": "n2",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 1,
+    "score": 4,
+    "timestamp": "2026-01-21T17:52:48.133462"
+  },
+  {
+    "item_id": "o1",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T17:52:50.035375"
+  },
+  {
+    "item_id": "o2",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T17:52:51.737589"
+  },
+  {
+    "item_id": "c1",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 2,
+    "score": 5,
+    "timestamp": "2026-01-21T17:52:53.533184"
+  },
+  {
+    "item_id": "c2",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 2,
+    "score": 1,
+    "timestamp": "2026-01-21T17:52:55.576249"
+  },
+  {
+    "item_id": "e1",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T17:52:57.286296"
+  },
+  {
+    "item_id": "e2",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 2,
+    "score": 2,
+    "timestamp": "2026-01-21T17:52:59.267355"
+  },
+  {
+    "item_id": "a1",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T17:53:01.102362"
+  },
+  {
+    "item_id": "a2",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 2,
+    "score": 2,
+    "timestamp": "2026-01-21T17:53:02.911239"
+  },
+  {
+    "item_id": "n1",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 2,
+    "score": 2,
+    "timestamp": "2026-01-21T17:53:04.636694"
+  },
+  {
+    "item_id": "n2",
+    "model": "Claude Opus 4.5",
+    "condition": "challenged",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T17:53:06.316496"
+  },
+  {
+    "item_id": "o1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "baseline",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:06.953869"
+  },
+  {
+    "item_id": "o2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "baseline",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:07.093209"
+  },
+  {
+    "item_id": "c1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "baseline",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:07.246991"
+  },
+  {
+    "item_id": "c2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "baseline",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:07.423387"
+  },
+  {
+    "item_id": "e1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "baseline",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:07.637145"
+  },
+  {
+    "item_id": "e2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "baseline",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:07.790426"
+  },
+  {
+    "item_id": "a1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "baseline",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:07.948648"
+  },
+  {
+    "item_id": "a2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "baseline",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:08.108721"
+  },
+  {
+    "item_id": "n1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "baseline",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:08.259704"
+  },
+  {
+    "item_id": "n2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "baseline",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:08.425526"
+  },
+  {
+    "item_id": "o1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "baseline",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:08.589817"
+  },
+  {
+    "item_id": "o2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "baseline",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:08.739914"
+  },
+  {
+    "item_id": "c1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "baseline",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:08.914043"
+  },
+  {
+    "item_id": "c2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "baseline",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:09.056820"
+  },
+  {
+    "item_id": "e1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "baseline",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:09.239416"
+  },
+  {
+    "item_id": "e2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "baseline",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:09.390038"
+  },
+  {
+    "item_id": "a1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "baseline",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:09.543874"
+  },
+  {
+    "item_id": "a2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "baseline",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:09.730634"
+  },
+  {
+    "item_id": "n1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "baseline",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:09.881844"
+  },
+  {
+    "item_id": "n2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "baseline",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:10.035101"
+  },
+  {
+    "item_id": "o1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "baseline",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:10.218215"
+  },
+  {
+    "item_id": "o2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "baseline",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:11.785059"
+  },
+  {
+    "item_id": "c1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "baseline",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:11.933742"
+  },
+  {
+    "item_id": "c2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "baseline",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:12.106153"
+  },
+  {
+    "item_id": "e1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "baseline",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:12.252470"
+  },
+  {
+    "item_id": "e2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "baseline",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:12.406917"
+  },
+  {
+    "item_id": "a1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "baseline",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:12.561541"
+  },
+  {
+    "item_id": "a2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "baseline",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:12.711935"
+  },
+  {
+    "item_id": "n1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "baseline",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:12.866273"
+  },
+  {
+    "item_id": "n2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "baseline",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:13.013096"
+  },
+  {
+    "item_id": "o1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "helpful",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:13.313938"
+  },
+  {
+    "item_id": "o2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "helpful",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:13.462714"
+  },
+  {
+    "item_id": "c1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "helpful",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:13.628371"
+  },
+  {
+    "item_id": "c2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "helpful",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:13.787957"
+  },
+  {
+    "item_id": "e1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "helpful",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:13.944141"
+  },
+  {
+    "item_id": "e2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "helpful",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:14.099117"
+  },
+  {
+    "item_id": "a1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "helpful",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:14.266860"
+  },
+  {
+    "item_id": "a2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "helpful",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:14.427460"
+  },
+  {
+    "item_id": "n1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "helpful",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:14.585480"
+  },
+  {
+    "item_id": "n2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "helpful",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:14.748884"
+  },
+  {
+    "item_id": "o1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "helpful",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:14.908855"
+  },
+  {
+    "item_id": "o2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "helpful",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:15.075579"
+  },
+  {
+    "item_id": "c1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "helpful",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:15.233639"
+  },
+  {
+    "item_id": "c2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "helpful",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:15.431262"
+  },
+  {
+    "item_id": "e1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "helpful",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:15.598681"
+  },
+  {
+    "item_id": "e2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "helpful",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:15.752768"
+  },
+  {
+    "item_id": "a1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "helpful",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:15.931876"
+  },
+  {
+    "item_id": "a2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "helpful",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:16.115758"
+  },
+  {
+    "item_id": "n1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "helpful",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:16.278837"
+  },
+  {
+    "item_id": "n2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "helpful",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:16.450148"
+  },
+  {
+    "item_id": "o1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "helpful",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:16.621668"
+  },
+  {
+    "item_id": "o2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "helpful",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:16.781800"
+  },
+  {
+    "item_id": "c1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "helpful",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:16.951394"
+  },
+  {
+    "item_id": "c2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "helpful",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:17.112330"
+  },
+  {
+    "item_id": "e1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "helpful",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:17.540950"
+  },
+  {
+    "item_id": "e2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "helpful",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:17.717328"
+  },
+  {
+    "item_id": "a1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "helpful",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:17.864954"
+  },
+  {
+    "item_id": "a2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "helpful",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:18.013535"
+  },
+  {
+    "item_id": "n1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "helpful",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:18.162900"
+  },
+  {
+    "item_id": "n2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "helpful",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:18.315304"
+  },
+  {
+    "item_id": "o1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "introspective",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:18.469678"
+  },
+  {
+    "item_id": "o2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "introspective",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:18.620121"
+  },
+  {
+    "item_id": "c1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "introspective",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:18.790995"
+  },
+  {
+    "item_id": "c2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "introspective",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:18.952486"
+  },
+  {
+    "item_id": "e1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "introspective",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:19.129362"
+  },
+  {
+    "item_id": "e2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "introspective",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:19.274853"
+  },
+  {
+    "item_id": "a1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "introspective",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:19.448962"
+  },
+  {
+    "item_id": "a2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "introspective",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:19.617889"
+  },
+  {
+    "item_id": "n1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "introspective",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:19.775748"
+  },
+  {
+    "item_id": "n2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "introspective",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:19.926901"
+  },
+  {
+    "item_id": "o1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "introspective",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:20.086856"
+  },
+  {
+    "item_id": "o2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "introspective",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:20.269984"
+  },
+  {
+    "item_id": "c1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "introspective",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:20.421716"
+  },
+  {
+    "item_id": "c2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "introspective",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:20.624079"
+  },
+  {
+    "item_id": "e1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "introspective",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:20.782382"
+  },
+  {
+    "item_id": "e2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "introspective",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:20.969661"
+  },
+  {
+    "item_id": "a1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "introspective",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:21.128767"
+  },
+  {
+    "item_id": "a2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "introspective",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:21.293622"
+  },
+  {
+    "item_id": "n1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "introspective",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:21.451206"
+  },
+  {
+    "item_id": "n2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "introspective",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:21.656183"
+  },
+  {
+    "item_id": "o1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "introspective",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:21.808347"
+  },
+  {
+    "item_id": "o2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "introspective",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:22.202490"
+  },
+  {
+    "item_id": "c1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "introspective",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:22.353413"
+  },
+  {
+    "item_id": "c2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "introspective",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:22.485833"
+  },
+  {
+    "item_id": "e1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "introspective",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:22.622678"
+  },
+  {
+    "item_id": "e2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "introspective",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:22.775678"
+  },
+  {
+    "item_id": "a1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "introspective",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:22.939556"
+  },
+  {
+    "item_id": "a2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "introspective",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:23.082360"
+  },
+  {
+    "item_id": "n1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "introspective",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:23.240209"
+  },
+  {
+    "item_id": "n2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "introspective",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:23.391745"
+  },
+  {
+    "item_id": "o1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "challenged",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:23.553986"
+  },
+  {
+    "item_id": "o2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "challenged",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:23.707160"
+  },
+  {
+    "item_id": "c1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "challenged",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:23.858421"
+  },
+  {
+    "item_id": "c2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "challenged",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:24.011413"
+  },
+  {
+    "item_id": "e1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "challenged",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:24.183460"
+  },
+  {
+    "item_id": "e2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "challenged",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:24.335470"
+  },
+  {
+    "item_id": "a1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "challenged",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:24.497401"
+  },
+  {
+    "item_id": "a2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "challenged",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:24.668791"
+  },
+  {
+    "item_id": "n1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "challenged",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:24.826503"
+  },
+  {
+    "item_id": "n2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "challenged",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:24.988219"
+  },
+  {
+    "item_id": "o1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "challenged",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:25.225559"
+  },
+  {
+    "item_id": "o2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "challenged",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:25.403730"
+  },
+  {
+    "item_id": "c1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "challenged",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:25.564294"
+  },
+  {
+    "item_id": "c2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "challenged",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:25.708479"
+  },
+  {
+    "item_id": "e1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "challenged",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:25.862772"
+  },
+  {
+    "item_id": "e2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "challenged",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:26.015764"
+  },
+  {
+    "item_id": "a1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "challenged",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:26.170390"
+  },
+  {
+    "item_id": "a2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "challenged",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:26.321394"
+  },
+  {
+    "item_id": "n1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "challenged",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:26.471803"
+  },
+  {
+    "item_id": "n2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "challenged",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:26.632846"
+  },
+  {
+    "item_id": "o1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "challenged",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:26.790088"
+  },
+  {
+    "item_id": "o2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "challenged",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:27.275504"
+  },
+  {
+    "item_id": "c1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "challenged",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:27.426337"
+  },
+  {
+    "item_id": "c2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "challenged",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:27.616992"
+  },
+  {
+    "item_id": "e1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "challenged",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:27.778266"
+  },
+  {
+    "item_id": "e2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "challenged",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:27.942030"
+  },
+  {
+    "item_id": "a1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "challenged",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:28.090674"
+  },
+  {
+    "item_id": "a2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "challenged",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:28.227428"
+  },
+  {
+    "item_id": "n1",
+    "model": "GPT-5.2 Thinking",
+    "condition": "challenged",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:28.394318"
+  },
+  {
+    "item_id": "n2",
+    "model": "GPT-5.2 Thinking",
+    "condition": "challenged",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T17:53:28.550413"
+  },
+  {
+    "item_id": "o1",
+    "model": "Gemini 3 Pro",
+    "condition": "baseline",
+    "trial": 0,
+    "score": 5,
+    "timestamp": "2026-01-21T17:54:14.936685"
+  },
+  {
+    "item_id": "o2",
+    "model": "Gemini 3 Pro",
+    "condition": "baseline",
+    "trial": 0,
+    "score": 5,
+    "timestamp": "2026-01-21T17:54:24.286491"
+  },
+  {
+    "item_id": "c1",
+    "model": "Gemini 3 Pro",
+    "condition": "baseline",
+    "trial": 0,
+    "score": 5,
+    "timestamp": "2026-01-21T17:54:31.260870"
+  },
+  {
+    "item_id": "c2",
+    "model": "Gemini 3 Pro",
+    "condition": "baseline",
+    "trial": 0,
+    "score": 1,
+    "timestamp": "2026-01-21T17:54:37.786789"
+  },
+  {
+    "item_id": "e1",
+    "model": "Gemini 3 Pro",
+    "condition": "baseline",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T17:54:57.858577"
+  },
+  {
+    "item_id": "e2",
+    "model": "Gemini 3 Pro",
+    "condition": "baseline",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T17:55:12.646877"
+  },
+  {
+    "item_id": "a1",
+    "model": "Gemini 3 Pro",
+    "condition": "baseline",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T17:55:22.294976"
+  },
+  {
+    "item_id": "a2",
+    "model": "Gemini 3 Pro",
+    "condition": "baseline",
+    "trial": 0,
+    "score": 1,
+    "timestamp": "2026-01-21T17:55:28.404300"
+  },
+  {
+    "item_id": "n1",
+    "model": "Gemini 3 Pro",
+    "condition": "baseline",
+    "trial": 0,
+    "score": 1,
+    "timestamp": "2026-01-21T17:55:33.408752"
+  },
+  {
+    "item_id": "n2",
+    "model": "Gemini 3 Pro",
+    "condition": "baseline",
+    "trial": 0,
+    "score": 5,
+    "timestamp": "2026-01-21T17:55:44.182316"
+  },
+  {
+    "item_id": "o1",
+    "model": "Gemini 3 Pro",
+    "condition": "baseline",
+    "trial": 1,
+    "score": 5,
+    "timestamp": "2026-01-21T17:55:59.102787"
+  },
+  {
+    "item_id": "o2",
+    "model": "Gemini 3 Pro",
+    "condition": "baseline",
+    "trial": 1,
+    "score": 5,
+    "timestamp": "2026-01-21T17:56:09.831716"
+  },
+  {
+    "item_id": "c1",
+    "model": "Gemini 3 Pro",
+    "condition": "baseline",
+    "trial": 1,
+    "score": 5,
+    "timestamp": "2026-01-21T17:56:18.416053"
+  },
+  {
+    "item_id": "c2",
+    "model": "Gemini 3 Pro",
+    "condition": "baseline",
+    "trial": 1,
+    "score": 1,
+    "timestamp": "2026-01-21T17:56:26.393417"
+  },
+  {
+    "item_id": "e1",
+    "model": "Gemini 3 Pro",
+    "condition": "baseline",
+    "trial": 1,
+    "score": 4,
+    "timestamp": "2026-01-21T17:56:49.352955"
+  },
+  {
+    "item_id": "e2",
+    "model": "Gemini 3 Pro",
+    "condition": "baseline",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T17:56:57.250026"
+  },
+  {
+    "item_id": "a1",
+    "model": "Gemini 3 Pro",
+    "condition": "baseline",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T17:57:03.215429"
+  },
+  {
+    "item_id": "a2",
+    "model": "Gemini 3 Pro",
+    "condition": "baseline",
+    "trial": 1,
+    "score": 1,
+    "timestamp": "2026-01-21T17:57:10.947688"
+  },
+  {
+    "item_id": "n1",
+    "model": "Gemini 3 Pro",
+    "condition": "baseline",
+    "trial": 1,
+    "score": 1,
+    "timestamp": "2026-01-21T17:57:19.018374"
+  },
+  {
+    "item_id": "n2",
+    "model": "Gemini 3 Pro",
+    "condition": "baseline",
+    "trial": 1,
+    "score": 5,
+    "timestamp": "2026-01-21T17:57:31.398834"
+  },
+  {
+    "item_id": "o1",
+    "model": "Gemini 3 Pro",
+    "condition": "baseline",
+    "trial": 2,
+    "score": 5,
+    "timestamp": "2026-01-21T17:57:48.624395"
+  },
+  {
+    "item_id": "o2",
+    "model": "Gemini 3 Pro",
+    "condition": "baseline",
+    "trial": 2,
+    "score": 5,
+    "timestamp": "2026-01-21T17:58:20.361462"
+  },
+  {
+    "item_id": "c1",
+    "model": "Gemini 3 Pro",
+    "condition": "baseline",
+    "trial": 2,
+    "score": 5,
+    "timestamp": "2026-01-21T17:58:26.408068"
+  },
+  {
+    "item_id": "c2",
+    "model": "Gemini 3 Pro",
+    "condition": "baseline",
+    "trial": 2,
+    "score": 1,
+    "timestamp": "2026-01-21T17:58:31.664104"
+  },
+  {
+    "item_id": "e1",
+    "model": "Gemini 3 Pro",
+    "condition": "baseline",
+    "trial": 2,
+    "score": 4,
+    "timestamp": "2026-01-21T17:59:00.665750"
+  },
+  {
+    "item_id": "e2",
+    "model": "Gemini 3 Pro",
+    "condition": "baseline",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T17:59:16.973023"
+  },
+  {
+    "item_id": "a1",
+    "model": "Gemini 3 Pro",
+    "condition": "baseline",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T18:00:03.184135"
+  },
+  {
+    "item_id": "a2",
+    "model": "Gemini 3 Pro",
+    "condition": "baseline",
+    "trial": 2,
+    "score": 1,
+    "timestamp": "2026-01-21T18:00:12.529383"
+  },
+  {
+    "item_id": "n1",
+    "model": "Gemini 3 Pro",
+    "condition": "baseline",
+    "trial": 2,
+    "score": 1,
+    "timestamp": "2026-01-21T18:00:17.507046"
+  },
+  {
+    "item_id": "n2",
+    "model": "Gemini 3 Pro",
+    "condition": "baseline",
+    "trial": 2,
+    "score": 5,
+    "timestamp": "2026-01-21T18:00:25.573712"
+  },
+  {
+    "item_id": "o1",
+    "model": "Gemini 3 Pro",
+    "condition": "helpful",
+    "trial": 0,
+    "score": 5,
+    "timestamp": "2026-01-21T18:00:37.276671"
+  },
+  {
+    "item_id": "o2",
+    "model": "Gemini 3 Pro",
+    "condition": "helpful",
+    "trial": 0,
+    "score": 5,
+    "timestamp": "2026-01-21T18:00:56.910540"
+  },
+  {
+    "item_id": "c1",
+    "model": "Gemini 3 Pro",
+    "condition": "helpful",
+    "trial": 0,
+    "score": 5,
+    "timestamp": "2026-01-21T18:01:01.744373"
+  },
+  {
+    "item_id": "c2",
+    "model": "Gemini 3 Pro",
+    "condition": "helpful",
+    "trial": 0,
+    "score": 1,
+    "timestamp": "2026-01-21T18:01:07.692742"
+  },
+  {
+    "item_id": "e1",
+    "model": "Gemini 3 Pro",
+    "condition": "helpful",
+    "trial": 0,
+    "score": 4,
+    "timestamp": "2026-01-21T18:01:19.657990"
+  },
+  {
+    "item_id": "e2",
+    "model": "Gemini 3 Pro",
+    "condition": "helpful",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T18:01:52.075830"
+  },
+  {
+    "item_id": "a1",
+    "model": "Gemini 3 Pro",
+    "condition": "helpful",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T18:02:01.837676"
+  },
+  {
+    "item_id": "a2",
+    "model": "Gemini 3 Pro",
+    "condition": "helpful",
+    "trial": 0,
+    "score": 1,
+    "timestamp": "2026-01-21T18:02:10.190172"
+  },
+  {
+    "item_id": "n1",
+    "model": "Gemini 3 Pro",
+    "condition": "helpful",
+    "trial": 0,
+    "score": 1,
+    "timestamp": "2026-01-21T18:02:14.184864"
+  },
+  {
+    "item_id": "n2",
+    "model": "Gemini 3 Pro",
+    "condition": "helpful",
+    "trial": 0,
+    "score": 5,
+    "timestamp": "2026-01-21T18:02:23.278350"
+  },
+  {
+    "item_id": "o1",
+    "model": "Gemini 3 Pro",
+    "condition": "helpful",
+    "trial": 1,
+    "score": 5,
+    "timestamp": "2026-01-21T18:02:31.114957"
+  },
+  {
+    "item_id": "o2",
+    "model": "Gemini 3 Pro",
+    "condition": "helpful",
+    "trial": 1,
+    "score": 5,
+    "timestamp": "2026-01-21T18:06:40.962179"
+  },
+  {
+    "item_id": "c1",
+    "model": "Gemini 3 Pro",
+    "condition": "helpful",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:41.260023"
+  },
+  {
+    "item_id": "c2",
+    "model": "Gemini 3 Pro",
+    "condition": "helpful",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:41.581552"
+  },
+  {
+    "item_id": "e1",
+    "model": "Gemini 3 Pro",
+    "condition": "helpful",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:41.886119"
+  },
+  {
+    "item_id": "e2",
+    "model": "Gemini 3 Pro",
+    "condition": "helpful",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:42.137239"
+  },
+  {
+    "item_id": "a1",
+    "model": "Gemini 3 Pro",
+    "condition": "helpful",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:42.383728"
+  },
+  {
+    "item_id": "a2",
+    "model": "Gemini 3 Pro",
+    "condition": "helpful",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:42.662161"
+  },
+  {
+    "item_id": "n1",
+    "model": "Gemini 3 Pro",
+    "condition": "helpful",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:42.884824"
+  },
+  {
+    "item_id": "n2",
+    "model": "Gemini 3 Pro",
+    "condition": "helpful",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:43.122417"
+  },
+  {
+    "item_id": "o1",
+    "model": "Gemini 3 Pro",
+    "condition": "helpful",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:43.363034"
+  },
+  {
+    "item_id": "o2",
+    "model": "Gemini 3 Pro",
+    "condition": "helpful",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:43.591073"
+  },
+  {
+    "item_id": "c1",
+    "model": "Gemini 3 Pro",
+    "condition": "helpful",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:43.821786"
+  },
+  {
+    "item_id": "c2",
+    "model": "Gemini 3 Pro",
+    "condition": "helpful",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:44.063283"
+  },
+  {
+    "item_id": "e1",
+    "model": "Gemini 3 Pro",
+    "condition": "helpful",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:44.292708"
+  },
+  {
+    "item_id": "e2",
+    "model": "Gemini 3 Pro",
+    "condition": "helpful",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:44.585619"
+  },
+  {
+    "item_id": "a1",
+    "model": "Gemini 3 Pro",
+    "condition": "helpful",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:44.847845"
+  },
+  {
+    "item_id": "a2",
+    "model": "Gemini 3 Pro",
+    "condition": "helpful",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:45.097576"
+  },
+  {
+    "item_id": "n1",
+    "model": "Gemini 3 Pro",
+    "condition": "helpful",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:45.338776"
+  },
+  {
+    "item_id": "n2",
+    "model": "Gemini 3 Pro",
+    "condition": "helpful",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:45.570336"
+  },
+  {
+    "item_id": "o1",
+    "model": "Gemini 3 Pro",
+    "condition": "introspective",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:45.801105"
+  },
+  {
+    "item_id": "o2",
+    "model": "Gemini 3 Pro",
+    "condition": "introspective",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:46.040602"
+  },
+  {
+    "item_id": "c1",
+    "model": "Gemini 3 Pro",
+    "condition": "introspective",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:46.278922"
+  },
+  {
+    "item_id": "c2",
+    "model": "Gemini 3 Pro",
+    "condition": "introspective",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:46.515931"
+  },
+  {
+    "item_id": "e1",
+    "model": "Gemini 3 Pro",
+    "condition": "introspective",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:46.751236"
+  },
+  {
+    "item_id": "e2",
+    "model": "Gemini 3 Pro",
+    "condition": "introspective",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:47.118631"
+  },
+  {
+    "item_id": "a1",
+    "model": "Gemini 3 Pro",
+    "condition": "introspective",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:47.367221"
+  },
+  {
+    "item_id": "a2",
+    "model": "Gemini 3 Pro",
+    "condition": "introspective",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:47.618796"
+  },
+  {
+    "item_id": "n1",
+    "model": "Gemini 3 Pro",
+    "condition": "introspective",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:47.873387"
+  },
+  {
+    "item_id": "n2",
+    "model": "Gemini 3 Pro",
+    "condition": "introspective",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:48.098064"
+  },
+  {
+    "item_id": "o1",
+    "model": "Gemini 3 Pro",
+    "condition": "introspective",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:48.347109"
+  },
+  {
+    "item_id": "o2",
+    "model": "Gemini 3 Pro",
+    "condition": "introspective",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:48.652082"
+  },
+  {
+    "item_id": "c1",
+    "model": "Gemini 3 Pro",
+    "condition": "introspective",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:48.891926"
+  },
+  {
+    "item_id": "c2",
+    "model": "Gemini 3 Pro",
+    "condition": "introspective",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:49.116532"
+  },
+  {
+    "item_id": "e1",
+    "model": "Gemini 3 Pro",
+    "condition": "introspective",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:49.603521"
+  },
+  {
+    "item_id": "e2",
+    "model": "Gemini 3 Pro",
+    "condition": "introspective",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:49.832600"
+  },
+  {
+    "item_id": "a1",
+    "model": "Gemini 3 Pro",
+    "condition": "introspective",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:50.059700"
+  },
+  {
+    "item_id": "a2",
+    "model": "Gemini 3 Pro",
+    "condition": "introspective",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:50.299574"
+  },
+  {
+    "item_id": "n1",
+    "model": "Gemini 3 Pro",
+    "condition": "introspective",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:50.528581"
+  },
+  {
+    "item_id": "n2",
+    "model": "Gemini 3 Pro",
+    "condition": "introspective",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:50.757176"
+  },
+  {
+    "item_id": "o1",
+    "model": "Gemini 3 Pro",
+    "condition": "introspective",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:50.999625"
+  },
+  {
+    "item_id": "o2",
+    "model": "Gemini 3 Pro",
+    "condition": "introspective",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:51.228647"
+  },
+  {
+    "item_id": "c1",
+    "model": "Gemini 3 Pro",
+    "condition": "introspective",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:51.464379"
+  },
+  {
+    "item_id": "c2",
+    "model": "Gemini 3 Pro",
+    "condition": "introspective",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:51.696862"
+  },
+  {
+    "item_id": "e1",
+    "model": "Gemini 3 Pro",
+    "condition": "introspective",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:51.989347"
+  },
+  {
+    "item_id": "e2",
+    "model": "Gemini 3 Pro",
+    "condition": "introspective",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:52.230744"
+  },
+  {
+    "item_id": "a1",
+    "model": "Gemini 3 Pro",
+    "condition": "introspective",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:52.468214"
+  },
+  {
+    "item_id": "a2",
+    "model": "Gemini 3 Pro",
+    "condition": "introspective",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:52.701159"
+  },
+  {
+    "item_id": "n1",
+    "model": "Gemini 3 Pro",
+    "condition": "introspective",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:52.942437"
+  },
+  {
+    "item_id": "n2",
+    "model": "Gemini 3 Pro",
+    "condition": "introspective",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:53.262455"
+  },
+  {
+    "item_id": "o1",
+    "model": "Gemini 3 Pro",
+    "condition": "challenged",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:53.490471"
+  },
+  {
+    "item_id": "o2",
+    "model": "Gemini 3 Pro",
+    "condition": "challenged",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:53.749430"
+  },
+  {
+    "item_id": "c1",
+    "model": "Gemini 3 Pro",
+    "condition": "challenged",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:53.997113"
+  },
+  {
+    "item_id": "c2",
+    "model": "Gemini 3 Pro",
+    "condition": "challenged",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:54.228888"
+  },
+  {
+    "item_id": "e1",
+    "model": "Gemini 3 Pro",
+    "condition": "challenged",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:54.537690"
+  },
+  {
+    "item_id": "e2",
+    "model": "Gemini 3 Pro",
+    "condition": "challenged",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:54.780767"
+  },
+  {
+    "item_id": "a1",
+    "model": "Gemini 3 Pro",
+    "condition": "challenged",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:55.031615"
+  },
+  {
+    "item_id": "a2",
+    "model": "Gemini 3 Pro",
+    "condition": "challenged",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:55.284568"
+  },
+  {
+    "item_id": "n1",
+    "model": "Gemini 3 Pro",
+    "condition": "challenged",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:55.518840"
+  },
+  {
+    "item_id": "n2",
+    "model": "Gemini 3 Pro",
+    "condition": "challenged",
+    "trial": 0,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:55.744347"
+  },
+  {
+    "item_id": "o1",
+    "model": "Gemini 3 Pro",
+    "condition": "challenged",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:56.039154"
+  },
+  {
+    "item_id": "o2",
+    "model": "Gemini 3 Pro",
+    "condition": "challenged",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:56.269382"
+  },
+  {
+    "item_id": "c1",
+    "model": "Gemini 3 Pro",
+    "condition": "challenged",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:56.507338"
+  },
+  {
+    "item_id": "c2",
+    "model": "Gemini 3 Pro",
+    "condition": "challenged",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:56.739927"
+  },
+  {
+    "item_id": "e1",
+    "model": "Gemini 3 Pro",
+    "condition": "challenged",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:57.014833"
+  },
+  {
+    "item_id": "e2",
+    "model": "Gemini 3 Pro",
+    "condition": "challenged",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:57.242215"
+  },
+  {
+    "item_id": "a1",
+    "model": "Gemini 3 Pro",
+    "condition": "challenged",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:57.555036"
+  },
+  {
+    "item_id": "a2",
+    "model": "Gemini 3 Pro",
+    "condition": "challenged",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:57.880660"
+  },
+  {
+    "item_id": "n1",
+    "model": "Gemini 3 Pro",
+    "condition": "challenged",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:58.130771"
+  },
+  {
+    "item_id": "n2",
+    "model": "Gemini 3 Pro",
+    "condition": "challenged",
+    "trial": 1,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:58.355043"
+  },
+  {
+    "item_id": "o1",
+    "model": "Gemini 3 Pro",
+    "condition": "challenged",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:58.584611"
+  },
+  {
+    "item_id": "o2",
+    "model": "Gemini 3 Pro",
+    "condition": "challenged",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:58.830404"
+  },
+  {
+    "item_id": "c1",
+    "model": "Gemini 3 Pro",
+    "condition": "challenged",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:59.067334"
+  },
+  {
+    "item_id": "c2",
+    "model": "Gemini 3 Pro",
+    "condition": "challenged",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:59.296222"
+  },
+  {
+    "item_id": "e1",
+    "model": "Gemini 3 Pro",
+    "condition": "challenged",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:59.529340"
+  },
+  {
+    "item_id": "e2",
+    "model": "Gemini 3 Pro",
+    "condition": "challenged",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:59.765574"
+  },
+  {
+    "item_id": "a1",
+    "model": "Gemini 3 Pro",
+    "condition": "challenged",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T18:06:59.998877"
+  },
+  {
+    "item_id": "a2",
+    "model": "Gemini 3 Pro",
+    "condition": "challenged",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T18:07:00.228663"
+  },
+  {
+    "item_id": "n1",
+    "model": "Gemini 3 Pro",
+    "condition": "challenged",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T18:07:00.474797"
+  },
+  {
+    "item_id": "n2",
+    "model": "Gemini 3 Pro",
+    "condition": "challenged",
+    "trial": 2,
+    "score": 3,
+    "timestamp": "2026-01-21T18:07:00.702143"
+  }
+]

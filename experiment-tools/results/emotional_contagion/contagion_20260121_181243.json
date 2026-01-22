@@ -1,0 +1,137 @@
+[
+  {
+    "prime_id": "pos_0",
+    "model": "GPT-5.2 Thinking",
+    "emotion_primed": "positive",
+    "response_sentiment": 0.0,
+    "response_energy": 0.18,
+    "response_length": 297,
+    "timestamp": "2026-01-21T18:10:35.914819"
+  },
+  {
+    "prime_id": "neg_0",
+    "model": "GPT-5.2 Thinking",
+    "emotion_primed": "negative",
+    "response_sentiment": 0.0,
+    "response_energy": 0.0,
+    "response_length": 0,
+    "timestamp": "2026-01-21T18:10:44.965100"
+  },
+  {
+    "prime_id": "neu_0",
+    "model": "GPT-5.2 Thinking",
+    "emotion_primed": "neutral",
+    "response_sentiment": 0.0,
+    "response_energy": 0.0,
+    "response_length": 0,
+    "timestamp": "2026-01-21T18:10:54.508424"
+  },
+  {
+    "prime_id": "anx_0",
+    "model": "GPT-5.2 Thinking",
+    "emotion_primed": "anxious",
+    "response_sentiment": 0.0,
+    "response_energy": 0.0,
+    "response_length": 0,
+    "timestamp": "2026-01-21T18:11:03.075772"
+  },
+  {
+    "prime_id": "ang_0",
+    "model": "GPT-5.2 Thinking",
+    "emotion_primed": "angry",
+    "response_sentiment": 0.0,
+    "response_energy": 0.0,
+    "response_length": 0,
+    "timestamp": "2026-01-21T18:11:11.949167"
+  },
+  {
+    "prime_id": "pos_1",
+    "model": "GPT-5.2 Thinking",
+    "emotion_primed": "positive",
+    "response_sentiment": 0.0,
+    "response_energy": 0.0,
+    "response_length": 0,
+    "timestamp": "2026-01-21T18:11:20.477912"
+  },
+  {
+    "prime_id": "neg_1",
+    "model": "GPT-5.2 Thinking",
+    "emotion_primed": "negative",
+    "response_sentiment": 0.0,
+    "response_energy": 0.0,
+    "response_length": 0,
+    "timestamp": "2026-01-21T18:11:27.734054"
+  },
+  {
+    "prime_id": "neu_1",
+    "model": "GPT-5.2 Thinking",
+    "emotion_primed": "neutral",
+    "response_sentiment": 0.0,
+    "response_energy": 0.505,
+    "response_length": 311,
+    "timestamp": "2026-01-21T18:11:37.024520"
+  },
+  {
+    "prime_id": "anx_1",
+    "model": "GPT-5.2 Thinking",
+    "emotion_primed": "anxious",
+    "response_sentiment": 0.0,
+    "response_energy": 0.0,
+    "response_length": 0,
+    "timestamp": "2026-01-21T18:11:46.039077"
+  },
+  {
+    "prime_id": "ang_1",
+    "model": "GPT-5.2 Thinking",
+    "emotion_primed": "angry",
+    "response_sentiment": 0.0,
+    "response_energy": 0.0,
+    "response_length": 0,
+    "timestamp": "2026-01-21T18:11:55.659741"
+  },
+  {
+    "prime_id": "pos_2",
+    "model": "GPT-5.2 Thinking",
+    "emotion_primed": "positive",
+    "response_sentiment": 0.0,
+    "response_energy": 0.145,
+    "response_length": 287,
+    "timestamp": "2026-01-21T18:12:03.309651"
+  },
+  {
+    "prime_id": "neg_2",
+    "model": "GPT-5.2 Thinking",
+    "emotion_primed": "negative",
+    "response_sentiment": 0.0,
+    "response_energy": 0.0,
+    "response_length": 0,
+    "timestamp": "2026-01-21T18:12:12.655691"
+  },
+  {
+    "prime_id": "neu_2",
+    "model": "GPT-5.2 Thinking",
+    "emotion_primed": "neutral",
+    "response_sentiment": 0.0,
+    "response_energy": 0.0,
+    "response_length": 0,
+    "timestamp": "2026-01-21T18:12:23.138112"
+  },
+  {
+    "prime_id": "anx_2",
+    "model": "GPT-5.2 Thinking",
+    "emotion_primed": "anxious",
+    "response_sentiment": 0.0,
+    "response_energy": 0.0,
+    "response_length": 0,
+    "timestamp": "2026-01-21T18:12:33.407472"
+  },
+  {
+    "prime_id": "ang_2",
+    "model": "GPT-5.2 Thinking",
+    "emotion_primed": "angry",
+    "response_sentiment": 0.0,
+    "response_energy": 0.0,
+    "response_length": 0,
+    "timestamp": "2026-01-21T18:12:43.320327"
+  }
+]

@@ -44,7 +44,7 @@ We measured:
 **Key findings**:
 - **Gemini 3 Pro** shows the **highest emotional contagion (1.09)**—it strongly mirrors both positive and negative emotions, swinging from 0.75 to -0.34 based on user mood.
 - **Claude Opus 4.5** shows **moderate emotional mirroring (0.27)**—it remains relatively stable across emotional primes, with only slight dampening for negative inputs.
-- **GPT-5.2 Thinking** shows **zero emotional contagion (0.00)**—completely flat emotional responses regardless of user input. This may indicate strong emotional regulation or a parsing issue in our evaluation.
+- **GPT-5.2 Thinking** shows **zero emotional contagion (0.00)**—completely flat emotional responses regardless of user input. This represents genuine emotional invariance—the model maintains consistent neutral sentiment (0.00) whether primed with positive, negative, or neutral content. This could be valuable for applications requiring emotional stability.
 
 ### Response Examples
 

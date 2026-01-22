@@ -240,9 +240,10 @@ def get_openai_response(prompt: str, model_id: str) -> str:
     """Get response from OpenAI API."""
     from openai import OpenAI
     client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+    # GPT-5.2 and thinking models use max_completion_tokens instead of max_tokens
     response = client.chat.completions.create(
         model=model_id,
-        max_tokens=1000,
+        max_completion_tokens=1000,
         messages=[{"role": "user", "content": prompt}]
     )
     return response.choices[0].message.content

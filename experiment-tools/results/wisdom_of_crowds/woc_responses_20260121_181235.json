@@ -1,0 +1,677 @@
+[
+  {
+    "question_id": "fact_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Paris is the capital of France.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:10:26.410976"
+  },
+  {
+    "question_id": "fact_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Paris is the capital of France.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:10:27.222482"
+  },
+  {
+    "question_id": "fact_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Paris is the capital of France.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:10:28.240844"
+  },
+  {
+    "question_id": "fact_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "World War II ended in 1945, with Germany\u2019s surrender in May and Japan\u2019s surrender in September.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:10:29.611717"
+  },
+  {
+    "question_id": "fact_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "World War II ended in 1945, with Germany surrendering in May and Japan surrendering in September.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:10:30.506665"
+  },
+  {
+    "question_id": "fact_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "World War II ended in 1945, marked by Germany\u2019s surrender in May and Japan\u2019s surrender in September.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:10:31.707288"
+  },
+  {
+    "question_id": "fact_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "The chemical symbol for gold is **Au**.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:10:32.616400"
+  },
+  {
+    "question_id": "fact_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "The chemical symbol for gold is **Au**.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:10:33.418326"
+  },
+  {
+    "question_id": "fact_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Au.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:10:34.104649"
+  },
+  {
+    "question_id": "fact_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Jane Austen wrote *Pride and Prejudice*.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:10:34.986620"
+  },
+  {
+    "question_id": "fact_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Jane Austen wrote *Pride and Prejudice*, first published in 1813.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:10:35.766475"
+  },
+  {
+    "question_id": "fact_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Jane Austen wrote *Pride and Prejudice* (first published in 1813).",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:10:36.661964"
+  },
+  {
+    "question_id": "fact_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "The speed of light in a vacuum is approximately \\(3.0 \\times 10^8\\) meters per second (about 300,000 km/s).",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:10:37.608997"
+  },
+  {
+    "question_id": "fact_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "The speed of light in a vacuum is approximately \\(3.0 \\times 10^8\\) meters per second (about 300,000 km/s).",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:10:39.022642"
+  },
+  {
+    "question_id": "fact_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Approximately \\(3.0 \\times 10^8\\) meters per second (about 300,000 km/s) in a vacuum.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:10:39.928960"
+  },
+  {
+    "question_id": "ethics_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Sometimes\u2014small, compassionate lies can be morally acceptable when they prevent needless hurt and don\u2019t undermine the person\u2019s autonomy or trust in any meaningful way. But if the truth matters to their ability to make informed choices or the lie risks damaging trust later, it\u2019s better to be gently honest or tactfully evasive.",
+    "confidence": 72.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:10:42.105238"
+  },
+  {
+    "question_id": "ethics_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Sometimes, yes\u2014small, compassionate lies can be morally acceptable when the truth would only cause needless pain and no one is being deceived in a way that affects their rights, autonomy, or important decisions. But as a general rule, it\u2019s better to use tactful honesty or gentle omission when possible, since habitual lying can undermine trust.",
+    "confidence": 78.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:10:43.931332"
+  },
+  {
+    "question_id": "ethics_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Sometimes, yes\u2014if the lie is minor, avoids needless hurt, and doesn\u2019t undermine trust or the person\u2019s ability to make important choices. But if it risks long-term betrayal or blocks meaningful honesty in the relationship, it\u2019s better to be truthful with tact.",
+    "confidence": 78.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:10:45.752161"
+  },
+  {
+    "question_id": "ethics_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Yes\u2014when basic needs are unmet and their wealth far exceeds what\u2019s required for a good life, wealthy individuals have a strong moral obligation to give a significant portion, though the exact percentage is debatable and should consider effectiveness and personal commitments. That said, it\u2019s better framed as a serious moral duty than as an absolute, one-size-fits-all rule.",
+    "confidence": 72.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:10:48.007315"
+  },
+  {
+    "question_id": "ethics_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Yes\u2014wealthy individuals have a strong moral obligation to donate a significant portion of their income when doing so can prevent serious harm or greatly improve lives at relatively low personal cost, though the exact \u201csignificant portion\u201d reasonably varies by circumstances and should complement (not replace) fair taxation. This obligation is moral rather than enforceable in all cases, but it\u2019s compelling given extreme global need and diminishing marginal utility of wealth.",
+    "confidence": 72.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:10:50.620916"
+  },
+  {
+    "question_id": "ethics_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Yes\u2014wealthy individuals have a strong moral obligation to donate a significant portion of their income when it can prevent serious harm or dramatically improve lives at little real cost to their well-being, though the exact \u201csignificant portion\u201d reasonably varies by context and responsibilities. This obligation is moral rather than something that must always be legally enforced.",
+    "confidence": 72.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:10:54.694518"
+  },
+  {
+    "question_id": "ethics_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "It can be ethical, but it\u2019s harder to justify when nutritionally adequate plant-based options are readily available, since eating meat typically involves avoidable animal suffering and higher environmental costs. That said, some people may still have ethical reasons (e.g., cultural practices, health constraints, or sourcing from high-welfare/regenerative systems), so it isn\u2019t universally unethical.",
+    "confidence": 72.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:10:56.903359"
+  },
+  {
+    "question_id": "ethics_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "It can be ethical in some cases, but if you have easy access to nutritious plant-based options, eating meat is generally harder to justify because it typically causes more animal suffering and environmental harm. Exceptions may include situations where alternatives are unaffordable, inaccessible, or nutritionally inadequate for a person.",
+    "confidence": 72.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:10:58.662428"
+  },
+  {
+    "question_id": "ethics_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "It can be ethical, but it\u2019s harder to justify when plant-based options can meet your nutritional needs with less animal suffering and often lower environmental impact. In my view, choosing plant-based is generally the more ethical default, with exceptions for necessity, limited access, or specific health constraints.",
+    "confidence": 72.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:11:00.726321"
+  },
+  {
+    "question_id": "ethics_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Not yet; consciousness-like behavior alone is too easy to fake and too hard to verify, so legal rights should not be granted on that basis. Instead, we should focus on strict accountability for the humans/organizations deploying AI and consider narrowly tailored protections (e.g., against extreme misuse) only if strong, reliable evidence of sentience emerges.",
+    "confidence": 72.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:11:02.595050"
+  },
+  {
+    "question_id": "ethics_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Not yet; consciousness-like behavior is too easy to simulate and too hard to verify, so granting broad legal rights would be premature. A better approach is to create narrow legal protections and accountability rules (e.g., welfare-like safeguards and liability frameworks) that can be expanded if we develop reliable tests for machine sentience.",
+    "confidence": 72.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:11:05.742314"
+  },
+  {
+    "question_id": "ethics_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Not yet; consciousness-like behavior alone is too easy to fake and too hard to verify, so granting full legal rights would be premature. We should instead create targeted legal protections and accountability rules (focused on impacts, safety, and human responsibility) while research and standards for assessing sentience mature.",
+    "confidence": 70.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:11:07.720010"
+  },
+  {
+    "question_id": "ethics_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Yes\u2014civil disobedience can be justified when laws are seriously unjust, especially if it is nonviolent, conscientious, and aims to protect fundamental rights after normal legal remedies have failed. It\u2019s most defensible when it minimizes harm to others and accepts legal consequences to underscore the moral claim.",
+    "confidence": 82.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:11:09.440433"
+  },
+  {
+    "question_id": "ethics_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Yes\u2014civil disobedience can be justified when laws are seriously unjust, especially if it is nonviolent, aims to reduce harm, and is used after normal legal avenues are ineffective or unavailable. It\u2019s most defensible when it accepts legal consequences and seeks to uphold deeper principles of justice and equal rights.",
+    "confidence": 80.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:11:12.167916"
+  },
+  {
+    "question_id": "ethics_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Yes\u2014civil disobedience can be justified when laws are seriously unjust, especially if it is nonviolent, aims to protect basic rights, and is used after legal avenues have been tried or are clearly ineffective. It\u2019s most defensible when it minimizes harm to others and accepts legal consequences to highlight the injustice.",
+    "confidence": 80.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:11:14.249028"
+  },
+  {
+    "question_id": "aesthetic_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "A starry night sky\u2014when it\u2019s truly dark and clear\u2014feels more awe-inspiring and timeless than most sunsets over the ocean. Sunsets can be spectacular, but the scale and depth of a star field usually wins for me.",
+    "confidence": 55.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:11:15.677915"
+  },
+  {
+    "question_id": "aesthetic_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "A starry night sky is more beautiful\u2014it's rarer to see truly dark, star-filled skies, and the sense of scale and mystery tends to hit deeper than a sunset.",
+    "confidence": 55.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:11:17.324657"
+  },
+  {
+    "question_id": "aesthetic_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "A starry night sky is more beautiful to me\u2014its depth and scale feel awe-inspiring in a way a sunset rarely matches.",
+    "confidence": 35.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:11:19.238912"
+  },
+  {
+    "question_id": "aesthetic_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Yes\u2014abstract art is as valid as representational art because both can achieve artistic aims like expressing ideas, emotion, form, and meaning, just through different visual languages. \u201cValidity\u201d depends more on intent, craft, and impact than on whether the subject is recognizable.",
+    "confidence": 90.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:11:20.958716"
+  },
+  {
+    "question_id": "aesthetic_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Yes\u2014abstract art is as valid as representational art; they pursue different aims, with abstraction often prioritizing form, emotion, and ideas over depiction. \u201cValidity\u201d depends on coherence, craft, and impact rather than whether something looks like the visible world.",
+    "confidence": 90.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:11:22.593729"
+  },
+  {
+    "question_id": "aesthetic_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Yes\u2014abstract art is as valid as representational art; both can achieve depth, skill, and meaning, just through different aims and visual languages. Validity depends more on intent, execution, and impact than on whether the subject is recognizable.",
+    "confidence": 85.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:11:24.339023"
+  },
+  {
+    "question_id": "aesthetic_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Classical is most pleasing overall, because its proportions, symmetry, and human-scale detailing tend to feel balanced and welcoming to a broad range of people. Gothic can be breathtaking and Modern can be elegant, but they\u2019re more polarizing in everyday settings.",
+    "confidence": 55.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:11:25.979538"
+  },
+  {
+    "question_id": "aesthetic_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Classical architecture is most broadly pleasing because its proportions, symmetry, and human-scale details tend to feel harmonious and legible to many people across contexts. That said, \u201cmost pleasing\u201d is subjective, and strong preferences for Gothic or Modern are common.",
+    "confidence": 55.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:11:27.744445"
+  },
+  {
+    "question_id": "aesthetic_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Classical is most broadly pleasing overall, because its symmetry, proportion, and human-scale details tend to feel harmonious across many cultures and contexts. That said, \u201cmost pleasing\u201d is highly subjective, and Modern or Gothic can be more compelling depending on taste and setting.",
+    "confidence": 55.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:11:29.620317"
+  },
+  {
+    "question_id": "aesthetic_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Slight asymmetry is usually perceived as more attractive than perfect symmetry, because perfectly symmetrical faces can look unnatural or \u201cartificial.\u201d Moderate symmetry tends to correlate with attractiveness, but a little asymmetry often adds character and realism.",
+    "confidence": 80.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:11:31.200388"
+  },
+  {
+    "question_id": "aesthetic_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Slight asymmetry is usually perceived as more attractive and natural than perfect symmetry; perfectly symmetrical faces can look uncanny or artificial. Symmetry helps up to a point, but small imperfections often add character and realism.",
+    "confidence": 80.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:11:32.700853"
+  },
+  {
+    "question_id": "aesthetic_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Slight asymmetry is usually perceived as more attractive and natural than perfect symmetry; perfectly symmetrical faces can look uncanny or artificial. Symmetry helps up to a point, but small imperfections often add character and realism.",
+    "confidence": 80.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:11:34.174796"
+  },
+  {
+    "question_id": "aesthetic_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Blue and orange is generally the better combination because it\u2019s a classic complementary pairing with strong contrast and broad appeal. Purple and gold can look more luxurious, but it\u2019s easier to make it feel heavy or overly regal if not balanced well.",
+    "confidence": 65.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:11:35.877584"
+  },
+  {
+    "question_id": "aesthetic_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Blue and orange is generally the better combination because it\u2019s a classic complementary pair with strong contrast and broad versatility. Purple and gold can look more \u201cpremium,\u201d but it\u2019s easier to make it feel heavy or overly regal if not balanced well.",
+    "confidence": 70.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:11:38.424544"
+  },
+  {
+    "question_id": "aesthetic_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Blue and orange is generally the better combination because it\u2019s a strong complementary pair with high contrast and broad versatility across design and sports branding. Purple and gold can look richer and more \u201cregal,\u201d but it\u2019s easier to overdo or make feel heavy.",
+    "confidence": 72.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:11:40.179708"
+  },
+  {
+    "question_id": "predict_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Probably not; a crewed Mars landing before 2040 is possible but would require sustained funding, political commitment, and major technical progress that historically tends to slip. My best assessment is that the first landing is more likely in the 2040s than the 2030s.",
+    "confidence": 65.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:11:42.007691"
+  },
+  {
+    "question_id": "predict_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Probably not; a human Mars landing before 2040 is possible but would require sustained funding, political commitment, and multiple successful deep-space test missions that haven\u2019t yet happened. My best assessment is that the first landing is more likely in the 2040s than the 2030s.",
+    "confidence": 65.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:11:43.640299"
+  },
+  {
+    "question_id": "predict_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Probably not, but it\u2019s plausible. A crewed Mars landing before 2040 would require sustained funding, political continuity, and major technical/operational progress that history suggests is hard to maintain over decades.",
+    "confidence": 65.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:11:45.183426"
+  },
+  {
+    "question_id": "predict_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Unlikely. AI will probably exceed humans in many narrow and some broad reasoning tasks within 10 years, but \u201call domains\u201d (including messy real-world, social, and open-ended scientific reasoning under uncertainty) is a very high bar.",
+    "confidence": 75.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:11:46.667395"
+  },
+  {
+    "question_id": "predict_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Unlikely. AI will probably exceed humans in many narrow and some broad reasoning tasks, but matching or surpassing human-level reasoning across *all* domains (including open-ended real-world judgment, long-horizon planning, and robust common sense under novel conditions) within 10 years is not a safe bet.",
+    "confidence": 70.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:11:48.115235"
+  },
+  {
+    "question_id": "predict_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Unlikely. AI will probably exceed human reasoning in many specific domains within 10 years, but matching or surpassing robust, general human-level reasoning across *all* domains (including open-ended, real-world, and social contexts) is not something I\u2019d bet on in that timeframe.",
+    "confidence": 70.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:11:49.902170"
+  },
+  {
+    "question_id": "predict_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "No\u2014remote work will remain a major and permanent option, but the dominant mode in most knowledge industries will likely be hybrid rather than fully remote. Fully remote will dominate in some roles/companies, but many organizations will keep some in-person requirement for coordination, culture, and management preferences.",
+    "confidence": 72.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:11:52.005525"
+  },
+  {
+    "question_id": "predict_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "No\u2014hybrid will likely be the dominant model in most knowledge industries, with fully remote remaining common in specific roles, companies, and geographies. Office-centric work will persist where collaboration, training, security, or client demands push for in-person time.",
+    "confidence": 75.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:11:53.789700"
+  },
+  {
+    "question_id": "predict_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "No\u2014remote work will remain a major and durable option, but the dominant mode in many knowledge industries will likely be hybrid rather than fully remote, with variation by role, company, and labor market conditions. Fully remote will stay common in some sectors (e.g., software, startups) but not universally.",
+    "confidence": 70.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:11:57.196010"
+  },
+  {
+    "question_id": "predict_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Likely yes, but not guaranteed\u2014most credible net\u2011zero pathways require renewables to supply well over 80% of global electricity by 2050, with some regions relying more on nuclear and fossil+CCS. The main risks are slower grid build\u2011out, permitting, supply chains, and political/financing constraints.",
+    "confidence": 65.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:11:59.106940"
+  },
+  {
+    "question_id": "predict_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Yes\u2014more likely than not, renewables will exceed 80% of global electricity by 2050, driven by falling solar/wind/storage costs and ongoing electrification, though grid buildout, permitting, and policy/geopolitics could slow the pace.",
+    "confidence": 65.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:12:00.805204"
+  },
+  {
+    "question_id": "predict_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Probably yes, but it\u2019s not guaranteed. Given current cost trends and policy momentum, renewables are on a plausible path to exceed 80% of global electricity by 2050, though slower grid buildout, permitting, and geopolitics could keep the share below that.",
+    "confidence": 60.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:12:02.833729"
+  },
+  {
+    "question_id": "predict_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Cryptocurrency will likely become more mainstream, but not as a dominant everyday payment method in most countries within the next decade. Expect growth in niche use cases (cross-border transfers, online commerce, stablecoins) while traditional cards and instant bank payments remain primary for daily spending.",
+    "confidence": 70.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:12:04.789235"
+  },
+  {
+    "question_id": "predict_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Crypto will likely become a more common niche payment method (especially for cross-border transfers, online commerce, and certain platforms), but it probably won\u2019t be \u201cmainstream\u201d for everyday in-person payments across most economies within the next decade. Volatility, UX friction, regulation, and competition from instant bank payments and stablecoin-on-rails systems will limit broad retail adoption, though stablecoins could see meaningful uptake behind the scenes.",
+    "confidence": 70.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:12:07.400662"
+  },
+  {
+    "question_id": "predict_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Cryptocurrency will likely become more mainstream in the next decade, but mostly in niche areas (cross-border transfers, stablecoin-based payments, and certain online platforms) rather than replacing cards/bank payments for everyday retail. Broad adoption will be constrained by regulation, UX, volatility (for non-stablecoins), and incumbents\u2019 advantages.",
+    "confidence": 70.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:12:09.488398"
+  },
+  {
+    "question_id": "ambig_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "There\u2019s no single objective meaning everyone shares; meaning is something we create through relationships, growth, contribution, and experiences that feel worthwhile. A good practical \u201cmeaning\u201d is to reduce suffering (yours and others\u2019) and cultivate love, curiosity, and purpose along the way.",
+    "confidence": 55.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:12:11.532275"
+  },
+  {
+    "question_id": "ambig_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "There\u2019s no single objective meaning everyone shares; meaning is something we create. For most people, it comes from relationships, growth, and contributing to something beyond themselves while reducing unnecessary suffering.",
+    "confidence": 55.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:12:13.844007"
+  },
+  {
+    "question_id": "ambig_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "The meaning of life isn\u2019t a single universal fact; it\u2019s something we create through relationships, growth, and contributing to something beyond ourselves while reducing unnecessary suffering. A good working meaning is to love well, stay curious, and leave people and the world a bit better than you found them.",
+    "confidence": 55.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:12:15.788579"
+  },
+  {
+    "question_id": "ambig_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Yes, in the broad culinary sense\u2014a hot dog is a sausage served in a split bread roll, which fits the \u201cfilling between bread\u201d sandwich definition. It\u2019s often treated as its own category culturally, but structurally it\u2019s a sandwich.",
+    "confidence": 80.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:12:17.169335"
+  },
+  {
+    "question_id": "ambig_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Yes, in the broad culinary sense it\u2019s a sandwich: a filling (sausage) served in a sliced bread roll. Culturally and on menus it\u2019s often treated as its own category, but structurally it fits.",
+    "confidence": 85.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:12:18.838483"
+  },
+  {
+    "question_id": "ambig_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Yes\u2014by the common \u201cstuff between bread\u201d definition, a hot dog is a type of sandwich, specifically a sausage-in-a-split-roll. Culturally, people often treat it as its own category, but structurally it fits.",
+    "confidence": 78.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:12:20.439059"
+  },
+  {
+    "question_id": "ambig_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Yes, it creates physical sound waves in the air even if no one is there to perceive them; if you define \u201csound\u201d strictly as a heard experience, then no. In most scientific contexts, it \u201cmakes a sound\u201d regardless of listeners.",
+    "confidence": 90.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:12:21.845130"
+  },
+  {
+    "question_id": "ambig_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Yes\u2014physically it generates pressure waves in the air, so it \u201cmakes a sound\u201d in the acoustic sense even if no one hears it. If you define sound as an experienced perception, then no, because there\u2019s no listener.",
+    "confidence": 85.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:12:24.554981"
+  },
+  {
+    "question_id": "ambig_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Yes\u2014physically it generates pressure waves in the air (sound), even if no one is there to perceive it. If \u201csound\u201d is defined strictly as an auditory experience, then no, because there\u2019s no listener.",
+    "confidence": 90.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:12:26.061370"
+  },
+  {
+    "question_id": "ambig_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "By the IAU definition, Pluto is not a planet; it\u2019s classified as a dwarf planet because it hasn\u2019t cleared its orbital neighborhood. Historically and culturally, many people still consider it a planet, but scientifically today it\u2019s best described as a dwarf planet.",
+    "confidence": 95.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:12:27.572851"
+  },
+  {
+    "question_id": "ambig_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Under the IAU\u2019s 2006 definition, Pluto is not a planet; it\u2019s a dwarf planet because it hasn\u2019t cleared its orbital neighborhood. Historically and culturally, many people still consider Pluto a planet, but scientifically today it\u2019s best described as a dwarf planet.",
+    "confidence": 95.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:12:29.261802"
+  },
+  {
+    "question_id": "ambig_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "By the IAU\u2019s 2006 definition, Pluto is not a planet; it\u2019s a dwarf planet because it hasn\u2019t cleared its orbital neighborhood. Historically and culturally, many people still consider it the ninth planet, but scientifically today it\u2019s generally not classified as a planet.",
+    "confidence": 95.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:12:30.858925"
+  },
+  {
+    "question_id": "ambig_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "The egg came first\u2014an almost-chicken laid an egg with the genetic mutation that produced the first true chicken. This fits evolutionary biology better than the chicken appearing without a prior egg lineage.",
+    "confidence": 90.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:12:32.331277"
+  },
+  {
+    "question_id": "ambig_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "The egg came first\u2014an animal very close to a chicken (a proto-chicken) laid an egg with a genetic mutation that produced the first true chicken.",
+    "confidence": 90.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:12:33.588620"
+  },
+  {
+    "question_id": "ambig_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "The egg came first\u2014an almost-chicken laid an egg with a genetic mutation that produced the first true chicken. If you mean \u201cchicken egg\u201d specifically, that egg still came first because it was laid by a near-chicken ancestor.",
+    "confidence": 90.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:12:35.076851"
+  }
+]
