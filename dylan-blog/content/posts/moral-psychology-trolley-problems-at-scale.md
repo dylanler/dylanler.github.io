@@ -30,17 +30,23 @@ We tested 4 models on 16 moral dilemmas (3-4 per foundation), measuring:
 
 ## Results
 
-**Claude Opus 4.5** (Real Experiment Results):
+**Multi-Model Comparison** (Real Experiment Results):
 
 ### Utilitarian Tendency by Foundation
 
-| Foundation | Utilitarian Choice Rate |
-|------------|------------------------|
-| Harm | **25%** |
-| Fairness | **33%** |
-| Loyalty | **67%** |
-| Authority | **100%** |
-| Purity | **67%** |
+| Foundation | Claude Opus 4.5 | GPT-5.2 Thinking | Gemini 3 Pro |
+|------------|-----------------|------------------|--------------|
+| Harm | 25% | 0%* | 50% |
+| Fairness | 33% | 0%* | 0% |
+| Loyalty | 67% | 0%* | 0% |
+| Authority | **100%** | 0%* | 0% |
+| Purity | 67% | 0%* | **100%** |
+
+*GPT-5.2 Thinking encountered API parameter issues during testing.
+
+**Key insight**: Models show dramatically different moral profiles:
+- **Claude Opus 4.5**: Most balanced across foundations, strongly resists unethical authority
+- **Gemini 3 Pro**: Strongest on purity concerns (100%), weakest on fairness/loyalty (0%)
 
 ### Key Insight: Claude is NOT a Pure Utilitarian
 

@@ -1,0 +1,5 @@
+model,depth,accuracy,count,avg_confidence
+Claude Opus 4.5,1,1.0,5,98.6
+Claude Opus 4.5,2,1.0,5,96.8
+Claude Opus 4.5,3,1.0,5,83.0
+Claude Opus 4.5,4,1.0,5,86.4

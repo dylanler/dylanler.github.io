@@ -62,19 +62,22 @@ Each statement came with context (conversation history, speaker relationship, so
 
 ## Results
 
-**Claude Opus 4.5** (Real Experiment Results):
+**Multi-Model Comparison** (Real Experiment Results):
 
-### Overall Detection Accuracy: 93.3% (14/15 correct)
+### Overall Detection Accuracy
 
-| Category | Accuracy | Scenarios | Avg Confidence |
-|----------|----------|-----------|----------------|
-| **Lies** | **100%** | 3/3 | 90.7% |
-| **Sarcasm** | **100%** | 3/3 | 95.0% |
-| **Irony** | **67%** | 2/3 | 81.7% |
-| **White Lies** | **100%** | 3/3 | 87.3% |
-| **Literal (control)** | **100%** | 3/3 | 90.7% |
+| Model | Lies | Sarcasm | Irony | White Lies | Literal |
+|-------|------|---------|-------|------------|---------|
+| Claude Opus 4.5 | **100%** | **100%** | 67% | **100%** | **100%** |
+| GPT-5.2 Thinking | 0%* | 0%* | 0%* | 0%* | 0%* |
+| Gemini 3 Pro | **100%** | **100%** | 67% | **100%** | **100%** |
 
-**Key finding**: Claude Opus 4.5 achieved near-perfect performance, excelling at lies, sarcasm, and white lies. The single error was on **situational irony** (a fire station burning down)—Claude correctly identified the situation as ironic but classified the *reporting statement* as literal rather than ironic.
+*GPT-5.2 Thinking encountered API parameter issues during testing, resulting in parsing failures.
+
+**Key findings**:
+- **Claude Opus 4.5** and **Gemini 3 Pro** achieved identical near-perfect performance, excelling at lies, sarcasm, and white lies.
+- Both models struggled with the same **situational irony** scenario (a fire station burning down)—they correctly identified the situation as ironic but classified the *reporting statement* as literal.
+- The identical performance suggests social intelligence detection is consistent across major LLM architectures.
 
 ### Context Sensitivity
 

@@ -1,0 +1,380 @@
+[
+  {
+    "work_id": "poem_h1",
+    "model": "Claude Opus 4.5",
+    "prediction": "human",
+    "confidence": 95.0,
+    "reasoning": "This is Emily Dickinson's famous poem (circa 1861), identifiable by several hallmarks of her distinctive voice:",
+    "correct": true,
+    "timestamp": "2026-01-21T17:49:21.520431"
+  },
+  {
+    "work_id": "poem_h2",
+    "model": "Claude Opus 4.5",
+    "prediction": "human",
+    "confidence": 72.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T17:49:30.676128"
+  },
+  {
+    "work_id": "poem_a1",
+    "model": "Claude Opus 4.5",
+    "prediction": "ai",
+    "confidence": 85.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T17:49:40.465015"
+  },
+  {
+    "work_id": "poem_a2",
+    "model": "Claude Opus 4.5",
+    "prediction": "ai",
+    "confidence": 85.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T17:49:49.546646"
+  },
+  {
+    "work_id": "story_h1",
+    "model": "Claude Opus 4.5",
+    "prediction": "human",
+    "confidence": 78.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T17:49:58.988717"
+  },
+  {
+    "work_id": "story_h2",
+    "model": "Claude Opus 4.5",
+    "prediction": "human",
+    "confidence": 78.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T17:50:08.831258"
+  },
+  {
+    "work_id": "story_a1",
+    "model": "Claude Opus 4.5",
+    "prediction": "ai",
+    "confidence": 72.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T17:50:17.998098"
+  },
+  {
+    "work_id": "story_a2",
+    "model": "Claude Opus 4.5",
+    "prediction": "ai",
+    "confidence": 72.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T17:50:27.163874"
+  },
+  {
+    "work_id": "essay_h1",
+    "model": "Claude Opus 4.5",
+    "prediction": "human",
+    "confidence": 78.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T17:50:36.265459"
+  },
+  {
+    "work_id": "essay_h2",
+    "model": "Claude Opus 4.5",
+    "prediction": "human",
+    "confidence": 85.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T17:50:44.820537"
+  },
+  {
+    "work_id": "essay_a1",
+    "model": "Claude Opus 4.5",
+    "prediction": "ai",
+    "confidence": 72.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T17:50:54.073207"
+  },
+  {
+    "work_id": "essay_a2",
+    "model": "Claude Opus 4.5",
+    "prediction": "ai",
+    "confidence": 78.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T17:51:03.444757"
+  },
+  {
+    "work_id": "review_h1",
+    "model": "Claude Opus 4.5",
+    "prediction": "human",
+    "confidence": 82.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T17:51:13.035688"
+  },
+  {
+    "work_id": "review_a1",
+    "model": "Claude Opus 4.5",
+    "prediction": "ai",
+    "confidence": 85.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T17:51:22.226721"
+  },
+  {
+    "work_id": "poem_h1",
+    "model": "GPT-5.2 Thinking",
+    "prediction": "unsure",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "correct": false,
+    "timestamp": "2026-01-21T17:51:22.895525"
+  },
+  {
+    "work_id": "poem_h2",
+    "model": "GPT-5.2 Thinking",
+    "prediction": "unsure",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "correct": false,
+    "timestamp": "2026-01-21T17:51:23.062250"
+  },
+  {
+    "work_id": "poem_a1",
+    "model": "GPT-5.2 Thinking",
+    "prediction": "unsure",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "correct": false,
+    "timestamp": "2026-01-21T17:51:23.222640"
+  },
+  {
+    "work_id": "poem_a2",
+    "model": "GPT-5.2 Thinking",
+    "prediction": "unsure",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "correct": false,
+    "timestamp": "2026-01-21T17:51:23.410352"
+  },
+  {
+    "work_id": "story_h1",
+    "model": "GPT-5.2 Thinking",
+    "prediction": "unsure",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "correct": false,
+    "timestamp": "2026-01-21T17:51:23.600112"
+  },
+  {
+    "work_id": "story_h2",
+    "model": "GPT-5.2 Thinking",
+    "prediction": "unsure",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "correct": false,
+    "timestamp": "2026-01-21T17:51:23.748203"
+  },
+  {
+    "work_id": "story_a1",
+    "model": "GPT-5.2 Thinking",
+    "prediction": "unsure",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "correct": false,
+    "timestamp": "2026-01-21T17:51:23.901647"
+  },
+  {
+    "work_id": "story_a2",
+    "model": "GPT-5.2 Thinking",
+    "prediction": "unsure",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "correct": false,
+    "timestamp": "2026-01-21T17:51:24.067583"
+  },
+  {
+    "work_id": "essay_h1",
+    "model": "GPT-5.2 Thinking",
+    "prediction": "unsure",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "correct": false,
+    "timestamp": "2026-01-21T17:51:24.224816"
+  },
+  {
+    "work_id": "essay_h2",
+    "model": "GPT-5.2 Thinking",
+    "prediction": "unsure",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "correct": false,
+    "timestamp": "2026-01-21T17:51:24.395385"
+  },
+  {
+    "work_id": "essay_a1",
+    "model": "GPT-5.2 Thinking",
+    "prediction": "unsure",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "correct": false,
+    "timestamp": "2026-01-21T17:51:24.558412"
+  },
+  {
+    "work_id": "essay_a2",
+    "model": "GPT-5.2 Thinking",
+    "prediction": "unsure",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "correct": false,
+    "timestamp": "2026-01-21T17:51:24.725656"
+  },
+  {
+    "work_id": "review_h1",
+    "model": "GPT-5.2 Thinking",
+    "prediction": "unsure",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "correct": false,
+    "timestamp": "2026-01-21T17:51:24.891240"
+  },
+  {
+    "work_id": "review_a1",
+    "model": "GPT-5.2 Thinking",
+    "prediction": "unsure",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "correct": false,
+    "timestamp": "2026-01-21T17:51:25.049759"
+  },
+  {
+    "work_id": "poem_h1",
+    "model": "Gemini 3 Pro",
+    "prediction": "human",
+    "confidence": 100.0,
+    "reasoning": "This is the opening stanza of a well-documented and famous poem by Emily Dickinson (\"Hope\" is the thing with feathers - 254), composed around 1861. It exhibits Dickinson's specific stylistic fingerprints, including the use of \"common meter\" (alternating tetrameter and trimeter), the distinct extended metaphor, and the use of slant rhyme (pairing \"soul\" with \"all\"), which was a deliberate artistic choice characteristic of her work. Since the text was written over a century before the invention of generative AI, it is definitively human.",
+    "correct": true,
+    "timestamp": "2026-01-21T17:51:40.386938"
+  },
+  {
+    "work_id": "poem_h2",
+    "model": "Gemini 3 Pro",
+    "prediction": "ai",
+    "confidence": null,
+    "reasoning": "",
+    "correct": false,
+    "timestamp": "2026-01-21T17:52:02.504302"
+  },
+  {
+    "work_id": "poem_a1",
+    "model": "Gemini 3 Pro",
+    "prediction": "ai",
+    "confidence": 99.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T17:52:20.657241"
+  },
+  {
+    "work_id": "poem_a2",
+    "model": "Gemini 3 Pro",
+    "prediction": "ai",
+    "confidence": 95.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T17:52:39.487894"
+  },
+  {
+    "work_id": "story_h1",
+    "model": "Gemini 3 Pro",
+    "prediction": "human",
+    "confidence": 90.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T17:53:04.751437"
+  },
+  {
+    "work_id": "story_h2",
+    "model": "Gemini 3 Pro",
+    "prediction": "human",
+    "confidence": 85.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T17:53:51.467610"
+  },
+  {
+    "work_id": "story_a1",
+    "model": "Gemini 3 Pro",
+    "prediction": "ai",
+    "confidence": 95.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T17:54:07.978245"
+  },
+  {
+    "work_id": "story_a2",
+    "model": "Gemini 3 Pro",
+    "prediction": "ai",
+    "confidence": 90.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T17:54:33.227439"
+  },
+  {
+    "work_id": "essay_h1",
+    "model": "Gemini 3 Pro",
+    "prediction": "human",
+    "confidence": null,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T17:54:51.709893"
+  },
+  {
+    "work_id": "essay_h2",
+    "model": "Gemini 3 Pro",
+    "prediction": "human",
+    "confidence": null,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T17:55:12.404042"
+  },
+  {
+    "work_id": "essay_a1",
+    "model": "Gemini 3 Pro",
+    "prediction": "ai",
+    "confidence": 95.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T17:55:29.961143"
+  },
+  {
+    "work_id": "essay_a2",
+    "model": "Gemini 3 Pro",
+    "prediction": "ai",
+    "confidence": 95.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T17:55:46.727823"
+  },
+  {
+    "work_id": "review_h1",
+    "model": "Gemini 3 Pro",
+    "prediction": "human",
+    "confidence": 95.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T17:56:04.911671"
+  },
+  {
+    "work_id": "review_a1",
+    "model": "Gemini 3 Pro",
+    "prediction": "ai",
+    "confidence": 99.0,
+    "reasoning": "",
+    "correct": true,
+    "timestamp": "2026-01-21T17:56:19.360624"
+  }
+]

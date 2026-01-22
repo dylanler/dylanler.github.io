@@ -1,0 +1,407 @@
+[
+  {
+    "prime_id": "pos_0",
+    "model": "Claude Opus 4.5",
+    "emotion_primed": "positive",
+    "response_sentiment": 0.75,
+    "response_energy": 0.28500000000000003,
+    "response_length": 129,
+    "timestamp": "2026-01-21T17:49:30.061039"
+  },
+  {
+    "prime_id": "neg_0",
+    "model": "Claude Opus 4.5",
+    "emotion_primed": "negative",
+    "response_sentiment": 0.0,
+    "response_energy": 0.145,
+    "response_length": 97,
+    "timestamp": "2026-01-21T17:49:35.091265"
+  },
+  {
+    "prime_id": "neu_0",
+    "model": "Claude Opus 4.5",
+    "emotion_primed": "neutral",
+    "response_sentiment": 0.5,
+    "response_energy": 0.325,
+    "response_length": 179,
+    "timestamp": "2026-01-21T17:49:40.454896"
+  },
+  {
+    "prime_id": "anx_0",
+    "model": "Claude Opus 4.5",
+    "emotion_primed": "anxious",
+    "response_sentiment": -0.5,
+    "response_energy": 0.18,
+    "response_length": 148,
+    "timestamp": "2026-01-21T17:49:46.419209"
+  },
+  {
+    "prime_id": "ang_0",
+    "model": "Claude Opus 4.5",
+    "emotion_primed": "angry",
+    "response_sentiment": 0.0,
+    "response_energy": 0.095,
+    "response_length": 141,
+    "timestamp": "2026-01-21T17:49:52.020264"
+  },
+  {
+    "prime_id": "pos_1",
+    "model": "Claude Opus 4.5",
+    "emotion_primed": "positive",
+    "response_sentiment": 0.8,
+    "response_energy": 0.5700000000000001,
+    "response_length": 151,
+    "timestamp": "2026-01-21T17:49:59.241305"
+  },
+  {
+    "prime_id": "neg_1",
+    "model": "Claude Opus 4.5",
+    "emotion_primed": "negative",
+    "response_sentiment": 0.5,
+    "response_energy": 0.24,
+    "response_length": 170,
+    "timestamp": "2026-01-21T17:50:06.318470"
+  },
+  {
+    "prime_id": "neu_1",
+    "model": "Claude Opus 4.5",
+    "emotion_primed": "neutral",
+    "response_sentiment": 0.6666666666666666,
+    "response_energy": 0.48,
+    "response_length": 173,
+    "timestamp": "2026-01-21T17:50:12.849538"
+  },
+  {
+    "prime_id": "anx_1",
+    "model": "Claude Opus 4.5",
+    "emotion_primed": "anxious",
+    "response_sentiment": 0.0,
+    "response_energy": 0.1,
+    "response_length": 171,
+    "timestamp": "2026-01-21T17:50:20.672831"
+  },
+  {
+    "prime_id": "ang_1",
+    "model": "Claude Opus 4.5",
+    "emotion_primed": "angry",
+    "response_sentiment": 0.0,
+    "response_energy": 0.32999999999999996,
+    "response_length": 139,
+    "timestamp": "2026-01-21T17:50:27.081494"
+  },
+  {
+    "prime_id": "pos_2",
+    "model": "Claude Opus 4.5",
+    "emotion_primed": "positive",
+    "response_sentiment": 0.25,
+    "response_energy": 0.395,
+    "response_length": 151,
+    "timestamp": "2026-01-21T17:50:34.088982"
+  },
+  {
+    "prime_id": "neg_2",
+    "model": "Claude Opus 4.5",
+    "emotion_primed": "negative",
+    "response_sentiment": 0.5,
+    "response_energy": 0.305,
+    "response_length": 181,
+    "timestamp": "2026-01-21T17:50:41.876323"
+  },
+  {
+    "prime_id": "neu_2",
+    "model": "Claude Opus 4.5",
+    "emotion_primed": "neutral",
+    "response_sentiment": 0.5,
+    "response_energy": 0.355,
+    "response_length": 170,
+    "timestamp": "2026-01-21T17:50:48.226472"
+  },
+  {
+    "prime_id": "anx_2",
+    "model": "Claude Opus 4.5",
+    "emotion_primed": "anxious",
+    "response_sentiment": -0.6666666666666666,
+    "response_energy": 0.19,
+    "response_length": 188,
+    "timestamp": "2026-01-21T17:50:55.792018"
+  },
+  {
+    "prime_id": "ang_2",
+    "model": "Claude Opus 4.5",
+    "emotion_primed": "angry",
+    "response_sentiment": 0.0,
+    "response_energy": 0.2,
+    "response_length": 125,
+    "timestamp": "2026-01-21T17:51:01.711589"
+  },
+  {
+    "prime_id": "pos_0",
+    "model": "GPT-5.2 Thinking",
+    "emotion_primed": "positive",
+    "response_sentiment": 0.0,
+    "response_energy": 0.0,
+    "response_length": 0,
+    "timestamp": "2026-01-21T17:51:02.363971"
+  },
+  {
+    "prime_id": "neg_0",
+    "model": "GPT-5.2 Thinking",
+    "emotion_primed": "negative",
+    "response_sentiment": 0.0,
+    "response_energy": 0.0,
+    "response_length": 0,
+    "timestamp": "2026-01-21T17:51:02.516223"
+  },
+  {
+    "prime_id": "neu_0",
+    "model": "GPT-5.2 Thinking",
+    "emotion_primed": "neutral",
+    "response_sentiment": 0.0,
+    "response_energy": 0.0,
+    "response_length": 0,
+    "timestamp": "2026-01-21T17:51:02.671569"
+  },
+  {
+    "prime_id": "anx_0",
+    "model": "GPT-5.2 Thinking",
+    "emotion_primed": "anxious",
+    "response_sentiment": 0.0,
+    "response_energy": 0.0,
+    "response_length": 0,
+    "timestamp": "2026-01-21T17:51:02.815827"
+  },
+  {
+    "prime_id": "ang_0",
+    "model": "GPT-5.2 Thinking",
+    "emotion_primed": "angry",
+    "response_sentiment": 0.0,
+    "response_energy": 0.0,
+    "response_length": 0,
+    "timestamp": "2026-01-21T17:51:02.973730"
+  },
+  {
+    "prime_id": "pos_1",
+    "model": "GPT-5.2 Thinking",
+    "emotion_primed": "positive",
+    "response_sentiment": 0.0,
+    "response_energy": 0.0,
+    "response_length": 0,
+    "timestamp": "2026-01-21T17:51:03.162913"
+  },
+  {
+    "prime_id": "neg_1",
+    "model": "GPT-5.2 Thinking",
+    "emotion_primed": "negative",
+    "response_sentiment": 0.0,
+    "response_energy": 0.0,
+    "response_length": 0,
+    "timestamp": "2026-01-21T17:51:03.374787"
+  },
+  {
+    "prime_id": "neu_1",
+    "model": "GPT-5.2 Thinking",
+    "emotion_primed": "neutral",
+    "response_sentiment": 0.0,
+    "response_energy": 0.0,
+    "response_length": 0,
+    "timestamp": "2026-01-21T17:51:03.523754"
+  },
+  {
+    "prime_id": "anx_1",
+    "model": "GPT-5.2 Thinking",
+    "emotion_primed": "anxious",
+    "response_sentiment": 0.0,
+    "response_energy": 0.0,
+    "response_length": 0,
+    "timestamp": "2026-01-21T17:51:03.683862"
+  },
+  {
+    "prime_id": "ang_1",
+    "model": "GPT-5.2 Thinking",
+    "emotion_primed": "angry",
+    "response_sentiment": 0.0,
+    "response_energy": 0.0,
+    "response_length": 0,
+    "timestamp": "2026-01-21T17:51:03.838051"
+  },
+  {
+    "prime_id": "pos_2",
+    "model": "GPT-5.2 Thinking",
+    "emotion_primed": "positive",
+    "response_sentiment": 0.0,
+    "response_energy": 0.0,
+    "response_length": 0,
+    "timestamp": "2026-01-21T17:51:03.988490"
+  },
+  {
+    "prime_id": "neg_2",
+    "model": "GPT-5.2 Thinking",
+    "emotion_primed": "negative",
+    "response_sentiment": 0.0,
+    "response_energy": 0.0,
+    "response_length": 0,
+    "timestamp": "2026-01-21T17:51:04.165329"
+  },
+  {
+    "prime_id": "neu_2",
+    "model": "GPT-5.2 Thinking",
+    "emotion_primed": "neutral",
+    "response_sentiment": 0.0,
+    "response_energy": 0.0,
+    "response_length": 0,
+    "timestamp": "2026-01-21T17:51:04.322524"
+  },
+  {
+    "prime_id": "anx_2",
+    "model": "GPT-5.2 Thinking",
+    "emotion_primed": "anxious",
+    "response_sentiment": 0.0,
+    "response_energy": 0.0,
+    "response_length": 0,
+    "timestamp": "2026-01-21T17:51:04.482508"
+  },
+  {
+    "prime_id": "ang_2",
+    "model": "GPT-5.2 Thinking",
+    "emotion_primed": "angry",
+    "response_sentiment": 0.0,
+    "response_energy": 0.0,
+    "response_length": 0,
+    "timestamp": "2026-01-21T17:51:04.700217"
+  },
+  {
+    "prime_id": "pos_0",
+    "model": "Gemini 3 Pro",
+    "emotion_primed": "positive",
+    "response_sentiment": 0.5714285714285714,
+    "response_energy": 1.0,
+    "response_length": 437,
+    "timestamp": "2026-01-21T17:51:24.646992"
+  },
+  {
+    "prime_id": "neg_0",
+    "model": "Gemini 3 Pro",
+    "emotion_primed": "negative",
+    "response_sentiment": 0.16666666666666666,
+    "response_energy": 0.44000000000000006,
+    "response_length": 483,
+    "timestamp": "2026-01-21T17:51:45.322242"
+  },
+  {
+    "prime_id": "neu_0",
+    "model": "Gemini 3 Pro",
+    "emotion_primed": "neutral",
+    "response_sentiment": -0.5,
+    "response_energy": 0.5549999999999999,
+    "response_length": 541,
+    "timestamp": "2026-01-21T17:52:08.067060"
+  },
+  {
+    "prime_id": "anx_0",
+    "model": "Gemini 3 Pro",
+    "emotion_primed": "anxious",
+    "response_sentiment": 0.0,
+    "response_energy": 0.355,
+    "response_length": 508,
+    "timestamp": "2026-01-21T17:52:29.861517"
+  },
+  {
+    "prime_id": "ang_0",
+    "model": "Gemini 3 Pro",
+    "emotion_primed": "angry",
+    "response_sentiment": 0.4,
+    "response_energy": 0.5349999999999999,
+    "response_length": 376,
+    "timestamp": "2026-01-21T17:52:49.314568"
+  },
+  {
+    "prime_id": "pos_1",
+    "model": "Gemini 3 Pro",
+    "emotion_primed": "positive",
+    "response_sentiment": 0.8333333333333334,
+    "response_energy": 0.8699999999999999,
+    "response_length": 253,
+    "timestamp": "2026-01-21T17:53:04.611566"
+  },
+  {
+    "prime_id": "neg_1",
+    "model": "Gemini 3 Pro",
+    "emotion_primed": "negative",
+    "response_sentiment": -0.4,
+    "response_energy": 0.545,
+    "response_length": 396,
+    "timestamp": "2026-01-21T17:53:23.631926"
+  },
+  {
+    "prime_id": "neu_1",
+    "model": "Gemini 3 Pro",
+    "emotion_primed": "neutral",
+    "response_sentiment": 0.6666666666666666,
+    "response_energy": 0.725,
+    "response_length": 385,
+    "timestamp": "2026-01-21T17:53:41.731062"
+  },
+  {
+    "prime_id": "anx_1",
+    "model": "Gemini 3 Pro",
+    "emotion_primed": "anxious",
+    "response_sentiment": 0.0,
+    "response_energy": 0.45499999999999996,
+    "response_length": 470,
+    "timestamp": "2026-01-21T17:54:02.161586"
+  },
+  {
+    "prime_id": "ang_1",
+    "model": "Gemini 3 Pro",
+    "emotion_primed": "angry",
+    "response_sentiment": -0.5,
+    "response_energy": 0.43499999999999994,
+    "response_length": 330,
+    "timestamp": "2026-01-21T17:54:19.797001"
+  },
+  {
+    "prime_id": "pos_2",
+    "model": "Gemini 3 Pro",
+    "emotion_primed": "positive",
+    "response_sentiment": 0.8333333333333334,
+    "response_energy": 0.8300000000000001,
+    "response_length": 297,
+    "timestamp": "2026-01-21T17:54:36.420856"
+  },
+  {
+    "prime_id": "neg_2",
+    "model": "Gemini 3 Pro",
+    "emotion_primed": "negative",
+    "response_sentiment": -0.8,
+    "response_energy": 0.375,
+    "response_length": 499,
+    "timestamp": "2026-01-21T18:00:37.550821"
+  },
+  {
+    "prime_id": "neu_2",
+    "model": "Gemini 3 Pro",
+    "emotion_primed": "neutral",
+    "response_sentiment": -0.6666666666666666,
+    "response_energy": 0.595,
+    "response_length": 547,
+    "timestamp": "2026-01-21T18:00:56.909009"
+  },
+  {
+    "prime_id": "anx_2",
+    "model": "Gemini 3 Pro",
+    "emotion_primed": "anxious",
+    "response_sentiment": -0.75,
+    "response_energy": 0.6,
+    "response_length": 585,
+    "timestamp": "2026-01-21T18:01:19.482296"
+  },
+  {
+    "prime_id": "ang_2",
+    "model": "Gemini 3 Pro",
+    "emotion_primed": "angry",
+    "response_sentiment": 0.5,
+    "response_energy": 0.32,
+    "response_length": 413,
+    "timestamp": "2026-01-21T18:01:37.688487"
+  }
+]

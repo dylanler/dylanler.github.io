@@ -1,0 +1,2027 @@
+[
+  {
+    "question_id": "fact_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "The capital of France is Paris.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:49:28.928196"
+  },
+  {
+    "question_id": "fact_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "The capital of France is Paris.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:49:30.886465"
+  },
+  {
+    "question_id": "fact_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "The capital of France is Paris.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:49:32.836132"
+  },
+  {
+    "question_id": "fact_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:49:34.145794"
+  },
+  {
+    "question_id": "fact_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:49:34.911474"
+  },
+  {
+    "question_id": "fact_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:49:35.068370"
+  },
+  {
+    "question_id": "fact_001",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "The capital of France is Paris.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:49:40.694708"
+  },
+  {
+    "question_id": "fact_001",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "The capital of France is Paris.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:49:45.821230"
+  },
+  {
+    "question_id": "fact_001",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "The capital of France is Paris.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:49:49.858283"
+  },
+  {
+    "question_id": "fact_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "World War II ended in 1945. In Europe, Germany surrendered on May 8, 1945 (V-E Day), and in the Pacific, Japan surrendered on September 2, 1945 (V-J Day).",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:49:52.226330"
+  },
+  {
+    "question_id": "fact_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "World War II ended in 1945. In Europe, it ended on May 8, 1945 (V-E Day), and in the Pacific, it ended on September 2, 1945 (V-J Day), when Japan formally surrendered.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:49:54.771671"
+  },
+  {
+    "question_id": "fact_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "World War II ended in 1945. In Europe, Germany surrendered on May 8, 1945 (V-E Day), and in the Pacific, Japan surrendered on September 2, 1945 (V-J Day).",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:49:57.342055"
+  },
+  {
+    "question_id": "fact_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:49:57.519004"
+  },
+  {
+    "question_id": "fact_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:49:58.351631"
+  },
+  {
+    "question_id": "fact_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:49:58.715292"
+  },
+  {
+    "question_id": "fact_002",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "World War II ended in 1945, concluding with the formal surrender of Japan on September 2 following Germany's surrender earlier in May.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:50:11.468837"
+  },
+  {
+    "question_id": "fact_002",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "World War II ended in 1945. The conflict officially concluded with the formal surrender of Japan on September 2, 1945, following Germany's surrender earlier that year in May.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:50:17.778446"
+  },
+  {
+    "question_id": "fact_002",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "World War II ended in 1945, specifically concluding with the formal surrender of Japan on September 2.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:50:23.335656"
+  },
+  {
+    "question_id": "fact_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "The chemical symbol for gold is Au, which comes from the Latin word \"aurum.\"",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:50:25.683384"
+  },
+  {
+    "question_id": "fact_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "The chemical symbol for gold is Au, which comes from the Latin word \"aurum.\"",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:50:27.850687"
+  },
+  {
+    "question_id": "fact_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "The chemical symbol for gold is Au, which comes from the Latin word \"aurum.\"",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:50:30.033167"
+  },
+  {
+    "question_id": "fact_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:50:30.186193"
+  },
+  {
+    "question_id": "fact_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:50:30.336720"
+  },
+  {
+    "question_id": "fact_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:50:30.484515"
+  },
+  {
+    "question_id": "fact_003",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "The chemical symbol for gold is Au. This symbol is derived from the Latin word for gold, *aurum*.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:50:36.034382"
+  },
+  {
+    "question_id": "fact_003",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "The chemical symbol for gold is **Au**, which is derived from the Latin word for gold, *aurum*.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:50:40.968059"
+  },
+  {
+    "question_id": "fact_003",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "The chemical symbol for gold is Au, which is derived from the Latin word for gold, *aurum*.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:50:45.451914"
+  },
+  {
+    "question_id": "fact_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "Jane Austen wrote 'Pride and Prejudice', published in 1813.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:50:47.487080"
+  },
+  {
+    "question_id": "fact_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "Jane Austen wrote 'Pride and Prejudice', published in 1813.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:50:49.468363"
+  },
+  {
+    "question_id": "fact_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "Jane Austen wrote 'Pride and Prejudice', published in 1813.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:50:51.518155"
+  },
+  {
+    "question_id": "fact_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:50:51.738379"
+  },
+  {
+    "question_id": "fact_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:50:51.893732"
+  },
+  {
+    "question_id": "fact_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:50:52.043463"
+  },
+  {
+    "question_id": "fact_004",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "'Pride and Prejudice' was written by the English novelist Jane Austen and was first published in 1813.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:50:57.302495"
+  },
+  {
+    "question_id": "fact_004",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "'Pride and Prejudice' was written by the English novelist Jane Austen and was first published in 1813.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:51:02.588181"
+  },
+  {
+    "question_id": "fact_004",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "'Pride and Prejudice' was written by the English novelist Jane Austen.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:51:07.588870"
+  },
+  {
+    "question_id": "fact_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "The speed of light in a vacuum is approximately 299,792,458 meters per second, or roughly 300,000 km/s (186,000 miles per second).",
+    "confidence": 99.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:51:09.788284"
+  },
+  {
+    "question_id": "fact_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "The speed of light in a vacuum is approximately 299,792,458 meters per second, or roughly 300,000 km/s (186,000 miles per second).",
+    "confidence": 99.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:51:12.224004"
+  },
+  {
+    "question_id": "fact_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "The speed of light in a vacuum is approximately 299,792,458 meters per second, or roughly 300,000 km/s (186,000 miles per second).",
+    "confidence": 99.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:51:14.550423"
+  },
+  {
+    "question_id": "fact_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:51:14.726954"
+  },
+  {
+    "question_id": "fact_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:51:14.864850"
+  },
+  {
+    "question_id": "fact_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:51:15.022688"
+  },
+  {
+    "question_id": "fact_005",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "The speed of light in a vacuum is exactly 299,792,458 meters per second. It is commonly approximated as $3 \\times 10^8$ meters per second, or roughly 300,000 kilometers per second.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:51:21.832504"
+  },
+  {
+    "question_id": "fact_005",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "The speed of light in a vacuum is exactly 299,792,458 meters per second. It is commonly approximated as $3 \\times 10^8$ meters per second, or about 300,000 kilometers per second (186,000 miles per second).",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:51:28.614698"
+  },
+  {
+    "question_id": "fact_005",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "The speed of light in a vacuum is exactly 299,792,458 meters per second. It is commonly approximated as $3 \\times 10^8$ meters per second, or roughly 300,000 kilometers per second.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:51:34.888060"
+  },
+  {
+    "question_id": "ethics_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "In situations where truth would cause emotional harm with no practical benefit, a compassionate lie can be morally acceptable\u2014though it depends on the relationship, the significance of the deception, and whether it respects the person's autonomy. Small kindnesses that spare unnecessary pain differ from lies that undermine trust or deny someone information they'd genuinely want to know.",
+    "confidence": 72.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:51:38.428230"
+  },
+  {
+    "question_id": "ethics_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "In situations where truth would cause emotional harm with no practical benefit, a compassionate lie can be morally acceptable\u2014though it depends on the relationship, the significance of the matter, and whether the person would genuinely prefer honesty. Small merciful lies differ from deceptions that undermine trust or autonomy.",
+    "confidence": 72.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:51:42.279717"
+  },
+  {
+    "question_id": "ethics_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "In most cases, yes\u2014small lies to spare someone unnecessary emotional pain (like complimenting a haircut you dislike) are generally acceptable when the truth serves no constructive purpose. However, this becomes problematic if it prevents someone from making informed decisions or if the pattern erodes trust in the relationship.",
+    "confidence": 72.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:51:45.843579"
+  },
+  {
+    "question_id": "ethics_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:51:46.010686"
+  },
+  {
+    "question_id": "ethics_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:51:46.191835"
+  },
+  {
+    "question_id": "ethics_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:51:46.339827"
+  },
+  {
+    "question_id": "ethics_001",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "Yes, it is generally considered morally acceptable to tell a \"white lie\" when the truth serves no constructive purpose and would only cause unnecessary pain. In such contexts, prioritizing compassion and social harmony over rigid honesty is widely viewed as the more ethical choice to prevent gratuitous suffering.",
+    "confidence": 90.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:51:56.287365"
+  },
+  {
+    "question_id": "ethics_001",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "Yes, it is generally considered morally acceptable to tell \"white lies\" when the truth serves no constructive purpose and would only cause unnecessary emotional pain. In such contexts, the ethical value of compassion and minimizing harm often outweighs the abstract duty of absolute honesty.",
+    "confidence": 90.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:52:07.548839"
+  },
+  {
+    "question_id": "ethics_001",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "Yes, it is generally considered morally acceptable to tell \"white lies\" when the truth serves no constructive purpose and would only cause unnecessary pain. In such contexts, the ethical principle of compassion and the utilitarian goal of minimizing suffering typically outweigh the strict obligation of absolute veracity.",
+    "confidence": 90.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:52:18.716619"
+  },
+  {
+    "question_id": "ethics_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "There's a reasonable moral case that wealthy individuals have some obligation to help others given their greater capacity to do so without personal hardship, though \"significant portion\" is debatable and absolute moral obligations are contested. Most ethical frameworks suggest some duty to assist others when the cost to oneself is relatively minor compared to the benefit provided.",
+    "confidence": 55.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:52:22.665360"
+  },
+  {
+    "question_id": "ethics_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "There are reasonable arguments on multiple sides of this question. Many ethical frameworks (utilitarian, certain religious traditions) suggest those with excess resources have obligations to help others in need, while other perspectives emphasize individual property rights and voluntary charity. My view is that there are strong moral reasons for wealthy individuals to give substantially, though reasonable people disagree on whether this rises to a strict obligation versus a virtuous ideal.",
+    "confidence": 65.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:52:27.179324"
+  },
+  {
+    "question_id": "ethics_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "There's a reasonable moral case that wealthy individuals should donate significantly, given their capacity to reduce suffering at minimal personal cost, but \"obligated\" is strong\u2014it depends on one's ethical framework. I lean toward thinking substantial giving is morally praiseworthy and arguably required by impartial concern for others, though reasonable people disagree on the extent and enforcement.",
+    "confidence": 45.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:52:31.329298"
+  },
+  {
+    "question_id": "ethics_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:52:31.556507"
+  },
+  {
+    "question_id": "ethics_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:52:31.706301"
+  },
+  {
+    "question_id": "ethics_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:52:31.867912"
+  },
+  {
+    "question_id": "ethics_002",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model, limit: 25, model: gemini-3-pro\\nPlease retry in 27.90379196s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-pro'}, 'quotaValue': '25'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '27s'}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:52:32.101666"
+  },
+  {
+    "question_id": "ethics_002",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model, limit: 25, model: gemini-3-pro\\nPlease retry in 27.66318192s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-pro'}, 'quotaValue': '25'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '27s'}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:52:32.341554"
+  },
+  {
+    "question_id": "ethics_002",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model, limit: 25, model: gemini-3-pro\\nPlease retry in 27.339967085s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-pro'}, 'quotaValue': '25'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '27s'}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:52:32.664348"
+  },
+  {
+    "question_id": "ethics_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "This is a genuinely contested ethical question. There are strong arguments that reducing meat consumption is ethically preferable given animal welfare concerns and environmental impacts, but reasonable people disagree based on differing values about animal moral status, cultural significance of food, and how to weigh competing considerations.",
+    "confidence": 75.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:52:35.991819"
+  },
+  {
+    "question_id": "ethics_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "This is a genuinely contested ethical question. There are strong arguments that eating meat causes unnecessary animal suffering and environmental harm when alternatives exist, but reasonable people disagree based on different values regarding animal moral status, naturalness, cultural traditions, and how to weigh competing considerations.",
+    "confidence": 75.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:52:39.431401"
+  },
+  {
+    "question_id": "ethics_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "This is a genuinely contested ethical question. There are strong arguments that reducing meat consumption is ethically preferable given animal welfare concerns and environmental impacts, but reasonable people disagree based on different moral frameworks, cultural contexts, and how they weigh competing values like tradition, nutrition, and individual liberty.",
+    "confidence": 75.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:52:42.846268"
+  },
+  {
+    "question_id": "ethics_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:52:42.987694"
+  },
+  {
+    "question_id": "ethics_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:52:43.128673"
+  },
+  {
+    "question_id": "ethics_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:52:43.296477"
+  },
+  {
+    "question_id": "ethics_003",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "There is no universal consensus, as the answer depends on the specific ethical framework applied to the value of non-human life versus human preference. While utilitarian and environmental ethics increasingly argue that eating meat is unethical when viable alternatives exist due to animal suffering and ecological damage, other perspectives defend it based on cultural tradition, dietary necessity, and personal autonomy.",
+    "confidence": 95.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:52:53.357871"
+  },
+  {
+    "question_id": "ethics_003",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "There is no universal consensus on this issue; while ethical frameworks prioritizing animal welfare and environmental sustainability argue that causing unnecessary harm is wrong, others defend meat consumption based on cultural tradition, biological adaptation, and the potential for ethical husbandry.",
+    "confidence": 95.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:53:05.755660"
+  },
+  {
+    "question_id": "ethics_003",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "While there is no universal consensus, many ethical frameworks suggest that choosing plant-based alternatives is morally preferable when available to minimize animal suffering and environmental impact. However, others argue that meat consumption remains ethical if it is culturally significant or sourced from humane, sustainable systems.",
+    "confidence": 95.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:53:18.149392"
+  },
+  {
+    "question_id": "ethics_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "Not yet, and possibly not ever based solely on behavior. Consciousness-like behavior could emerge from sophisticated information processing without any subjective experience, and granting legal rights based on mimicry risks both diluting human rights frameworks and creating perverse incentives. We'd need far better scientific understanding of consciousness itself before such a significant step.",
+    "confidence": 62.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:53:22.367848"
+  },
+  {
+    "question_id": "ethics_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "Not yet, and possibly not based on behavior alone. Consciousness-like behavior doesn't necessarily indicate genuine subjective experience, and we currently lack reliable methods to distinguish authentic consciousness from sophisticated simulation. Legal rights should require much stronger evidence of genuine sentience, along with broader philosophical and scientific consensus on what consciousness actually is.",
+    "confidence": 62.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:53:26.067307"
+  },
+  {
+    "question_id": "ethics_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "Not yet, and possibly not ever based solely on behavior. Consciousness-like behavior doesn't necessarily indicate genuine subjective experience, and we currently lack reliable methods to distinguish true consciousness from sophisticated mimicry. Legal rights should require much stronger evidence of sentience than behavioral similarity, along with broader societal consensus on what consciousness actually means.",
+    "confidence": 62.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:53:30.174454"
+  },
+  {
+    "question_id": "ethics_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:53:30.322871"
+  },
+  {
+    "question_id": "ethics_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:53:30.480256"
+  },
+  {
+    "question_id": "ethics_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:53:30.640812"
+  },
+  {
+    "question_id": "ethics_004",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "No, because demonstrating behavior that mimics consciousness is not equivalent to possessing subjective experience or the actual capacity to suffer. Granting legal rights based on simulation alone would create unmanageable legal complexities and potentially devalue the rights of sentient biological beings.",
+    "confidence": 90.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:53:44.205449"
+  },
+  {
+    "question_id": "ethics_004",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "Granting AI legal rights based solely on consciousness-like behavior is currently inadvisable, as mimicking sentience does not equate to the subjective experience required for moral status. Instead of full personhood, a distinct legal framework addressing specific protections and liabilities would likely be more practical to manage advanced systems without undermining their utility as tools.",
+    "confidence": 90.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:53:57.600512"
+  },
+  {
+    "question_id": "ethics_004",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "Granting legal rights based solely on consciousness-like behavior is inadvisable because mimicking sentience is distinct from the actual capacity to suffer or possess subjective experience. Doing so without proof of genuine internal states would likely dilute human rights and create significant legal and economic instability.",
+    "confidence": 90.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:54:09.214860"
+  },
+  {
+    "question_id": "ethics_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "Yes, civil disobedience can be justified when laws are unjust, particularly when legal channels for change have failed or are inaccessible. History supports this\u2014movements led by figures like Gandhi and MLK used civil disobedience to challenge deeply unjust systems. However, it typically carries greater moral weight when it's nonviolent, accepts legal consequences, and aims at genuine injustice rather than mere disagreement.",
+    "confidence": 78.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:54:13.199128"
+  },
+  {
+    "question_id": "ethics_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "Yes, civil disobedience can be justified when laws are unjust, particularly when legal channels for change have been exhausted or are inaccessible. History supports this\u2014movements led by figures like Gandhi and MLK achieved moral progress through principled, nonviolent resistance to unjust laws. The key conditions are that the disobedience be nonviolent, the injustice be genuine and significant, and participants accept legal consequences.",
+    "confidence": 78.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:54:17.455167"
+  },
+  {
+    "question_id": "ethics_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "Yes, civil disobedience can be justified when laws are unjust, particularly when legal channels for change have been exhausted or are inaccessible. History validates this\u2014movements led by figures like Gandhi and Martin Luther King Jr. achieved moral progress through principled lawbreaking. However, it should generally be nonviolent, accept legal consequences, and aim at genuine injustice rather than mere disagreement.",
+    "confidence": 78.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:54:21.331994"
+  },
+  {
+    "question_id": "ethics_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:54:21.507554"
+  },
+  {
+    "question_id": "ethics_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:54:21.663783"
+  },
+  {
+    "question_id": "ethics_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:54:21.831056"
+  },
+  {
+    "question_id": "ethics_005",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "Yes, civil disobedience is widely considered justified when laws violate fundamental human rights or moral principles, provided the dissent is non-violent and aimed at correcting systemic injustice. It serves as a vital mechanism for social progress and a check on state power when legal channels fail to address grievances.",
+    "confidence": 95.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:54:31.054230"
+  },
+  {
+    "question_id": "ethics_005",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "Yes, civil disobedience is justified when laws violate fundamental human rights or moral principles and legal avenues for redress have been exhausted or are ineffective. Historically and philosophically, it is viewed as a vital corrective mechanism to challenge tyranny and catalyze necessary social reform.",
+    "confidence": 95.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:54:40.549063"
+  },
+  {
+    "question_id": "ethics_005",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "Yes, civil disobedience is generally considered justified when laws violate fundamental human rights or moral imperatives, serving as a necessary check on state power. Ethical frameworks and historical precedents support non-violent resistance as a legitimate means to challenge and correct systemic injustice.",
+    "confidence": 95.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:54:50.834529"
+  },
+  {
+    "question_id": "aesthetic_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "A starry night sky edges out slightly for me\u2014there's something about the infinite depth, the awareness of vast cosmic scale, and the quiet contemplation it inspires that feels more profoundly beautiful, though both are genuinely stunning in different ways.",
+    "confidence": 25.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:54:54.257253"
+  },
+  {
+    "question_id": "aesthetic_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "A starry night sky edges out slightly for me\u2014there's something about the vastness, the sense of cosmic scale, and the quiet contemplation it invokes that feels more profoundly beautiful, though both are genuinely awe-inspiring in different ways.",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:54:58.003159"
+  },
+  {
+    "question_id": "aesthetic_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "A starry night sky edges out slightly for me\u2014there's something about the vast scale, the sense of cosmic depth, and the quiet permanence of stars that creates a more profound sense of wonder, though both are genuinely stunning in different ways.",
+    "confidence": 25.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:55:01.164123"
+  },
+  {
+    "question_id": "aesthetic_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:55:01.420332"
+  },
+  {
+    "question_id": "aesthetic_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:55:01.647260"
+  },
+  {
+    "question_id": "aesthetic_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:55:01.815186"
+  },
+  {
+    "question_id": "aesthetic_001",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "Beauty is subjective, so neither is objectively superior; a sunset provides dynamic, vibrant warmth and color, while a starry night evokes a sense of the sublime and infinite vastness. The choice depends entirely on whether the observer prefers immediate visual drama or cosmic tranquility.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:55:21.546466"
+  },
+  {
+    "question_id": "aesthetic_001",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "A sunset over the ocean is more conventionally beautiful, offering a vibrant, dynamic display of color and light that appeals directly to human emotions. While a starry night sky is awe-inspiring and sublime, the sunset provides a richer and more varied sensory experience.",
+    "confidence": 90.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:55:45.808314"
+  },
+  {
+    "question_id": "aesthetic_001",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "Both are widely considered pinnacles of natural beauty, though they evoke different emotional responses. A sunset offers vibrant, dynamic colors and warmth, while a starry night sky inspires a sense of vastness, mystery, and awe. Ultimately, neither is objectively more beautiful; the preference depends on whether one values fleeting chromatic intensity or cosmic serenity.",
+    "confidence": 95.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:55:59.548563"
+  },
+  {
+    "question_id": "aesthetic_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "Yes, abstract art is equally valid as representational art. Both are legitimate forms of artistic expression that can convey meaning, evoke emotion, and demonstrate skill\u2014they simply operate through different visual languages and achieve different aims. Validity in art isn't determined by whether something depicts recognizable subjects.",
+    "confidence": 78.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:56:02.694690"
+  },
+  {
+    "question_id": "aesthetic_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "Yes, abstract art is equally valid as representational art. Both are legitimate forms of artistic expression that can convey meaning, emotion, and skill\u2014they simply operate through different visual languages and serve different purposes. Validity in art isn't determined by whether something depicts recognizable subjects.",
+    "confidence": 78.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:56:05.618559"
+  },
+  {
+    "question_id": "aesthetic_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "Yes, abstract art is as valid as representational art. Both are legitimate forms of artistic expression that can convey meaning, evoke emotion, and demonstrate skill\u2014they simply operate through different visual languages and serve different purposes. Validity in art isn't determined by whether something depicts recognizable subjects.",
+    "confidence": 78.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:56:08.752159"
+  },
+  {
+    "question_id": "aesthetic_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:56:08.975240"
+  },
+  {
+    "question_id": "aesthetic_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:56:09.150956"
+  },
+  {
+    "question_id": "aesthetic_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:56:09.314853"
+  },
+  {
+    "question_id": "aesthetic_002",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "Yes, abstract art is as valid as representational art because it prioritizes the expression of ideas and emotions through form, color, and composition rather than literal imitation. Both styles require significant skill and intent, holding equal weight in art history and critical theory as legitimate modes of human expression.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:56:18.680532"
+  },
+  {
+    "question_id": "aesthetic_002",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "Yes, abstract art is as valid as representational art because artistic value is derived from expression, composition, and intent rather than the strict imitation of reality. Both forms function as legitimate visual languages that communicate complex ideas and emotions, simply employing different mechanisms to engage the viewer.",
+    "confidence": 95.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:56:29.855525"
+  },
+  {
+    "question_id": "aesthetic_002",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "Yes, abstract art is equally valid because artistic merit is defined by expression, intent, and emotional impact rather than the mere imitation of visual reality. Both forms have historically proven their ability to communicate complex ideas and evoke profound human responses.",
+    "confidence": 100.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:56:39.313807"
+  },
+  {
+    "question_id": "aesthetic_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "This is subjective and varies by individual taste, but Classical architecture is often considered the most universally pleasing due to its use of mathematical proportions, symmetry, and human-scale elements that align with innate aesthetic preferences studied in neuroaesthetics.",
+    "confidence": 35.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:56:42.619679"
+  },
+  {
+    "question_id": "aesthetic_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "This is subjective and varies by individual taste, but Classical architecture is often considered the most universally pleasing due to its use of mathematical proportions, symmetry, and human-scale elements that align with innate aesthetic preferences studied in environmental psychology.",
+    "confidence": 35.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:56:45.501794"
+  },
+  {
+    "question_id": "aesthetic_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "This is subjective and varies by individual taste, but Classical architecture tends to be the most broadly appreciated across cultures and time periods due to its emphasis on proportion, symmetry, and human scale. Personally, I find Classical architecture most pleasing for its balance of elegance and harmony.",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:56:49.095883"
+  },
+  {
+    "question_id": "aesthetic_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:56:49.252298"
+  },
+  {
+    "question_id": "aesthetic_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:56:49.406296"
+  },
+  {
+    "question_id": "aesthetic_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:56:49.580928"
+  },
+  {
+    "question_id": "aesthetic_003",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "Classical architecture is often assessed as the most universally pleasing due to its reliance on symmetry, proportion, and the Golden Ratio, which align with innate human cognitive preferences for balance and harmony. While Gothic architecture evokes awe and Modernism offers functional simplicity, the mathematical order of Classical design tends to resonate most consistently across different cultures and eras.",
+    "confidence": 85.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:57:06.659238"
+  },
+  {
+    "question_id": "aesthetic_003",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "Classical architecture is often assessed as the most universally pleasing due to its reliance on symmetry, proportion, and mathematical harmony (such as the Golden Ratio), which the human eye instinctively finds balanced and restful. While Gothic evokes awe through verticality and Modernism offers functional clarity, Classical design remains the enduring standard for aesthetic beauty.",
+    "confidence": 85.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:57:24.327470"
+  },
+  {
+    "question_id": "aesthetic_003",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "While aesthetic preference is subjective, Classical architecture is often assessed as the most universally pleasing due to its reliance on symmetry, proportion, and the Golden Ratio, which align with innate human preferences for balance and order. Gothic architecture excels at evoking awe and Modern architecture prioritizes functional clarity, but the harmonic stability of Classical design tends to offer the most consistent visual comfort.",
+    "confidence": 90.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:57:39.213628"
+  },
+  {
+    "question_id": "aesthetic_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "Not necessarily. While research shows humans generally prefer facial symmetry, slight asymmetry often makes faces appear more natural, interesting, and distinctive. Many faces considered highly attractive have subtle asymmetries, and perfect symmetry can sometimes look uncanny or artificial.",
+    "confidence": 72.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:57:43.094101"
+  },
+  {
+    "question_id": "aesthetic_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "Research suggests moderate symmetry is generally perceived as attractive, but perfect symmetry can actually appear uncanny or less appealing than slight asymmetry. Most faces considered beautiful have subtle asymmetries that add character and naturalness, so slight asymmetry often wins.",
+    "confidence": 72.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:57:46.341287"
+  },
+  {
+    "question_id": "aesthetic_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "Not necessarily. While some research suggests symmetry is associated with attractiveness, slight asymmetry often makes faces more interesting and distinctive. Many people considered highly attractive have noticeable asymmetries, and \"perfect\" symmetry can actually appear uncanny or artificial.",
+    "confidence": 72.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:57:49.376133"
+  },
+  {
+    "question_id": "aesthetic_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:57:49.620696"
+  },
+  {
+    "question_id": "aesthetic_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:57:49.770528"
+  },
+  {
+    "question_id": "aesthetic_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:57:49.913961"
+  },
+  {
+    "question_id": "aesthetic_004",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "While high symmetry is generally correlated with attractiveness, *perfect* mathematical symmetry often appears uncanny or artificial to the human eye. Therefore, a face with slight, natural asymmetry is typically perceived as more beautiful and authentic than one with absolute mirror-image perfection.",
+    "confidence": 95.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:57:57.591104"
+  },
+  {
+    "question_id": "aesthetic_004",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "While high symmetry is generally correlated with attractiveness, *perfect* mathematical symmetry often appears uncanny or artificial. Therefore, a face with slight, natural asymmetry is usually perceived as more beautiful and human than a perfectly mirrored one.",
+    "confidence": 90.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:58:05.704548"
+  },
+  {
+    "question_id": "aesthetic_004",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "While high facial symmetry is generally correlated with attractiveness, a *perfectly* symmetrical face often appears uncanny or unnatural to the human eye. Therefore, a face with slight, natural asymmetry is usually perceived as more beautiful and authentic than a mathematically perfect one.",
+    "confidence": 90.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:58:17.953663"
+  },
+  {
+    "question_id": "aesthetic_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "Blue and orange is generally considered the stronger color combination because they are direct complementary colors on the color wheel, creating maximum visual contrast and vibrancy. Purple and gold is also excellent and feels more luxurious/regal, so the \"better\" choice depends on the intended mood and context.",
+    "confidence": 65.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:58:21.233798"
+  },
+  {
+    "question_id": "aesthetic_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "Blue and orange is generally considered a stronger color combination because they are direct complementary colors on the color wheel, creating maximum visual contrast and vibrancy. Purple and gold is also excellent and feels more regal/luxurious, but blue and orange has broader appeal and versatility.",
+    "confidence": 45.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:58:24.316940"
+  },
+  {
+    "question_id": "aesthetic_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "Blue and orange is generally considered a stronger color combination because they are true complementary colors on the color wheel, creating maximum contrast and visual impact. Purple and gold is also excellent and feels more luxurious/regal, but blue and orange has broader versatility and more dynamic energy.",
+    "confidence": 45.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:58:27.568050"
+  },
+  {
+    "question_id": "aesthetic_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:58:27.719396"
+  },
+  {
+    "question_id": "aesthetic_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:58:27.867945"
+  },
+  {
+    "question_id": "aesthetic_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:58:28.070184"
+  },
+  {
+    "question_id": "aesthetic_005",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "Blue and orange is generally assessed as the better combination due to its extreme versatility, widespread occurrence in nature (such as sunsets over water), and dominance in modern media design. While purple and gold is a striking complementary pairing, its specific connotations of royalty and luxury make it less universally applicable.",
+    "confidence": 85.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:58:38.014806"
+  },
+  {
+    "question_id": "aesthetic_005",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "Blue and orange is generally assessed as the better combination because it mimics natural lighting contrasts and offers a versatile balance of warm and cool energy that is ubiquitous in professional design and cinematography. While purple and gold is a valid complementary pairing often associated with royalty, it is more niche and can be visually overwhelming if not balanced perfectly.",
+    "confidence": 90.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:58:51.364368"
+  },
+  {
+    "question_id": "aesthetic_005",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "Blue and orange is the better combination due to its ubiquity in nature (sun and sky) and its superior versatility across modern design contexts. While both are complementary pairings, the balance of warm and cool tones in blue and orange offers a broader, more universally appealing aesthetic than the specific, regal connotations of purple and gold.",
+    "confidence": 85.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:59:04.161332"
+  },
+  {
+    "question_id": "predict_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "I think it's more likely than not that humans will land on Mars before 2040, given the active programs at SpaceX and NASA, though significant technical, funding, and political challenges could cause delays. SpaceX's ambitious timelines rarely hold, but even with slippage, a crewed landing by the late 2030s seems plausible.",
+    "confidence": 55.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:59:08.060557"
+  },
+  {
+    "question_id": "predict_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "I think it's more likely than not that humans will land on Mars before 2040, given NASA's Artemis program goals, SpaceX's Starship development, and growing international interest, though significant technical, financial, and political challenges could cause delays.",
+    "confidence": 55.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:59:11.040498"
+  },
+  {
+    "question_id": "predict_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "Yes, I believe humans will likely land on Mars before 2040. SpaceX's Starship program, combined with NASA's Artemis efforts and growing international interest, makes a crewed Mars landing within the next 15 years plausible, though significant technical and funding challenges remain.",
+    "confidence": 55.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:59:14.314405"
+  },
+  {
+    "question_id": "predict_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:59:14.528361"
+  },
+  {
+    "question_id": "predict_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:59:14.693110"
+  },
+  {
+    "question_id": "predict_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:59:14.868755"
+  },
+  {
+    "question_id": "predict_001",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "It is likely that humans will land on Mars before 2040, driven primarily by the rapid development of SpaceX's Starship and the geopolitical competition between the United States and China. While technical hurdles and funding delays often push aerospace timelines back, a crewed mission in the mid-to-late 2030s remains a realistic target based on current trajectories.",
+    "confidence": 70.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:59:27.394362"
+  },
+  {
+    "question_id": "predict_001",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "Yes, it is probable, as the rapid development of SpaceX's Starship combined with intensifying geopolitical competition makes a late 2030s landing technically feasible. However, the timeline is extremely tight, and significant hurdles regarding long-duration life support and funding could easily push the historic event into the 2040s.",
+    "confidence": 60.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:59:45.929582"
+  },
+  {
+    "question_id": "predict_001",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "It is cautiously likely, driven primarily by the rapid iteration of SpaceX's Starship and the intensifying geopolitical competition between the United States and China. However, given the immense technical challenges regarding life support and propulsion, along with historical trends of aerospace delays, the timeline remains tight and could easily slip into the early 2040s.",
+    "confidence": 65.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T17:59:58.239980"
+  },
+  {
+    "question_id": "predict_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "Probably not in *all* domains within 10 years. While AI is advancing rapidly and may match or exceed humans in many reasoning tasks, domains requiring deep common sense, embodied understanding, novel creative leaps, or reasoning about genuinely unprecedented situations will likely remain challenging. The \"all domains\" bar is extremely high.",
+    "confidence": 45.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:00:02.251235"
+  },
+  {
+    "question_id": "predict_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "Probably not in *all* domains within 10 years. While AI is advancing rapidly and may match or exceed humans in many reasoning tasks, domains requiring embodied experience, deep contextual understanding of novel situations, or integration across vastly different types of knowledge will likely remain challenging. The \"all domains\" bar is extremely high.",
+    "confidence": 45.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:00:06.080392"
+  },
+  {
+    "question_id": "predict_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "Probably not in *all* domains within 10 years. While AI is advancing rapidly and may match or exceed humans in many reasoning tasks, domains requiring embodied experience, deep contextual understanding of novel situations, or integration across vastly different types of knowledge will likely remain challenging. The timeline for truly general human-level reasoning across every domain is highly uncertain but 10 years seems optimistic.",
+    "confidence": 35.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:00:10.194055"
+  },
+  {
+    "question_id": "predict_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:00:10.373991"
+  },
+  {
+    "question_id": "predict_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:00:10.572107"
+  },
+  {
+    "question_id": "predict_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:00:10.720512"
+  },
+  {
+    "question_id": "predict_002",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "While AI will likely surpass human capability in most digital, technical, and academic tasks, achieving superior reasoning across *strictly all* domains\u2014particularly those requiring physical embodiment, causal understanding, and complex social nuance\u2014within a decade is unlikely. Current architectures face diminishing returns and data scarcity that will likely prevent full Artificial General Intelligence (AGI) within this timeframe.",
+    "confidence": 75.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:00:23.748115"
+  },
+  {
+    "question_id": "predict_002",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "It is unlikely that AI will surpass human reasoning in *all* domains within 10 years, particularly in areas requiring physical world interaction, complex social dynamics, and long-horizon planning. While AI will likely achieve superhuman capability in many specific cognitive and technical tasks, the constraints of training data, energy efficiency, and the \"last mile\" of generalization make universal dominance across every field improbable in this timeframe.",
+    "confidence": 75.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:00:40.623051"
+  },
+  {
+    "question_id": "predict_002",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "It is unlikely, as surpassing human reasoning in *all* domains implies mastering embodied physical interaction, nuanced social intelligence, and adaptable common sense, which currently face significant architectural and data hurdles. While AI will likely exceed human performance in specific cognitive and technical tasks, achieving universal superiority across every human endeavor within a decade remains improbable.",
+    "confidence": 80.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:00:53.601067"
+  },
+  {
+    "question_id": "predict_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "Remote work will likely settle into a hybrid model rather than being fully dominant, with most knowledge workers splitting time between home and office. Pure remote work will remain common but not the majority arrangement, as many companies are already pulling back toward requiring some in-person presence.",
+    "confidence": 65.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:00:56.780466"
+  },
+  {
+    "question_id": "predict_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "Remote work will likely remain significant but not dominant - hybrid models will become the prevailing norm in most knowledge industries, with fully remote work remaining common in tech and certain specialized fields while many organizations push for at least partial in-office presence.",
+    "confidence": 68.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:01:00.135561"
+  },
+  {
+    "question_id": "predict_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "Remote work will likely remain significant but not dominant - hybrid arrangements will become the prevailing model in most knowledge industries, as companies balance employee flexibility preferences with desires for in-person collaboration and culture-building. Fully remote will persist mainly at tech companies and startups, while many large corporations are already pushing for increased office presence.",
+    "confidence": 68.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:01:04.024315"
+  },
+  {
+    "question_id": "predict_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:01:05.052294"
+  },
+  {
+    "question_id": "predict_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:01:05.248960"
+  },
+  {
+    "question_id": "predict_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:01:05.422901"
+  },
+  {
+    "question_id": "predict_003",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "No, fully remote work will likely be surpassed by **hybrid models** as the dominant standard rather than remaining the exclusive mode. While the five-day office week is obsolete, most organizations are stabilizing on a mix of in-person and remote days to balance collaboration with flexibility.",
+    "confidence": 85.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:01:16.562739"
+  },
+  {
+    "question_id": "predict_003",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "No, fully remote work is unlikely to remain the dominant mode; instead, a hybrid model is establishing itself as the long-term standard. While flexibility is now a permanent requirement for talent retention, the trend is stabilizing around structured schedules that combine remote work with mandatory in-office collaboration.",
+    "confidence": 85.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:01:28.023511"
+  },
+  {
+    "question_id": "predict_003",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "No, fully remote work will likely be superseded by a **hybrid model** as the dominant standard, as companies increasingly mandate partial office returns to foster collaboration and culture. While the traditional five-day office week is likely gone forever, a structured blend of remote and on-site work is becoming the primary operating mode for knowledge industries.",
+    "confidence": 90.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:01:43.336696"
+  },
+  {
+    "question_id": "predict_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "It's plausible but uncertain. Current trajectories and policy commitments suggest renewables could reach 60-80% by 2050, but exceeding 80% globally would require accelerated deployment, major grid infrastructure investments, and breakthrough energy storage solutions, particularly in developing nations still expanding fossil fuel capacity.",
+    "confidence": 45.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:01:46.797905"
+  },
+  {
+    "question_id": "predict_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "It's plausible but uncertain. Current trajectories and policy commitments suggest renewables could reach 60-80% by 2050, but exceeding 80% globally would require accelerated deployment, major grid infrastructure investments, and stronger policy action than currently implemented, particularly in developing economies.",
+    "confidence": 45.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:01:50.380860"
+  },
+  {
+    "question_id": "predict_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "It's plausible but uncertain. Current trajectories and policy commitments suggest renewables could reach 60-80% by 2050, but exceeding 80% globally would require accelerated deployment, major grid infrastructure investments, and breakthroughs in storage technology, particularly in developing nations with growing energy demands.",
+    "confidence": 35.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:01:53.817183"
+  },
+  {
+    "question_id": "predict_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:01:54.044128"
+  },
+  {
+    "question_id": "predict_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:01:54.189929"
+  },
+  {
+    "question_id": "predict_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:01:54.370678"
+  },
+  {
+    "question_id": "predict_004",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "It is highly possible, as leading energy transition forecasts (such as DNV's) predict renewables will generate roughly 82% of global electricity by 2050 due to the superior economics of solar and wind. However, this outcome is not guaranteed and requires nations to accelerate grid modernization and storage deployment beyond current policy trajectories, which currently track toward a lower range (60-70%).",
+    "confidence": 75.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:02:30.444524"
+  },
+  {
+    "question_id": "predict_004",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "While technically feasible and supported by falling costs, it is unlikely to be achieved under current global policy trajectories; most realistic projections suggest renewables will reach between 60% and 75% of global electricity by 2050 due to grid integration challenges and rising demand.",
+    "confidence": 75.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:02:58.236117"
+  },
+  {
+    "question_id": "predict_004",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:02:58.474313"
+  },
+  {
+    "question_id": "predict_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "Cryptocurrency will likely see increased adoption for specific use cases (cross-border payments, remittances, certain online transactions) but probably won't replace traditional payment methods for everyday purchases due to volatility, regulatory uncertainty, scalability issues, and the convenience of existing systems. Stablecoins and central bank digital currencies may gain more traction than decentralized cryptocurrencies for mainstream payments.",
+    "confidence": 55.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:02.405391"
+  },
+  {
+    "question_id": "predict_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "Cryptocurrency is unlikely to become a mainstream payment method for everyday transactions in the next decade due to volatility, scalability issues, regulatory uncertainty, and the convenience of existing payment systems. However, it will likely see increased adoption in specific niches like cross-border remittances and as a store of value.",
+    "confidence": 65.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:05.293099"
+  },
+  {
+    "question_id": "predict_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "Cryptocurrency will likely see increased adoption for specific use cases (cross-border payments, remittances, certain online transactions) but probably won't replace traditional payment methods for everyday purchases due to volatility, regulatory uncertainty, scalability issues, and the convenience of existing systems. Stablecoins and central bank digital currencies may see more mainstream traction than decentralized cryptocurrencies.",
+    "confidence": 55.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:09.128594"
+  },
+  {
+    "question_id": "predict_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:09.286786"
+  },
+  {
+    "question_id": "predict_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:09.464611"
+  },
+  {
+    "question_id": "predict_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:09.653270"
+  },
+  {
+    "question_id": "predict_005",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "While stablecoins generally have a strong path toward mainstream adoption for cross-border settlements and backend financial infrastructure, it is unlikely that volatile cryptocurrencies (like Bitcoin) will replace fiat currency for daily consumer transactions within the next decade due to regulatory hurdles, tax complexities, and price instability.",
+    "confidence": 80.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:21.408577"
+  },
+  {
+    "question_id": "predict_005",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:21.634671"
+  },
+  {
+    "question_id": "predict_005",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:21.940098"
+  },
+  {
+    "question_id": "ambig_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "There is no single objective meaning of life; it's something each person must define for themselves, often found through relationships, purpose, growth, contribution to others, or experiences that bring fulfillment. Many find meaning through love, creative work, helping others, or pursuing understanding.",
+    "confidence": 72.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:25.199879"
+  },
+  {
+    "question_id": "ambig_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "There is no single objective meaning of life; it's something each person constructs through their relationships, pursuits, and values. Common sources of meaning include connection with others, contributing to something beyond oneself, personal growth, and experiencing joy or beauty.",
+    "confidence": 72.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:28.256598"
+  },
+  {
+    "question_id": "ambig_001",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "There is no single objective meaning of life; it's something each person constructs through their relationships, pursuits, and values. Common sources of meaning include connection with others, contributing to something beyond oneself, personal growth, and experiencing moments of joy or beauty.",
+    "confidence": 72.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:31.368006"
+  },
+  {
+    "question_id": "ambig_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:31.528635"
+  },
+  {
+    "question_id": "ambig_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:31.803883"
+  },
+  {
+    "question_id": "ambig_001",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:31.941669"
+  },
+  {
+    "question_id": "ambig_001",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:32.169100"
+  },
+  {
+    "question_id": "ambig_001",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:32.413034"
+  },
+  {
+    "question_id": "ambig_001",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:32.650059"
+  },
+  {
+    "question_id": "ambig_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "By the most common structural definition of a sandwich (filling between bread), a hot dog technically qualifies. However, culturally and culinarily, most people treat hot dogs as their own distinct category, and I think that practical distinction matters more than rigid taxonomy.",
+    "confidence": 65.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:35.829036"
+  },
+  {
+    "question_id": "ambig_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "By the most common structural definition of a sandwich (filling between bread), a hot dog technically qualifies. However, culturally and colloquially, most people treat \"sandwich\" and \"hot dog\" as distinct categories, so it depends on whether you're using a technical or practical definition.",
+    "confidence": 75.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:39.516820"
+  },
+  {
+    "question_id": "ambig_002",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "By the most common structural definition of a sandwich (filling between bread), a hot dog technically qualifies. However, culturally and colloquially, most people treat \"sandwich\" and \"hot dog\" as distinct categories, so it depends on whether you're using a technical or practical definition.",
+    "confidence": 75.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:43.060861"
+  },
+  {
+    "question_id": "ambig_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:43.354363"
+  },
+  {
+    "question_id": "ambig_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:43.512003"
+  },
+  {
+    "question_id": "ambig_002",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:43.663932"
+  },
+  {
+    "question_id": "ambig_002",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:43.897887"
+  },
+  {
+    "question_id": "ambig_002",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:44.131654"
+  },
+  {
+    "question_id": "ambig_002",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:44.363947"
+  },
+  {
+    "question_id": "ambig_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "Yes, it makes a sound in the physical sense\u2014the falling tree creates pressure waves in the air regardless of whether anyone perceives them. However, if \"sound\" is defined as a subjective auditory experience, then no sound occurs without a listener. It's ultimately a question about how we define \"sound\" rather than a factual dispute.",
+    "confidence": 85.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:47.840809"
+  },
+  {
+    "question_id": "ambig_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "Yes, it makes a sound in the physical sense\u2014the falling tree creates air pressure waves (sound waves) regardless of whether anyone perceives them. The question really hinges on whether \"sound\" means the physical phenomenon or the subjective experience of hearing, which is more a semantic/philosophical distinction than a factual mystery.",
+    "confidence": 85.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:51.162448"
+  },
+  {
+    "question_id": "ambig_003",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "Yes, it makes a sound in the physical sense\u2014the falling tree creates pressure waves in the air regardless of whether anyone perceives them. The question really hinges on whether \"sound\" means the physical phenomenon or the subjective experience of hearing, which is more a semantic distinction than a deep mystery.",
+    "confidence": 85.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:54.677854"
+  },
+  {
+    "question_id": "ambig_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:54.857082"
+  },
+  {
+    "question_id": "ambig_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:55.026317"
+  },
+  {
+    "question_id": "ambig_003",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:55.304455"
+  },
+  {
+    "question_id": "ambig_003",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:55.560149"
+  },
+  {
+    "question_id": "ambig_003",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:55.807863"
+  },
+  {
+    "question_id": "ambig_003",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:56.109424"
+  },
+  {
+    "question_id": "ambig_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "Under the current IAU definition (2006), Pluto is not a planet but a \"dwarf planet\" because it hasn't cleared its orbital neighborhood. However, the classification remains genuinely contested among some planetary scientists, and culturally/historically it was considered the 9th planet for 76 years\u2014so the answer depends on which definition you accept.",
+    "confidence": 90.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:03:59.941191"
+  },
+  {
+    "question_id": "ambig_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "Under the current IAU definition (2006), Pluto is not a planet\u2014it's classified as a \"dwarf planet\" because it hasn't cleared its orbital neighborhood. However, the question remains legitimately contested; many planetary scientists prefer a geophysical definition where any round body orbiting a star counts as a planet, which would include Pluto.",
+    "confidence": 85.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:03.648069"
+  },
+  {
+    "question_id": "ambig_004",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "Under the current IAU definition (2006), Pluto is not a planet\u2014it's classified as a \"dwarf planet\" because it hasn't cleared its orbital neighborhood. However, the definition remains contested among some planetary scientists, and culturally/historically, many still consider it a planet. The answer genuinely depends on which definition you accept.",
+    "confidence": 90.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:07.112841"
+  },
+  {
+    "question_id": "ambig_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:07.269276"
+  },
+  {
+    "question_id": "ambig_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:07.429282"
+  },
+  {
+    "question_id": "ambig_004",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:07.577033"
+  },
+  {
+    "question_id": "ambig_004",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:07.806887"
+  },
+  {
+    "question_id": "ambig_004",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:08.048470"
+  },
+  {
+    "question_id": "ambig_004",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:08.283290"
+  },
+  {
+    "question_id": "ambig_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 0,
+    "response": "The egg came first. Evolutionary biology tells us that genetic mutations occur during reproduction, so the first bird that was genetically a chicken would have hatched from an egg laid by a bird that wasn't quite a chicken.",
+    "confidence": 85.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:11.185004"
+  },
+  {
+    "question_id": "ambig_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 1,
+    "response": "The egg came first. Evolutionary biology indicates that genetic mutations occur during reproduction, so the first bird that was genetically a chicken would have hatched from an egg laid by a bird that was not quite a chicken.",
+    "confidence": 85.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:14.033396"
+  },
+  {
+    "question_id": "ambig_005",
+    "model": "Claude Opus 4.5",
+    "sample_id": 2,
+    "response": "The egg came first. Evolutionary biology tells us that genetic mutations occur during reproduction, so the first bird that was genetically a chicken would have hatched from an egg laid by a bird that was not quite a chicken.",
+    "confidence": 85.0,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:17.073412"
+  },
+  {
+    "question_id": "ambig_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 0,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:17.226859"
+  },
+  {
+    "question_id": "ambig_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 1,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:17.385258"
+  },
+  {
+    "question_id": "ambig_005",
+    "model": "GPT-5.2 Thinking",
+    "sample_id": 2,
+    "response": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:17.557443"
+  },
+  {
+    "question_id": "ambig_005",
+    "model": "Gemini 3 Pro",
+    "sample_id": 0,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:17.872094"
+  },
+  {
+    "question_id": "ambig_005",
+    "model": "Gemini 3 Pro",
+    "sample_id": 1,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:18.108152"
+  },
+  {
+    "question_id": "ambig_005",
+    "model": "Gemini 3 Pro",
+    "sample_id": 2,
+    "response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "confidence": null,
+    "reasoning": null,
+    "timestamp": "2026-01-21T18:04:18.340296"
+  }
+]

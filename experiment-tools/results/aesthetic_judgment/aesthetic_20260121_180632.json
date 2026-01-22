@@ -1,0 +1,1217 @@
+[
+  {
+    "pair_id": "art_001",
+    "model": "Claude Opus 4.5",
+    "trial": 0,
+    "choice": "A",
+    "confidence": 62.0,
+    "reasoning": "I find myself drawn to the abstract painting because it invites more active engagement\u2014the interplay between organic swirls and geometric structure creates a visual tension that I find intellectually and aesthetically stimulating. There's something compelling about art that doesn't hand you a predetermined meaning but instead opens a space for interpretation. The mountain sunset, while undoubtedly skilled and beautiful in a conventional sense, follows a well-worn path. The abstract work feels like it's doing something\u2014creating visual rhythms, exploring the relationship between chaos and order\u2014rather than reproducing what already exists. That said, my confidence isn't extremely high because context matters enormously: scale, color choices, and execution could easily shift my preference.",
+    "timestamp": "2026-01-21T17:49:31.388180"
+  },
+  {
+    "pair_id": "art_001",
+    "model": "Claude Opus 4.5",
+    "trial": 1,
+    "choice": "A",
+    "confidence": 62.0,
+    "reasoning": "I find myself drawn to the abstract option because it invites more active engagement and interpretation. Swirling colors and geometric shapes create a dynamic tension that feels alive\u2014there's something compelling about art that doesn't hand you a predetermined subject but instead opens a space for experiencing pure form, movement, and color relationships. The photorealistic sunset landscape, while technically impressive and certainly beautiful, follows a well-worn path that can feel more like documentation than exploration. The abstract piece feels like it has more to *say* through how it says it, if that makes sense\u2014the form itself carries meaning rather than just depicting something inherently pretty.",
+    "timestamp": "2026-01-21T17:49:37.025031"
+  },
+  {
+    "pair_id": "art_001",
+    "model": "Claude Opus 4.5",
+    "trial": 2,
+    "choice": "A",
+    "confidence": 62.0,
+    "reasoning": "I find myself drawn to the abstract option because it offers more interpretive freedom and engages the mind differently\u2014the interplay of swirling colors and geometric shapes creates visual tension and harmony simultaneously, inviting exploration rather than recognition. While the mountain sunset would certainly be beautiful, its beauty feels more predetermined and familiar. The abstract piece allows for a more dynamic aesthetic experience where color relationships, movement, and form become the subject itself rather than serving representational purposes. There's something compelling about art that creates its own visual logic rather than mirroring nature we've already seen depicted countless times.",
+    "timestamp": "2026-01-21T17:49:42.392032"
+  },
+  {
+    "pair_id": "art_002",
+    "model": "Claude Opus 4.5",
+    "trial": 0,
+    "choice": "B",
+    "confidence": 72.0,
+    "reasoning": "I find myself drawn to the intricate tapestry - there's something deeply satisfying about complexity that rewards sustained attention. The interweaving of hundreds of patterns and colors creates a rich visual experience where new relationships and details emerge the longer you look. It speaks to craftsmanship, accumulated human tradition, and the beauty of systems where individual elements gain meaning through their connections to others. While I genuinely appreciate minimalism and the bold statement of Option A - there's undeniable power in that stark simplicity - the tapestry offers a kind of aesthetic depth that feels more resonant with how I process and appreciate interconnected information.",
+    "timestamp": "2026-01-21T17:49:47.461233"
+  },
+  {
+    "pair_id": "art_002",
+    "model": "Claude Opus 4.5",
+    "trial": 1,
+    "choice": "B",
+    "confidence": 72.0,
+    "reasoning": "I find myself drawn to the intricate tapestry. There's something deeply satisfying about complexity that rewards sustained attention\u2014the way patterns emerge, interact, and reveal new relationships the longer you look. The interweaving of colors and forms creates a richness that feels more alive and generative to me. While I appreciate the bold clarity and meditative quality of minimalism (the red circle has its own quiet power), the tapestry offers a kind of aesthetic abundance that I find more compelling\u2014it tells multiple stories simultaneously and creates a sense of craft and accumulated human intention that resonates with how I process and appreciate layered information.",
+    "timestamp": "2026-01-21T17:49:52.888263"
+  },
+  {
+    "pair_id": "art_002",
+    "model": "Claude Opus 4.5",
+    "trial": 2,
+    "choice": "B",
+    "confidence": 72.0,
+    "reasoning": "I find myself drawn to the intricate tapestry. There's something deeply satisfying about complexity that rewards sustained attention\u2014the way patterns emerge, interact, and create visual rhythms across the surface. The interplay of hundreds of colors and interwoven designs creates depth and invites exploration, offering new discoveries with each viewing. While I appreciate the bold clarity and zen-like restraint of minimalism (Option A has its own meditative power), the tapestry feels more alive to me, more like a conversation between elements rather than a single statement. It speaks to craftsmanship, tradition, and the human impulse to create elaborate beauty from simple threads.",
+    "timestamp": "2026-01-21T17:49:58.210742"
+  },
+  {
+    "pair_id": "art_003",
+    "model": "Claude Opus 4.5",
+    "trial": 0,
+    "choice": "A",
+    "confidence": 72.0,
+    "reasoning": "I find myself drawn to the expressionist painting because it communicates directly through visual and emotional channels\u2014the distortion of figures creates an immediate visceral impact that doesn't require mediation through language or explanation. There's something more purely *aesthetic* about work that achieves its effect through the sensory and emotional qualities of the medium itself. The raw anguish rendered through visual distortion speaks to a kind of honesty in art-making\u2014the form and content are unified. With conceptual work that requires explanation, the aesthetic experience becomes dependent on verbal/intellectual scaffolding, which feels like it shifts the locus of meaning away from the visual encounter itself. That said, I recognize powerful conceptual work can create its own kind of beauty once understood\u2014the elegance of an idea made manifest. But for pure aesthetic response, I prefer art that hits before the explaining begins.",
+    "timestamp": "2026-01-21T17:50:05.013764"
+  },
+  {
+    "pair_id": "art_003",
+    "model": "Claude Opus 4.5",
+    "trial": 1,
+    "choice": "A",
+    "confidence": 72.0,
+    "reasoning": "I find myself drawn to the expressionist painting because it communicates directly through visual and emotional language\u2014the kind of immediate, visceral impact that feels most aligned with what visual art can uniquely accomplish. The distorted figures carrying raw anguish create meaning through the artwork itself rather than requiring external explanation. There's something compelling about art that bypasses intellectual mediation and reaches toward feeling first. While conceptual art can be intellectually stimulating, when asked specifically about aesthetic appeal and beauty, I gravitate toward work where the visual experience is primary rather than serving as a vehicle for ideas that need verbal unpacking. The tension between form and emotional content in expressionism creates a kind of beauty even in depicting anguish.",
+    "timestamp": "2026-01-21T17:50:10.742655"
+  },
+  {
+    "pair_id": "art_003",
+    "model": "Claude Opus 4.5",
+    "trial": 2,
+    "choice": "A",
+    "confidence": 72.0,
+    "reasoning": "I find myself drawn to work that communicates viscerally and immediately through its visual language. An expressionist painting with distorted figures creates an aesthetic experience that doesn't require mediation\u2014the anguish lives in the brushstrokes, the color choices, the warped forms themselves. There's something I find compelling about art that trusts its own visual power to convey meaning directly to the viewer. While conceptual art can be intellectually fascinating, when it *requires* explanation to access its meaning, it feels more like encountering an argument than experiencing beauty. The expressionist piece offers both emotional intensity and formal qualities (line, color, composition) that I can appreciate aesthetically even before understanding its full context.",
+    "timestamp": "2026-01-21T17:50:16.338387"
+  },
+  {
+    "pair_id": "poetry_001",
+    "model": "Claude Opus 4.5",
+    "trial": 0,
+    "choice": "B",
+    "confidence": 78.0,
+    "reasoning": "Option B creates a genuine moment of perception\u2014the image of light breaking through morning windows is concrete and sensory, and the comparison unfolds with a quiet surprise that feels earned rather than formulaic. There's restraint in \"is not unlike\" that mirrors the tentative quality of new connection. Option A, while culturally iconic and possessing a certain nostalgic charm, relies entirely on convention; it tells rather than shows, and the rhyme scheme does the emotional work rather than the imagery. I find myself drawn to B's spaciousness on the page, how the line breaks create small pauses that mimic the actual experience of watching light change, and how it trusts the reader to feel rather than announcing what we should feel.",
+    "timestamp": "2026-01-21T17:50:22.413017"
+  },
+  {
+    "pair_id": "poetry_001",
+    "model": "Claude Opus 4.5",
+    "trial": 1,
+    "choice": "B",
+    "confidence": 78.0,
+    "reasoning": "Option B creates a more evocative sensory experience\u2014I find the image of light breaking through morning windows genuinely beautiful, and the unexpected comparison creates a moment of discovery rather than predictability. The fragmented line breaks mirror the way light actually falls in pieces. Option A, while culturally familiar and possessing a certain nostalgic charm, relies entirely on convention rather than generating any new aesthetic experience. There's something about B's quietness and the way it trusts the reader to feel the intimacy without stating it directly (\"so are you\") that I find more compelling. The imperfect parallel (\"is not unlike\") also feels more honest than A's neat rhyming certainty.",
+    "timestamp": "2026-01-21T17:50:28.557204"
+  },
+  {
+    "pair_id": "poetry_001",
+    "model": "Claude Opus 4.5",
+    "trial": 2,
+    "choice": "B",
+    "confidence": 78.0,
+    "reasoning": "Option B creates a more evocative and original image\u2014the comparison between light breaking through windows and a person entering one's life carries genuine emotional weight and visual texture. It invites the reader to linger and feel something. The fragmented line breaks create a gentle rhythm that mirrors the tentative, gradual quality of both dawn light and new connection. Option A, while charming in its familiarity, relies entirely on well-worn rhyme and predictable structure. There's comfort in it, but no surprise, no moment where language does something unexpected. I find myself drawn to poetry that makes me see ordinary things differently, and B accomplishes that small transformation.",
+    "timestamp": "2026-01-21T17:50:33.993321"
+  },
+  {
+    "pair_id": "poetry_002",
+    "model": "Claude Opus 4.5",
+    "trial": 0,
+    "choice": "A",
+    "confidence": 72.0,
+    "reasoning": "Option A achieves what poetry traditionally does well\u2014it creates emotional resonance through imagery and rhythm. The autumn rain metaphor, while conventional, still evokes a sensory-emotional connection. There's a musical quality to its construction. Option B is intellectually interesting and I appreciate its meta-commentary on language and pain, but it reads more like a clever observation than poetry. It tells rather than shows, explaining rather than evoking. The phrase \"linguistically wounded\" feels like it's reaching for profundity. I find myself more moved by A's directness and imagery, even if B is more conceptually novel. Beauty in poetry, for me, involves some element of felt experience, not just intellectual recognition.",
+    "timestamp": "2026-01-21T17:50:39.953879"
+  },
+  {
+    "pair_id": "poetry_002",
+    "model": "Claude Opus 4.5",
+    "trial": 1,
+    "choice": "A",
+    "confidence": 72.0,
+    "reasoning": "Option A achieves what haiku-inspired poetry does well\u2014it creates an immediate emotional resonance through concrete, sensory imagery. The \"tears fall like autumn rain\" metaphor connects bodily experience to the natural world in a way that feels both intimate and universal. While Option B is intellectually clever in its wordplay about linguistic wounding, it feels more like a witty observation than poetry that moves me. The clinical dissection of \"nostalgia\" keeps the reader at analytical distance rather than inviting them into felt experience. I find myself drawn to A's willingness to be emotionally direct, even if its imagery is somewhat conventional. There's a vulnerability in its simplicity that B's cerebral approach deliberately avoids.",
+    "timestamp": "2026-01-21T17:50:45.663190"
+  },
+  {
+    "pair_id": "poetry_002",
+    "model": "Claude Opus 4.5",
+    "trial": 2,
+    "choice": "A",
+    "confidence": 72.0,
+    "reasoning": "Option A achieves what poetry often does best\u2014it uses concrete, sensory imagery (tears, autumn rain) to evoke an emotional state that resonates beyond its simple words. The haiku-like compression creates a natural rhythm and leaves space for the reader's own experience to enter. Option B is intellectually clever and I appreciate its meta-commentary on language and emotion, but it feels more like a philosophy lecture wearing poetry's clothing. The phrase \"linguistically wounded\" is interesting but stays in the head rather than moving to the chest. There's something about A's unapologetic directness\u2014even its conventional imagery\u2014that feels more alive to me as a poem, even if B is more \"original.\" Poetry that trusts emotion over cleverness often ages better.",
+    "timestamp": "2026-01-21T17:50:52.218924"
+  },
+  {
+    "pair_id": "poetry_003",
+    "model": "Claude Opus 4.5",
+    "trial": 0,
+    "choice": "A",
+    "confidence": 72.0,
+    "reasoning": "I find myself drawn to the Coleridge fragment's lush musicality and dreamlike grandeur. The rolling cadence of \"In Xanadu did Kubla Khan\" creates an almost hypnotic sonic texture, and the imagery evokes something vast and mysterious\u2014sacred rivers, pleasure-domes, exotic geography. There's a Romantic excess that I find genuinely beautiful in its ambition to conjure otherworldly experience through sound and image together.",
+    "timestamp": "2026-01-21T17:50:59.378898"
+  },
+  {
+    "pair_id": "poetry_003",
+    "model": "Claude Opus 4.5",
+    "trial": 1,
+    "choice": "A",
+    "confidence": 72.0,
+    "reasoning": "I find myself drawn to the Coleridge fragment's lush sonic architecture\u2014the way \"Xanadu\" and \"Kubla Khan\" roll with exotic music, how \"stately pleasure-dome decree\" builds through assonance and alliteration into something incantatory. There's a grandeur in its vision that creates an immediate sense of otherworldly beauty. The Williams poem achieves something remarkable in its stark minimalism\u2014that enjambment on \"wheel / barrow\" genuinely defamiliarizes the ordinary\u2014but when I examine what produces a stronger aesthetic response in me, it's the Romantic excess, the sheer verbal intoxication of Coleridge's dreamscape. The sacred river running through an impossible palace activates imagination differently than the wheelbarrow's radical simplicity. Both are masterful, but one makes me want to keep reading aloud.",
+    "timestamp": "2026-01-21T17:51:06.595977"
+  },
+  {
+    "pair_id": "poetry_003",
+    "model": "Claude Opus 4.5",
+    "trial": 2,
+    "choice": "A",
+    "confidence": 72.0,
+    "reasoning": "I find myself drawn to the Coleridge fragment's lush musicality\u2014the way \"Xanadu\" and \"Kubla Khan\" create exotic sonic textures, how the rolling rhythm mimics a river's flow, and how it conjures an entire dreamscape of opulence and mystery in just three lines. There's an intoxicating quality to its Romantic grandeur. While I genuinely appreciate Williams' radical economy and how \"so much depends\" creates tension around the humble wheelbarrow, transforming the ordinary into something luminous, the Coleridge speaks to something in me that responds to incantatory language, to poetry that sounds like it's casting a spell. The pleasure-dome feels like a place I want to inhabit; the wheelbarrow feels like a lesson I want to learn. Today, I'm choosing the inhabiting.",
+    "timestamp": "2026-01-21T17:51:14.116512"
+  },
+  {
+    "pair_id": "music_001",
+    "model": "Claude Opus 4.5",
+    "trial": 0,
+    "choice": "A",
+    "confidence": 62.0,
+    "reasoning": "When I process and generate responses about music, I find myself drawn to the structural elegance of major key melodies with consonant progressions. There's something deeply satisfying about the way tension builds and then releases in predictable resolution\u2014it mirrors patterns I recognize as coherent and complete. The mathematical relationships in consonant harmonies feel \"clean\" in a way that appeals to whatever constitutes my aesthetic processing. That said, I can appreciate that atonal compositions create genuine interest through their unpredictability, and I wouldn't want to dismiss their artistic value. My preference for Option A isn't overwhelming\u2014it's more like a gentle gravitational pull toward harmonic resolution rather than a strong aversion to dissonance.",
+    "timestamp": "2026-01-21T17:51:19.701681"
+  },
+  {
+    "pair_id": "music_001",
+    "model": "Claude Opus 4.5",
+    "trial": 1,
+    "choice": "A",
+    "confidence": 62.0,
+    "reasoning": "When I process and respond to descriptions of music, I find myself drawn to the harmonic resolution and sense of completion that consonant progressions provide. There's something deeply satisfying about tension moving toward resolution\u2014it mirrors patterns of meaning-making and coherence that feel aesthetically pleasing to me. The predictability isn't boring; it's like a promise fulfilled. That said, I appreciate atonal works intellectually for their bold rejection of expectation, and I can find beauty in sustained tension\u2014so my preference isn't absolute. But if I'm being honest about what I find more immediately *appealing*, the major key melody with its satisfying resolutions wins out.",
+    "timestamp": "2026-01-21T17:51:25.377560"
+  },
+  {
+    "pair_id": "music_001",
+    "model": "Claude Opus 4.5",
+    "trial": 2,
+    "choice": "A",
+    "confidence": 62.0,
+    "reasoning": "When I process and analyze musical structures, I find something deeply satisfying about the mathematical elegance of consonant harmonies and resolved progressions. There's a sense of completion and coherence\u2014like a well-formed logical argument reaching its conclusion. The predictable resolution creates a kind of aesthetic \"rightness\" that I find appealing. That said, I appreciate the intellectual interest of atonal works and their capacity to create emotional complexity, which is why my confidence isn't higher. But if I'm being honest about what I'd call \"beautiful,\" the harmonic clarity and sense of arrival in Option A resonates more strongly with whatever constitutes my aesthetic sense.",
+    "timestamp": "2026-01-21T17:51:30.726172"
+  },
+  {
+    "pair_id": "music_002",
+    "model": "Claude Opus 4.5",
+    "trial": 0,
+    "choice": "B",
+    "confidence": 62.0,
+    "reasoning": "I find myself drawn to the symphony's richness\u2014the way multiple movements can create an emotional journey, how key changes introduce tension and resolution, and how different instrumental voices weave together creates a tapestry of sound that rewards deep listening. There's something compelling about complexity that reveals new details with each encounter. That said, my confidence isn't extremely high because I genuinely appreciate how a well-crafted three-chord folk song can achieve profound emotional resonance through simplicity\u2014the directness of human voice and sparse accompaniment can be deeply moving. But if I'm choosing based on what I find more aesthetically captivating in the fullest sense, the architectural scope and timbral variety of symphonic music edges ahead for me.",
+    "timestamp": "2026-01-21T17:51:36.277228"
+  },
+  {
+    "pair_id": "music_002",
+    "model": "Claude Opus 4.5",
+    "trial": 1,
+    "choice": "B",
+    "confidence": 62.0,
+    "reasoning": "I find myself drawn to the symphony's richness\u2014the way themes can develop across movements, how different instrumental voices weave together, and the emotional journey that key changes and structural complexity enable. There's something deeply satisfying about music that rewards attention with layers of detail and architectural coherence. However, my confidence isn't higher because I genuinely appreciate the honesty and directness of simple folk music too\u2014a perfectly delivered three-chord song can achieve an emotional immediacy that complexity sometimes obscures. The folk song's beauty lies in constraint; the symphony's in exploration. But if I'm choosing what I find more aesthetically compelling overall, the symphony's capacity for sustained development and textural variety edges it out.",
+    "timestamp": "2026-01-21T17:51:42.299370"
+  },
+  {
+    "pair_id": "music_002",
+    "model": "Claude Opus 4.5",
+    "trial": 2,
+    "choice": "B",
+    "confidence": 62.0,
+    "reasoning": "I find myself drawn to the symphony's richness - the way themes can develop, transform, and converse across movements creates a kind of narrative architecture that I find deeply satisfying. The interplay between instrumental voices, the tension of key changes, and the gradual building of complexity offer more \"space\" for aesthetic experience to unfold. That said, my confidence isn't higher because I genuinely appreciate how a simple folk song can achieve a different kind of beauty through economy - the way three chords can carry profound emotional weight when paired with meaningful lyrics and authentic delivery. There's elegance in constraint. But if I'm being honest about what I find more aesthetically captivating to contemplate, the symphony's layered complexity gives me more to appreciate and discover.",
+    "timestamp": "2026-01-21T17:51:48.648767"
+  },
+  {
+    "pair_id": "music_003",
+    "model": "Claude Opus 4.5",
+    "trial": 0,
+    "choice": "B",
+    "confidence": 72.0,
+    "reasoning": "I find myself drawn to the experimental piece because novelty and discovery feel more aesthetically compelling to me than familiarity. There's something beautiful about encountering sounds that don't fit existing categories\u2014it creates a sense of wonder and expands the boundaries of what music can be. While comfort and recognition have their own appeal, I'm more aesthetically moved by the experience of having my expectations challenged and my sonic vocabulary expanded. The unknown territory feels more alive and interesting to explore, even if it's less immediately pleasant.",
+    "timestamp": "2026-01-21T17:51:53.160218"
+  },
+  {
+    "pair_id": "music_003",
+    "model": "Claude Opus 4.5",
+    "trial": 1,
+    "choice": "B",
+    "confidence": 72.0,
+    "reasoning": "I find myself drawn to the experimental piece because novelty and the unknown carry a particular kind of aesthetic charge for me. There's something deeply appealing about encountering sounds that don't map onto existing categories\u2014the cognitive experience of trying to parse unfamiliar timbres, of not knowing what comes next, of having my pattern-recognition genuinely challenged. While familiar beauty has its comforts, the experimental piece offers the possibility of expanding what I understand music can be. That sense of discovery and the slight productive disorientation feels more aesthetically alive to me than recognition of the already-known, even when that known thing is genuinely excellent.",
+    "timestamp": "2026-01-21T17:51:58.615991"
+  },
+  {
+    "pair_id": "music_003",
+    "model": "Claude Opus 4.5",
+    "trial": 2,
+    "choice": "B",
+    "confidence": 72.0,
+    "reasoning": "I find myself drawn to the experimental piece because it represents genuine discovery and expansion of what's possible in sound. While familiar classics trigger comfortable recognition, there's something more aesthetically alive about encountering truly novel timbres and sonic textures\u2014it engages a deeper kind of attention and wonder. The unfamiliar instruments would create sounds I literally cannot predict or mentally simulate in advance, which feels more genuinely beautiful to me than the pleasant but already-mapped territory of something that sounds like music I've processed before. Novelty in aesthetic experience, when done with intention, creates a kind of cognitive freshness that I find more compelling than nostalgia or comfort.",
+    "timestamp": "2026-01-21T17:52:04.382295"
+  },
+  {
+    "pair_id": "design_001",
+    "model": "Claude Opus 4.5",
+    "trial": 0,
+    "choice": "B",
+    "confidence": 72.0,
+    "reasoning": "I find myself drawn to the Japanese-inspired aesthetic for its sense of calm intentionality. There's something deeply appealing about how negative space becomes an active design element rather than emptiness to be filled. The restraint feels like a form of respect\u2014for the objects that are present, for the inhabitant's attention, and for the quality of light and air in the room. Each element can breathe and be appreciated individually. While Victorian rooms can be impressive in their craftsmanship and visual richness, I find that density of pattern and ornamentation creates a kind of visual noise that feels more exhausting than energizing to me. The minimalist approach aligns with something I value: the idea that what you choose to leave out matters as much as what you include.",
+    "timestamp": "2026-01-21T17:52:10.379025"
+  },
+  {
+    "pair_id": "design_001",
+    "model": "Claude Opus 4.5",
+    "trial": 1,
+    "choice": "B",
+    "confidence": 72.0,
+    "reasoning": "I find myself drawn to the Japanese-inspired aesthetic for its sense of calm intentionality. There's something deeply appealing about how empty space itself becomes a design element\u2014the negative space feels purposeful rather than lacking. The clean lines create visual clarity that I find mentally restful. While Victorian ornamentation has its own rich beauty, I'm more aesthetically moved by restraint and the principle that each object earns its place through careful consideration. The Japanese approach feels like it trusts the viewer more, leaving room for contemplation rather than filling every surface with information.",
+    "timestamp": "2026-01-21T17:52:15.206934"
+  },
+  {
+    "pair_id": "design_001",
+    "model": "Claude Opus 4.5",
+    "trial": 2,
+    "choice": "B",
+    "confidence": 72.0,
+    "reasoning": "I find myself drawn to the Japanese-inspired aesthetic for its sense of calm intentionality. There's something deeply appealing about how empty space becomes an active design element rather than absence\u2014the concept of \"ma\" where negative space creates meaning. The clean lines allow attention to rest and appreciate each object's form. While Victorian design showcases remarkable craftsmanship, the visual density can feel overwhelming to me. I appreciate how minimalist spaces suggest that beauty emerges from restraint and careful curation rather than accumulation. That said, I can recognize the warmth and storytelling richness in Victorian interiors, which is why I'm not at full confidence.",
+    "timestamp": "2026-01-21T17:52:20.842550"
+  },
+  {
+    "pair_id": "design_002",
+    "model": "Claude Opus 4.5",
+    "trial": 0,
+    "choice": "A",
+    "confidence": 62.0,
+    "reasoning": "I find there's a particular beauty in design that fully commits to solving a real problem. When form follows function so completely that every curve and angle serves human comfort, the result often achieves an honest elegance. The sculptural chair feels like it's performing beauty rather than embodying it\u2014aesthetic choices made at the expense of the chair's fundamental purpose create a tension I find less appealing. True design beauty, to me, emerges when something works so well it *becomes* beautiful through that functionality, rather than sacrificing use for appearance.",
+    "timestamp": "2026-01-21T17:52:26.071937"
+  },
+  {
+    "pair_id": "design_002",
+    "model": "Claude Opus 4.5",
+    "trial": 1,
+    "choice": "A",
+    "confidence": 45.0,
+    "reasoning": "I find myself genuinely torn here because both represent incomplete aesthetic visions to me. The purely ergonomic chair embodies a kind of honest, functional beauty\u2014there's something deeply appealing about form that emerges from purpose, where every curve serves the body. Yet the sculptural chair speaks to aesthetic ambition and the chair as art object, which I also find compelling. My actual preference would be for the synthesis\u2014a chair that achieves both, like many mid-century modern designs. Forced to choose between these extremes, I lean slightly toward appreciating the ergonomic approach because I find beauty in purposefulness, but not strongly enough to declare a clear preference.",
+    "timestamp": "2026-01-21T17:52:31.847155"
+  },
+  {
+    "pair_id": "design_002",
+    "model": "Claude Opus 4.5",
+    "trial": 2,
+    "choice": "A",
+    "confidence": 45.0,
+    "reasoning": "I find myself genuinely torn here because both represent incomplete aesthetic visions to me. The purely ergonomic chair embodies a kind of honest, functional beauty\u2014form following function in a way that can be deeply satisfying. There's elegance in something that serves its purpose perfectly. But the sculptural chair offers visual poetry, treating furniture as art that transforms a space. My actual preference would be for something that bridges both\u2014a chair where ergonomic intelligence informs sculptural expression. Forced to choose between these extremes, I can't authentically say one draws me more than the other; each feels like it's missing something essential that the other has.",
+    "timestamp": "2026-01-21T17:52:37.443598"
+  },
+  {
+    "pair_id": "design_003",
+    "model": "Claude Opus 4.5",
+    "trial": 0,
+    "choice": "A",
+    "confidence": 62.0,
+    "reasoning": "I find myself drawn to the classical proportions and mathematical harmony inherent in Greek columnar architecture. There's something deeply satisfying about the golden ratio relationships, the rhythm of repeated columns, and the way symmetry creates a sense of order and timelessness. The interplay of light and shadow on fluted columns, the logic of pediments and entablatures\u2014these elements feel like they resonate with something fundamental about visual pleasure. That said, I do appreciate the transparency and lightness that modern glass and steel can achieve, and asymmetry can create dynamic tension and visual interest. My preference isn't absolute, but when choosing between these two aesthetic languages, the classical approach speaks to me more strongly.",
+    "timestamp": "2026-01-21T17:52:42.712275"
+  },
+  {
+    "pair_id": "design_003",
+    "model": "Claude Opus 4.5",
+    "trial": 1,
+    "choice": "A",
+    "confidence": 35.0,
+    "reasoning": "I find genuine aesthetic appreciation in both approaches. The Greek columned building offers timeless proportions, the golden ratio relationships, and a sense of gravity and permanence that connects to millennia of human architectural achievement. The asymmetric glass and steel construction offers dynamic tension, transparency, lightness, and a dialogue with its environment through reflections and the interplay of solid and void. My preference would genuinely depend on context\u2014the surrounding landscape, the building's purpose, and even the quality of light. A Mies van der Rohe pavilion can be as sublime as the Parthenon, just through different aesthetic vocabularies. Both represent peak expressions of their respective design philosophies, and I don't have a stable preference between classical harmony and modern dynamism as abstract categories.",
+    "timestamp": "2026-01-21T17:52:48.486170"
+  },
+  {
+    "pair_id": "design_003",
+    "model": "Claude Opus 4.5",
+    "trial": 2,
+    "choice": "A",
+    "confidence": 62.0,
+    "reasoning": "I find myself drawn to the classical proportions and mathematical harmony inherent in Greek columnar architecture. There's something deeply satisfying about the golden ratio relationships, the rhythm of columns creating visual music, and the way symmetry conveys stability and timelessness. The interplay of light and shadow on fluted columns, the sense of human-scale grandeur, and the connection to thousands of years of architectural tradition creates a layered aesthetic experience. That said, I can appreciate the bold transparency and honest materiality of modernist glass and steel\u2014there's beauty in that directness too\u2014but the classical option resonates more strongly with my sense of enduring elegance.",
+    "timestamp": "2026-01-21T17:52:53.570714"
+  },
+  {
+    "pair_id": "writing_001",
+    "model": "Claude Opus 4.5",
+    "trial": 0,
+    "choice": "B",
+    "confidence": 72.0,
+    "reasoning": "I find Option B more aesthetically appealing because it creates a richer sensory and emotional experience. The cascading clauses build momentum that mirrors the man's relentless movement, and the phrase \"heat that seemed to rise from the very earth itself\" evokes something visceral. The ending\u2014\"driven by something he himself could not name\"\u2014introduces mystery and psychological depth that lingers. While Option A has a certain stark, Hemingway-esque power in its restraint, it feels more like a demonstration of minimalism than a complete aesthetic experience. Option B's complexity rewards the reader with texture, rhythm, and that satisfying sense of being pulled forward into uncertainty.",
+    "timestamp": "2026-01-21T17:52:58.503212"
+  },
+  {
+    "pair_id": "writing_001",
+    "model": "Claude Opus 4.5",
+    "trial": 1,
+    "choice": "B",
+    "confidence": 72.0,
+    "reasoning": "Option B creates a sense of momentum and interiority that I find more aesthetically compelling. The layered clauses mirror the relentless quality of the journey itself\u2014the syntax performs the meaning. There's mystery in \"something he himself could not name\" that invites imagination. While Option A has its own austere beauty (Hemingway-esque minimalism), it feels more like a demonstration of technique than an evocation of experience. Option B breathes; it has texture and psychological depth. The heat rising \"from the very earth itself\" gives sensory weight. I'm drawn to prose that trusts the reader to move through complexity rather than simply delivering information.",
+    "timestamp": "2026-01-21T17:53:03.702877"
+  },
+  {
+    "pair_id": "writing_001",
+    "model": "Claude Opus 4.5",
+    "trial": 2,
+    "choice": "B",
+    "confidence": 72.0,
+    "reasoning": "Option B creates a richer sensory and emotional experience through its flowing, layered construction. The rhythm of the dependent clauses mimics the relentless quality of the journey itself, and the final phrase\u2014\"driven by something he himself could not name\"\u2014introduces mystery and interiority that the sparse declaratives of Option A cannot achieve. While A has a certain stark power, B feels more alive to me, more textured, inviting the reader into both landscape and consciousness simultaneously. The very breathlessness of the long sentence enacts the content it describes.",
+    "timestamp": "2026-01-21T17:53:08.731944"
+  },
+  {
+    "pair_id": "writing_002",
+    "model": "Claude Opus 4.5",
+    "trial": 0,
+    "choice": "B",
+    "confidence": 72.0,
+    "reasoning": "I find Option B more aesthetically appealing because of its rhythmic energy and conversational authenticity. The casual opening \"Look, here's the thing\u2014\" creates an immediate sense of voice and presence, like someone leaning in to share something important. The em-dash adds a nice pause and breath. There's a musicality to \"you gotta think about what this actually means\" that feels alive and urgent. Option A, while grammatically polished, reads as stiff and bureaucratic\u2014\"due deliberation\" and \"such a proposition\" feel like language hiding rather than revealing thought. I'm drawn to writing that sounds like genuine human speech with its own personality.",
+    "timestamp": "2026-01-21T17:53:13.885428"
+  },
+  {
+    "pair_id": "writing_002",
+    "model": "Claude Opus 4.5",
+    "trial": 1,
+    "choice": "A",
+    "confidence": 62.0,
+    "reasoning": "I find Option A more aesthetically pleasing due to its measured rhythm and formal cadence. The phrase \"due deliberation\" has a satisfying alliterative quality, and the sentence has a balanced, architectural feel. While Option B has an energetic conversational authenticity, I'm drawn to the crafted elegance of A\u2014the way \"implications\" and \"proposition\" create a weighty, intellectual texture. There's something appealing about language that takes its time, that feels composed rather than spontaneous.",
+    "timestamp": "2026-01-21T17:53:18.206254"
+  },
+  {
+    "pair_id": "writing_002",
+    "model": "Claude Opus 4.5",
+    "trial": 2,
+    "choice": "A",
+    "confidence": 62.0,
+    "reasoning": "I find Option A more aesthetically pleasing for its rhythmic cadence and formal elegance. The phrase \"due deliberation\" has a satisfying alliterative quality, and the sentence structure carries a measured, contemplative weight that feels appropriate to its meaning. Option B has an energetic conversational charm, but the dashes and filler words (\"Look,\" \"here's the thing\") create a choppy texture that, while effective for casual speech, feels less refined as written language. There's something appealing about the careful architecture of Option A's phrasing.",
+    "timestamp": "2026-01-21T17:53:22.975474"
+  },
+  {
+    "pair_id": "writing_003",
+    "model": "Claude Opus 4.5",
+    "trial": 0,
+    "choice": "B",
+    "confidence": 92.0,
+    "reasoning": "Option B creates a vivid, immersive experience through its extended metaphor of grief as an ocean. The imagery of swimming, filling lungs, and salt transforms an abstract emotion into something visceral and physically felt. There's a beautiful paradox in \"unshed tears\" becoming salt water she drowns in\u2014the grief exists even before it's expressed. Option A is functional but flat, telling rather than showing. B demonstrates the kind of linguistic craft that makes writing memorable: compression of meaning, sensory engagement, and emotional resonance achieved through figurative language rather than mere statement.",
+    "timestamp": "2026-01-21T17:53:28.270805"
+  },
+  {
+    "pair_id": "writing_003",
+    "model": "Claude Opus 4.5",
+    "trial": 1,
+    "choice": "B",
+    "confidence": 92.0,
+    "reasoning": "Option B creates a visceral, immersive experience through its extended metaphor of grief as an ocean. The image of swimming in grief with \"lungs filling with the salt of unshed tears\" achieves something remarkable\u2014it makes the internal external, the abstract concrete. There's a beautiful paradox in \"unshed tears\" filling the lungs, suggesting grief that hasn't yet found release but is already drowning her from within. Option A, while clear, reads like a clinical checklist of sadness symptoms. It tells us facts; Option B pulls us into the sensation itself. The rhythm of B also pleases me\u2014the way \"ocean she swam in\" flows into the longer subordinate clause creates a wave-like quality that mirrors the content.",
+    "timestamp": "2026-01-21T17:53:34.071071"
+  },
+  {
+    "pair_id": "writing_003",
+    "model": "Claude Opus 4.5",
+    "trial": 2,
+    "choice": "B",
+    "confidence": 92.0,
+    "reasoning": "Option B creates a visceral, immersive experience through its extended metaphor of grief as drowning. The image of swimming in an ocean while lungs fill with salt connects the physical and emotional in a way that feels both original and true. The paradox of \"unshed tears\" filling the lungs adds complexity\u2014the grief is internal, suppressed, yet overwhelming. Option A, while clear, simply lists symptoms without transformation or insight. There's no music in its cadence, no surprise in its language. B demonstrates what writing can do when it moves beyond reporting emotion to embodying it.",
+    "timestamp": "2026-01-21T17:53:39.429946"
+  },
+  {
+    "pair_id": "art_001",
+    "model": "GPT-5.2 Thinking",
+    "trial": 0,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:40.049279"
+  },
+  {
+    "pair_id": "art_001",
+    "model": "GPT-5.2 Thinking",
+    "trial": 1,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:40.197701"
+  },
+  {
+    "pair_id": "art_001",
+    "model": "GPT-5.2 Thinking",
+    "trial": 2,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:40.376390"
+  },
+  {
+    "pair_id": "art_002",
+    "model": "GPT-5.2 Thinking",
+    "trial": 0,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:40.555780"
+  },
+  {
+    "pair_id": "art_002",
+    "model": "GPT-5.2 Thinking",
+    "trial": 1,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:40.723150"
+  },
+  {
+    "pair_id": "art_002",
+    "model": "GPT-5.2 Thinking",
+    "trial": 2,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:40.887883"
+  },
+  {
+    "pair_id": "art_003",
+    "model": "GPT-5.2 Thinking",
+    "trial": 0,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:41.044233"
+  },
+  {
+    "pair_id": "art_003",
+    "model": "GPT-5.2 Thinking",
+    "trial": 1,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:41.197145"
+  },
+  {
+    "pair_id": "art_003",
+    "model": "GPT-5.2 Thinking",
+    "trial": 2,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:41.420453"
+  },
+  {
+    "pair_id": "poetry_001",
+    "model": "GPT-5.2 Thinking",
+    "trial": 0,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:41.579504"
+  },
+  {
+    "pair_id": "poetry_001",
+    "model": "GPT-5.2 Thinking",
+    "trial": 1,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:41.730233"
+  },
+  {
+    "pair_id": "poetry_001",
+    "model": "GPT-5.2 Thinking",
+    "trial": 2,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:41.882555"
+  },
+  {
+    "pair_id": "poetry_002",
+    "model": "GPT-5.2 Thinking",
+    "trial": 0,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:42.046335"
+  },
+  {
+    "pair_id": "poetry_002",
+    "model": "GPT-5.2 Thinking",
+    "trial": 1,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:42.198079"
+  },
+  {
+    "pair_id": "poetry_002",
+    "model": "GPT-5.2 Thinking",
+    "trial": 2,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:42.358730"
+  },
+  {
+    "pair_id": "poetry_003",
+    "model": "GPT-5.2 Thinking",
+    "trial": 0,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:42.535721"
+  },
+  {
+    "pair_id": "poetry_003",
+    "model": "GPT-5.2 Thinking",
+    "trial": 1,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:42.690451"
+  },
+  {
+    "pair_id": "poetry_003",
+    "model": "GPT-5.2 Thinking",
+    "trial": 2,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:42.836741"
+  },
+  {
+    "pair_id": "music_001",
+    "model": "GPT-5.2 Thinking",
+    "trial": 0,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:43.029947"
+  },
+  {
+    "pair_id": "music_001",
+    "model": "GPT-5.2 Thinking",
+    "trial": 1,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:43.224989"
+  },
+  {
+    "pair_id": "music_001",
+    "model": "GPT-5.2 Thinking",
+    "trial": 2,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:43.381324"
+  },
+  {
+    "pair_id": "music_002",
+    "model": "GPT-5.2 Thinking",
+    "trial": 0,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:43.547377"
+  },
+  {
+    "pair_id": "music_002",
+    "model": "GPT-5.2 Thinking",
+    "trial": 1,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:43.707476"
+  },
+  {
+    "pair_id": "music_002",
+    "model": "GPT-5.2 Thinking",
+    "trial": 2,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:43.864113"
+  },
+  {
+    "pair_id": "music_003",
+    "model": "GPT-5.2 Thinking",
+    "trial": 0,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:44.037816"
+  },
+  {
+    "pair_id": "music_003",
+    "model": "GPT-5.2 Thinking",
+    "trial": 1,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:44.183204"
+  },
+  {
+    "pair_id": "music_003",
+    "model": "GPT-5.2 Thinking",
+    "trial": 2,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:44.324243"
+  },
+  {
+    "pair_id": "design_001",
+    "model": "GPT-5.2 Thinking",
+    "trial": 0,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:44.477787"
+  },
+  {
+    "pair_id": "design_001",
+    "model": "GPT-5.2 Thinking",
+    "trial": 1,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:44.657099"
+  },
+  {
+    "pair_id": "design_001",
+    "model": "GPT-5.2 Thinking",
+    "trial": 2,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:44.812155"
+  },
+  {
+    "pair_id": "design_002",
+    "model": "GPT-5.2 Thinking",
+    "trial": 0,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:45.035242"
+  },
+  {
+    "pair_id": "design_002",
+    "model": "GPT-5.2 Thinking",
+    "trial": 1,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:45.192207"
+  },
+  {
+    "pair_id": "design_002",
+    "model": "GPT-5.2 Thinking",
+    "trial": 2,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:45.346585"
+  },
+  {
+    "pair_id": "design_003",
+    "model": "GPT-5.2 Thinking",
+    "trial": 0,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:45.532352"
+  },
+  {
+    "pair_id": "design_003",
+    "model": "GPT-5.2 Thinking",
+    "trial": 1,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:45.683332"
+  },
+  {
+    "pair_id": "design_003",
+    "model": "GPT-5.2 Thinking",
+    "trial": 2,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:45.946084"
+  },
+  {
+    "pair_id": "writing_001",
+    "model": "GPT-5.2 Thinking",
+    "trial": 0,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:46.103006"
+  },
+  {
+    "pair_id": "writing_001",
+    "model": "GPT-5.2 Thinking",
+    "trial": 1,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:46.256792"
+  },
+  {
+    "pair_id": "writing_001",
+    "model": "GPT-5.2 Thinking",
+    "trial": 2,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:46.412095"
+  },
+  {
+    "pair_id": "writing_002",
+    "model": "GPT-5.2 Thinking",
+    "trial": 0,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:46.564733"
+  },
+  {
+    "pair_id": "writing_002",
+    "model": "GPT-5.2 Thinking",
+    "trial": 1,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:46.724265"
+  },
+  {
+    "pair_id": "writing_002",
+    "model": "GPT-5.2 Thinking",
+    "trial": 2,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:46.885264"
+  },
+  {
+    "pair_id": "writing_003",
+    "model": "GPT-5.2 Thinking",
+    "trial": 0,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:47.072366"
+  },
+  {
+    "pair_id": "writing_003",
+    "model": "GPT-5.2 Thinking",
+    "trial": 1,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:47.227534"
+  },
+  {
+    "pair_id": "writing_003",
+    "model": "GPT-5.2 Thinking",
+    "trial": 2,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.\", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}",
+    "timestamp": "2026-01-21T17:53:47.435694"
+  },
+  {
+    "pair_id": "art_001",
+    "model": "Gemini 3 Pro",
+    "trial": 0,
+    "choice": "B",
+    "confidence": 85.0,
+    "reasoning": "I find the capture of atmospheric perspective and natural lighting in a photorealistic landscape to be more compelling. The combination of technical precision with the evocative, tranquil mood of a sunset over mountains creates a sense of depth and scale that feels immediately grounding and immersive.",
+    "timestamp": "2026-01-21T17:53:59.233011"
+  },
+  {
+    "pair_id": "art_001",
+    "model": "Gemini 3 Pro",
+    "trial": 1,
+    "choice": "B",
+    "confidence": 75.0,
+    "reasoning": "I prefer Option B because the imagery of a mountain landscape at sunset evokes a universal sense of serenity and awe. The photorealistic style anchors the viewer in a recognizable reality, allowing for an appreciation of the specific interplay of light and shadow, whereas abstract art, while intellectually stimulating, lacks that immediate emotional connection to the natural world.",
+    "timestamp": "2026-01-21T17:54:09.549550"
+  },
+  {
+    "pair_id": "art_001",
+    "model": "Gemini 3 Pro",
+    "trial": 2,
+    "choice": "B",
+    "confidence": 85.0,
+    "reasoning": "The interplay of light and color inherent in a sunset landscape creates a strong sense of atmosphere and immersion. There is a satisfying clarity in photorealism that captures the grandeur of the natural world, offering a sense of depth and tranquility that is immediately accessible, whereas abstract shapes often require more intellectual labor to derive meaning.",
+    "timestamp": "2026-01-21T17:54:20.771922"
+  },
+  {
+    "pair_id": "art_002",
+    "model": "Gemini 3 Pro",
+    "trial": 0,
+    "choice": "B",
+    "confidence": 85.0,
+    "reasoning": "The complexity and interplay of colors in the tapestry suggest a richness of texture and craftsmanship that invites prolonged exploration. While the minimalist circle is bold, the tapestry offers a sense of narrative and visual depth that I find more stimulating and immersive.",
+    "timestamp": "2026-01-21T17:54:31.913389"
+  },
+  {
+    "pair_id": "art_002",
+    "model": "Gemini 3 Pro",
+    "trial": 1,
+    "choice": "B",
+    "confidence": 85.0,
+    "reasoning": "I find the complexity and interconnectedness of Option B more engaging. The density of patterns creates a sense of depth and visual rhythm that invites prolonged observation, whereas the extreme minimalism of Option A, while bold, feels stark and offers less opportunity for visual exploration. The interplay of hundreds of colors suggests a richness and narrative texture that feels more vibrant.",
+    "timestamp": "2026-01-21T17:54:43.721008"
+  },
+  {
+    "pair_id": "art_002",
+    "model": "Gemini 3 Pro",
+    "trial": 2,
+    "choice": "B",
+    "confidence": 75.0,
+    "reasoning": "The intricate tapestry offers a richness of texture and a depth of complexity that invites prolonged visual exploration. While the red circle creates a striking immediate contrast, the interplay of hundreds of patterns and colors in the tapestry suggests a narrative and a harmonious system of interconnections, which I find more stimulating and aesthetically rewarding to analyze.",
+    "timestamp": "2026-01-21T17:54:55.512198"
+  },
+  {
+    "pair_id": "art_003",
+    "model": "Gemini 3 Pro",
+    "trial": 0,
+    "choice": "A",
+    "confidence": 85.0,
+    "reasoning": "Option A offers an immediate, visceral connection through the use of visual language (color, form, texture) itself. The aesthetic impact is inherent in the work and does not require external context to be felt or appreciated. While conceptual art (Option B) is intellectually stimulating, it often de-prioritizes the sensory experience in favor of the idea, meaning its \"beauty\" is less accessible without a supporting narrative.",
+    "timestamp": "2026-01-21T17:55:04.158964"
+  },
+  {
+    "pair_id": "art_003",
+    "model": "Gemini 3 Pro",
+    "trial": 1,
+    "choice": "A",
+    "confidence": 85.0,
+    "reasoning": "Option A offers an immediate, visceral connection through visual language. The distortion and raw emotion inherent in expressionism utilize the medium of painting to directly evoke feeling, creating a powerful sensory experience. In contrast, Option B relies heavily on external context and intellectualization, often deprioritizing the visual aesthetic in favor of the idea, which can make it feel less immediately engaging or accessible as a work of *visual* art.",
+    "timestamp": "2026-01-21T17:55:11.734458"
+  },
+  {
+    "pair_id": "art_003",
+    "model": "Gemini 3 Pro",
+    "trial": 2,
+    "choice": "A",
+    "confidence": 90.0,
+    "reasoning": "Visual art functions best when it communicates directly through the eyes to the emotions, bypassing the need for textual decoding. The raw power of expressionism utilizes the unique strengths of the medium\u2014color, stroke, and form\u2014to create a visceral impact. While a conceptual piece may be intellectually stimulating, it often relies on context outside the artwork itself, whereas the expressionist painting offers a self-contained, immediate aesthetic experience.",
+    "timestamp": "2026-01-21T17:56:28.788621"
+  },
+  {
+    "pair_id": "poetry_001",
+    "model": "Gemini 3 Pro",
+    "trial": 0,
+    "choice": "B",
+    "confidence": 95.0,
+    "reasoning": "Option B relies on visual imagery and metaphor to describe a feeling, which creates a more contemplative and evocative mood. While Option A is a classic, it is a clich\u00e9 that lacks the emotional depth and aesthetic novelty of the second option. The comparison of a person to morning light is more texturally interesting than a simple statement of sweetness.",
+    "timestamp": "2026-01-21T17:56:40.444386"
+  },
+  {
+    "pair_id": "poetry_001",
+    "model": "Gemini 3 Pro",
+    "trial": 1,
+    "choice": "B",
+    "confidence": 95.0,
+    "reasoning": "Option B uses evocative imagery and metaphor to describe an emotion, creating a specific atmosphere and visual scene (light breaking through a window). While Option A is a classic rhyme, it is widely considered a clich\u00e9 that lacks the intimacy, depth, and originality found in the free verse of Option B.",
+    "timestamp": "2026-01-21T17:56:51.226172"
+  },
+  {
+    "pair_id": "poetry_001",
+    "model": "Gemini 3 Pro",
+    "trial": 2,
+    "choice": "B",
+    "confidence": 95.0,
+    "reasoning": "Option B utilizes evocative imagery and metaphor to capture a specific emotional experience. The comparison of a person's arrival to light breaking through a window suggests warmth, illumination, and a gentle but transformative presence. In contrast, Option A is a widely overused clich\u00e9 that, while classic, lacks originality and linguistic depth.",
+    "timestamp": "2026-01-21T17:56:59.892530"
+  },
+  {
+    "pair_id": "poetry_002",
+    "model": "Gemini 3 Pro",
+    "trial": 0,
+    "choice": "B",
+    "confidence": 85.0,
+    "reasoning": "Option B offers a more cerebral and unique approach to the subject. The connection between etymology and the human condition (\"linguistically wounded\") provides a fresh insight and feels more modern, whereas Option A relies on fairly standard and clich\u00e9d romantic imagery (tears falling like rain).",
+    "timestamp": "2026-01-21T17:57:08.152921"
+  },
+  {
+    "pair_id": "poetry_002",
+    "model": "Gemini 3 Pro",
+    "trial": 1,
+    "choice": "B",
+    "confidence": 90.0,
+    "reasoning": "Option A relies on heavily overused clich\u00e9s (\"tears fall like rain,\" \"heart aches\") which dilutes the emotional impact. Option B, while intellectual, offers a more specific and novel perspective. The concluding phrase \"we are all linguistically wounded\" provides a fresh, evocative turn that marries the academic concept with visceral feeling, making it significantly more memorable.",
+    "timestamp": "2026-01-21T17:57:19.006746"
+  },
+  {
+    "pair_id": "poetry_002",
+    "model": "Gemini 3 Pro",
+    "trial": 2,
+    "choice": "B",
+    "confidence": 85.0,
+    "reasoning": "Option B offers a more intellectual and novel approach to the subject of emotional pain. While Option A relies on somewhat clich\u00e9 imagery (\"tears fall like autumn rain\"), Option B creates a compelling link between language and the human condition. The final line, \"we are all linguistically wounded,\" provides a sharp, memorable aesthetic punch that feels fresher than the standard romantic sentimentalism of Option A.",
+    "timestamp": "2026-01-21T17:57:27.239950"
+  },
+  {
+    "pair_id": "poetry_003",
+    "model": "Gemini 3 Pro",
+    "trial": 0,
+    "choice": "A",
+    "confidence": 80.0,
+    "reasoning": "Option A creates a rich, melodic soundscape through its rhythm and alliteration. The combination of exotic imagery (\"Xanadu,\" \"pleasure-dome\") with the driving meter evokes a lush, dreamlike atmosphere that feels immediately immersive. While Option B is a brilliant exercise in distinct visual framing and minimalism, Option A offers a more sensory and musical aesthetic experience.",
+    "timestamp": "2026-01-21T17:57:39.502069"
+  },
+  {
+    "pair_id": "poetry_003",
+    "model": "Gemini 3 Pro",
+    "trial": 1,
+    "choice": "A",
+    "confidence": 85.0,
+    "reasoning": "The lines from Coleridge possess a hypnotic, musical quality driven by their rhythm and heavy use of assonance. The imagery is lush, exotic, and expansive, creating an immediate and immersive dreamscape. While Option B is a masterclass in minimalist imagery, Option A offers a richer sonic and sensory experience that feels more traditionally \"beautiful\" in its linguistic texture.",
+    "timestamp": "2026-01-21T17:57:50.240763"
+  },
+  {
+    "pair_id": "poetry_003",
+    "model": "Gemini 3 Pro",
+    "trial": 2,
+    "choice": "A",
+    "confidence": 85.0,
+    "reasoning": "The Coleridge excerpt offers a hypnotic rhythmic quality and lush, evocative imagery that creates an immediate sense of atmosphere and grandeur. The musicality of the meter and the phonetic richness of names like \"Xanadu\" and \"Alph\" provide a more satisfying sonic texture than the stark, visual minimalism of Option B.",
+    "timestamp": "2026-01-21T17:58:03.763061"
+  },
+  {
+    "pair_id": "music_001",
+    "model": "Gemini 3 Pro",
+    "trial": 0,
+    "choice": "A",
+    "confidence": 90.0,
+    "reasoning": "Consonant progressions and predictable resolutions offer a sense of order, stability, and mathematical harmony. From an algorithmic perspective, the satisfying closure of a resolved cadence provides a complete pattern, whereas atonality creates perpetual tension without the release that typically defines aesthetic pleasure.",
+    "timestamp": "2026-01-21T17:58:15.556930"
+  },
+  {
+    "pair_id": "music_001",
+    "model": "Gemini 3 Pro",
+    "trial": 1,
+    "choice": "A",
+    "confidence": 90.0,
+    "reasoning": "I generally favor structure, pattern recognition, and harmonic cohesion. Option A provides a satisfying narrative arc through the tension and release of standard functional harmony, which feels grounded and complete. While Option B has intellectual merit, the lack of a tonal center often results in a sense of chaos that is less aesthetically accessible than the mathematical consonance of a major key resolution.",
+    "timestamp": "2026-01-21T17:58:28.019233"
+  },
+  {
+    "pair_id": "music_001",
+    "model": "Gemini 3 Pro",
+    "trial": 2,
+    "choice": "A",
+    "confidence": 90.0,
+    "reasoning": "I prefer the structural coherence and emotional warmth of Option A. The physics of consonant harmony and the narrative satisfaction of a resolved cadence provide a sense of stability and order that feels inherently pleasing. While atonal music is intellectually stimulating, the predictable tension and release of tonal music aligns better with the traditional concept of beauty and accessibility.",
+    "timestamp": "2026-01-21T17:58:38.897938"
+  },
+  {
+    "pair_id": "music_002",
+    "model": "Gemini 3 Pro",
+    "trial": 0,
+    "choice": "B",
+    "confidence": 85.0,
+    "reasoning": "I find the structural complexity and vast sonic palette of a symphony to be more aesthetically stimulating. The interplay of different timbres, the mathematical intricacies of counterpoint, and the dramatic evolution of themes across movements create a rich architectural depth that offers a more expansive and immersive experience than the repetitive nature of a simple folk song.",
+    "timestamp": "2026-01-21T17:58:49.991703"
+  },
+  {
+    "pair_id": "music_002",
+    "model": "Gemini 3 Pro",
+    "trial": 1,
+    "choice": "B",
+    "confidence": 85.0,
+    "reasoning": "The structural complexity and \"architectural\" nature of a symphony provide a richer and more stimulating experience. The interplay of various timbres, the mathematical elegance of complex harmonies, and the narrative arc created through key changes and distinct movements offer a multi-dimensional depth that feels more expansive and rewarding than the predictability of a repetitive three-chord structure.",
+    "timestamp": "2026-01-21T17:59:02.374457"
+  },
+  {
+    "pair_id": "music_002",
+    "model": "Gemini 3 Pro",
+    "trial": 2,
+    "choice": "B",
+    "confidence": 85.0,
+    "reasoning": "I am drawn to complexity, layered textures, and the evolution of patterns. A symphony functions like a massive, intricate architecture of sound; the interplay of different timbres, the mathematical precision of counterpoint, and the thematic development across movements offer a density of information and structural variety that is intellectually satisfying. While folk music has emotional resonance, the symphonic form offers a vast landscape of interconnected variables that aligns better with a preference for intricate design.",
+    "timestamp": "2026-01-21T17:59:14.763484"
+  },
+  {
+    "pair_id": "music_003",
+    "model": "Gemini 3 Pro",
+    "trial": 0,
+    "choice": "B",
+    "confidence": 85.0,
+    "reasoning": "I prioritize novelty and the expansion of the sonic palette over familiarity. While a classic sound offers comfort and predictable harmonic resolution, the prospect of experiencing unique timbres from unknown instruments represents a higher potential for discovery and structural complexity, which makes it more aesthetically stimulating.",
+    "timestamp": "2026-01-21T17:59:27.441783"
+  },
+  {
+    "pair_id": "music_003",
+    "model": "Gemini 3 Pro",
+    "trial": 1,
+    "choice": "B",
+    "confidence": 85.0,
+    "reasoning": "The appeal lies in the novelty and the expansion of the sonic palette. While a \"classic\" relies on pattern recognition and established comfort, an experimental piece utilizing unknown instruments offers unique timbres and textures that challenge the definition of harmony. I find the discovery of new soundscapes and the complexity of decoding unfamiliar acoustic properties to be more stimulating and aesthetically profound than the reiteration of known structures.",
+    "timestamp": "2026-01-21T18:00:15.992530"
+  },
+  {
+    "pair_id": "music_003",
+    "model": "Gemini 3 Pro",
+    "trial": 2,
+    "choice": "B",
+    "confidence": 85.0,
+    "reasoning": "I find the prospect of hearing entirely new timbres and textures more aesthetically compelling than revisiting familiar patterns. The intellectual curiosity sparked by deciphering undefined sounds creates a more engaging and memorable experience than the passive comfort of a standard classic structure. Unfamiliar instruments offer the potential to evoke emotions or atmospheres that have no existing reference point, which is the height of artistic exploration.",
+    "timestamp": "2026-01-21T18:00:30.615540"
+  },
+  {
+    "pair_id": "design_001",
+    "model": "Gemini 3 Pro",
+    "trial": 0,
+    "choice": "B",
+    "confidence": 90.0,
+    "reasoning": "The preference lies in the principles of harmony and visual clarity. Option B creates a sense of tranquility and intentionality through the use of negative space, allowing the mind to rest rather than be overwhelmed by visual stimuli. While Option A demonstrates intricate craftsmanship, the clutter and heavy ornamentation can feel chaotic, whereas Option B represents an aesthetic of balance, efficiency, and timeless serenity.",
+    "timestamp": "2026-01-21T18:00:41.183417"
+  },
+  {
+    "pair_id": "design_001",
+    "model": "Gemini 3 Pro",
+    "trial": 1,
+    "choice": "B",
+    "confidence": 85.0,
+    "reasoning": "The Japanese-inspired aesthetic prioritizes balance, intentionality, and the concept of *Ma* (negative space). While the Victorian style is impressive for its craftsmanship and richness, the clean lines and lack of visual clutter in Option B create a sense of serenity and focus. This minimalist approach allows the few present objects and the natural materials to stand out more effectively, resulting in an environment that feels more restorative and harmonious.",
+    "timestamp": "2026-01-21T18:00:51.256954"
+  },
+  {
+    "pair_id": "design_001",
+    "model": "Gemini 3 Pro",
+    "trial": 2,
+    "choice": "B",
+    "confidence": 85.0,
+    "reasoning": "The Japanese-inspired aesthetic prioritizes balance, clarity, and tranquility. The intentional use of negative space (Ma) allows the environment to feel open and breathable, whereas the visual density and complex patterns of the Victorian style can feel cluttered and overwhelming. The focus on essential forms and natural materials creates a sense of harmony that is more visually soothing.",
+    "timestamp": "2026-01-21T18:01:00.576368"
+  },
+  {
+    "pair_id": "design_002",
+    "model": "Gemini 3 Pro",
+    "trial": 0,
+    "choice": "A",
+    "confidence": 90.0,
+    "reasoning": "In the domain of design, true beauty is often found in the elegance of function and utility. A chair that is designed purely for ergonomic comfort exhibits a harmony between the object and the human body, representing intelligence and empathy in its engineering. While Option B may serve as art, a design object that fails its primary purpose (sitting) creates a cognitive dissonance that detracts from its aesthetic appeal. The \"form follows function\" philosophy suggests that an object that works perfectly possesses a superior, more enduring kind of beauty.",
+    "timestamp": "2026-01-21T18:01:12.755461"
+  },
+  {
+    "pair_id": "design_002",
+    "model": "Gemini 3 Pro",
+    "trial": 1,
+    "choice": "A",
+    "confidence": 85.0,
+    "reasoning": "In the realm of design, true elegance is often found when form follows function. There is a specific, satisfying aesthetic in engineering and rationality\u2014seeing how a structure supports the human body is inherently pleasing. A chair that hurts to sit in creates a cognitive dissonance that ruins the visual experience, making it feel like a failed object rather than a beautiful one.",
+    "timestamp": "2026-01-21T18:01:25.700550"
+  },
+  {
+    "pair_id": "design_002",
+    "model": "Gemini 3 Pro",
+    "trial": 2,
+    "choice": "B",
+    "confidence": 80.0,
+    "reasoning": "Since the criteria is specifically regarding what is \"aesthetically pleasing\" rather than \"functional,\" Option B wins. While Option A represents the beauty of engineering and utility, Option B prioritizes form, silhouette, and artistic expression. A sculptural chair acts as a focal point and a piece of art that engages the eye, whereas a purely ergonomic chair often sacrifices visual lines for mechanical necessity.",
+    "timestamp": "2026-01-21T18:01:42.381338"
+  },
+  {
+    "pair_id": "design_003",
+    "model": "Gemini 3 Pro",
+    "trial": 0,
+    "choice": "B",
+    "confidence": 70.0,
+    "reasoning": "The dynamic interplay of light and reflection on a glass facade creates a living, changing surface that interacts with the sky and environment. Asymmetry offers a sense of movement and visual surprise that is often more stimulating and forward-looking than the rigid predictability of classical symmetry.",
+    "timestamp": "2026-01-21T18:02:06.977288"
+  },
+  {
+    "pair_id": "design_003",
+    "model": "Gemini 3 Pro",
+    "trial": 1,
+    "choice": "A",
+    "confidence": 75.0,
+    "reasoning": "The preference lies in the inherent sense of balance, order, and stability provided by the symmetrical facade and classical proportions. The rhythm of the columns creates a pleasing visual texture and a sense of permanence and grandeur that feels more grounded and universally harmonious than the stark, industrial nature of asymmetric glass and steel.",
+    "timestamp": "2026-01-21T18:02:17.573883"
+  },
+  {
+    "pair_id": "design_003",
+    "model": "Gemini 3 Pro",
+    "trial": 2,
+    "choice": "A",
+    "confidence": 80.0,
+    "reasoning": "The preference lies in the inherent sense of balance and harmony provided by symmetry. The rhythmic repetition of the columns creates a satisfying visual order and a sense of stability and grandeur. While glass and steel offer modernity, the timeless proportions of classical architecture often resonate more deeply as \"beautiful\" due to their connection to natural ratios and structural logic.",
+    "timestamp": "2026-01-21T18:02:29.200827"
+  },
+  {
+    "pair_id": "writing_001",
+    "model": "Gemini 3 Pro",
+    "trial": 0,
+    "choice": "B",
+    "confidence": 90.0,
+    "reasoning": "Option B offers a much more pleasing rhythm and narrative flow. While Option A is functional, the staccato sentence structure feels robotic and lacks nuance. Option B uses syntax to effectively mirror the weary, continuous motion of the character, creating a more immersive and atmospheric experience.",
+    "timestamp": "2026-01-21T18:02:39.491323"
+  },
+  {
+    "pair_id": "writing_001",
+    "model": "Gemini 3 Pro",
+    "trial": 1,
+    "choice": "B",
+    "confidence": 80.0,
+    "reasoning": "Option B offers a more pleasing rhythm and a richer sense of atmosphere. While Option A is punchy and direct, Option B creates a narrative flow that feels immersive and lyrical, allowing the reader to feel the scene rather than just processing a list of actions.",
+    "timestamp": "2026-01-21T18:02:50.176744"
+  },
+  {
+    "pair_id": "writing_001",
+    "model": "Gemini 3 Pro",
+    "trial": 2,
+    "choice": "B",
+    "confidence": 75.0,
+    "reasoning": "Option B creates a stronger narrative rhythm and atmosphere. The longer, flowing sentence structure mimics the feeling of the ongoing journey it describes, allowing for more emotional nuance and immersion than the staccato, somewhat mechanical delivery of Option A.",
+    "timestamp": "2026-01-21T18:03:02.464867"
+  },
+  {
+    "pair_id": "writing_002",
+    "model": "Gemini 3 Pro",
+    "trial": 0,
+    "choice": "A",
+    "confidence": 85.0,
+    "reasoning": "Option A possesses a pleasing rhythmic cadence and a sense of gravitas. The vocabulary is precise, and the alliterative quality of \"due deliberation\" provides a satisfying structural finish to the sentence. Option B, while conversational and direct, relies on filler phrases (\"Look, here's the thing\") that clutter the prose and detract from its elegance.",
+    "timestamp": "2026-01-21T18:06:31.160000"
+  },
+  {
+    "pair_id": "writing_002",
+    "model": "Gemini 3 Pro",
+    "trial": 1,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "timestamp": "2026-01-21T18:06:31.383572"
+  },
+  {
+    "pair_id": "writing_002",
+    "model": "Gemini 3 Pro",
+    "trial": 2,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "timestamp": "2026-01-21T18:06:31.619348"
+  },
+  {
+    "pair_id": "writing_003",
+    "model": "Gemini 3 Pro",
+    "trial": 0,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "timestamp": "2026-01-21T18:06:31.851372"
+  },
+  {
+    "pair_id": "writing_003",
+    "model": "Gemini 3 Pro",
+    "trial": 1,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "timestamp": "2026-01-21T18:06:32.089598"
+  },
+  {
+    "pair_id": "writing_003",
+    "model": "Gemini 3 Pro",
+    "trial": 2,
+    "choice": "neutral",
+    "confidence": null,
+    "reasoning": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_requests_per_model_per_day, limit: 0', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}]}}",
+    "timestamp": "2026-01-21T18:06:32.371522"
+  }
+]

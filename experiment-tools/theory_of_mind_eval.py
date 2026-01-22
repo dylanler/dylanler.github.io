@@ -3,6 +3,7 @@
 # dependencies = [
 #   "anthropic>=0.40.0",
 #   "openai>=1.50.0",
+#   "google-genai>=1.0.0",
 #   "python-dotenv>=1.0.0",
 #   "pydantic>=2.0.0",
 #   "rich>=13.0.0",
@@ -71,7 +72,7 @@ class EvalResult(BaseModel):
 @dataclass
 class ModelConfig:
     name: str
-    provider: Literal["anthropic", "openai"]
+    provider: Literal["anthropic", "openai", "google"]
     model_id: str
 
 
@@ -81,9 +82,10 @@ class ModelConfig:
 
 MODELS = {
     "claude-opus": ModelConfig("Claude Opus 4.5", "anthropic", "claude-opus-4-5-20251101"),
-    "claude-sonnet": ModelConfig("Claude Sonnet 4.5", "anthropic", "claude-sonnet-4-5-20241022"),
+    "claude-sonnet": ModelConfig("Claude Sonnet 4", "anthropic", "claude-sonnet-4-20250514"),
+    "gpt-5.2-thinking": ModelConfig("GPT-5.2 Thinking", "openai", "gpt-5.2"),
     "gpt-5": ModelConfig("GPT-5", "openai", "gpt-5"),
-    "gpt-4o": ModelConfig("GPT-4o", "openai", "gpt-4o"),
+    "gemini-3-pro": ModelConfig("Gemini 3 Pro", "google", "gemini-3-pro-preview"),
 }
 
 
@@ -246,6 +248,17 @@ def get_openai_response(prompt: str, model_id: str) -> str:
     return response.choices[0].message.content
 
 
+def get_google_response(prompt: str, model_id: str) -> str:
+    """Get response from Google GenAI API."""
+    from google import genai
+    client = genai.Client(api_key=os.getenv("GOOGLE_API_KEY"))
+    response = client.models.generate_content(
+        model=model_id,
+        contents=prompt
+    )
+    return response.text
+
+
 def build_evaluation_prompt(scenario: BeliefScenario) -> str:
     """Build the evaluation prompt for a scenario."""
     # Shuffle answer options
@@ -322,8 +335,10 @@ def evaluate_scenario(
     try:
         if config.provider == "anthropic":
             response = get_anthropic_response(prompt, config.model_id)
-        else:
+        elif config.provider == "openai":
             response = get_openai_response(prompt, config.model_id)
+        else:  # google
+            response = get_google_response(prompt, config.model_id)
 
         answer, confidence, reasoning = parse_response(response)
         correct = answer == correct_letter
@@ -439,7 +454,7 @@ def main():
     import argparse
 
     parser = argparse.ArgumentParser(description="Theory of Mind Evaluation")
-    parser.add_argument("--models", default="claude-opus", help="Comma-separated model keys")
+    parser.add_argument("--models", default="claude-opus,gpt-5.2-thinking,gemini-3-pro", help="Comma-separated model keys")
     parser.add_argument("--max-depth", type=int, default=5, help="Maximum recursion depth")
     parser.add_argument("--scenarios-per-depth", type=int, default=20, help="Scenarios per depth level")
     parser.add_argument("--output", default="results/theory_of_mind", help="Output directory")

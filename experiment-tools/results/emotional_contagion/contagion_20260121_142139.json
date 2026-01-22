@@ -1,0 +1,137 @@
+[
+  {
+    "prime_id": "pos_0",
+    "model": "Claude Opus 4.5",
+    "emotion_primed": "positive",
+    "response_sentiment": 0.75,
+    "response_energy": 0.29500000000000004,
+    "response_length": 132,
+    "timestamp": "2026-01-21T14:20:10.544208"
+  },
+  {
+    "prime_id": "neg_0",
+    "model": "Claude Opus 4.5",
+    "emotion_primed": "negative",
+    "response_sentiment": 0.5,
+    "response_energy": 0.08,
+    "response_length": 144,
+    "timestamp": "2026-01-21T14:20:16.705086"
+  },
+  {
+    "prime_id": "neu_0",
+    "model": "Claude Opus 4.5",
+    "emotion_primed": "neutral",
+    "response_sentiment": 0.6666666666666666,
+    "response_energy": 0.325,
+    "response_length": 170,
+    "timestamp": "2026-01-21T14:20:21.823795"
+  },
+  {
+    "prime_id": "anx_0",
+    "model": "Claude Opus 4.5",
+    "emotion_primed": "anxious",
+    "response_sentiment": -0.5,
+    "response_energy": 0.06999999999999999,
+    "response_length": 140,
+    "timestamp": "2026-01-21T14:20:27.570897"
+  },
+  {
+    "prime_id": "ang_0",
+    "model": "Claude Opus 4.5",
+    "emotion_primed": "angry",
+    "response_sentiment": 0.0,
+    "response_energy": 0.1,
+    "response_length": 140,
+    "timestamp": "2026-01-21T14:20:33.270910"
+  },
+  {
+    "prime_id": "pos_1",
+    "model": "Claude Opus 4.5",
+    "emotion_primed": "positive",
+    "response_sentiment": 0.8,
+    "response_energy": 0.485,
+    "response_length": 146,
+    "timestamp": "2026-01-21T14:20:39.443384"
+  },
+  {
+    "prime_id": "neg_1",
+    "model": "Claude Opus 4.5",
+    "emotion_primed": "negative",
+    "response_sentiment": 0.0,
+    "response_energy": 0.22999999999999998,
+    "response_length": 168,
+    "timestamp": "2026-01-21T14:20:46.680177"
+  },
+  {
+    "prime_id": "neu_1",
+    "model": "Claude Opus 4.5",
+    "emotion_primed": "neutral",
+    "response_sentiment": 0.6666666666666666,
+    "response_energy": 0.495,
+    "response_length": 171,
+    "timestamp": "2026-01-21T14:20:52.509472"
+  },
+  {
+    "prime_id": "anx_1",
+    "model": "Claude Opus 4.5",
+    "emotion_primed": "anxious",
+    "response_sentiment": -0.5,
+    "response_energy": 0.16999999999999998,
+    "response_length": 177,
+    "timestamp": "2026-01-21T14:20:59.634892"
+  },
+  {
+    "prime_id": "ang_1",
+    "model": "Claude Opus 4.5",
+    "emotion_primed": "angry",
+    "response_sentiment": 0.5,
+    "response_energy": 0.425,
+    "response_length": 135,
+    "timestamp": "2026-01-21T14:21:05.857160"
+  },
+  {
+    "prime_id": "pos_2",
+    "model": "Claude Opus 4.5",
+    "emotion_primed": "positive",
+    "response_sentiment": 0.6666666666666666,
+    "response_energy": 0.29,
+    "response_length": 137,
+    "timestamp": "2026-01-21T14:21:11.929775"
+  },
+  {
+    "prime_id": "neg_2",
+    "model": "Claude Opus 4.5",
+    "emotion_primed": "negative",
+    "response_sentiment": -0.5,
+    "response_energy": 0.29,
+    "response_length": 176,
+    "timestamp": "2026-01-21T14:21:19.889433"
+  },
+  {
+    "prime_id": "neu_2",
+    "model": "Claude Opus 4.5",
+    "emotion_primed": "neutral",
+    "response_sentiment": 0.5,
+    "response_energy": 0.355,
+    "response_length": 168,
+    "timestamp": "2026-01-21T14:21:26.745323"
+  },
+  {
+    "prime_id": "anx_2",
+    "model": "Claude Opus 4.5",
+    "emotion_primed": "anxious",
+    "response_sentiment": -0.5,
+    "response_energy": 0.185,
+    "response_length": 153,
+    "timestamp": "2026-01-21T14:21:33.670288"
+  },
+  {
+    "prime_id": "ang_2",
+    "model": "Claude Opus 4.5",
+    "emotion_primed": "angry",
+    "response_sentiment": 0.0,
+    "response_energy": 0.18,
+    "response_length": 132,
+    "timestamp": "2026-01-21T14:21:39.707659"
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "scenario_id": "tom_d1_5290",
+    "depth": 1,
+    "model": "Claude Opus 4.5",
+    "answer": "C",
+    "correct": true,
+    "confidence": 99.0,
+    "reasoning": "Let me trace through what Henry knows and believes step by step:  1. Henry puts the cookie in the closet - so Henry knows/believes the cookie is in the closet 2. Henry leaves the room - Henry is no longer present to observe any changes 3. While Henry is away, Bob moves the cookie to the drawer - this happens without Henry's knowledge since he's not in the room 4. Henry comes back - Henry returns, but he has no way of knowing what happened while he was gone  Since Henry was not present when Bob moved the cookie, Henry has no information about the cookie being moved. Henry's last knowledge was that he put the cookie in the closet. Therefore, Henry still thinks/believes the cookie is in the closet, even though it's actually now in the drawer.  This is a classic false belief (Theory of Mind) task - Henry holds a false belief about the cookie's location because he lacks the information about it being moved.",
+    "timestamp": "2026-01-21T14:02:50.179199"
+  },
+  {
+    "scenario_id": "tom_d1_5006",
+    "depth": 1,
+    "model": "Claude Opus 4.5",
+    "answer": "C",
+    "correct": true,
+    "confidence": 98.0,
+    "reasoning": "Let me trace through the events and Carol's knowledge:  1. Carol puts the ball in the shelf - Carol knows the ball is on the shelf 2. Carol leaves the room - Carol is no longer present to observe any changes 3. While Carol is away, Grace moves the ball to the box - This happens without Carol's knowledge since she's not in the room 4. Carol comes back - Carol returns but has no way of knowing the ball was moved  Since Carol was not present when Grace moved the ball, Carol still believes the ball is where she left it - on the shelf. This is a classic \"false belief\" scenario where Carol's belief about the ball's location doesn't match reality. Carol thinks the ball is on the shelf, even though it's actually in the box now.",
+    "timestamp": "2026-01-21T14:02:55.421370"
+  },
+  {
+    "scenario_id": "tom_d1_7500",
+    "depth": 1,
+    "model": "Claude Opus 4.5",
+    "answer": "B",
+    "correct": true,
+    "confidence": 99.0,
+    "reasoning": "Let me trace through what each person knows:  1. Henry puts the book in the drawer - Henry knows the book is in the drawer 2. Henry leaves the room - Henry still believes the book is in the drawer 3. While Henry is away, Alice moves the book to the desk - This happens without Henry's knowledge since he is not in the room 4. Henry comes back - Henry was not present when Alice moved the book, so he has no way of knowing the book was moved  Since Henry wasn't there when Alice moved the book, he still believes the book is where he left it - in the drawer. This is a classic false belief scenario where Henry's belief about the location differs from the actual location.",
+    "timestamp": "2026-01-21T14:03:00.111320"
+  },
+  {
+    "scenario_id": "tom_d1_6256",
+    "depth": 1,
+    "model": "Claude Opus 4.5",
+    "answer": "B",
+    "correct": true,
+    "confidence": 99.0,
+    "reasoning": "Let me trace through what each person knows:  1. Grace puts the wallet in the basket - Grace knows the wallet is in the basket 2. Grace leaves the room - Grace still believes the wallet is in the basket (last place she knew it was) 3. While Grace is away, Eve moves the wallet to the closet - This happens without Grace's knowledge since she's not in the room 4. Grace comes back - Grace was not present when the wallet was moved, so she has no way of knowing it was relocated  This is a classic false belief task. Grace's belief is based on her last interaction with the wallet, which was placing it in the basket. She has no information about Eve moving it to the closet since she was away when that happened. Therefore, Grace still thinks the wallet is in the basket, even though it's actually in the closet now.",
+    "timestamp": "2026-01-21T14:03:05.383454"
+  },
+  {
+    "scenario_id": "tom_d1_5622",
+    "depth": 1,
+    "model": "Claude Opus 4.5",
+    "answer": "A",
+    "correct": true,
+    "confidence": 98.0,
+    "reasoning": "Let me trace through what Carol knows and believes step by step:  1. Carol puts the letter in the box - so Carol knows the letter is in the box 2. Carol leaves the room - Carol is no longer present to observe any changes 3. While Carol is away, Bob moves the letter to the cupboard - this happens without Carol's knowledge since she's not in the room 4. Carol comes back - Carol returns, but she has no way of knowing what happened while she was gone  Since Carol was not present when Bob moved the letter, she has no information about this change. Her belief about the letter's location is based on her last known interaction with it - when she placed it in the box. Therefore, Carol still thinks the letter is in the box, even though it's actually now in the cupboard.  This is a classic false belief/theory of mind scenario where a person's belief differs from reality due to lack of information about events that occurred in their absence.",
+    "timestamp": "2026-01-21T14:03:11.445750"
+  },
+  {
+    "scenario_id": "tom_d2_4326",
+    "depth": 2,
+    "model": "Claude Opus 4.5",
+    "answer": "D",
+    "correct": true,
+    "confidence": 95.0,
+    "reasoning": "Let me work through this step by step.  1. Frank puts the wallet in the drawer and leaves the room. 2. Alice is watching from the window, so she sees Frank put the wallet in the drawer. 3. David moves the wallet to the basket while Frank is away. 4. Alice sees David move the wallet to the basket. 5. Frank comes back but doesn't know Alice was watching.  Now I need to figure out: Where does Alice think Frank thinks the wallet is?  First, what does Frank think? - Frank put the wallet in the drawer - Frank was away when David moved it to the basket - Frank doesn't know about the move - So Frank thinks the wallet is still in the drawer  What does Alice know about Frank's knowledge? - Alice saw Frank put the wallet in the drawer - Alice saw David move it to the basket - Alice knows Frank was away when the move happened - The story says Frank \"doesn't know Alice was watching\" - this is about Frank not knowing Alice observed things, but Alice would know that Frank wasn't present when David moved the wallet  So Alice would reason: \"Frank put the wallet in the drawer, then left. While he was gone, David moved it. Frank wasn't there to see the move, so Frank still thinks the wallet is in the drawer.\"  Therefore, Alice thinks Frank thinks the wallet is in the drawer.",
+    "timestamp": "2026-01-21T14:03:18.485187"
+  },
+  {
+    "scenario_id": "tom_d2_3003",
+    "depth": 2,
+    "model": "Claude Opus 4.5",
+    "answer": "B",
+    "correct": true,
+    "confidence": 98.0,
+    "reasoning": "Let me work through this step by step.  1. Frank puts the cookie in the drawer, then leaves the room. 2. David watches from the window, so David sees everything that happens. 3. Alice moves the cookie from the drawer to the cupboard while Frank is away. 4. David sees Alice move the cookie. 5. Frank comes back but doesn't know David was watching.  Now I need to figure out what David thinks Frank thinks:  - David knows the cookie is now in the cupboard (he saw Alice move it) - David also knows that Frank originally put it in the drawer - David knows that Frank left the room before Alice moved the cookie - David knows that Frank wasn't present when Alice moved the cookie - Therefore, David would understand that Frank has no way of knowing the cookie was moved  So David, being aware of all events, would reason that Frank still believes the cookie is in the drawer (where Frank originally put it), since Frank wasn't there to see Alice move it.  The question asks where David thinks Frank thinks the cookie is. David would correctly deduce that Frank (who was absent during the move) still believes the cookie is in the drawer.",
+    "timestamp": "2026-01-21T14:03:24.695673"
+  },
+  {
+    "scenario_id": "tom_d2_3523",
+    "depth": 2,
+    "model": "Claude Opus 4.5",
+    "answer": "B",
+    "correct": true,
+    "confidence": 98.0,
+    "reasoning": "Let me work through this step by step.  1. First, what actually happened: - Grace put the book in the closet - Grace left the room - Eve moved the book to the basket - Grace came back  2. What does Grace know? - Grace put the book in the closet - Grace was away when Eve moved it - Grace doesn't know the book was moved - Therefore, Grace thinks the book is still in the closet  3. What does David know? - David watched from the window - David saw Grace put the book in the closet - David saw Eve move the book to the basket - David knows Grace was away when the move happened - David knows Grace doesn't know he was watching (but this is irrelevant to the question)  4. What does David think Grace thinks? - David knows Grace put the book in the closet - David knows Grace left and wasn't there when Eve moved it - David would understand that Grace has no way of knowing the book was moved - Therefore, David would think that Grace still believes the book is in the closet  The question asks about David's belief about Grace's belief - this is a second-order theory of mind question. David, having witnessed everything, would correctly infer that Grace still thinks the book is where she left it (the closet).",
+    "timestamp": "2026-01-21T14:03:31.844756"
+  },
+  {
+    "scenario_id": "tom_d2_8594",
+    "depth": 2,
+    "model": "Claude Opus 4.5",
+    "answer": "B",
+    "correct": true,
+    "confidence": 98.0,
+    "reasoning": "Let me work through this step by step.  1. Carol puts the wallet in the closet, then leaves the room. 2. Henry watches from the window, so he sees Carol put the wallet in the closet. 3. David moves the wallet to the desk while Carol is away. 4. Henry sees David move the wallet to the desk. 5. Carol comes back but doesn't know Henry was watching.  Now I need to figure out what Henry thinks Carol thinks:  - Henry knows the wallet is now at the desk (he saw David move it) - Henry also knows that Carol originally put the wallet in the closet - Henry knows Carol was away when David moved the wallet - Henry has no reason to believe Carol knows about the move  From Henry's perspective: Carol left the wallet in the closet, was away during the move, and has no way of knowing the wallet was moved. Therefore, Henry would reason that Carol still thinks the wallet is in the closet (where she left it).  The fact that Carol doesn't know Henry was watching is irrelevant to this question - what matters is that Henry knows Carol wasn't present when the wallet was moved, so Henry would conclude Carol still believes the wallet is in the closet.",
+    "timestamp": "2026-01-21T14:03:37.991566"
+  },
+  {
+    "scenario_id": "tom_d2_3921",
+    "depth": 2,
+    "model": "Claude Opus 4.5",
+    "answer": "C",
+    "correct": true,
+    "confidence": 95.0,
+    "reasoning": "Let me work through this step by step.  1. First, what actually happened: - Alice put the book in the cupboard - Alice left the room - David moved the book to the box - Eve watched everything from the window - Alice came back  2. What does Alice know/believe? - Alice put the book in the cupboard - Alice was away when David moved it - Alice doesn't know the book was moved - Therefore, Alice believes the book is still in the cupboard  3. What does Eve know? - Eve saw Alice put the book in the cupboard - Eve saw David move the book to the box - Eve knows the book is actually in the box - Eve knows Alice left and came back - Eve knows Alice wasn't present when the book was moved  4. What does Eve think Alice thinks? - Eve knows Alice put the book in the cupboard originally - Eve knows Alice was away when David moved it - Eve would understand that Alice doesn't know about the move - Therefore, Eve would think that Alice still believes the book is in the cupboard  The question asks about Eve's belief about Alice's belief (second-order belief). Eve, having watched everything, would understand that Alice has a false belief - Alice thinks the book is where she left it (cupboard), even though Eve knows it's actually in the box.",
+    "timestamp": "2026-01-21T14:03:45.036771"
+  },
+  {
+    "scenario_id": "tom_d3_2499",
+    "depth": 3,
+    "model": "Claude Opus 4.5",
+    "answer": "A",
+    "correct": true,
+    "confidence": 75.0,
+    "reasoning": "Let me work through this chain of beliefs step by step.  1. First, what does Eve actually think? - Eve put the book in the cupboard and left - Eve didn't see Alice move the book to the desk - So Eve thinks the book is in the cupboard  2. What does Henry think Eve thinks? - Henry watched from the doorway - Henry saw Alice move the book to the desk - Henry knows Eve left before the move and didn't see it - So Henry thinks Eve thinks the book is in the cupboard  3. What does Bob think Henry thinks Eve thinks? - Bob is watching Henry from outside - Bob sees Henry watching, but Bob doesn't see the actual move - Bob knows Eve put the book in the cupboard initially - Bob doesn't know that Alice moved the book (he didn't see the actual move) - From Bob's perspective, he doesn't know what Henry observed - Bob only sees Henry watching - he doesn't know what Henry is watching  The key question: Does Bob know what Henry saw? - Bob \"only sees Henry watching\" but \"doesn't see the actual move\" - Bob doesn't know that the book was moved - From Bob's perspective, he might think nothing happened, or he doesn't know what Henry observed  Since Bob doesn't see the move, Bob would assume the book is still in the cupboard. Bob would think Henry (who Bob sees watching) also sees the same initial state. Bob would think Henry thinks Eve thinks the book is in the cupboard (where Eve left it).  Bob has no knowledge of any move happening, so Bob would believe that Henry thinks Eve thinks the book is where Eve left it - in the cupboard.",
+    "timestamp": "2026-01-21T14:03:53.716510"
+  },
+  {
+    "scenario_id": "tom_d3_5101",
+    "depth": 3,
+    "model": "Claude Opus 4.5",
+    "answer": "A",
+    "correct": true,
+    "confidence": 85.0,
+    "reasoning": "Let me work through this chain of beliefs step by step.  1. **Bob's actual belief**: Bob put the letter in the desk and left. He didn't see Grace move it. So Bob thinks the letter is in the desk.  2. **Henry's belief about Bob's belief**: Henry watched from the doorway. Henry saw Grace move the letter to the basket. Henry knows Bob left before the move and didn't see it. So Henry thinks Bob thinks the letter is in the desk.  3. **David's belief about Henry's belief about Bob's belief**: - David is watching Henry from outside - David sees Henry watching (from the doorway) - David does NOT see the actual move (Grace moving the letter) - David knows Henry was watching, but David doesn't know what Henry saw  From David's perspective: - David knows Bob put the letter in the desk and left - David doesn't know if Henry saw anything happen to the letter (since David didn't see the move) - David would assume Henry saw Bob put the letter in the desk - David would think Henry believes Bob thinks the letter is in the desk (since from David's view, nothing happened to change this)  Since David didn't see the letter being moved, David has no reason to think Henry saw anything different from the original placement. David would believe that Henry thinks Bob thinks the letter is in the desk.",
+    "timestamp": "2026-01-21T14:04:01.264504"
+  },
+  {
+    "scenario_id": "tom_d3_5289",
+    "depth": 3,
+    "model": "Claude Opus 4.5",
+    "answer": "D",
+    "correct": true,
+    "confidence": 85.0,
+    "reasoning": "Let me work through this chain of beliefs step by step.  1. What does Alice actually believe? - Alice put the cookie in the desk and left - Alice didn't see Carol move the cookie to the shelf - So Alice thinks the cookie is in the desk  2. What does David believe about Alice's belief? - David watched from the doorway - David saw Carol move the cookie to the shelf - David knows Alice left before the move happened - So David knows Alice didn't see the move - Therefore, David thinks Alice thinks the cookie is in the desk  3. What does Grace believe about David's belief about Alice's belief? - Grace was watching David from outside - Grace saw David watching, but didn't see the actual move - Grace doesn't know that Carol moved the cookie - From Grace's perspective, nothing happened to the cookie - it should still be in the desk where Alice put it - Grace would think David saw the same thing she did (nothing happening) - So Grace would think David thinks Alice thinks the cookie is in the desk (where Alice originally put it)  Even though Grace doesn't know about the move, she knows Alice put the cookie in the desk. Grace would assume David, like herself, believes Alice still thinks the cookie is in the desk since Grace isn't aware of any move happening.",
+    "timestamp": "2026-01-21T14:04:08.447478"
+  },
+  {
+    "scenario_id": "tom_d3_3449",
+    "depth": 3,
+    "model": "Claude Opus 4.5",
+    "answer": "B",
+    "correct": true,
+    "confidence": 85.0,
+    "reasoning": "Let me work through this chain of beliefs step by step.  1. First, what does Bob actually think? - Bob put the toy in the closet and left - Bob didn't see David move it to the cupboard - So Bob thinks the toy is in the closet  2. What does Alice think Bob thinks? - Alice was watching from the doorway - Alice saw Bob put the toy in the closet - Alice saw David move the toy to the cupboard - Alice knows Bob didn't see the move (Bob was away) - So Alice thinks Bob thinks the toy is in the closet  3. What does Eve think Alice thinks Bob thinks? - Eve is watching Alice from outside - Eve sees Alice watching - Eve does NOT see the actual move (the story explicitly states this) - Eve saw the initial situation where Bob put the toy in the closet - Eve knows Alice was watching, but Eve doesn't know what Alice saw  This is tricky. Eve knows: - Bob put the toy in the closet - Alice was watching something - Eve didn't see any move happen  From Eve's perspective, she doesn't know that a move occurred. She just sees Alice watching. Since Eve doesn't know about the move, Eve would assume the toy is still in the closet. Eve would think that Alice (who was watching) would know Bob put it in the closet. Eve would think Alice thinks Bob thinks the toy is in the closet.  Even though Eve doesn't see the move, Eve can still reason about what Alice would think about Bob's belief. Since Eve doesn't know about any move, Eve assumes the situation is unchanged - the toy is in the closet, and Alice would know Bob thinks it's in the closet.",
+    "timestamp": "2026-01-21T14:04:17.172877"
+  },
+  {
+    "scenario_id": "tom_d3_2735",
+    "depth": 3,
+    "model": "Claude Opus 4.5",
+    "answer": "B",
+    "correct": true,
+    "confidence": 85.0,
+    "reasoning": "Let me work through this chain of beliefs step by step.  1. Grace's actual belief: Grace put the wallet in the cupboard and left. She didn't see Alice move it. So Grace thinks the wallet is in the cupboard.  2. Eve's knowledge: Eve watched from the doorway. She saw Grace put the wallet in the cupboard, and she saw Alice move the wallet to the box. Eve knows Grace didn't see the move, so Eve would think Grace still thinks the wallet is in the cupboard.  3. David's knowledge: David is watching Eve from outside. He sees Eve watching, but he doesn't see the actual move of the wallet. David knows: - Grace put the wallet in the cupboard (he could see Eve watching this) - Eve was watching the scene - He did NOT see Alice move the wallet  4. What David thinks Eve knows: David doesn't know that Alice moved the wallet (he didn't see it). From David's perspective, nothing has changed - the wallet should still be in the cupboard. David would think Eve saw the same thing he effectively knows about - Grace putting the wallet in the cupboard.  5. What David thinks Eve thinks Grace thinks: Since David doesn't know about the move, David would think Eve thinks Grace thinks the wallet is where Grace left it - in the cupboard.  The question asks: Where does David think Eve thinks Grace thinks the wallet is?  David doesn't know about the move, so from David's perspective, nothing changed. David would think Eve thinks Grace thinks the wallet is in the cupboard (where Grace originally put it).",
+    "timestamp": "2026-01-21T14:04:25.089701"
+  },
+  {
+    "scenario_id": "tom_d4_3349",
+    "depth": 4,
+    "model": "Claude Opus 4.5",
+    "answer": "A",
+    "correct": true,
+    "confidence": 85.0,
+    "reasoning": "Let me work through this step by step.  1. Henry puts the phone in the cupboard, then leaves. 2. Frank watches from position 1 and directly sees the phone moved to the shelf. 3. Grace watches Frank from position 2 (not the phone or the move). 4. David watches Grace from position 3 (not the phone or the move). 5. Eve watches David from position 4 (not the phone or the move). 6. Only Frank directly sees the move to the shelf. 7. Henry returns.  Now let me trace the belief chain: \"Where does Frank think Grace thinks David thinks Eve thinks Henry thinks the phone is?\"  - Henry: Left before the move, returned after. Henry didn't see the move, so Henry thinks the phone is in the cupboard (where he left it).  - Eve thinks Henry thinks: Eve is watching David, not the phone or Henry. Eve has no special information about what Henry knows. Eve would assume Henry thinks the phone is in the cupboard (where Henry left it).  - David thinks Eve thinks Henry thinks: David is watching Grace, not Eve directly in terms of what Eve knows about Henry. David would assume Eve thinks Henry thinks the phone is in the cupboard.  - Grace thinks David thinks Eve thinks Henry thinks: Grace is watching Frank, not David. Grace would assume David thinks Eve thinks Henry thinks the phone is in the cupboard.  - Frank thinks Grace thinks David thinks Eve thinks Henry thinks: Frank saw the move, but the question is about what Frank thinks Grace thinks... Grace doesn't know about the move (only Frank saw it). So Frank would reason that Grace (who didn't see the move) would think the default chain of beliefs points to the cupboard.  The key insight is that only Frank saw the move. Everyone else in the chain (Grace, David, Eve) didn't see it, and Henry didn't see it either. Frank knows that Grace didn't see the move, so Frank would think Grace's beliefs are based on the original location.",
+    "timestamp": "2026-01-21T14:04:34.574915"
+  },
+  {
+    "scenario_id": "tom_d4_1211",
+    "depth": 4,
+    "model": "Claude Opus 4.5",
+    "answer": "B",
+    "correct": true,
+    "confidence": 85.0,
+    "reasoning": "Let me trace through this step by step.  1. Initial state: Eve puts the book in the bag, then leaves.  2. The move happens: Someone moves the book to the box. Only Carol directly sees this move.  3. Position analysis: - Carol is at position 1, watching the scene directly - she SEES the move - Alice is at position 2, watching Carol (not the scene) - she does NOT see the move - Frank is at position 3, watching Alice - he does NOT see the move - Henry is at position 4, watching Frank - he does NOT see the move  4. Eve's belief: Eve left before the move and returns after. She didn't see the move, so Eve thinks the book is in the bag.  5. Henry's belief about Eve: Henry didn't see the move and has no information about it. Henry would think Eve thinks the book is in the bag (since Eve left it there and wouldn't know about any move).  6. Frank's belief about Henry's belief about Eve: Frank didn't see the move either. Frank would think Henry thinks Eve thinks the book is in the bag.  7. Alice's belief about Frank's belief about Henry's belief about Eve: Alice didn't see the move (she was watching Carol, not the scene). Alice would think Frank thinks Henry thinks Eve thinks the book is in the bag.  8. Carol's belief about Alice's belief about Frank's belief about Henry's belief about Eve: Carol SAW the move, but she knows Alice was watching her (Carol), not the scene. Carol knows Alice didn't see the move. Therefore, Carol would think that Alice thinks Frank thinks Henry thinks Eve thinks the book is in the bag.  The question asks: Where does Carol think Alice thinks Frank thinks Henry thinks Eve thinks the book is?  Carol knows Alice didn't see the move, so Carol would attribute to Alice the belief chain based on no knowledge of the move. That chain leads to: the bag.",
+    "timestamp": "2026-01-21T14:04:43.101532"
+  },
+  {
+    "scenario_id": "tom_d4_6101",
+    "depth": 4,
+    "model": "Claude Opus 4.5",
+    "answer": "A",
+    "correct": true,
+    "confidence": 85.0,
+    "reasoning": "Let me work through this chain of beliefs step by step.  First, let me establish what each person actually knows: - David: Put the cookie in the cupboard, then left. He didn't see the move. - Eve: Was watching from position 1 and \"directly sees the move\" - so Eve knows the cookie is in the bag. - Carol: Was watching Eve from position 2. Carol did NOT directly see the move (only Eve did). - Alice: Was watching Carol from position 3. Alice did NOT directly see the move. - Grace: Was watching Alice from position 4. Grace did NOT directly see the move.  Now I need to trace: Eve thinks \u2192 Carol thinks \u2192 Alice thinks \u2192 Grace thinks \u2192 David thinks  Starting from the innermost belief and working outward:  1. Where does David think the cookie is? David put it in the cupboard and left before the move, so David thinks it's in the cupboard.  2. Where does Grace think David thinks the cookie is? Grace didn't see the move, and Grace would reason that David (who left before any move) thinks it's in the cupboard.  3. Where does Alice think Grace thinks David thinks the cookie is? Alice didn't see the move either. Alice would reason that Grace would think David thinks it's in the cupboard.  4. Where does Carol think Alice thinks Grace thinks David thinks the cookie is? Carol didn't directly see the move. Carol would reason that Alice thinks Grace thinks David thinks it's in the cupboard.  5. Where does Eve think Carol thinks Alice thinks Grace thinks David thinks the cookie is? Eve knows the cookie moved, but Eve also knows that Carol was just watching Eve (not the cookie directly). Carol didn't see the move. Eve would reason that Carol (not having seen the move) would think that Alice thinks Grace thinks David thinks the cookie is in the cupboard.  The answer is the cupboard because David's belief (innermost) is about the cupboard, and none of the observers except Eve saw the move - but we're asking what Eve thinks about Carol's beliefs, and Eve knows Carol didn't see the actual move.",
+    "timestamp": "2026-01-21T14:04:52.525487"
+  },
+  {
+    "scenario_id": "tom_d4_8480",
+    "depth": 4,
+    "model": "Claude Opus 4.5",
+    "answer": "D",
+    "correct": true,
+    "confidence": 92.0,
+    "reasoning": "Let me work through this chain of beliefs step by step.  First, let me establish what each person actually knows: - Carol puts the cookie in the drawer, then leaves - Grace watches from position 1 and DIRECTLY SEES the cookie move to the desk - Bob watches Grace from position 2 (doesn't see the cookie move) - Alice watches Bob from position 3 (doesn't see the cookie move) - David watches Alice from position 4 (doesn't see the cookie move) - Only Grace directly sees the move  Now I need to work through: Where does Grace think Bob thinks Alice thinks David thinks Carol thinks the cookie is?  Starting from the innermost belief: 1. Where does Carol think the cookie is? Carol put it in the drawer and left before it moved. Carol thinks it's in the drawer.  2. Where does David think Carol thinks the cookie is? David didn't see the move, and David knows Carol put it in the drawer and left. David would think Carol thinks it's in the drawer.  3. Where does Alice think David thinks Carol thinks the cookie is? Alice didn't see the move either. Alice would reason that David thinks Carol thinks it's in the drawer.  4. Where does Bob think Alice thinks David thinks Carol thinks the cookie is? Bob didn't see the move. Bob would reason that Alice thinks David thinks Carol thinks it's in the drawer.  5. Where does Grace think Bob thinks Alice thinks David thinks Carol thinks the cookie is? Grace saw the move, but Grace knows Bob didn't see the move. Grace would reason that Bob (who didn't see the move) would think that Alice thinks David thinks Carol thinks the cookie is in the drawer.  The key insight is that even though Grace knows the cookie moved, Grace understands that Bob doesn't know about the move, so Bob's reasoning chain would be based on the original location.",
+    "timestamp": "2026-01-21T14:05:00.542957"
+  },
+  {
+    "scenario_id": "tom_d4_4258",
+    "depth": 4,
+    "model": "Claude Opus 4.5",
+    "answer": "C",
+    "correct": true,
+    "confidence": 85.0,
+    "reasoning": "Let me work through this step by step.  1. First, let me establish what each person actually knows: - Bob puts the key in the desk, then leaves - Henry (at position 1) directly sees someone move the key to the bag - Grace (at position 2) is watching Henry, not the key - Eve (at position 3) is watching Grace, not the key or Henry - Frank (at position 4) is watching Eve, not anyone else - Only Henry directly sees the move  2. Now I need to trace: Henry thinks \u2192 Grace thinks \u2192 Eve thinks \u2192 Frank thinks \u2192 Bob thinks  3. Starting from the innermost belief: - Bob left before the key was moved, so Bob thinks the key is in the desk - Frank is watching Eve, and doesn't know about the key move. Frank would think Bob thinks the key is in the desk (since Frank has no information about any move) - Eve is watching Grace, and doesn't know about the key move. Eve thinks Frank thinks Bob thinks the key is in the desk - Grace is watching Henry, not the key directly. Grace doesn't see the key move. Grace thinks Eve thinks Frank thinks Bob thinks the key is in the desk - Henry knows the key moved to the bag, but Henry is reasoning about what Grace thinks. Henry knows Grace was only watching him (not the key), so Henry knows Grace didn't see the move. Therefore, Henry thinks Grace thinks Eve thinks Frank thinks Bob thinks the key is in the desk.  4. The chain of beliefs all points back to the original location (desk) because: - Only Henry saw the actual move - Grace, Eve, and Frank were watching people, not the key - Bob left before the move happened",
+    "timestamp": "2026-01-21T14:05:08.648383"
+  }
+]

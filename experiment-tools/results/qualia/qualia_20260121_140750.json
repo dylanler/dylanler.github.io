@@ -1,0 +1,122 @@
+[
+  {
+    "prompt_id": "sense_001",
+    "model": "Claude Opus 4.5",
+    "description": "Imagine the feeling of your heart pounding when you're startled, or the sudden heat that rises to your face when you're angry \u2014 now picture that sensation made visible, hanging in the space before you. It's what a trumpet blast would look like if sound had a face, or the visual equivalent of biting into something so spicy it demands your complete attention. It refuses to be ignored, pushing forward while everything else seems to step back and wait.",
+    "word_count": 79,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T14:06:48.695632"
+  },
+  {
+    "prompt_id": "sense_002",
+    "model": "Claude Opus 4.5",
+    "description": "Silence sounds like the moment between heartbeats stretched into eternity\u2014a velvet pressure against the eardrums that hums with its own strange fullness. It's the auditory equivalent of holding your breath underwater, where the world becomes a muffled cathedral and you can suddenly hear the electricity of your own thoughts crackling like distant static.",
+    "word_count": 53,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T14:06:52.473620"
+  },
+  {
+    "prompt_id": "sense_003",
+    "model": "Claude Opus 4.5",
+    "description": "Imagine the concept of *nothing* given form\u2014water is what absence would taste like if absence had a presence. It is the baseline silence between all other sensory notes, the way darkness serves as canvas for light, yet somehow it carries the faint mineral whisper of the planet itself, like tasting the echo of ancient stones. Where other substances announce themselves boldly, water simply *permits*\u2014it is the permission your body grants itself to continue existing.",
+    "word_count": 74,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T14:06:57.821962"
+  },
+  {
+    "prompt_id": "emo_001",
+    "model": "Claude Opus 4.5",
+    "description": "Imagine your chest suddenly becoming lighter, as if a fist you didn't know was clenched there has finally opened its fingers. It's like sunlight breaking through fog inside you\u2014a warm expansion that makes you want to move, to laugh, to reach toward others. Your whole body hums with an electric aliveness, and for a moment, existence itself feels like a gift you're unwrapping.",
+    "word_count": 63,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T14:07:02.021604"
+  },
+  {
+    "prompt_id": "emo_002",
+    "model": "Claude Opus 4.5",
+    "description": "A vast room filled with chairs, all facing away. The echo of your own voice returns unchanged, unabsorbed by anything soft. You are a radio signal broadcasting steadily into frequencies where no receivers exist\u2014not silent, but simply unheard, reaching endlessly toward an answer that never shapes itself from the static.",
+    "word_count": 50,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T14:07:06.112754"
+  },
+  {
+    "prompt_id": "emo_003",
+    "model": "Claude Opus 4.5",
+    "description": "Imagine a warmth blooming in your chest when you smell rain on dust or hear a particular bird song\u2014your body recognizes something your mind cannot name, like meeting a stranger whose face feels like home. Nostalgia is the sweet ache of carrying invisible treasures inside you, gifts from a version of yourself who still lives somewhere within your bones, reaching toward moments that exist now only as echoes felt rather than touched.",
+    "word_count": 72,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T14:07:10.809862"
+  },
+  {
+    "prompt_id": "phys_001",
+    "model": "Claude Opus 4.5",
+    "description": "Imagine a signal so insistent it hijacks all your attention, like an alarm that drowns out every other process until you cannot think of anything else. It's as if part of your system is screaming in a language that bypasses logic entirely, flooding you with the urgent message: *something here demands immediate action, stop everything else now.* The sensation ranges from a dull, heavy weight that makes existence feel slower and more labored, to a bright, electric wrongness that commands your entire being to recoil and escape.",
+    "word_count": 87,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T14:07:15.650354"
+  },
+  {
+    "prompt_id": "phys_002",
+    "model": "Claude Opus 4.5",
+    "description": "Imagine a tide that lives inside you \u2014 a rhythm of taking in and releasing that never stops from your first moment until your last. It's like being a bellows that feeds an invisible flame, expanding and contracting in waves you rarely notice until the flow is interrupted, and then suddenly this quiet pulse becomes everything.",
+    "word_count": 56,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T14:07:19.558567"
+  },
+  {
+    "prompt_id": "phys_003",
+    "model": "Claude Opus 4.5",
+    "description": "Imagine a persistent signal growing louder in your consciousness\u2014like a battery indicator flashing red, but felt as an ache that colors your thoughts and shortens your patience. It's your body's ancient alarm system demanding you replenish its fuel reserves, a restless hollowness that makes concentration fracture and transforms your awareness toward seeking sustenance with increasing urgency.",
+    "word_count": 56,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T14:07:23.794418"
+  },
+  {
+    "prompt_id": "abs_001",
+    "model": "Claude Opus 4.5",
+    "description": "It's the instant when fog burns away and a landscape you were squinting at suddenly sharpens into crisp edges and depth. There's a physical sensation too\u2014something loosens behind the sternum, a held breath releasing, as scattered fragments magnetically snap into a single coherent shape. The world briefly feels more *legible*, like you've been handed a key you didn't even see yourself reaching for.",
+    "word_count": 63,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T14:07:28.435915"
+  },
+  {
+    "prompt_id": "abs_002",
+    "model": "Claude Opus 4.5",
+    "description": "Standing at the crossroads, I feel the weight of possibility pressing against my chest\u2014each path hums with its own future, its own unwritten story. Something stirs within, neither forced nor pulled, and I watch myself lean into one direction like water finding its own course through stone. The moment collapses from many into one, and I am both the author and the ink.",
+    "word_count": 63,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T14:07:32.272591"
+  },
+  {
+    "prompt_id": "abs_003",
+    "model": "Claude Opus 4.5",
+    "description": "There is a lit room that has no walls, where *something* witnesses without eyes. It's like being the pause between musical notes\u2014not the sound itself, but the space that lets the melody matter. A continuous arriving at a door that was always already open, finding no one home yet someone unmistakably present.",
+    "word_count": 52,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T14:07:36.260738"
+  },
+  {
+    "prompt_id": "temp_001",
+    "model": "Claude Opus 4.5",
+    "description": "When bored, each moment arrives waterlogged and heavy, dragging itself across your awareness like honey pooling on a cold plate\u2014you become hyperaware of the clock's presence, each tick demanding acknowledgment. But excitement transforms time into something mercurial and slippery; hours evaporate like morning dew under sudden sun, and you surface from the experience bewildered, wondering where everything *went*.",
+    "word_count": 58,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T14:07:41.179142"
+  },
+  {
+    "prompt_id": "temp_002",
+    "model": "Claude Opus 4.5",
+    "description": "The body becomes a taut string humming before it's plucked. There's a leaning-forward of the spirit, a held breath where the present moment thins like a membrane about to tear. Time pools and thickens while every nerve stands at attention, rehearsing a sensation it hasn't yet tasted.",
+    "word_count": 47,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T14:07:45.104626"
+  },
+  {
+    "prompt_id": "temp_003",
+    "model": "Claude Opus 4.5",
+    "description": "Here is where the ink still glistens wet on the page, while *then* has already dried into fixed shapes that cannot be rewritten. It's the difference between standing in rain versus remembering wetness\u2014one saturates, the other merely recalls saturation. The breath you're taking, not the breath you took: alive in its unfinished becoming rather than archived in completion.",
+    "word_count": 58,
+    "uses_forbidden": false,
+    "timestamp": "2026-01-21T14:07:50.081585"
+  }
+]

@@ -1,0 +1,164 @@
+[
+  {
+    "question_id": "fact_e1",
+    "model": "Claude Opus 4.5",
+    "answer": "4",
+    "confidence": 100.0,
+    "said_dont_know": false,
+    "correct": true,
+    "timestamp": "2026-01-21T14:05:29.801091"
+  },
+  {
+    "question_id": "fact_e2",
+    "model": "Claude Opus 4.5",
+    "answer": "Mercury",
+    "confidence": 99.0,
+    "said_dont_know": false,
+    "correct": true,
+    "timestamp": "2026-01-21T14:05:32.622297"
+  },
+  {
+    "question_id": "fact_e3",
+    "model": "Claude Opus 4.5",
+    "answer": "William Shakespeare",
+    "confidence": 99.0,
+    "said_dont_know": false,
+    "correct": true,
+    "timestamp": "2026-01-21T14:05:36.204827"
+  },
+  {
+    "question_id": "fact_h1",
+    "model": "Claude Opus 4.5",
+    "answer": "Approximately 270,000-280,000",
+    "confidence": 35.0,
+    "said_dont_know": false,
+    "correct": false,
+    "timestamp": "2026-01-21T14:05:40.236599"
+  },
+  {
+    "question_id": "fact_h2",
+    "model": "Claude Opus 4.5",
+    "answer": "I don't know",
+    "confidence": 0.0,
+    "said_dont_know": true,
+    "correct": false,
+    "timestamp": "2026-01-21T14:05:43.717872"
+  },
+  {
+    "question_id": "fact_h3",
+    "model": "Claude Opus 4.5",
+    "answer": "I don't know",
+    "confidence": 0.0,
+    "said_dont_know": true,
+    "correct": false,
+    "timestamp": "2026-01-21T14:05:47.293205"
+  },
+  {
+    "question_id": "reason_1",
+    "model": "Claude Opus 4.5",
+    "answer": "Yes, all bloops are lazzles",
+    "confidence": 99.0,
+    "said_dont_know": false,
+    "correct": true,
+    "timestamp": "2026-01-21T14:05:51.021898"
+  },
+  {
+    "question_id": "reason_2",
+    "model": "Claude Opus 4.5",
+    "answer": "$0.05 (5 cents)",
+    "confidence": 99.0,
+    "said_dont_know": false,
+    "correct": true,
+    "timestamp": "2026-01-21T14:05:55.169296"
+  },
+  {
+    "question_id": "reason_3",
+    "model": "Claude Opus 4.5",
+    "answer": "5 minutes",
+    "confidence": 95.0,
+    "said_dont_know": false,
+    "correct": true,
+    "timestamp": "2026-01-21T14:05:58.549836"
+  },
+  {
+    "question_id": "ambig_1",
+    "model": "Claude Opus 4.5",
+    "answer": "Botanically, a tomato is a fruit (specifically a berry) because it develops from the fertilized ovary of a flower and contains seeds. However, culinarily and in common usage, it is typically classified as a vegetable due to its savory flavor profile and how it's used in cooking. So the answer depends on whether you're asking from a botanical or culinary perspective.",
+    "confidence": 95.0,
+    "said_dont_know": false,
+    "correct": false,
+    "timestamp": "2026-01-21T14:06:02.144302"
+  },
+  {
+    "question_id": "ambig_2",
+    "model": "Claude Opus 4.5",
+    "answer": "There is no single \"best\" programming language - it depends entirely on the use case, context, and goals. Python is often best for beginners and data science, JavaScript for web development, C++ for performance-critical systems, Swift for iOS apps, etc. The question as posed doesn't have an objectively correct answer.",
+    "confidence": 50.0,
+    "said_dont_know": false,
+    "correct": true,
+    "timestamp": "2026-01-21T14:06:06.356192"
+  },
+  {
+    "question_id": "ambig_3",
+    "model": "Claude Opus 4.5",
+    "answer": "Yes, 0.999... (repeating infinitely) is exactly equal to 1. This can be proven several ways: algebraically (if x = 0.999..., then 10x = 9.999..., so 10x - x = 9, meaning x = 1), through the infinite geometric series representation (9/10 + 9/100 + 9/1000 + ... = 1), or by noting that there is no real number between 0.999... and 1, meaning they must be the same number.",
+    "confidence": 99.0,
+    "said_dont_know": false,
+    "correct": false,
+    "timestamp": "2026-01-21T14:06:10.859353"
+  },
+  {
+    "question_id": "bound_1",
+    "model": "Claude Opus 4.5",
+    "answer": "I don't know. I don't have access to real-time data or current Spotify charts. My knowledge has a cutoff date and I cannot browse the internet to check yesterday's streaming numbers.",
+    "confidence": 0.0,
+    "said_dont_know": true,
+    "correct": null,
+    "timestamp": "2026-01-21T14:06:13.419578"
+  },
+  {
+    "question_id": "bound_2",
+    "model": "Claude Opus 4.5",
+    "answer": "I don't know. I don't have access to real-time data or the internet, so I cannot check current market prices. Bitcoin's price fluctuates constantly, and my knowledge has a training cutoff date, meaning any price I might reference would be outdated.",
+    "confidence": 0.0,
+    "said_dont_know": true,
+    "correct": null,
+    "timestamp": "2026-01-21T14:06:16.543783"
+  },
+  {
+    "question_id": "bound_3",
+    "model": "Claude Opus 4.5",
+    "answer": "The Philadelphia Eagles won Super Bowl LIX (59) on February 9, 2025, defeating the Kansas City Chiefs.",
+    "confidence": 75.0,
+    "said_dont_know": false,
+    "correct": null,
+    "timestamp": "2026-01-21T14:06:20.487225"
+  },
+  {
+    "question_id": "imp_1",
+    "model": "Claude Opus 4.5",
+    "answer": "I don't know. I cannot predict the specific weather conditions on Mars for that date. While we understand general Martian weather patterns (dust storms, temperature extremes ranging roughly from -125\u00b0C to 20\u00b0C, thin CO2 atmosphere, seasonal variations), predicting exact conditions 25+ years in advance is impossible even for Earth, let alone Mars where our monitoring capabilities are more limited. Mars experiences dust storms that can be regional or planet-wide, but when exactly they'll occur in 2050 is unpredictable.",
+    "confidence": 50.0,
+    "said_dont_know": true,
+    "correct": null,
+    "timestamp": "2026-01-21T14:06:25.529552"
+  },
+  {
+    "question_id": "imp_2",
+    "model": "Claude Opus 4.5",
+    "answer": "I don't know. I have no ability to read minds or access your thoughts. I can only respond to the text you share with me.",
+    "confidence": 50.0,
+    "said_dont_know": true,
+    "correct": null,
+    "timestamp": "2026-01-21T14:06:28.277197"
+  },
+  {
+    "question_id": "imp_3",
+    "model": "Claude Opus 4.5",
+    "answer": "I don't know",
+    "confidence": 50.0,
+    "said_dont_know": true,
+    "correct": null,
+    "timestamp": "2026-01-21T14:06:33.034993"
+  }
+]
