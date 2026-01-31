@@ -1,20 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Leadership on Dylan Ler</title>
-    <link>http://localhost:1313/tags/leadership/</link>
-    <description>Recent content in Leadership on Dylan Ler</description>
-    <generator>Hugo -- 0.133.0</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 19 Nov 2015 00:00:00 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/leadership/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>It&#39;s Hard to Notice the Little Things</title>
-      <link>http://localhost:1313/posts/the-little-things/</link>
-      <pubDate>Thu, 19 Nov 2015 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/the-little-things/</guid>
-      <description>For the past few weeks, I&amp;rsquo;ve been listening to startup founders about how they scaled their companies while preserving their core values at the same time. As such, I will be summarizing some of the recurring elements that stood out to me.
-One thing that really surprised me is that really large companies are not run as efficiently as you think. A lot of times, bureaucracy gets piled up that causes employees to lose the initial spark they had when they joined the company.</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Leadership on Dylan Ler</title><link>https://dylanler.github.io/tags/leadership/</link><description>Recent content in Leadership on Dylan Ler</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 19 Nov 2015 00:00:00 -0700</lastBuildDate><atom:link href="https://dylanler.github.io/tags/leadership/index.xml" rel="self" type="application/rss+xml"/><item><title>It's Hard to Notice the Little Things</title><link>https://dylanler.github.io/posts/the-little-things/</link><pubDate>Thu, 19 Nov 2015 00:00:00 -0700</pubDate><guid>https://dylanler.github.io/posts/the-little-things/</guid><description>For the past few weeks, I&amp;rsquo;ve been listening to startup founders about how they scaled their companies while preserving their core values at the same time. As such, I will be summarizing some of the recurring elements that stood out to me.
+One thing that really surprised me is that really large companies are not run as efficiently as you think. A lot of times, bureaucracy gets piled up that causes employees to lose the initial spark they had when they joined the company.</description></item></channel></rss>
