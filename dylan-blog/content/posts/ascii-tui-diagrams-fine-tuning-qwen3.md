@@ -1,6 +1,6 @@
 +++
 title = 'The Return of ASCII Art: Fine-Tuning a Small LLM to Think in Terminal Diagrams'
-date = 2026-02-06T11:00:00-08:00
+date = 2026-02-06T08:00:00-08:00
 draft = false
 tags = ["AI", "LLM", "fine-tuning", "QLoRA", "ASCII-art", "terminal", "education", "synthetic-data"]
 +++
