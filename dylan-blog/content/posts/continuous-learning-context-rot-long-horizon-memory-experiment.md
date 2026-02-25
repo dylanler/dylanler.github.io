@@ -1,7 +1,9 @@
 +++
 title = 'What I Learned Running a Long Horizon Memory Experiment on 4 A100 GPUs'
-date = 2026-02-25T15:08:00-08:00
+date = 2026-02-25T10:00:00-08:00
 draft = false
+slug = "continuous-learning-context-rot-long-horizon-memory-experiment"
+url = "/posts/continuous-learning-context-rot-long-horizon-memory-experiment/"
 tags = ["AI", "LLM", "memory", "experiments", "learning", "continuous-learning"]
 +++
 
