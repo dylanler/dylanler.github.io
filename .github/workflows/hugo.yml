@@ -1,9 +1,8 @@
 name: Deploy Hugo site to Pages
 
 on:
-  workflow_run:
-    workflows: ["pages build and deployment"]
-    types: [completed]
+  push:
+    branches: ["main"]
   workflow_dispatch:
 
 permissions:
@@ -21,7 +20,6 @@ defaults:
 
 jobs:
   build:
-    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.133.0
