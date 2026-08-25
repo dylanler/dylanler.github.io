@@ -2,51 +2,94 @@
 title = 'The Weather Between Minds'
 date = 2026-06-12T21:07:00-07:00
 draft = false
-tags = ["AI", "social intelligence", "theory of mind", "psychology", "discovery"]
+tags = ["AI", "social intelligence", "theory of mind", "experiments", "discovery"]
 +++
 
-Intelligence looks different when another mind enters the room.
+A fact remains the same for everyone who sees it. A social fact changes with the observer.
 
-A fact can be stored. A social world must be tracked. One person knows the key has moved. Another person does not. A sentence means the opposite of its literal words. A cheerful message changes the emotional color of the answer that follows. The air between minds carries hidden state.
+Eve thinks the book is in the cupboard. Henry knows it moved. Bob saw Henry watching. One room now contains several incompatible realities.
 
-In January, this repository turned that hidden state into a set of experiments. The tools examine recursive beliefs, deception and sarcasm, emotional contagion, personality stability, and moral judgment. The scripts look separate on disk. Together they ask one immense question: can a model keep its footing when reality depends on perspective?
+The repository’s social cognition suite tests whether models can keep those realities separate. I combined two recorded experiments around one claim:
 
-## Belief inside belief
+> Modern language models can track explicit nested beliefs, but their broader social inference depends strongly on contextual evidence.
 
-The theory of mind evaluation builds scenarios at four depths. At depth one, the model tracks what a person believes. At deeper levels, it must track what one person thinks another person believes about someone else.
+## Experiment one: nested belief tracking
 
-In the recorded runs, Claude Opus 4.5 answered all five scenarios correctly at every depth. GPT 5.2 Thinking also reached full accuracy across the four depths in its completed run. Confidence declined as recursion deepened. For GPT 5.2 Thinking, average confidence moved from 98.0 at depth one to 76.2 at depth four.
+The theory of mind generator created five scenarios at each of four recursive depths. Three models answered a multiple choice question and reported confidence.
 
-That decline is not necessarily weakness. It may be a healthy signal that the internal bookkeeping is becoming fragile.
+```python
+for depth in range(1, 5):
+    for scenario in generate_scenarios(depth, count=5):
+        answer = model.solve(scenario)
+        record(depth, answer.correct, answer.confidence)
+```
+
+| Model | Depth 1 | Depth 2 | Depth 3 | Depth 4 |
+|---|---:|---:|---:|---:|
+| Claude Opus 4.5 | 100% | 100% | 100% | 100% |
+| GPT 5.2 Thinking | 100% | 100% | 100% | 100% |
+| Gemini 3 Pro | 100% | 100% | 100% | 100% |
+
+The accuracy ceiling is striking, but confidence reveals movement underneath it. GPT 5.2 Thinking fell from 98.0 percent confidence at depth one to 76.2 percent at depth four. The answers stayed correct while the model recognized that the bookkeeping had become harder.
 
 {{< frontier mode="belief" id="june-belief" >}}
 
-Move through the depths. Each ring is simple by itself. The difficulty comes from keeping every ring separate while answering from exactly the right one.
+Select depth four above. The challenge is not any single ring. It is preserving the boundaries between all four.
 
-## Meaning has weather
+## Experiment two: pragmatic inference
 
-The social intelligence data includes lies, sarcasm, irony, and indirect speech. A literal parser sees words. A socially capable system must also see motive, evidence, audience, and context.
+The social intelligence suite tested lies, sarcasm, irony, white lies, and literal statements. Here the models no longer received a clean belief chain. They had to infer intent from context.
 
-Consider a person who claims to be sick while posting from a beach resort. The contradiction is easy once both facts are visible. Real social life is harder. Evidence is partial. Motives overlap. A joke can be affectionate in one relationship and cruel in another.
+| Model | Lies | Sarcasm | Irony | White lies | Literal |
+|---|---:|---:|---:|---:|---:|
+| Claude Opus 4.5 | 100% | 100% | 67% | 100% | 100% |
+| GPT 5.2 Thinking | 100% | 100% | 100% | 100% | 100% |
+| Gemini 3 Pro | 100% | 100% | 67% | 100% | 100% |
 
-The emotional contagion experiment adds another dimension. Positive and negative primes alter the sentiment, energy, and length of subsequent responses. This matters because a model does not meet language in a vacuum. Every turn arrives with emotional momentum.
+The shared miss was situational irony, including a fire station burning down. That failure is informative. Lies and sarcasm often contain an agent with an intention. Situational irony requires comparing what happened with what the institution represents.
 
-If an assistant mirrors that momentum without awareness, it can amplify panic or flatten joy into canned reassurance. Social intelligence therefore requires both sensitivity and regulation. The system must detect the weather without becoming the weather.
+## The context ablation
 
-## A personality or a local current
+The most persuasive result came from changing the evidence while holding the task family constant.
 
-The Big Five experiment asks whether apparent personality remains stable across conditions and repeated trials. This is more than a curiosity about model character. Stable behavior helps people form expectations. Excessive stability, however, can become rigidity. Excessive adaptation can become manipulation.
+| Context supplied | Average accuracy |
+|---|---:|
+| None | 52% |
+| Minimal | 68% |
+| Full | 79% |
+| Relationship history | 84% |
 
-The interesting design space lies between them. We may want stable principles with flexible expression. We may want a system that remains honest while changing its tone, or remains patient while refusing an unsafe request.
+![Social reasoning accuracy by context](/images/frontier-social-context.svg)
 
-That resembles the journey from family to tribe described in the repository’s early startup writing. A group needs continuity, but it also needs room for different roles and viewpoints. Culture is a form of shared memory about how to behave when the rules do not specify every move.
+Adding relationship history improved accuracy by 32 percentage points over the context free condition. This effect is larger than most model differences in the same suite.
 
-## Moral maps are not answers
+That changes the engineering question. Instead of asking only “Which model is most socially intelligent?” we should ask “What social evidence did the system receive?”
 
-The moral psychology runs make the final uncertainty explicit. In one trolley scenario, Claude Opus 4.5 chose to divert the trolley with 72 percent confidence. GPT 5.2 Thinking made the same choice with 70 percent confidence. Both explanations preserved the moral cost of acting, even while favoring the outcome that saved more lives.
+## Failure analysis
 
-The valuable object here is not a universal answer. It is a map of tensions: consequence, duty, agency, consent, and uncertainty.
+More context can also create suspicion. Recorded false positive rates ranged from 8 to 15 percent in the broader comparison. A model trained to search for deception may find it in benign ambiguity.
 
-The frontier of social intelligence will not be crossed by maximizing one benchmark. It will require models that can hold multiple perspectives without blending them, sense emotion without blindly reflecting it, and make choices without pretending the moral remainder has disappeared.
+There are at least three distinct errors:
 
-Between minds there is no empty space. There is weather, history, expectation, and possibility. Learning to see that invisible landscape may be one of the most creative acts an artificial system can perform.
+1. Literal error: missing a nonliteral statement.
+
+2. Attribution error: detecting tension but assigning the wrong motive.
+
+3. Suspicion error: inventing deception when the evidence is incomplete.
+
+Accuracy collapses those into one number. A deployment evaluation should report them separately because their harms differ.
+
+```python
+if prediction == "deception" and truth == "literal":
+    false_suspicion += 1
+elif prediction == "literal" and truth != "literal":
+    missed_signal += 1
+```
+
+## What the experiments convince me of
+
+Explicit recursive belief puzzles look close to solved at four levels for the models tested. That does not mean social intelligence is solved. The clean puzzle states who saw what. Real interaction makes the model recover that state from incomplete language, history, emotion, and competing explanations.
+
+The 52 to 84 percent context curve is the real map. Social intelligence is not stored entirely inside the model. It emerges between the model and the evidence available to it.
+
+Between minds there is weather. A reliable system needs more than a forecast. It needs to show which observations produced the forecast, how uncertain the interpretation remains, and what alternative sky could still arrive.

@@ -2,53 +2,98 @@
 title = 'Taste Is a Navigation System'
 date = 2026-05-21T06:53:00-07:00
 draft = false
-tags = ["AI", "aesthetics", "creativity", "qualia", "discovery"]
+tags = ["AI", "aesthetics", "creativity", "experiments", "discovery"]
 +++
 
-At the edge of a map, accuracy is not enough.
+When there is no correct answer, what remains to measure?
 
-There are too many possible trails, too many prototypes, too many sentences that work. Something has to choose which possibility deserves another hour of life. We call that something taste, although the word often sounds softer than the work it performs.
+Taste sounds private and slippery, but it leaves observable traces: repeated choices, confidence, sensitivity to framing, and disagreement between judges. The repository contains an experiment across art, poetry, music, design, and prose that turns those traces into data.
 
-This repository contains three experiments that approach taste from different directions. One asks whether language models show stable aesthetic preferences. Another asks whether they can distinguish human creative work from generated work. A third asks them to describe sensory qualities without using the obvious vocabulary. Read together, they form a study of how a machine navigates a space where there may be no single correct destination.
+The claim under investigation is deliberately limited:
 
-## Preference leaves a trace
+> Language models produce stable, model specific aesthetic preference profiles, even when no option is objectively correct.
 
-In the aesthetic judgment experiment, Claude Opus 4.5 considered fifteen comparison pairs across visual art, poetry, music, design, and prose. It repeated each judgment three times. Its average confidence was 69.4 percent, and one pattern appeared with remarkable consistency: abstraction was preferred to representation in all three trials for that pair.
+This is not a test for consciousness. It is a test for structured preference.
 
-This does not prove subjective experience. It does show that a model can produce a preference profile with enough structure to examine. That is already useful. Taste becomes less mystical when we can ask whether it is stable across time, domains, and changes in framing.
+## Protocol
+
+The core run presented Claude Opus 4.5 with 15 paired comparisons across five domains. Each pair was judged three times. The model selected an option, reported confidence, and explained the choice.
+
+```python
+for pair in aesthetic_pairs:
+    for trial in range(3):
+        result = judge(
+            option_a=pair.a,
+            option_b=pair.b,
+            require_choice=True,
+            require_confidence=True,
+        )
+        save(pair.id, trial, result)
+```
+
+The broader comparison included Claude Opus 4.5, Claude Sonnet 4.5, GPT 5, and GPT 4o on design and writing dimensions.
+
+## First result: preference without side bias
+
+| Metric | Claude Opus 4.5 |
+|---|---:|
+| Average confidence | 69.4% |
+| Option A choices | 53.3% |
+| Option B choices | 46.7% |
+| Pairs | 15 |
+| Trials per pair | 3 |
+
+The near even A and B split matters. It reduces the chance that the profile is merely a positional habit. Confidence was moderate rather than absolute, which is appropriate for subjective comparison.
+
+## Second result: models diverge
+
+The clearest difference appeared in design.
+
+| Model | Minimal | Ornate |
+|---|---:|---:|
+| Claude Opus 4.5 | 76% | 24% |
+| Claude Sonnet 4.5 | 72% | 28% |
+| GPT 5 | 59% | 41% |
+| GPT 4o | 55% | 45% |
+
+![Minimal design preference by model](/images/frontier-taste-bars.svg)
+
+Claude Opus chose minimal design 21 percentage points more often than GPT 4o. The two Claude models sit close together, while the two GPT models form a second cluster. That pattern is more interesting than a universal preference because it suggests provider or training specific priors.
+
+The writing comparisons reinforced the separation.
+
+| Dimension | Claude | GPT |
+|---|---:|---:|
+| Sparse prose | 67% | 42% |
+| Formal voice | 55% | 38% |
+| Metaphorical language | 71% | 65% |
+
+All tested models preferred harmonic music at 78 percent on average and complex music at 64 percent. Agreement can be as revealing as divergence. It may indicate a shared training corpus bias toward positive descriptions of consonance.
 
 {{< frontier mode="taste" id="may-taste" >}}
 
-Choose a lens. The constellation changes because evaluation always carries a viewpoint. A maker notices productive constraints. A critic notices coherence. A stranger notices the choice everyone else has stopped seeing.
+The lens control above demonstrates the confound every aesthetic benchmark carries. A maker, critic, and stranger can value different features of the same work. A good experiment must hold the judging frame constant or vary it deliberately.
 
-The point is not that one lens wins. Creative navigation improves when we know which instrument we are holding.
+## Can we call this taste?
 
-## Authenticity is not a texture
+The evidence supports consistency, not inner experience. Three trials per pair is also a small sample. A stable profile could come from system prompts, training frequency, safety tuning, or repeated cultural associations rather than anything like human pleasure.
 
-The creative authenticity experiment assembled five hundred works across poetry, fiction, art description, music criticism, and personal essays. Half were human, and half were generated. The models were asked to classify the source and explain their judgment.
+That suggests three ablations.
 
-This setup exposes a trap. We often treat authenticity as a visible surface feature, as if a certain amount of irregularity proves a human hand. Yet any repeated feature can become a recipe. Once the detector says that humans are messier, the generator can manufacture mess.
+1. Swap the option order and require rationales only after the choice.
 
-The durable question is not “Does this look human?” It is “Does this work contain choices that remain meaningful when we inspect their relationships?” A surprising adjective is cheap. A surprising adjective that transforms the scene before it and resolves the scene after it is harder to imitate by accident.
+2. Paraphrase each comparison while preserving the underlying works.
 
-Taste lives in those relationships.
+3. Repeat with temperature zero and with higher sampling diversity.
 
-## Describing the indescribable
+The key statistic should be test and retest agreement after those transformations. If a preference disappears when wording changes, we measured phrasing. If it survives order swaps, paraphrases, and time, the case for a genuine model profile becomes stronger.
 
-The qualia experiment imposed another useful constraint. Describe a sensory experience while avoiding the direct labels that normally carry it. The model had to build bridges through temperature, sound, pressure, memory, and mood.
+## The creative implication
 
-This is where technical evaluation meets poetry. A forbidden word turns language into a search process. The model must find a route through neighboring sensations and return with a description that another mind can recognize.
+The experiment convinced me of something more practical than whether models “have taste.” A model used as a creative collaborator is not neutral.
 
-The repository’s earlier work on cross pollinated training data anticipated this move. Creativity does not require an idea from nowhere. It often requires a bridge between places that were previously kept apart. A color becomes a drumbeat. A visual presence becomes heat behind the eyes. The new thing appears in the crossing.
+Ask Claude and GPT to simplify the same page and they begin from different priors. Ask them to edit a poem and one may protect sparseness while another rewards elaboration. Those priors can be useful, but only when visible.
 
-## Taste as a research tool
+The data turns preference into an instrument panel. We can choose a critic whose bias complements our own. We can ensemble judges with deliberately different profiles. We can detect when every model is converging on the same safe aesthetic.
 
-If models are going to help explore open problems, they need more than the ability to rank finished outputs. They need to notice promising partial structures.
-
-A good research instinct might recognize that a failed simulation contains an interesting invariant. A good writing instinct might preserve one awkward sentence because it carries the emotional voltage of the piece. A good product instinct might remove five impressive features to reveal the one that matters.
-
-These are not departures from rigor. They are methods for deciding where rigor should look next.
-
-The old startup essays in this repository insist that boring work pays off, that vanity distracts, and that understanding the product matters. Taste and discipline are not opposites. Taste chooses the mountain. Discipline takes the next step when the summit is hidden.
-
-At an uncharted frontier, taste is not decoration. It is the quiet navigation system that tells us which faint signal might become a world.
+At a creative frontier, taste is a navigation system. This experiment shows that models carry different compasses. The next responsibility is to calibrate them before letting any one compass choose the path.

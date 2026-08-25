@@ -2,57 +2,107 @@
 title = 'Worlds That Teach Back'
 date = 2026-04-08T19:16:00-07:00
 draft = false
-tags = ["AI", "physics simulation", "embodied learning", "creativity", "discovery"]
+tags = ["AI", "physics simulation", "fine tuning", "experiments", "discovery"]
 +++
 
-A child drops a spoon from a table. Gravity answers immediately.
+Text lets an incorrect explanation remain elegant. A simulation is less polite. The bridge falls, the orbit escapes, or the ball passes through the floor.
 
-The answer is not a paragraph. It is a collision, a sound, and a new expectation about what happens next. The world teaches through resistance.
+I wanted to test a narrow version of a larger idea:
 
-That simple fact sits behind several experiments in this repository. One proposed a developmental curriculum inside MuJoCo. Another trained Qwen3 0.6B to generate interactive p5.js physics animations. Together they point toward a strange and fertile idea: perhaps a model should not only read descriptions of reality. Perhaps it should build small realities, touch them, and be corrected by what they do.
+> Can a model with fewer than one billion parameters learn enough structured code to generate small interactive physics worlds?
 
-## From corpus to playground
+The repository contains a completed Qwen3 0.6B LoRA run built from synthetic p5.js examples. It also contains a developmental learning proposal for MuJoCo. One asks a model to write worlds. The other asks a model to learn inside them. The completed training run gives us a useful first measurement.
 
-Text is generous. It lets an incorrect claim remain elegant. Physics is less polite. A bridge falls. A pendulum gains energy when it should lose it. A ball passes through the floor. The simulation turns a conceptual mistake into an observable event.
+## Experimental setup
 
-The developmental learning proposal organizes this feedback into stages. First come simple actions and object permanence. Then tools, obstacles, transfer, and social behavior. This is not merely a longer prompt. It is a curriculum where later discoveries depend on earlier physical intuitions.
+One hundred parallel Claude agents generated examples across 124 school science topics. The resulting curriculum covered mechanics, electricity, waves, thermodynamics, fluids, optics, astronomy, chemistry, and biology.
 
-The p5.js experiment approaches the same frontier from the opposite direction. Instead of placing a model inside a simulator, it asks the model to write one. One hundred parallel agents generated one thousand training examples. QLoRA adapted a small model on four A100 GPUs. The target was code, but the real subject was causality.
+| Component | Value |
+|---|---:|
+| Base model | Qwen3 0.6B |
+| Trainable parameters | 40.4M |
+| Share of model trained | 5.1% |
+| LoRA rank | 64 |
+| LoRA alpha | 128 |
+| Hardware | 4 A100 GPUs |
+| Effective batch size | 32 |
+| Training time | 171.87 seconds |
+
+Every target followed the same executable grammar: a canvas, `setup()`, `draw()`, state variables, and visible consequences over time.
+
+```javascript
+function draw() {
+  velocity.add(gravity);
+  position.add(velocity);
+
+  if (position.y > floorY) {
+    position.y = floorY;
+    velocity.y *= -restitution;
+  }
+}
+```
+
+This pattern is small, but it contains a causal claim. Gravity changes velocity. Velocity changes position. Collision reverses and damps motion.
+
+## Training curve
+
+| Step | Loss | Token accuracy |
+|---:|---:|---:|
+| 10 | 0.909 | 77.0% |
+| 30 | 0.621 | 82.3% |
+| 50 | 0.549 | 84.0% |
+| 70 | 0.510 | 84.9% |
+| 93 | 0.592 | 85.6% |
+
+![Physics code training curve](/images/frontier-physics-curve.svg)
+
+Token accuracy rose 8.6 points while loss fell rapidly. The final loss rose above the step 70 value, so the clean story is not “training improved forever.” The better reading is that the model found the domain grammar quickly and then entered a noisier regime near the end.
+
+Training completed in 2.9 minutes. That is the first persuasive result. A narrow visual programming language can be distilled into a small model cheaply enough to iterate.
 
 {{< frontier mode="world" id="april-world" >}}
 
-Change gravity and surface drag, then release another learner. Nothing in the scene is intelligent. That is the point. The world supplies a stable consequence, which is exactly what a learning system can push against.
+Change gravity and surface drag above. A parameter change produces a visible consequence. That immediate feedback is the reason simulated worlds are more than decorative output.
 
-## Code as compressed imagination
+## Why token accuracy is not enough
 
-An animation program is a peculiar kind of sentence. It describes not just what a scene looks like, but how the scene will continue to change.
+An 85.6 percent next token score does not mean 85.6 percent of generated simulations are physically correct. One wrong operator can create energy from nowhere. A missing boundary condition can invalidate an otherwise perfect file.
 
-That makes code generation an unusually rich creative test. A model must coordinate geometry, time, state, and visual explanation. If it writes a pendulum, the length must constrain the path. If it writes an orbit, velocity and attraction must remain in conversation. The program becomes a hypothesis about a possible world.
+The next evaluation should therefore execute the output and score behavior.
 
-The repository also explores terminal diagrams made from ASCII characters. At first this seems like a separate nostalgic experiment. It is actually another version of the same discipline. Severe constraints reveal structure. When pixels are unavailable, the model must express relationships with lines, boxes, labels, and space. When prose is insufficient, executable code must carry the explanation through time.
+```python
+def score_trajectory(predicted, reference):
+    position_error = mean_distance(predicted.xy, reference.xy)
+    energy_drift = abs(predicted.energy[-1] - reference.energy[-1])
+    runtime_ok = int(predicted.completed_without_error)
+    return runtime_ok, position_error, energy_drift
+```
 
-## A curriculum of wonder
+I would use at least four metrics:
 
-The obvious use for generated simulations is education. Ask for buoyancy, orbital mechanics, or wave interference and receive a manipulable scene. The more radical use is education for the model itself.
+| Metric | What it catches |
+|---|---|
+| Runtime pass rate | Invalid JavaScript |
+| Trajectory error | Wrong motion |
+| Energy drift | Physically impossible behavior |
+| Teacher rating | Misleading explanation |
 
-Imagine a loop with four steps.
+The teacher rating matters because correct motion can still teach badly. Labels can cover the important object. Time can move too quickly. A beautiful animation can emphasize the wrong variable.
 
-1. The model predicts what a world will do.
+## The failure that points forward
 
-2. It writes or chooses an action.
+The final loss wobble and the gap between token accuracy and executable truth lead to the same conclusion. Static language metrics are a first filter, not the destination.
 
-3. The simulator returns the consequence.
+The exciting loop is closed:
 
-4. The model updates its explanation.
+1. A model predicts a world.
 
-This is discovery in miniature. The system is no longer rewarded only for sounding like the archive. It is rewarded for surviving contact with a world.
+2. The world runs.
 
-## The open question
+3. Its trajectory is compared with the intended law.
 
-Simulation can also become a comfortable illusion. A learner may master the quirks of one engine without acquiring concepts that transfer. Beautiful generated animations may conceal incorrect equations. A curriculum may reward shortcuts invisible to its designer.
+4. The failure becomes the next training example.
 
-So the next experiments need crossings. Change the renderer while preserving the law. Change the object while preserving the relation. Move from p5.js to MuJoCo, from text diagrams to motion, and ask which concepts survive.
+This is how a simulator begins to teach back. The model is no longer rewarded only for resembling code in the archive. It is rewarded for creating a world that survives contact with its own rules.
 
-The most exciting result would not be a perfect simulation. It would be a model that notices when its world is wrong.
-
-We have spent decades building machines that answer questions about maps. The repository’s physics work suggests another path. Give the machine a territory small enough to build, strange enough to explore, and honest enough to push back.
+The experiment supports a modest claim with large consequences. Small models can acquire the grammar of interactive scientific explanation quickly. The remaining frontier is not more fluent code. It is automatic contact with reality, even if that reality is only 600 pixels wide.

@@ -2,57 +2,105 @@
 title = 'When Memory Becomes a Place'
 date = 2026-08-23T16:04:00-07:00
 draft = false
-tags = ["AI", "LLM", "memory", "long context", "discovery"]
+tags = ["AI", "LLM", "memory", "experiments", "discovery"]
 +++
 
-For most of computing history, memory has looked like a cabinet.
+What if a model did not reread its past in words?
 
-Put words into a drawer. Attach a label. Search for the label later. The metaphor is so familiar that it can be hard to imagine an alternative.
+That question led to the largest completed experiment in this repository: compress long documents into latent vectors, project those vectors into soft tokens, and compare the result with a text summary buffer.
 
-Then the final experiments in this repository ask a beautiful question: what if a language model remembered in vectors instead of words?
+The experiment began with an attractive hypothesis:
 
-That question is the farthest point on a trail that began with startup notes, crossed synthetic datasets and simulated worlds, passed through taste and social cognition, and arrived at long horizon learning. The path was not straight. Discovery rarely is. Each project invented an instrument that the next project quietly needed.
+> Latent Pager Memory can preserve useful information with less generation cost than a text buffer.
 
-## The pressure of distance
+The data supported that hypothesis and exposed a dangerous price.
 
-Long context systems face two related problems. Important evidence can sit far from the question, and irrelevant evidence can crowd around it. More tokens do not automatically create more understanding. Sometimes they create a larger room in which the signal can disappear.
+## Architecture
 
-The repository compares a Text Buffer with Latent Pager Memory, or LPM, using Qwen3 1.7B and four A100 GPUs. The model weights remain frozen, which isolates the behavior of the memory system. Tests cover baseline quality, contradiction, context pressure, and continual streams.
+The text baseline chunks a document, generates a summary for each chunk, concatenates the summaries, and generates an answer. The latent pager replaces the summaries with hidden state extraction and learned soft tokens.
 
-On the recorded sentinel results for the real dataset, LPM reached a task score of 0.0669 compared with 0.0515 for the Text Buffer. Contradiction fell from 0.1040 to 0.0819. Mean response time moved from 46.511 seconds to 1.945 seconds, a reported speedup of 23.92 times.
+```python
+hidden = frozen_model(chunk, output_hidden_states=True).hidden_states[-1]
+page = compressor(hidden[-1])
+soft_tokens = aggregator(page, num_tokens=16)
+answer = frozen_model.generate(inputs_embeds=soft_tokens)
+```
 
-The absolute task scores remind us that this frontier is still rough. The direction of change is what makes it interesting: quality, contradiction, and cost improved together in that comparison.
+The final model used last token pooling, 16 soft tokens, and one aggregator layer. It was trained on 2,000 examples and tested on 500 examples covering single fact extraction and multi hop reasoning.
+
+## Main result
+
+| Metric | Text buffer | Latent pager | Change |
+|---|---:|---:|---:|
+| F1 | 0.0182 | 0.0257 | +41.5% |
+| ROUGE L | 0.0177 | 0.0260 | +47.0% |
+| Average latency | 19.55 s | 7.65 s | 2.55 times faster |
+| Peak memory | 1.02 GB | 1.82 GB | +77% |
+| Hallucination | 0.292 | 0.580 | +98.4% |
+
+All paired quality differences were reported significant at p less than 0.001 using 10,000 bootstrap iterations.
+
+![Latent memory quality and hallucination tradeoff](/images/frontier-memory-tradeoff.svg)
+
+The latent pager was faster and closer to the reference answer. It also hallucinated almost twice as often.
+
+That is the real experiment. If I reported only F1 and latency, the method would look like a clean win. Adding hallucination turns the result into a design problem.
 
 {{< frontier mode="memory" id="august-memory" >}}
 
-Increase memory distance and distractor pressure. The visualization is conceptual, not a fresh benchmark, but it makes the engineering problem tangible. A memory must preserve a path to the signal while noise accumulates around it.
+The interactive landscape above is conceptual. The table is measured. Keeping those categories separate matters because an appealing visualization can otherwise lend certainty to data it did not produce.
 
-## From transcription to transformation
+## Task breakdown
 
-A text buffer stores a readable history. That transparency is valuable, but it can become expensive and unwieldy. Latent memory attempts to compress experience into vector representations that the model can use without replaying every word.
+| Task | Text F1 | Latent F1 | Text hallucination | Latent hallucination |
+|---|---:|---:|---:|---:|
+| Single fact, 260 tests | 0.0206 | 0.0314 | 0.317 | 0.662 |
+| Multi hop, 240 tests | 0.0155 | 0.0195 | 0.265 | 0.491 |
 
-Compression introduces a profound design question. What deserves to survive?
+Compression helped single fact retrieval more than multi hop reasoning. That makes architectural sense. A compressed page can preserve a local signal while still losing the relationships needed to combine facts across chunks.
 
-A perfect transcript preserves detail without deciding what matters. A useful memory changes shape. It keeps relationships, conflicts, unfinished goals, and facts likely to matter later. It may forget the exact sentence while retaining the turn it caused in the conversation.
+The single fact hallucination rate of 0.662 is the loudest warning. The representation gave the decoder enough semantic scent to answer, but not always enough evidence to answer faithfully.
 
-This echoes the cross pollinated dataset work from March 2025. Knowledge becomes powerful through connections, not accumulation alone. It also echoes the ASCII diagram experiment. Constraint can force structure into view. A small memory budget may teach a system to preserve meaning rather than volume.
+## Three versions, two wrong turns
 
-## The experiment that keeps becoming
+| Version | Design | Test F1 |
+|---|---|---:|
+| 1 | Mean pooling, 32 tokens, 2 layers | 0.0136 |
+| 2 | Question conditioning plus reconstruction loss | 0.0143 |
+| 3 | Last token, 16 tokens, 1 layer | 0.0257 |
 
-The long horizon campaign also revealed an operational lesson. Early parallel work used the four GPUs well, but difficult context conditions created a heavy tail. Some devices became idle while the hardest jobs continued. Sharding those remaining conditions restored useful parallelism.
+Version one underperformed the text baseline. Version two added clever machinery and barely improved. Version three removed machinery and won.
 
-That detail belongs in the story because research is not only a hypothesis and a chart. It is the moment you notice the machines waiting, change the shape of the work, and recover the experiment. The frontier is full of these small acts of attention.
+The ablations explain why.
 
-The earlier “Boring Work Pays Off” essay could have been written for this exact moment. The glamorous idea is vector memory. Progress still depends on job scheduling, fixed seeds, consistent metrics, per example records, and the humility to inspect tail failures.
+| Ablation | F1 | Hallucination |
+|---|---:|---:|
+| Mean pooling | 0.0191 | 0.273 |
+| Last token pooling | 0.0231 | 0.073 |
+| 8 soft tokens | 0.0186 | 0.211 |
+| 16 soft tokens | 0.0240 | 0.271 |
+| 64 soft tokens | 0.0171 | 0.316 |
 
-## A new map of self
+Last token pooling improved F1 by 21 percent over mean pooling and reduced hallucination by 73 percent in that ablation. Sixteen soft tokens formed the quality peak. More capacity did not mean more memory. It meant more parameters available to overfit.
 
-If memory becomes latent, continual, and selective, the role of a model changes. It is no longer only a function called with a prompt. It becomes a process with a past.
+## The experiment I would run next
 
-That raises difficult questions. How can a memory be inspected? How can a mistaken belief be corrected everywhere it matters? How should forgetting work? Which memories belong to the person, which belong to the model, and which should never be stored?
+The decoder needs permission to abstain. I would add a retrieval sufficiency head trained to predict whether the latent pages contain enough evidence.
 
-These are engineering questions and moral questions at once.
+```python
+evidence_score = sigmoid(sufficiency_head(soft_tokens.mean(0)))
 
-The sense of awe comes from seeing the whole trail. Camera coordinates taught precision. Simulations taught consequence. Aesthetic experiments taught preference. Social evaluations taught perspective. Metacognition taught the boundary of evidence. Memory gathers those lessons into continuity.
+if evidence_score < threshold:
+    return "I do not have enough evidence in memory."
+return decoder.generate(soft_tokens)
+```
 
-An uncharted path does not reveal itself all at once. First we leave markers. Then the markers become a route. Eventually the route becomes a place where another mind can stand, look back, and remember how it arrived.
+The evaluation should plot F1 against hallucination as the threshold changes. The goal is not maximum recall. It is a useful operating point where compression gains survive without doubling fabricated answers.
+
+## What the data convinced me of
+
+Latent memory is not merely a smaller cabinet. It changes the failure mode. Text summaries can omit. Latent vectors can suggest. Suggestion is powerful because it is fast and associative. It is dangerous because a decoder can turn a faint association into a confident sentence.
+
+The uncharted path is real. The experiment shows a 2.55 times speed advantage and a 41.5 percent F1 improvement. It also places a warning sign at the entrance: memory quality must include knowing when the memory is insufficient.
+
+When memory becomes a place, the system needs more than a path back. It needs landmarks that distinguish what was truly there from what merely feels familiar.

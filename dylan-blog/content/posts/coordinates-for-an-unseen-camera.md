@@ -2,49 +2,84 @@
 title = 'Coordinates for an Unseen Camera'
 date = 2026-03-17T07:42:00-07:00
 draft = false
-tags = ["AI", "video", "synthetic data", "creativity", "discovery"]
+tags = ["AI", "video", "synthetic data", "experiments", "discovery"]
 +++
 
-There is a peculiar moment in every new field when the thing you need does not have a name yet.
+A camera moves left. Or perhaps the subject moves right. The pixels alone do not tell us which coordinate system the sentence meant.
 
-You can see it. A camera glides past a quiet room, turns toward a window, and keeps a person perfectly centered. The movement feels intentional. Ask a video model to reproduce it, though, and language becomes fog. “Move left” might describe the camera, the subject, or the world inside the frame.
+That ambiguity became the experimental question for this month:
 
-That ambiguity was the starting point for the camera movement dataset in this repository. The early work was practical. Generate environments, reconstruct scenes, define trajectories, render clips, and pair each clip with precise language. Yet beneath the pipeline was a more interesting discovery. Creativity often begins by inventing coordinates for something that used to be felt only by intuition.
+> Does adding explicit camera coordinates make a movement label meaningfully more reconstructable than ordinary cinematic language?
 
-## The frame needed a compass
+The larger camera dataset project in this repository proposes generated environments, depth estimation, scene reconstruction, scripted camera paths, and captions derived from those paths. There is no completed video model benchmark in the repository yet, so I did not manufacture one. Instead, I tested the assumption underneath the pipeline: whether a label can preserve the pose that created it.
 
-Cinematographers have a rich vocabulary, but training data needs more than a beautiful phrase. It needs repeatable relationships. A useful movement description must preserve at least four things: the camera origin, the direction of travel, the axis of rotation, and the subject’s behavior inside the frame.
+## Hypothesis
 
-That turns a prompt into something closer to an instrument reading. Pan is not simply motion. It is rotation around a vertical axis. Tracking is not simply following. It is a relationship between two trajectories. A crane shot changes height while the scene continues to unfold below.
+A vague label such as “pan left and tilt up” identifies a region of motion. A coordinate label such as “pan negative 17 degrees, tilt positive 6 degrees” identifies a pose. If the dataset is meant to teach controllable cinematography, reconstruction error should fall sharply when the numeric state is retained.
 
-The distinction matters because a model cannot discover control from labels that collapse different motions into the same word.
+## Method
+
+I enumerated 15,617 camera poses on a deterministic grid. Pan ranged from negative 40 to positive 40 degrees. Tilt ranged from negative 24 to positive 24 degrees. Both axes advanced in half degree increments.
+
+Each pose was encoded two ways.
+
+1. The vague encoder emitted left, center, or right for pan and up, level, or down for tilt. Reconstruction used the center of each named region.
+
+2. The precise encoder rounded each axis to the nearest whole degree.
+
+The primary metric was mean absolute angular error. The second metric was the percentage of poses reconstructed within two degrees on both axes. The complete [reproduction script](https://github.com/dylanler/dylanler.github.io/blob/main/experiment-tools/frontier_camera_label_eval.py) uses only the Python standard library.
+
+```python
+def encode_vague(pan, tilt):
+    pan_hat = -24 if pan < -8 else 24 if pan > 8 else 0
+    tilt_hat = -14.5 if tilt < -5 else 14.5 if tilt > 5 else 0
+    return pan_hat, tilt_hat
+
+def encode_precise(pan, tilt):
+    return round(pan), round(tilt)
+
+pan_hat, tilt_hat = encode_precise(pan, tilt)
+error = abs(pan - pan_hat) + abs(tilt - tilt_hat)
+```
+
+This is a label reconstruction experiment, not a claim about generated video quality. It isolates whether the annotation itself contains enough information to recover the intended camera state.
+
+## Results
+
+| Label scheme | Pan MAE | Tilt MAE | Both axes within 2° |
+|---|---:|---:|---:|
+| Vague directions | 7.20° | 4.29° | 4.67% |
+| Rounded coordinates | 0.25° | 0.25° | 100.00% |
+
+![Camera label reconstruction error](/images/frontier-camera-error.svg)
+
+The coordinate label reduced pan error by 96.6 percent and tilt error by 94.2 percent. More importantly, the joint tolerance rate moved from 4.67 percent to 100 percent.
+
+The result is almost embarrassingly strong, but that is useful. It means the first uncertainty in the project is resolved. A directional word is not a sufficient training target for precise control.
 
 {{< frontier mode="camera" id="march-camera" >}}
 
-Try moving the controls. The sentence below the scene changes because the geometry changes. This small interaction captures the central lesson of the dataset work. A creative instruction becomes more powerful when every word has a physical consequence.
+Move the controls above. The readout changes because the prompt is tied to a physical state. That relationship is what the dataset needs to preserve.
 
-## Synthetic data as field exploration
+## What this does not prove
 
-The repository’s proposed pipeline combines image generation, depth estimation, scene reconstruction, camera path planning, rendering, and automatic captioning. Each stage solves a different kind of uncertainty.
+This experiment does not show that a video model will obey the coordinates. It does not test occlusion, subject motion, focal length, camera roll, acceleration, or whether a human would prefer the resulting shot. It only shows that the label no longer destroys the pose before training begins.
 
-An environment model gives us a place. Depth gives the place volume. Reconstruction makes a world that a virtual camera can enter. A path planner creates motion with known parameters. Rendering turns those parameters into visible evidence. Captioning translates the evidence back into language.
+That limitation determines the next experiment. Render trajectories from Blender or another scene engine, hide the source parameters, and ask a pose estimator to recover them from the clip. Then compare four annotation families:
 
-This loop is exciting because the label is not guessed after the fact. The label is born from the same trajectory that creates the video. Ground truth becomes part of the creative process.
+| Condition | Information retained | Expected failure |
+|---|---|---|
+| Cinematic phrase | Movement category | Large endpoint variance |
+| Phrase plus duration | Category and time | Unknown magnitude |
+| Start and end pose | Geometry | Unknown velocity profile |
+| Full trajectory | Geometry and rhythm | Caption complexity |
 
-## The unexpected bridge
+The right dataset may need both human language and machine coordinates. Language carries intention. Coordinates carry accountability.
 
-Two days after the camera dataset post appeared, the repository introduced another idea: build supervised training data by deliberately connecting distant domains. Mathematics might meet history. Biology might meet architecture. The goal was not random mixture. It was meaningful recombination.
+## The argument the data supports
 
-The camera project is one example of that philosophy in motion. It crosses cinematography, geometry, robotics, graphics, and language. Each field lends a coordinate system to the others. The cinematic idea gains mathematical precision. The geometric path gains narrative intent.
+Synthetic data is often described as a way to create more examples. This experiment suggests a more interesting purpose. It lets us create examples whose hidden causes are known.
 
-This may be the deeper promise of synthetic data. It does not merely create more examples. It lets us build examples at the borders between disciplines, exactly where public datasets are thinnest.
+When a virtual camera moves, the renderer knows every pose along the path. The caption should not throw that knowledge away. If we preserve it, a generated clip can be evaluated against the exact journey requested, not merely whether it “looks cinematic.”
 
-## What I would measure next
-
-The first test should not ask whether a generated clip looks impressive. It should ask whether a viewer can recover the requested path from the clip. Can people reliably distinguish a pan from a truck? Can a model preserve subject framing while changing elevation? Does a combined move retain both components or blur them into generic motion?
-
-The most valuable failures will be the ones that expose missing coordinates. A model that moves in the correct direction but loses the subject is telling us that trajectory alone is insufficient. A model that performs the right move with the wrong speed profile is asking for a vocabulary of acceleration and rhythm.
-
-An uncharted path becomes navigable when we place the first marker. In this case, the marker is a camera pose, a frame, and a sentence precise enough to connect them.
-
-The frontier did not become smaller. It became visible.
+The first discovery on an uncharted path is sometimes a coordinate system. Once we can name where the camera went, we can finally ask whether the model followed.
