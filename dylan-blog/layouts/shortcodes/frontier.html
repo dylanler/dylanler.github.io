@@ -1,0 +1,58 @@
+{{- $mode := .Get "mode" -}}
+{{- $id := printf "frontier-%s" (.Get "id") -}}
+<section class="frontier-lab" id="{{ $id }}" data-frontier-mode="{{ $mode }}">
+  {{ if eq $mode "camera" }}
+  <div class="frontier-heading"><span>FIELD INSTRUMENT 01</span><strong>Camera Coordinate Lab</strong></div>
+  <div class="camera-stage" aria-label="Interactive camera coordinate scene">
+    <div class="camera-grid"></div><div class="camera-sun"></div><div class="camera-subject">SUBJECT</div><div class="camera-frame"></div>
+  </div>
+  <div class="frontier-controls">
+    <label>Pan <output data-output="pan">0°</output><input data-control="pan" type="range" min="-40" max="40" value="0"></label>
+    <label>Tilt <output data-output="tilt">0°</output><input data-control="tilt" type="range" min="-24" max="24" value="0"></label>
+  </div>
+  <p class="frontier-readout" aria-live="polite">Camera holds the subject at center.</p>
+  {{ else if eq $mode "world" }}
+  <div class="frontier-heading"><span>FIELD INSTRUMENT 02</span><strong>A World That Pushes Back</strong></div>
+  <canvas class="world-canvas" width="720" height="310" aria-label="Interactive particle physics world"></canvas>
+  <div class="frontier-controls">
+    <label>Gravity <output data-output="gravity">0.55</output><input data-control="gravity" type="range" min="5" max="95" value="55"></label>
+    <label>Surface drag <output data-output="drag">0.18</output><input data-control="drag" type="range" min="0" max="80" value="18"></label>
+  </div>
+  <button class="frontier-button" type="button" data-action="release">Release a new learner</button>
+  {{ else if eq $mode "taste" }}
+  <div class="frontier-heading"><span>FIELD INSTRUMENT 03</span><strong>Taste Constellation</strong></div>
+  <div class="taste-map" aria-label="Interactive aesthetic preference constellation">
+    <svg viewBox="0 0 720 320" role="img"><path d="M80 250 C190 60 320 80 390 170 S570 300 655 65"/><circle data-taste="abstraction" cx="155" cy="125" r="10"/><circle data-taste="restraint" cx="300" cy="205" r="10"/><circle data-taste="voice" cx="455" cy="110" r="10"/><circle data-taste="surprise" cx="610" cy="205" r="10"/></svg>
+    <span style="--x:21%;--y:34%">abstraction</span><span style="--x:41%;--y:65%">restraint</span><span style="--x:63%;--y:29%">voice</span><span style="--x:84%;--y:65%">surprise</span>
+  </div>
+  <div class="frontier-choice" role="group" aria-label="Choose a critical lens">
+    <button type="button" data-lens="maker">Maker</button><button type="button" data-lens="critic">Critic</button><button type="button" data-lens="stranger">Stranger</button>
+  </div>
+  <p class="frontier-readout" aria-live="polite">Choose a lens. The same work can reveal a different sky.</p>
+  {{ else if eq $mode "belief" }}
+  <div class="frontier-heading"><span>FIELD INSTRUMENT 04</span><strong>Belief Telescope</strong></div>
+  <div class="belief-stage" aria-label="Interactive nested belief model"><div class="belief-orbit b1"><span>I see</span><div class="belief-orbit b2"><span>You think</span><div class="belief-orbit b3"><span>They expect</span><div class="belief-orbit b4"><span>We infer</span></div></div></div></div></div>
+  <div class="frontier-choice" role="group" aria-label="Select belief depth">
+    <button type="button" data-depth="1">Depth 1</button><button type="button" data-depth="2">Depth 2</button><button type="button" data-depth="3">Depth 3</button><button type="button" data-depth="4">Depth 4</button>
+  </div>
+  <p class="frontier-readout" aria-live="polite">One mind, one visible fact.</p>
+  {{ else if eq $mode "calibration" }}
+  <div class="frontier-heading"><span>FIELD INSTRUMENT 05</span><strong>Edge of Knowing</strong></div>
+  <div class="calibration-sky"><div class="calibration-needle"></div><div class="calibration-core"><strong>50</strong><span>confidence</span></div><i></i><i></i><i></i><i></i><i></i></div>
+  <div class="frontier-controls">
+    <label>Claimed confidence <output data-output="confidence">50%</output><input data-control="confidence" type="range" min="1" max="99" value="50"></label>
+    <label>Evidence strength <output data-output="evidence">50%</output><input data-control="evidence" type="range" min="1" max="99" value="50"></label>
+  </div>
+  <p class="frontier-readout" aria-live="polite">Confidence and evidence are aligned.</p>
+  {{ else if eq $mode "memory" }}
+  <div class="frontier-heading"><span>FIELD INSTRUMENT 06</span><strong>Memory Landscape</strong></div>
+  <div class="memory-landscape" aria-label="Interactive conceptual memory landscape"><div class="memory-path"></div><div class="memory-signal">SIGNAL</div><div class="memory-destination">RECALL</div><div class="memory-noise"></div></div>
+  <div class="frontier-controls">
+    <label>Distractor pressure <output data-output="noise">35%</output><input data-control="noise" type="range" min="0" max="100" value="35"></label>
+    <label>Memory distance <output data-output="distance">4×</output><input data-control="distance" type="range" min="1" max="12" value="4"></label>
+  </div>
+  <div class="memory-bars"><div><span>Latent memory</span><i data-bar="latent"></i></div><div><span>Text buffer</span><i data-bar="text"></i></div></div>
+  <p class="frontier-caption">Conceptual view based on the direction of the recorded context stress results. This is not a new benchmark.</p>
+  {{ end }}
+</section>
+<script src="{{ "js/frontier-labs.js" | relURL }}" defer></script>
