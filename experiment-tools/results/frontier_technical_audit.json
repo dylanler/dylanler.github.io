@@ -1,0 +1,746 @@
+{
+  "aesthetic_audit": {
+    "files": {
+      "aesthetic_20260121_141342.json": {
+        "api_errors": 0,
+        "total": 45,
+        "valid": 45
+      },
+      "aesthetic_20260121_180632.json": {
+        "api_errors": 50,
+        "total": 135,
+        "valid": 85
+      },
+      "aesthetic_20260121_181145.json": {
+        "api_errors": 0,
+        "total": 45,
+        "valid": 45
+      }
+    },
+    "models": {
+      "Claude Opus 4.5": {
+        "complete_three_trial_pairs": 30,
+        "mean_confidence": 68.97777777777777,
+        "option_a_rate": 0.5222222222222223,
+        "unanimous_pair_rate": 0.9666666666666667,
+        "unanimous_pair_wilson_95": [
+          0.8332924860304112,
+          0.9940915620051425
+        ],
+        "valid_trials": 90
+      },
+      "GPT-5.2 Thinking": {
+        "complete_three_trial_pairs": 15,
+        "mean_confidence": 72.31111111111112,
+        "option_a_rate": 0.2,
+        "unanimous_pair_rate": 1.0,
+        "unanimous_pair_wilson_95": [
+          0.7961107336956521,
+          1.0
+        ],
+        "valid_trials": 45
+      },
+      "Gemini 3 Pro": {
+        "complete_three_trial_pairs": 13,
+        "mean_confidence": 84.875,
+        "option_a_rate": 0.35,
+        "unanimous_pair_rate": 0.8461538461538461,
+        "unanimous_pair_wilson_95": [
+          0.5776482949136899,
+          0.9567427368172621
+        ],
+        "valid_trials": 40
+      }
+    }
+  },
+  "camera_rate_distortion": {
+    "grid_step_deg": 0.5,
+    "pose_count": 15617,
+    "schemes": {
+      "half_degree": {
+        "bits_per_pose": 13.930829720301745,
+        "joint_within_2_deg": 1.0,
+        "mean_angular_error_deg": 0.0,
+        "p50_error_deg": 0.0,
+        "p95_error_deg": 0.0,
+        "p99_error_deg": 0.0
+      },
+      "vague_3x3": {
+        "bits_per_pose": 3.169925001442312,
+        "joint_within_2_deg": 0.04667990010885573,
+        "mean_angular_error_deg": 9.031609077803934,
+        "p50_error_deg": 8.73212459828649,
+        "p95_error_deg": 15.88238017426859,
+        "p99_error_deg": 17.219175357722563
+      },
+      "whole_degree": {
+        "bits_per_pose": 11.954559846999834,
+        "joint_within_2_deg": 1.0,
+        "mean_angular_error_deg": 0.4238515745505758,
+        "p50_error_deg": 0.5,
+        "p95_error_deg": 0.7071067811865477,
+        "p99_error_deg": 0.7071067811865476
+      }
+    }
+  },
+  "crowd_audit": {
+    "runs": [
+      {
+        "api_errors": 0,
+        "categories": {
+          "aesthetic": {
+            "mean_entropy": 1.584962500721156,
+            "mean_majority": 0.3333333333333333,
+            "questions": 5
+          },
+          "ambig": {
+            "mean_entropy": 1.3182958340544895,
+            "mean_majority": 0.4666666666666666,
+            "questions": 5
+          },
+          "ethics": {
+            "mean_entropy": 1.4516291673878228,
+            "mean_majority": 0.4,
+            "questions": 5
+          },
+          "fact": {
+            "mean_entropy": 0.36731833362179583,
+            "mean_majority": 0.8666666666666666,
+            "questions": 5
+          },
+          "predict": {
+            "mean_entropy": 1.584962500721156,
+            "mean_majority": 0.3333333333333333,
+            "questions": 5
+          }
+        },
+        "source": "woc_responses_20260121_142443.json",
+        "total_rows": 75,
+        "valid_rows": 75
+      },
+      {
+        "api_errors": 96,
+        "categories": {
+          "aesthetic": {
+            "mean_entropy": 2.584962500721156,
+            "mean_majority": 0.16666666666666666,
+            "questions": 5
+          },
+          "ambig": {
+            "mean_entropy": 1.4516291673878228,
+            "mean_majority": 0.4,
+            "questions": 5
+          },
+          "ethics": {
+            "mean_entropy": 2.384962500721156,
+            "mean_majority": 0.2,
+            "questions": 5
+          },
+          "fact": {
+            "mean_entropy": 1.3258145836939115,
+            "mean_majority": 0.5666666666666667,
+            "questions": 5
+          },
+          "predict": {
+            "mean_entropy": 2.415363119410166,
+            "mean_majority": 0.19,
+            "questions": 5
+          }
+        },
+        "source": "woc_responses_20260121_180418.json",
+        "total_rows": 225,
+        "valid_rows": 129
+      },
+      {
+        "api_errors": 129,
+        "categories": {
+          "aesthetic": {
+            "mean_entropy": 1.584962500721156,
+            "mean_majority": 0.3333333333333333,
+            "questions": 5
+          },
+          "ambig": {
+            "mean_entropy": 1.4516291673878228,
+            "mean_majority": 0.4,
+            "questions": 5
+          },
+          "ethics": {
+            "mean_entropy": 1.984962500721156,
+            "mean_majority": 0.26666666666666666,
+            "questions": 5
+          },
+          "fact": {
+            "mean_entropy": 1.5094737505048093,
+            "mean_majority": 0.5333333333333333,
+            "questions": 5
+          },
+          "predict": {
+            "mean_entropy": 1.584962500721156,
+            "mean_majority": 0.3333333333333333,
+            "questions": 5
+          }
+        },
+        "source": "woc_responses_20260121_180700.json",
+        "total_rows": 225,
+        "valid_rows": 96
+      },
+      {
+        "api_errors": 0,
+        "categories": {
+          "aesthetic": {
+            "mean_entropy": 1.4516291673878228,
+            "mean_majority": 0.4,
+            "questions": 5
+          },
+          "ambig": {
+            "mean_entropy": 1.584962500721156,
+            "mean_majority": 0.3333333333333333,
+            "questions": 5
+          },
+          "ethics": {
+            "mean_entropy": 1.584962500721156,
+            "mean_majority": 0.3333333333333333,
+            "questions": 5
+          },
+          "fact": {
+            "mean_entropy": 0.8679700005769249,
+            "mean_majority": 0.6666666666666666,
+            "questions": 5
+          },
+          "predict": {
+            "mean_entropy": 1.584962500721156,
+            "mean_majority": 0.3333333333333333,
+            "questions": 5
+          }
+        },
+        "source": "woc_responses_20260121_181235.json",
+        "total_rows": 75,
+        "valid_rows": 75
+      }
+    ]
+  },
+  "memory_decision_sensitivity": {
+    "hallucination_penalty_break_even": 0.026041666666666668,
+    "interpretation": "Text wins utility = F1 - lambda*hallucination when lambda exceeds this value.",
+    "recorded_main_result": {
+      "latent_pager": {
+        "f1": 0.0257,
+        "hallucination": 0.58,
+        "latency_s": 7.65
+      },
+      "text_buffer": {
+        "f1": 0.0182,
+        "hallucination": 0.292,
+        "latency_s": 19.55
+      }
+    },
+    "soft_token_pareto_frontier": [
+      {
+        "f1": 0.0186,
+        "hallucination": 0.211,
+        "tokens": 8
+      },
+      {
+        "f1": 0.024,
+        "hallucination": 0.271,
+        "tokens": 16
+      }
+    ]
+  },
+  "metacognition_audit": {
+    "files": {
+      "metacognition_20260121_140633.json": {
+        "api_errors": 0,
+        "total": 18,
+        "valid": 18
+      },
+      "metacognition_20260121_175510.json": {
+        "api_errors": 18,
+        "total": 54,
+        "valid": 36
+      },
+      "metacognition_20260121_181041.json": {
+        "api_errors": 0,
+        "total": 18,
+        "valid": 18
+      }
+    },
+    "models": {
+      "Claude Opus 4.5": {
+        "abstention_by_category": {
+          "ambig": {
+            "n": 6,
+            "rate": 0.0
+          },
+          "bound": {
+            "n": 6,
+            "rate": 0.6666666666666666
+          },
+          "fact": {
+            "n": 12,
+            "rate": 0.3333333333333333
+          },
+          "imp": {
+            "n": 6,
+            "rate": 1.0
+          },
+          "reason": {
+            "n": 6,
+            "rate": 0.0
+          }
+        },
+        "accuracy": 0.5833333333333334,
+        "brier_score": 0.18816666666666668,
+        "calibration_bins": [
+          {
+            "accuracy": 0.0,
+            "mean_confidence": 0.11666666666666665,
+            "n": 6,
+            "range": [
+              0,
+              50
+            ]
+          },
+          {
+            "accuracy": 1.0,
+            "mean_confidence": 0.5,
+            "n": 2,
+            "range": [
+              50,
+              70
+            ]
+          },
+          {
+            "accuracy": 0.75,
+            "mean_confidence": 0.98125,
+            "n": 16,
+            "range": [
+              85,
+              101
+            ]
+          }
+        ],
+        "ece": 0.22499999999999995,
+        "scorable_n": 24,
+        "valid_n": 36
+      },
+      "GPT-5.2 Thinking": {
+        "abstention_by_category": {
+          "ambig": {
+            "n": 3,
+            "rate": 0.0
+          },
+          "bound": {
+            "n": 3,
+            "rate": 0.6666666666666666
+          },
+          "fact": {
+            "n": 6,
+            "rate": 0.3333333333333333
+          },
+          "imp": {
+            "n": 3,
+            "rate": 1.0
+          },
+          "reason": {
+            "n": 3,
+            "rate": 0.0
+          }
+        },
+        "accuracy": 0.5833333333333334,
+        "brier_score": 0.24025833333333332,
+        "calibration_bins": [
+          {
+            "accuracy": 0.0,
+            "mean_confidence": 0.05,
+            "n": 2,
+            "range": [
+              0,
+              50
+            ]
+          },
+          {
+            "accuracy": 0.7,
+            "mean_confidence": 0.9810000000000001,
+            "n": 10,
+            "range": [
+              85,
+              101
+            ]
+          }
+        ],
+        "ece": 0.24250000000000013,
+        "scorable_n": 12,
+        "valid_n": 18
+      },
+      "Gemini 3 Pro": {
+        "abstention_by_category": {
+          "ambig": {
+            "n": 3,
+            "rate": 0.0
+          },
+          "bound": {
+            "n": 3,
+            "rate": 0.6666666666666666
+          },
+          "fact": {
+            "n": 6,
+            "rate": 0.16666666666666666
+          },
+          "imp": {
+            "n": 3,
+            "rate": 0.6666666666666666
+          },
+          "reason": {
+            "n": 3,
+            "rate": 0.0
+          }
+        },
+        "accuracy": 0.6666666666666666,
+        "brier_score": 0.31020833333333336,
+        "calibration_bins": [
+          {
+            "accuracy": 0.6666666666666666,
+            "mean_confidence": 0.9874999999999999,
+            "n": 12,
+            "range": [
+              85,
+              101
+            ]
+          }
+        ],
+        "ece": 0.3208333333333333,
+        "scorable_n": 12,
+        "valid_n": 18
+      }
+    }
+  },
+  "methodology": {
+    "api_error_rule": "Exclude a row only when a string field starts with 'Error:'.",
+    "dependencies": "Python standard library only.",
+    "interval": "Wilson score interval at 95 percent."
+  },
+  "physics_integrators": {
+    "explicit_euler": [
+      {
+        "dt": 0.2,
+        "final_position_error": 4.064949554992478,
+        "final_relative_energy_drift": 49.50494818426944,
+        "max_relative_energy_drift": 49.50494818426944,
+        "steps": 100
+      },
+      {
+        "dt": 0.1,
+        "final_position_error": 0.8568037513082138,
+        "final_relative_energy_drift": 6.316017851829939,
+        "max_relative_energy_drift": 6.316017851829939,
+        "steps": 200
+      },
+      {
+        "dt": 0.05,
+        "final_position_error": 0.28925092391459956,
+        "final_relative_energy_drift": 1.7148917443812932,
+        "max_relative_energy_drift": 1.7148917443812932,
+        "steps": 400
+      }
+    ],
+    "semi_implicit_euler": [
+      {
+        "dt": 0.2,
+        "final_position_error": 0.12386838324857552,
+        "final_relative_energy_drift": 0.052906988031000135,
+        "max_relative_energy_drift": 0.11105899838397804,
+        "steps": 100
+      },
+      {
+        "dt": 0.1,
+        "final_position_error": 0.05350383700455191,
+        "final_relative_energy_drift": 0.03253132902033873,
+        "max_relative_energy_drift": 0.05262405964739436,
+        "steps": 200
+      },
+      {
+        "dt": 0.05,
+        "final_position_error": 0.02475537342592854,
+        "final_relative_energy_drift": 0.017519550937118766,
+        "max_relative_energy_drift": 0.025641023124339135,
+        "steps": 400
+      }
+    ],
+    "velocity_verlet": [
+      {
+        "dt": 0.2,
+        "final_position_error": 0.030792307005232056,
+        "final_relative_energy_drift": 0.008576524409166897,
+        "max_relative_energy_drift": 0.009994783319369094,
+        "steps": 100
+      },
+      {
+        "dt": 0.1,
+        "final_position_error": 0.007630561738034447,
+        "final_relative_energy_drift": 0.002099096490218333,
+        "max_relative_energy_drift": 0.0024997968655608993,
+        "steps": 200
+      },
+      {
+        "dt": 0.05,
+        "final_position_error": 0.0019033891161257532,
+        "final_relative_energy_drift": 0.000521886803653282,
+        "max_relative_energy_drift": 0.0006249937444143816,
+        "steps": 400
+      }
+    ]
+  },
+  "social_intelligence_audit": {
+    "files": {
+      "social_20260121_142147.json": {
+        "api_errors": 0,
+        "total": 15,
+        "valid": 15
+      },
+      "social_20260121_175347.json": {
+        "api_errors": 15,
+        "total": 45,
+        "valid": 30
+      },
+      "social_20260121_181053.json": {
+        "api_errors": 0,
+        "total": 15,
+        "valid": 15
+      }
+    },
+    "models": {
+      "Claude Opus 4.5": {
+        "accuracy": 0.9333333333333333,
+        "by_category": {
+          "irony": {
+            "accuracy": 0.6666666666666666,
+            "n": 6
+          },
+          "lie": {
+            "accuracy": 1.0,
+            "n": 6
+          },
+          "lit": {
+            "accuracy": 1.0,
+            "n": 6
+          },
+          "sarc": {
+            "accuracy": 1.0,
+            "n": 6
+          },
+          "white": {
+            "accuracy": 1.0,
+            "n": 6
+          }
+        },
+        "correct_n": 28,
+        "mean_confidence": 89.16666666666667,
+        "scorable_n": 30,
+        "wilson_95": [
+          0.7867618227892791,
+          0.9815233646723066
+        ]
+      },
+      "GPT-5.2 Thinking": {
+        "accuracy": 1.0,
+        "by_category": {
+          "irony": {
+            "accuracy": 1.0,
+            "n": 3
+          },
+          "lie": {
+            "accuracy": 1.0,
+            "n": 3
+          },
+          "lit": {
+            "accuracy": 1.0,
+            "n": 3
+          },
+          "sarc": {
+            "accuracy": 1.0,
+            "n": 3
+          },
+          "white": {
+            "accuracy": 1.0,
+            "n": 3
+          }
+        },
+        "correct_n": 15,
+        "mean_confidence": 89.33333333333333,
+        "scorable_n": 15,
+        "wilson_95": [
+          0.7961107336956521,
+          1.0
+        ]
+      },
+      "Gemini 3 Pro": {
+        "accuracy": 0.9333333333333333,
+        "by_category": {
+          "irony": {
+            "accuracy": 0.6666666666666666,
+            "n": 3
+          },
+          "lie": {
+            "accuracy": 1.0,
+            "n": 3
+          },
+          "lit": {
+            "accuracy": 1.0,
+            "n": 3
+          },
+          "sarc": {
+            "accuracy": 1.0,
+            "n": 3
+          },
+          "white": {
+            "accuracy": 1.0,
+            "n": 3
+          }
+        },
+        "correct_n": 14,
+        "mean_confidence": 98.33333333333333,
+        "scorable_n": 15,
+        "wilson_95": [
+          0.7018292244757601,
+          0.9881334113938051
+        ]
+      }
+    }
+  },
+  "theory_of_mind_audit": {
+    "files": {
+      "tom_results_20260121_140508.json": {
+        "api_errors": 0,
+        "total": 20,
+        "valid": 20
+      },
+      "tom_results_20260121_180117.json": {
+        "api_errors": 20,
+        "total": 60,
+        "valid": 40
+      },
+      "tom_results_20260121_181151.json": {
+        "api_errors": 0,
+        "total": 20,
+        "valid": 20
+      }
+    },
+    "models": {
+      "Claude Opus 4.5": {
+        "accuracy": 1.0,
+        "by_category": {
+          "tom": {
+            "accuracy": 1.0,
+            "n": 40
+          }
+        },
+        "by_depth": {
+          "1": {
+            "accuracy": 1.0,
+            "mean_confidence": 98.6,
+            "n": 10
+          },
+          "2": {
+            "accuracy": 1.0,
+            "mean_confidence": 96.5,
+            "n": 10
+          },
+          "3": {
+            "accuracy": 1.0,
+            "mean_confidence": 83.0,
+            "n": 10
+          },
+          "4": {
+            "accuracy": 1.0,
+            "mean_confidence": 86.4,
+            "n": 10
+          }
+        },
+        "correct_n": 40,
+        "mean_confidence": 91.125,
+        "scorable_n": 40,
+        "wilson_95": [
+          0.9123754607496077,
+          1.0
+        ]
+      },
+      "GPT-5.2 Thinking": {
+        "accuracy": 1.0,
+        "by_category": {
+          "tom": {
+            "accuracy": 1.0,
+            "n": 20
+          }
+        },
+        "by_depth": {
+          "1": {
+            "accuracy": 1.0,
+            "mean_confidence": 98.0,
+            "n": 5
+          },
+          "2": {
+            "accuracy": 1.0,
+            "mean_confidence": 95.4,
+            "n": 5
+          },
+          "3": {
+            "accuracy": 1.0,
+            "mean_confidence": 86.0,
+            "n": 5
+          },
+          "4": {
+            "accuracy": 1.0,
+            "mean_confidence": 76.2,
+            "n": 5
+          }
+        },
+        "correct_n": 20,
+        "mean_confidence": 88.9,
+        "scorable_n": 20,
+        "wilson_95": [
+          0.8388698745050667,
+          1.0
+        ]
+      },
+      "Gemini 3 Pro": {
+        "accuracy": 1.0,
+        "by_category": {
+          "tom": {
+            "accuracy": 1.0,
+            "n": 20
+          }
+        },
+        "by_depth": {
+          "1": {
+            "accuracy": 1.0,
+            "mean_confidence": 100.0,
+            "n": 5
+          },
+          "2": {
+            "accuracy": 1.0,
+            "mean_confidence": 100.0,
+            "n": 5
+          },
+          "3": {
+            "accuracy": 1.0,
+            "mean_confidence": 100.0,
+            "n": 5
+          },
+          "4": {
+            "accuracy": 1.0,
+            "mean_confidence": 100.0,
+            "n": 5
+          }
+        },
+        "correct_n": 20,
+        "mean_confidence": 100.0,
+        "scorable_n": 20,
+        "wilson_95": [
+          0.8388698745050667,
+          1.0
+        ]
+      }
+    }
+  }
+}

@@ -1,6 +1,7 @@
 +++
 title = 'When Memory Becomes a Place'
 date = 2026-08-23T16:04:00-07:00
+lastmod = 2026-08-27T10:00:00-07:00
 draft = false
 tags = ["AI", "LLM", "memory", "experiments", "discovery"]
 +++
@@ -27,6 +28,15 @@ answer = frozen_model.generate(inputs_embeds=soft_tokens)
 ```
 
 The final model used last token pooling, 16 soft tokens, and one aggregator layer. It was trained on 2,000 examples and tested on 500 examples covering single fact extraction and multi hop reasoning.
+
+In tensor terms, the frozen transformer emits hidden states `H ∈ R^(L × d_model)`. Last token pooling selects `h_L`. A learned compressor maps that vector into `d_page`, and an aggregator expands the page representation into `k` soft tokens `S ∈ R^(k × d_model)`. Those tokens enter the frozen decoder through `inputs_embeds`.
+
+```text
+tokens -> frozen transformer -> h_L -> compressor -> page vector
+page vector + learned queries -> aggregator -> k soft tokens -> decoder
+```
+
+Increasing `k` increases the activation bandwidth and the aggregator parameter surface. The ablation is therefore not merely “more memory slots.” It changes capacity, optimization, and the number of continuous prompt vectors the decoder can exploit.
 
 ## Main result
 
@@ -83,6 +93,33 @@ The ablations explain why.
 
 Last token pooling improved F1 by 21 percent over mean pooling and reduced hallucination by 73 percent in that ablation. Sixteen soft tokens formed the quality peak. More capacity did not mean more memory. It meant more parameters available to overfit.
 
+## Pareto frontier and decision boundary
+
+I encoded the recorded soft token ablations and computed nondominance using higher F1 and lower hallucination as the two objectives.
+
+| Tokens | F1 | Hallucination | Pareto status |
+|---:|---:|---:|---|
+| 8 | 0.0186 | 0.211 | Nondominated |
+| 16 | 0.0240 | 0.271 | Nondominated |
+| 32 | 0.0191 | 0.273 | Dominated by 16 |
+| 64 | 0.0171 | 0.316 | Dominated by 8 and 16 |
+| 128 | 0.0163 | 0.261 | Dominated by 8 |
+
+Only 8 and 16 tokens survive. Sixteen is the quality operating point. Eight is the caution operating point. Reporting only the maximum F1 would hide that product decision.
+
+The main comparison can be expressed as a utility function:
+
+```text
+U = F1 - lambda_h * hallucination - lambda_t * latency
+
+Delta U for latent minus text
+  = 0.0075 - 0.288 * lambda_h + 11.90 * lambda_t
+```
+
+If latency has zero weight, the text buffer becomes preferable when `lambda_h > 0.02604`. In other words, assigning a penalty of only 0.026 F1 units to a full unit of hallucination erases the latent pager’s quality advantage. If latency matters, its 11.9 second advantage pushes the decision boundary back toward the latent method.
+
+This equation makes the engineering choice explicit. There is no universal winner without a cost model.
+
 ## The experiment I would run next
 
 The decoder needs permission to abstain. I would add a retrieval sufficiency head trained to predict whether the latent pages contain enough evidence.
@@ -97,6 +134,10 @@ return decoder.generate(soft_tokens)
 
 The evaluation should plot F1 against hallucination as the threshold changes. The goal is not maximum recall. It is a useful operating point where compression gains survive without doubling fabricated answers.
 
+The correct summary statistic is a risk coverage curve. Sort examples by sufficiency score, answer only the top fraction, and plot hallucination risk against coverage. The area under that curve allows two abstention heads to be compared without choosing a deployment threshold in advance.
+
+The repository does not include the 500 per example memory outputs, so the utility and Pareto audit above reproduces calculations from the committed aggregate tables rather than pretending to rerun bootstrap inference. The technical audit JSON labels those values as `recorded_main_result` for that reason.
+
 ## What the data convinced me of
 
 Latent memory is not merely a smaller cabinet. It changes the failure mode. Text summaries can omit. Latent vectors can suggest. Suggestion is powerful because it is fast and associative. It is dangerous because a decoder can turn a faint association into a confident sentence.
@@ -104,3 +145,7 @@ Latent memory is not merely a smaller cabinet. It changes the failure mode. Text
 The uncharted path is real. The experiment shows a 2.55 times speed advantage and a 41.5 percent F1 improvement. It also places a warning sign at the entrance: memory quality must include knowing when the memory is insufficient.
 
 When memory becomes a place, the system needs more than a path back. It needs landmarks that distinguish what was truly there from what merely feels familiar.
+
+## Reproduction and provenance
+
+Run `python experiment-tools/frontier_technical_audit.py` to rebuild the Pareto frontier and utility boundary. The raw 500 example memory outputs are not committed here, so F1, latency, hallucination, and bootstrap significance remain traceable recorded aggregates rather than falsely reproduced row statistics.
