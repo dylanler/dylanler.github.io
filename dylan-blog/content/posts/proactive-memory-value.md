@@ -2,6 +2,7 @@
 title = 'Proactive agents via oscillating memory value'
 date = 2026-10-02T02:30:00-07:00
 draft = false
+math = true
 tags = ["AI", "agents", "memory", "proactive", "value-functions"]
 +++
 
