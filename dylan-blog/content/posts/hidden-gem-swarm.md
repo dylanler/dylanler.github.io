@@ -1,6 +1,6 @@
 +++
 title = 'Hidden gems, wisdom of crowds, and agent swarms'
-date = 2026-10-02T21:10:00-07:00
+date = 2026-10-02T20:40:00-07:00
 draft = false
 math = true
 tags = ["AI", "agents", "crowds", "recommendation"]
